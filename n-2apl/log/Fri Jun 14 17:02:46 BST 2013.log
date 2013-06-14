@@ -1,0 +1,991 @@
+register a1
+register a2
+register a3
+register c1
+register t1
+from/for agent a2  reading(position(8, 19))
+from/for agent a3  reading(position(11, 1))
+Reading [id=null, agent=a2, cell=Cell [x=8, y=19], time=null, value=null, clock=null]
+Reading [id=null, agent=a3, cell=Cell [x=11, y=1], time=null, value=null, clock=null]
+from/for agent a1  reading(position(5, 5))
+Reading [id=null, agent=a1, cell=Cell [x=5, y=5], time=null, value=null, clock=null]
+Error while processing notification
+java.lang.NullPointerException
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:39)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while processing notification
+java.lang.NullPointerException
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:39)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while processing notification
+java.lang.NullPointerException
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:39)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while processing notification
+java.lang.NullPointerException
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:39)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while processing notification
+java.lang.NullPointerException
+	at envJavaSpace.AgentHandler.notify(AgentHandler.java:39)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Error while procession organizaiton notification
+java.lang.NullPointerException
+	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
