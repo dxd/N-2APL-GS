@@ -44,7 +44,7 @@ prohibition(at(6, 5, t1), reduce_300(t1))
 !!!!! from org !!!!!!
 [null]
 java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1142)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1142)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:58)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
@@ -66,7 +66,7 @@ prohibition(cargo(_, _, 1, t1), reduce_100(t1))
 from/for agent a1  status(position(3, 6), 0)
 [null]
 java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1142)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1142)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:58)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
@@ -86,7 +86,7 @@ java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.A
 prohibition(cargo(_, _, 1, t1), reduce_100(t1))
 [null]
 java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1142)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1142)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:58)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
@@ -128,7 +128,7 @@ prohibition(coin(6, 5, _, c1), reduce_300(c1))
 !!!!! from org !!!!!!
 [null]
 java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1142)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1142)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:58)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)

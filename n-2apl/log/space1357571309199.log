@@ -129,7 +129,7 @@ org notified
 org notified 
 org notified 
 java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1100)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1100)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:68)
 	at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -145,7 +145,7 @@ java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.A
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
 	at java.lang.Thread.run(Thread.java:680)
 java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1100)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1100)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:68)
 	at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -161,7 +161,7 @@ java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.A
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
 	at java.lang.Thread.run(Thread.java:680)
 java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1100)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1100)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:68)
 	at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -177,7 +177,7 @@ java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.A
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
 	at java.lang.Thread.run(Thread.java:680)
 java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1100)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1100)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:68)
 	at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -193,7 +193,7 @@ java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.A
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
 	at java.lang.Thread.run(Thread.java:680)
 java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1100)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1100)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:68)
 	at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -210,7 +210,7 @@ java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.A
 	at java.lang.Thread.run(Thread.java:680)
 org notified 
 java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1100)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1100)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:48)
 	at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -226,7 +226,7 @@ java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.A
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
 	at java.lang.Thread.run(Thread.java:680)
 java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1100)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1100)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:48)
 	at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -242,7 +242,7 @@ java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.A
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
 	at java.lang.Thread.run(Thread.java:680)
 java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1100)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1100)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:48)
 	at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -258,7 +258,7 @@ java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.A
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
 	at java.lang.Thread.run(Thread.java:680)
 java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1100)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1100)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:63)
 	at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -274,7 +274,7 @@ java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.A
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
 	at java.lang.Thread.run(Thread.java:680)
 java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1100)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1100)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:63)
 	at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -290,7 +290,7 @@ java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.A
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
 	at java.lang.Thread.run(Thread.java:680)
 java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1100)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1100)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:63)
 	at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)

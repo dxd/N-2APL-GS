@@ -86,9 +86,9 @@ Error while processing notification
 java.util.ConcurrentModificationException
 	at java.util.AbstractList$Itr.checkForComodification(AbstractList.java:372)
 	at java.util.AbstractList$Itr.next(AbstractList.java:343)
-	at envJavaSpace.SpaceTest.getFromDate(SpaceTest.java:769)
-	at envJavaSpace.SpaceTest.getAllFromDate(SpaceTest.java:745)
-	at envJavaSpace.SpaceTest.readTuple(SpaceTest.java:727)
+	at envJavaSpace.GeoSenseMW.getFromDate(SpaceTest.java:769)
+	at envJavaSpace.GeoSenseMW.getAllFromDate(SpaceTest.java:745)
+	at envJavaSpace.GeoSenseMW.readTuple(SpaceTest.java:727)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:60)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
@@ -150,7 +150,7 @@ Event processed aprohibition(at(6, 5, t1), reduce_300(t1))
 Event processed aprohibition(at(6, 6, t1), reduce_300(t1))
 Error while processing notification
 java.lang.NullPointerException
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:837)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:837)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:69)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
@@ -219,9 +219,9 @@ Error while processing notification
 java.util.ConcurrentModificationException
 	at java.util.AbstractList$Itr.checkForComodification(AbstractList.java:372)
 	at java.util.AbstractList$Itr.next(AbstractList.java:343)
-	at envJavaSpace.SpaceTest.getFromDate(SpaceTest.java:769)
-	at envJavaSpace.SpaceTest.getAllFromDate(SpaceTest.java:745)
-	at envJavaSpace.SpaceTest.readTuple(SpaceTest.java:727)
+	at envJavaSpace.GeoSenseMW.getFromDate(SpaceTest.java:769)
+	at envJavaSpace.GeoSenseMW.getAllFromDate(SpaceTest.java:745)
+	at envJavaSpace.GeoSenseMW.readTuple(SpaceTest.java:727)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:54)
 	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -240,7 +240,7 @@ agent obligation notification a1 number 3
 org position notification
 Error while processing notification
 java.lang.NullPointerException
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:837)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:837)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:69)
 	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)

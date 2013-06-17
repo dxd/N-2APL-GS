@@ -77,6 +77,6 @@ public final class DataGridConnectionUtility {
 	}
 
 	public static GigaSpace getSpace(String spaceName) {
-		return getSpace(spaceName, 2, 1);
+		return getSpace(spaceName, 1, 1);
 	}
 }

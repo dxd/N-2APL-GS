@@ -41,9 +41,9 @@ Agent writes: Position [agent=a2, id=null, cell=Cell [x=7, y=19], time=Fri May 3
 Got event for agent but couldn't display it
 java.lang.StringIndexOutOfBoundsException: String index out of range: -16
 	at java.lang.String.substring(String.java:1937)
-	at envJavaSpace.SpaceTest.makeReadingTerm(SpaceTest.java:896)
-	at envJavaSpace.SpaceTest.entryToTerm(SpaceTest.java:787)
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1164)
+	at envJavaSpace.GeoSenseMW.makeReadingTerm(SpaceTest.java:896)
+	at envJavaSpace.GeoSenseMW.entryToTerm(SpaceTest.java:787)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1164)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:54)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
@@ -149,9 +149,9 @@ agent obligation notification
 Got event for agent but couldn't display it
 java.lang.StringIndexOutOfBoundsException: String index out of range: -16
 	at java.lang.String.substring(String.java:1937)
-	at envJavaSpace.SpaceTest.makeReadingTerm(SpaceTest.java:896)
-	at envJavaSpace.SpaceTest.entryToTerm(SpaceTest.java:787)
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1164)
+	at envJavaSpace.GeoSenseMW.makeReadingTerm(SpaceTest.java:896)
+	at envJavaSpace.GeoSenseMW.entryToTerm(SpaceTest.java:787)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1164)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:54)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
@@ -175,9 +175,9 @@ Agent writes: Position [agent=a3, id=null, cell=Cell [x=11, y=7], time=Fri May 3
 Got event for agent but couldn't display it
 java.lang.StringIndexOutOfBoundsException: String index out of range: -16
 	at java.lang.String.substring(String.java:1937)
-	at envJavaSpace.SpaceTest.makeReadingTerm(SpaceTest.java:896)
-	at envJavaSpace.SpaceTest.entryToTerm(SpaceTest.java:787)
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1164)
+	at envJavaSpace.GeoSenseMW.makeReadingTerm(SpaceTest.java:896)
+	at envJavaSpace.GeoSenseMW.entryToTerm(SpaceTest.java:787)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1164)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:54)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
@@ -205,9 +205,9 @@ Agent writes: Position [agent=t1, id=null, cell=Cell [x=13, y=19], time=Fri May 
 Got event for agent but couldn't display it
 java.lang.StringIndexOutOfBoundsException: String index out of range: -16
 	at java.lang.String.substring(String.java:1937)
-	at envJavaSpace.SpaceTest.makeReadingTerm(SpaceTest.java:896)
-	at envJavaSpace.SpaceTest.entryToTerm(SpaceTest.java:787)
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1164)
+	at envJavaSpace.GeoSenseMW.makeReadingTerm(SpaceTest.java:896)
+	at envJavaSpace.GeoSenseMW.entryToTerm(SpaceTest.java:787)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1164)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:54)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)

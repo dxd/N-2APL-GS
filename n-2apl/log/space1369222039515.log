@@ -22,7 +22,7 @@ from agent t1  prohibition([at(6, 5, t1)], [reduce_300(t1)])
 from agent t1  prohibition([at(6, 6, t1)], [reduce_300(t1)])
 [null]
 java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1123)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1123)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:58)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
@@ -40,7 +40,7 @@ java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.A
 	at java.lang.Thread.run(Thread.java:680)
 [null]
 java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1123)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1123)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:58)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
@@ -73,7 +73,7 @@ to be compared: [Prohibition [agent=t1, prohibition=[at(6, 5, t1)], sanction=[re
 prohibition(at(6, 6, t1), reduce_300(t1))
 [null]
 java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1123)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1123)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:58)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
@@ -146,7 +146,7 @@ prohibition(at(6, 6, a3), reduce_300(a3))
 to be compared: [Cargo [id=5, cell=Cell [x=10, y=10], time=Wed May 22 12:26:42 BST 2013, clock=1], Cargo [id=5, cell=Cell [x=10, y=10], time=Wed May 22 12:27:20 BST 2013, clock=1]]
 [null]
 java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1123)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1123)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:58)
 	at sun.reflect.GeneratedMethodAccessor31.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)

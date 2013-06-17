@@ -407,7 +407,7 @@ agent position notification a2 number 1
 Reading [id=null, agent=a3, cell=null, time=null, value=null, clock=null] 1970-01-01 01:00:00.0 - 2013-06-11 12:25:24.87
 Error while processing notification
 java.lang.ClassCastException: apapl.data.APLNum cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:858)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:858)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:72)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
@@ -426,7 +426,7 @@ java.lang.ClassCastException: apapl.data.APLNum cannot be cast to apapl.data.APL
 Reading [id=null, agent=a2, cell=null, time=null, value=null, clock=null] 1970-01-01 01:00:00.0 - 2013-06-11 12:25:24.871
 Error while processing notification
 java.lang.ClassCastException: apapl.data.APLNum cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:858)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:858)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:72)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
@@ -685,7 +685,7 @@ agent position notification a1 number 1
 Reading [id=null, agent=a1, cell=null, time=null, value=null, clock=null] 1970-01-01 01:00:00.0 - 2013-06-11 12:29:24.928
 Error while processing notification
 java.lang.ClassCastException: apapl.data.APLNum cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:858)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:858)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:72)
 	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -714,7 +714,7 @@ agent position notification a3 number 4
 Reading [id=null, agent=a3, cell=null, time=null, value=null, clock=null] 2013-06-11 12:25:24.87 - 2013-06-11 12:29:51.022
 Error while processing notification
 java.lang.ClassCastException: apapl.data.APLNum cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:858)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:858)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:72)
 	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -750,7 +750,7 @@ agent position notification a2 number 4
 Reading [id=null, agent=a2, cell=null, time=null, value=null, clock=null] 2013-06-11 12:25:24.871 - 2013-06-11 12:29:57.538
 Error while processing notification
 java.lang.ClassCastException: apapl.data.APLNum cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:858)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:858)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:72)
 	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)

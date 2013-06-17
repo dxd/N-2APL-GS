@@ -20,7 +20,7 @@ from agent t1  prohibition([at(6, 5, t1)], [reduce_300(t1)])
 from agent t1  prohibition([at(6, 6, t1)], [reduce_300(t1)])
 []
 java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1107)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1107)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:58)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
@@ -38,7 +38,7 @@ java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.A
 	at java.lang.Thread.run(Thread.java:680)
 []
 java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1107)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1107)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:58)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
@@ -57,7 +57,7 @@ java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.A
 []
 []
 java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1107)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1107)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:58)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
@@ -79,9 +79,9 @@ java.lang.NullPointerException
 	at java.util.Arrays.mergeSort(Arrays.java:1270)
 	at java.util.Arrays.sort(Arrays.java:1210)
 	at java.util.Collections.sort(Collections.java:157)
-	at envJavaSpace.SpaceTest.getLatest(SpaceTest.java:1088)
-	at envJavaSpace.SpaceTest.getAll(SpaceTest.java:1034)
-	at envJavaSpace.SpaceTest.readProhibition(SpaceTest.java:987)
+	at envJavaSpace.GeoSenseMW.getLatest(SpaceTest.java:1088)
+	at envJavaSpace.GeoSenseMW.getAll(SpaceTest.java:1034)
+	at envJavaSpace.GeoSenseMW.readProhibition(SpaceTest.java:987)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:57)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
@@ -99,7 +99,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 []
 java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1107)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1107)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:58)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
@@ -119,7 +119,7 @@ java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.A
 []
 []
 java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1107)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1107)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:58)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
@@ -136,7 +136,7 @@ java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.A
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
 	at java.lang.Thread.run(Thread.java:680)
 java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1107)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1107)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:58)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
@@ -154,7 +154,7 @@ java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.A
 	at java.lang.Thread.run(Thread.java:680)
 []
 java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1107)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1107)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:58)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
@@ -191,9 +191,9 @@ java.lang.NullPointerException
 	at java.util.Arrays.mergeSort(Arrays.java:1270)
 	at java.util.Arrays.sort(Arrays.java:1210)
 	at java.util.Collections.sort(Collections.java:157)
-	at envJavaSpace.SpaceTest.getLatest(SpaceTest.java:1088)
-	at envJavaSpace.SpaceTest.getAll(SpaceTest.java:1034)
-	at envJavaSpace.SpaceTest.readProhibition(SpaceTest.java:987)
+	at envJavaSpace.GeoSenseMW.getLatest(SpaceTest.java:1088)
+	at envJavaSpace.GeoSenseMW.getAll(SpaceTest.java:1034)
+	at envJavaSpace.GeoSenseMW.readProhibition(SpaceTest.java:987)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:57)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
@@ -215,9 +215,9 @@ java.lang.NullPointerException
 	at java.util.Arrays.mergeSort(Arrays.java:1270)
 	at java.util.Arrays.sort(Arrays.java:1210)
 	at java.util.Collections.sort(Collections.java:157)
-	at envJavaSpace.SpaceTest.getLatest(SpaceTest.java:1088)
-	at envJavaSpace.SpaceTest.getAll(SpaceTest.java:1034)
-	at envJavaSpace.SpaceTest.readProhibition(SpaceTest.java:987)
+	at envJavaSpace.GeoSenseMW.getLatest(SpaceTest.java:1088)
+	at envJavaSpace.GeoSenseMW.getAll(SpaceTest.java:1034)
+	at envJavaSpace.GeoSenseMW.readProhibition(SpaceTest.java:987)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:57)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
@@ -239,9 +239,9 @@ java.lang.NullPointerException
 	at java.util.Arrays.mergeSort(Arrays.java:1270)
 	at java.util.Arrays.sort(Arrays.java:1210)
 	at java.util.Collections.sort(Collections.java:157)
-	at envJavaSpace.SpaceTest.getLatest(SpaceTest.java:1088)
-	at envJavaSpace.SpaceTest.getAll(SpaceTest.java:1034)
-	at envJavaSpace.SpaceTest.readProhibition(SpaceTest.java:987)
+	at envJavaSpace.GeoSenseMW.getLatest(SpaceTest.java:1088)
+	at envJavaSpace.GeoSenseMW.getAll(SpaceTest.java:1034)
+	at envJavaSpace.GeoSenseMW.readProhibition(SpaceTest.java:987)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:57)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
@@ -264,9 +264,9 @@ java.lang.NullPointerException
 	at java.util.Arrays.mergeSort(Arrays.java:1270)
 	at java.util.Arrays.sort(Arrays.java:1210)
 	at java.util.Collections.sort(Collections.java:157)
-	at envJavaSpace.SpaceTest.getLatest(SpaceTest.java:1088)
-	at envJavaSpace.SpaceTest.getAll(SpaceTest.java:1034)
-	at envJavaSpace.SpaceTest.readProhibition(SpaceTest.java:987)
+	at envJavaSpace.GeoSenseMW.getLatest(SpaceTest.java:1088)
+	at envJavaSpace.GeoSenseMW.getAll(SpaceTest.java:1034)
+	at envJavaSpace.GeoSenseMW.readProhibition(SpaceTest.java:987)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:57)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
@@ -286,7 +286,7 @@ java.lang.NullPointerException
 []
 []
 java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1107)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1107)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:58)
 	at sun.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -302,7 +302,7 @@ java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.A
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
 	at java.lang.Thread.run(Thread.java:680)
 java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1107)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1107)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:58)
 	at sun.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -322,7 +322,7 @@ java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.A
 []
 []
 java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1107)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1107)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:58)
 	at sun.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -338,7 +338,7 @@ java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.A
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
 	at java.lang.Thread.run(Thread.java:680)
 java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1107)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1107)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:58)
 	at sun.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -354,7 +354,7 @@ java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.A
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
 	at java.lang.Thread.run(Thread.java:680)
 java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1107)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1107)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:58)
 	at sun.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -399,9 +399,9 @@ java.lang.NullPointerException
 	at java.util.Arrays.mergeSort(Arrays.java:1281)
 	at java.util.Arrays.sort(Arrays.java:1210)
 	at java.util.Collections.sort(Collections.java:157)
-	at envJavaSpace.SpaceTest.getLatest(SpaceTest.java:1088)
-	at envJavaSpace.SpaceTest.getAll(SpaceTest.java:1034)
-	at envJavaSpace.SpaceTest.readProhibition(SpaceTest.java:987)
+	at envJavaSpace.GeoSenseMW.getLatest(SpaceTest.java:1088)
+	at envJavaSpace.GeoSenseMW.getAll(SpaceTest.java:1034)
+	at envJavaSpace.GeoSenseMW.readProhibition(SpaceTest.java:987)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:57)
 	at sun.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -422,9 +422,9 @@ java.lang.NullPointerException
 	at java.util.Arrays.mergeSort(Arrays.java:1270)
 	at java.util.Arrays.sort(Arrays.java:1210)
 	at java.util.Collections.sort(Collections.java:157)
-	at envJavaSpace.SpaceTest.getLatest(SpaceTest.java:1088)
-	at envJavaSpace.SpaceTest.getAll(SpaceTest.java:1034)
-	at envJavaSpace.SpaceTest.readProhibition(SpaceTest.java:987)
+	at envJavaSpace.GeoSenseMW.getLatest(SpaceTest.java:1088)
+	at envJavaSpace.GeoSenseMW.getAll(SpaceTest.java:1034)
+	at envJavaSpace.GeoSenseMW.readProhibition(SpaceTest.java:987)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:57)
 	at sun.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -442,7 +442,7 @@ java.lang.NullPointerException
 []
 []
 java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1107)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1107)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:58)
 	at sun.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -459,7 +459,7 @@ java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.A
 	at java.lang.Thread.run(Thread.java:680)
 []
 java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1107)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1107)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:58)
 	at sun.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -475,7 +475,7 @@ java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.A
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
 	at java.lang.Thread.run(Thread.java:680)
 java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1107)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1107)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:58)
 	at sun.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)

@@ -312,9 +312,9 @@ Got event for agent but couldn't display it
 java.util.ConcurrentModificationException
 	at java.util.AbstractList$Itr.checkForComodification(AbstractList.java:372)
 	at java.util.AbstractList$Itr.next(AbstractList.java:343)
-	at envJavaSpace.SpaceTest.getFromDate(SpaceTest.java:769)
-	at envJavaSpace.SpaceTest.getAllFromDate(SpaceTest.java:745)
-	at envJavaSpace.SpaceTest.readTuple(SpaceTest.java:727)
+	at envJavaSpace.GeoSenseMW.getFromDate(SpaceTest.java:769)
+	at envJavaSpace.GeoSenseMW.getAllFromDate(SpaceTest.java:745)
+	at envJavaSpace.GeoSenseMW.readTuple(SpaceTest.java:727)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:54)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
@@ -336,9 +336,9 @@ Got event for agent but couldn't display it
 java.util.ConcurrentModificationException
 	at java.util.AbstractList$Itr.checkForComodification(AbstractList.java:372)
 	at java.util.AbstractList$Itr.next(AbstractList.java:343)
-	at envJavaSpace.SpaceTest.getFromDate(SpaceTest.java:769)
-	at envJavaSpace.SpaceTest.getAllFromDate(SpaceTest.java:745)
-	at envJavaSpace.SpaceTest.readTuple(SpaceTest.java:727)
+	at envJavaSpace.GeoSenseMW.getFromDate(SpaceTest.java:769)
+	at envJavaSpace.GeoSenseMW.getAllFromDate(SpaceTest.java:745)
+	at envJavaSpace.GeoSenseMW.readTuple(SpaceTest.java:727)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:54)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
@@ -358,7 +358,7 @@ agent obligation notification a1 number 3
 Organization notifies agent (write): Obligation [agent=a2, obligation=[makeReading(8, 6)], sanction=[reduce_400(a2)], deadline=50, time=Wed Jun 05 11:01:47 BST 2013, clock=0]
 Got event for agent but couldn't display it
 java.lang.NullPointerException
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:837)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:837)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:69)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
@@ -384,9 +384,9 @@ Got event for agent but couldn't display it
 java.util.ConcurrentModificationException
 	at java.util.AbstractList$Itr.checkForComodification(AbstractList.java:372)
 	at java.util.AbstractList$Itr.next(AbstractList.java:343)
-	at envJavaSpace.SpaceTest.getFromDate(SpaceTest.java:769)
-	at envJavaSpace.SpaceTest.getAllFromDate(SpaceTest.java:745)
-	at envJavaSpace.SpaceTest.readTuple(SpaceTest.java:727)
+	at envJavaSpace.GeoSenseMW.getFromDate(SpaceTest.java:769)
+	at envJavaSpace.GeoSenseMW.getAllFromDate(SpaceTest.java:745)
+	at envJavaSpace.GeoSenseMW.readTuple(SpaceTest.java:727)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:54)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
@@ -407,7 +407,7 @@ Organization notifies agent (write): Obligation [agent=a3, obligation=[makeReadi
 agent obligation notification a3 number 1
 Got event for agent but couldn't display it
 java.lang.NullPointerException
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:837)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:837)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:69)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
@@ -794,9 +794,9 @@ Got event for agent but couldn't display it
 java.util.ConcurrentModificationException
 	at java.util.AbstractList$Itr.checkForComodification(AbstractList.java:372)
 	at java.util.AbstractList$Itr.next(AbstractList.java:343)
-	at envJavaSpace.SpaceTest.getFromDate(SpaceTest.java:769)
-	at envJavaSpace.SpaceTest.getAllFromDate(SpaceTest.java:745)
-	at envJavaSpace.SpaceTest.readTuple(SpaceTest.java:727)
+	at envJavaSpace.GeoSenseMW.getFromDate(SpaceTest.java:769)
+	at envJavaSpace.GeoSenseMW.getAllFromDate(SpaceTest.java:745)
+	at envJavaSpace.GeoSenseMW.readTuple(SpaceTest.java:727)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:54)
 	at sun.reflect.GeneratedMethodAccessor34.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)

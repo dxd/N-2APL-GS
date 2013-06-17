@@ -1,9 +1,9 @@
 package envJavaSpace;
 
 public class ClockTicker implements Runnable{
-	SpaceTest env;
+	GeoSenseMW env;
 	
-	public ClockTicker(SpaceTest env){
+	public ClockTicker(GeoSenseMW env){
 		this.env = env;
 	}
 	

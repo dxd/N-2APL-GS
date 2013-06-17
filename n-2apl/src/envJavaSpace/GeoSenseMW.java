@@ -38,7 +38,7 @@ import com.gigaspaces.events.EventSessionFactory;
  * Extends Environment to be compatible with 2APL and implements ExternalTool to 
  * be compatible with my Prolog engine. 
  */
-public class SpaceTest  extends Environment implements ExternalTool{
+public class GeoSenseMW  extends Environment implements ExternalTool{
 	//public static JavaSpace space; // shared data
 	public int clock = 0;
 	public DistributedOOPL oopl; // norm interpreter
@@ -60,7 +60,7 @@ public class SpaceTest  extends Environment implements ExternalTool{
 	 * Just for testing.
 	 */
     public static void main(String[] args){ 
-		SpaceTest st = new SpaceTest();
+		GeoSenseMW st = new GeoSenseMW();
     }
     
     /*
@@ -89,13 +89,14 @@ public class SpaceTest  extends Environment implements ExternalTool{
         } catch (IOException e) {
         	
         }
-    	IJSpace ispace = new UrlSpaceConfigurer("jini://*/*/myGrid").space();
+    	//IJSpace ispace = new UrlSpaceConfigurer("jini://*/*/myGrid").space();
         // use gigaspace wrapper to for simpler API
-        this.space = new GigaSpaceConfigurer(ispace).gigaSpace();
-       // this.space=DataGridConnectionUtility.getSpace("myGrid");
+        //this.space = new GigaSpaceConfigurer(ispace).gigaSpace();
+        this.space=DataGridConnectionUtility.getSpace("myGrid");
         EventSessionConfig config = new EventSessionConfig();
         config.setFifo(true);
-        config.setBatch(100, 20);
+        //config.setBatch(100, 20);
+        IJSpace ispace = new UrlSpaceConfigurer("jini://*/*/myGrid").space();
         EventSessionFactory factory = EventSessionFactory.getFactory(ispace);
         session = factory.newDataEventSession(config); 
     }
@@ -252,7 +253,7 @@ public class SpaceTest  extends Environment implements ExternalTool{
 	/*
 	 * Constructor immediately initializes the space. 
 	 */
-	public SpaceTest(){
+	public GeoSenseMW(){
 		super();
 		try { initializeGS(); initializeOOPL();} catch (Exception e) { e.printStackTrace(); }
 	}

@@ -60,8 +60,8 @@ Coin [id=null, cell=null, agent=a1, time=null, clock=null]
 Got event for agent but couldn't display it
 java.lang.StringIndexOutOfBoundsException: String index out of range: -7
 	at java.lang.String.substring(String.java:1937)
-	at envJavaSpace.SpaceTest.entryToTerm(SpaceTest.java:774)
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1147)
+	at envJavaSpace.GeoSenseMW.entryToTerm(SpaceTest.java:774)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1147)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:59)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
@@ -132,8 +132,8 @@ Coin [id=null, cell=null, agent=null, time=null, clock=null]
 Got event for agent but couldn't display it
 java.lang.StringIndexOutOfBoundsException: String index out of range: -7
 	at java.lang.String.substring(String.java:1937)
-	at envJavaSpace.SpaceTest.entryToTerm(SpaceTest.java:774)
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1147)
+	at envJavaSpace.GeoSenseMW.entryToTerm(SpaceTest.java:774)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1147)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:59)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
@@ -160,8 +160,8 @@ Position [agent=a1, id=null, cell=null, time=null, clock=null]
 Got event for agent but couldn't display it
 java.lang.StringIndexOutOfBoundsException: String index out of range: -7
 	at java.lang.String.substring(String.java:1937)
-	at envJavaSpace.SpaceTest.entryToTerm(SpaceTest.java:774)
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1147)
+	at envJavaSpace.GeoSenseMW.entryToTerm(SpaceTest.java:774)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1147)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:59)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)

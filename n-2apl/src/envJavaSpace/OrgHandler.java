@@ -13,12 +13,12 @@ import net.jini.space.JavaSpace;
 
 public class OrgHandler extends UnicastRemoteObject implements RemoteEventListener {
 
-	SpaceTest spaceTest;
+	GeoSenseMW geoSenseMW;
 
 
-	public OrgHandler(SpaceTest spaceTest) throws RemoteException{ 
+	public OrgHandler(GeoSenseMW geoSenseMW) throws RemoteException{ 
 		
-		this.spaceTest = spaceTest;
+		this.geoSenseMW = geoSenseMW;
 		
 	}
 
@@ -28,7 +28,7 @@ public class OrgHandler extends UnicastRemoteObject implements RemoteEventListen
         	EntryArrivedRemoteEvent arrivedRemoteEvent =(EntryArrivedRemoteEvent) anEvent;
         	TimeEntry e = (TimeEntry) arrivedRemoteEvent.getObject();
         	System.out.println("org notification: "+e);
-        	spaceTest.notifyOrg();
+        	geoSenseMW.notifyOrg();
         	
             
 

@@ -218,7 +218,7 @@ Organization notifies agent (write): Obligation [agent=a2, obligation=[makeReadi
 Prohibition [agent=c1, prohibition=null, sanction=null, clock=null, time=null] 1970-01-01 01:00:00.0 - 2013-06-11 14:08:02.777
 Error while processing notification
 java.lang.NullPointerException
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:850)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:850)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:72)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
@@ -239,7 +239,7 @@ Organization notifies agent (write): Obligation [agent=a2, obligation=[makeReadi
 Prohibition [agent=a2, prohibition=null, sanction=null, clock=null, time=null] 1970-01-01 01:00:00.0 - 2013-06-11 14:08:02.998
 Error while processing notification
 java.lang.NullPointerException
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:850)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:850)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:72)
 	at sun.reflect.GeneratedMethodAccessor39.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -259,7 +259,7 @@ Organization notifies agent (write): Obligation [agent=a2, obligation=[makeReadi
 Prohibition [agent=a3, prohibition=null, sanction=null, clock=null, time=null] 1970-01-01 01:00:00.0 - 2013-06-11 14:08:03.211
 Error while processing notification
 java.lang.NullPointerException
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:850)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:850)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:72)
 	at sun.reflect.GeneratedMethodAccessor39.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -279,7 +279,7 @@ Organization notifies agent (write): Obligation [agent=a3, obligation=[makeReadi
 Prohibition [agent=a1, prohibition=null, sanction=null, clock=null, time=null] 1970-01-01 01:00:00.0 - 2013-06-11 14:08:03.417
 Error while processing notification
 java.lang.NullPointerException
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:850)
+	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:850)
 	at envJavaSpace.AgentHandler.notify(AgentHandler.java:72)
 	at sun.reflect.GeneratedMethodAccessor39.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
