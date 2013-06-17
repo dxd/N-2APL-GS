@@ -81,8 +81,8 @@ prohibition(coin(6, 6, _, c1), reduce_300(c1))
 [Prohibition [agent=c1, prohibition=[coin(6, 6, _, a1)], sanction=[reduce_300(c1)], clock=1, time=Fri May 24 13:51:04 BST 2013]]
 [Prohibition [agent=t1, prohibition=[at(5, 5, t1)], sanction=[reduce_300(t1)], clock=1, time=Fri May 24 13:42:11 BST 2013]]
 java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1122)
-	at envJavaSpace.AgentHandler.notify(AgentHandler.java:58)
+	at geoSenseMW.EnvGeoSense.notifyAgent(SpaceTest.java:1122)
+	at geoSenseMW.AgentHandler.notify(AgentHandler.java:58)
 	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
 	at java.lang.reflect.Method.invoke(Method.java:597)
@@ -146,8 +146,8 @@ prohibition(at(5, 6, a3), reduce_300(a3))
 [null]
 [Prohibition [agent=t1, prohibition=[cargo(_, _, 2)], sanction=[reduce_100(t1)], clock=1, time=Fri May 24 13:42:11 BST 2013]]
 java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.GeoSenseMW.notifyAgent(SpaceTest.java:1122)
-	at envJavaSpace.AgentHandler.notify(AgentHandler.java:58)
+	at geoSenseMW.EnvGeoSense.notifyAgent(SpaceTest.java:1122)
+	at geoSenseMW.AgentHandler.notify(AgentHandler.java:58)
 	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
 	at java.lang.reflect.Method.invoke(Method.java:597)

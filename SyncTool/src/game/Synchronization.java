@@ -185,7 +185,7 @@ public class Synchronization {
 
 	public void postUpdate(TimeEntry e) {
 		if (e instanceof Coin)
-			postRequest((Coin)e);
+			postCoin((Coin)e);
 		else if (e instanceof Position)
 			postLocation((Position)e);
 		else if (e instanceof Cargo)
@@ -196,18 +196,18 @@ public class Synchronization {
 			getReading((ActionRequest)e);
 	}
 	
-	public void postRequests(ArrayList<TimeEntry> r) {
+	public void postCoins(ArrayList<TimeEntry> r) {
 		for (TimeEntry p : r) {
-			postRequest((Coin) p);
+			postCoin((Coin) p);
 		}
 	}
 	
-	public void postRequest(Coin coin) {
+	public void postCoin(Coin coin) {
 		LatLng latlng = Game.gridToLocation(coin.getCell());
-		updateRequests(latlng);
+		postCoin(latlng);
 		
 	}
-	private void updateRequests(LatLng loc) { //GET type
+	private void postCoin(LatLng loc) { //GET type
 		try {
 			ArrayList<SimpleEntry<String, Object>> params = new ArrayList<SimpleEntry<String, Object>>();
 			params.add(new SimpleEntry<String, Object>("latitude", loc.getLatitude()));

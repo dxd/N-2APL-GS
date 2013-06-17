@@ -1,4 +1,4 @@
-package envJavaSpace;
+package geoSenseMW;
 
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
@@ -13,12 +13,12 @@ import net.jini.space.JavaSpace;
 
 public class OrgHandler extends UnicastRemoteObject implements RemoteEventListener {
 
-	GeoSenseMW geoSenseMW;
+	EnvGeoSense envGeoSense;
 
 
-	public OrgHandler(GeoSenseMW geoSenseMW) throws RemoteException{ 
+	public OrgHandler(EnvGeoSense envGeoSense) throws RemoteException{ 
 		
-		this.geoSenseMW = geoSenseMW;
+		this.envGeoSense = envGeoSense;
 		
 	}
 
@@ -28,7 +28,7 @@ public class OrgHandler extends UnicastRemoteObject implements RemoteEventListen
         	EntryArrivedRemoteEvent arrivedRemoteEvent =(EntryArrivedRemoteEvent) anEvent;
         	TimeEntry e = (TimeEntry) arrivedRemoteEvent.getObject();
         	System.out.println("org notification: "+e);
-        	geoSenseMW.notifyOrg();
+        	envGeoSense.notifyOrg();
         	
             
 

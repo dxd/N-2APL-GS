@@ -1,4 +1,4 @@
-package envJavaSpace;
+package geoSenseMW;
 
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
@@ -24,13 +24,13 @@ public class AgentHandler extends UnicastRemoteObject implements RemoteEventList
 	 * 
 	 */
 	//private static final long serialVersionUID = 1L;
-	GeoSenseMW geoSenseMW;
+	EnvGeoSense envGeoSense;
 	String agent;
 	HashMap<String, Timestamp> timestamps;
 	
-	public AgentHandler(GeoSenseMW geoSenseMW, String agent) throws RemoteException {
+	public AgentHandler(EnvGeoSense envGeoSense, String agent) throws RemoteException {
 		
-		this.geoSenseMW = geoSenseMW;
+		this.envGeoSense = envGeoSense;
 		this.agent = agent;
 		timestamps = new HashMap<String,Timestamp>();
     }
@@ -41,7 +41,7 @@ public class AgentHandler extends UnicastRemoteObject implements RemoteEventList
         	EntryArrivedRemoteEvent arrivedRemoteEvent =(EntryArrivedRemoteEvent) anEvent;
         	TimeEntry e = (TimeEntry) arrivedRemoteEvent.getObject();
         	System.out.println("agent notification: "+e);
-        	geoSenseMW.notifyAgent(agent, e);
+        	envGeoSense.notifyAgent(agent, e);
         	/*
         	String type = anEvent.getRegistrationObject().get().toString();
         	Timestamp newTime = new Timestamp(System.currentTimeMillis());
@@ -54,32 +54,32 @@ public class AgentHandler extends UnicastRemoteObject implements RemoteEventList
             if (type.equals("reading")) {
             	System.out.println("agent position notification "+agent+" number "+anEvent.getSequenceNumber());
             	Reading temp = new Reading(agent);
-            	r = geoSenseMW.readTuple(temp,timestamps.get(type) != null?timestamps.get(type):new Timestamp(0),newTime);
+            	r = envGeoSense.readTuple(temp,timestamps.get(type) != null?timestamps.get(type):new Timestamp(0),newTime);
             	
             }
             else if (type.equals("obligation")) {
             	System.out.println("agent obligation notification "+agent+" number "+anEvent.getSequenceNumber());
             	Obligation temp = new Obligation(agent);
-            	r = geoSenseMW.readTuple(temp,timestamps.get(type) != null?timestamps.get(type):new Timestamp(0),newTime);
+            	r = envGeoSense.readTuple(temp,timestamps.get(type) != null?timestamps.get(type):new Timestamp(0),newTime);
             	
             }
             else if (type.equals("prohibition")) {
             	System.out.println("agent prohibition notification "+agent+" number "+anEvent.getSequenceNumber());
             	Prohibition temp = new Prohibition(agent);
-            	r = geoSenseMW.readTuple(temp,timestamps.get(type) != null?timestamps.get(type):new Timestamp(0),newTime);
+            	r = envGeoSense.readTuple(temp,timestamps.get(type) != null?timestamps.get(type):new Timestamp(0),newTime);
             	
             }
             else if (type.equals("points")) {
             	System.out.println("agent points notification "+agent+" number "+anEvent.getSequenceNumber());
             	Points temp = new Points(agent);
-            	r = geoSenseMW.readTuple(temp,timestamps.get(type) != null?timestamps.get(type):new Timestamp(0),newTime);
+            	r = envGeoSense.readTuple(temp,timestamps.get(type) != null?timestamps.get(type):new Timestamp(0),newTime);
             	
             }
             timestamps.put(type, newTime);
             
             */
         } catch (Exception anE) {
-           System.out.println("Error while processing notification");
+           System.out.println("Error while processing agent notification");
             anE.printStackTrace(System.out);
         }
     }

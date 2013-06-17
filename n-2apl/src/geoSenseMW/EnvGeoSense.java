@@ -1,4 +1,4 @@
-package envJavaSpace;
+package geoSenseMW;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -20,13 +20,12 @@ import tuplespace.*;
 import tuplespace.Prohibition;
 import apapl.Environment;
 import apapl.data.*;
+import aplprolog.prolog.IntHarvester;
 import aplprolog.prolog.Prolog;
 import aplprolog.prolog.builtins.ExternalActions;
 import aplprolog.prolog.builtins.ExternalTool;
 
 import org.openspaces.core.GigaSpace;
-//import org.openspaces.core.
-import org.openspaces.core.GigaSpaceConfigurer;
 import org.openspaces.core.space.UrlSpaceConfigurer;
 import com.j_spaces.core.IJSpace;
 import com.gigaspaces.events.DataEventSession;
@@ -38,7 +37,7 @@ import com.gigaspaces.events.EventSessionFactory;
  * Extends Environment to be compatible with 2APL and implements ExternalTool to 
  * be compatible with my Prolog engine. 
  */
-public class GeoSenseMW  extends Environment implements ExternalTool{
+public class EnvGeoSense  extends Environment implements ExternalTool{
 	//public static JavaSpace space; // shared data
 	public int clock = 0;
 	public DistributedOOPL oopl; // norm interpreter
@@ -60,7 +59,7 @@ public class GeoSenseMW  extends Environment implements ExternalTool{
 	 * Just for testing.
 	 */
     public static void main(String[] args){ 
-		GeoSenseMW st = new GeoSenseMW();
+		EnvGeoSense st = new EnvGeoSense();
     }
     
     /*
@@ -253,7 +252,7 @@ public class GeoSenseMW  extends Environment implements ExternalTool{
 	/*
 	 * Constructor immediately initializes the space. 
 	 */
-	public GeoSenseMW(){
+	public EnvGeoSense(){
 		super();
 		try { initializeGS(); initializeOOPL();} catch (Exception e) { e.printStackTrace(); }
 	}
@@ -270,6 +269,7 @@ public class GeoSenseMW  extends Environment implements ExternalTool{
 	 * Make the possible external actions known to the Prolog engine. These will be the actions that
 	 * the organization can do.
 	 */
+	@Override
 	public void registerActions(Prolog p) { 
 		oopl.prolog.builtin.external.registerAction("read", this, ExternalActions.INTAR, ExternalActions.INTAR);
 		oopl.prolog.builtin.external.registerAction("readIfExists", this, ExternalActions.INTAR, ExternalActions.INTAR);
@@ -286,6 +286,7 @@ public class GeoSenseMW  extends Environment implements ExternalTool{
 	 * ExternalActions ea is a part of the Prolog engine which reads returns ea.intResult after the
 	 * external call.
 	 */
+	@Override
 	public void handleCall(int[] call, ExternalActions ea, int returnType) {  
 		/*
 		 * For JavaSpace calls: the integer array is first transformed to an Entry object, then passed
@@ -370,6 +371,7 @@ public class GeoSenseMW  extends Environment implements ExternalTool{
 	}
 
 
+	@Override
 	public void handleCall(Object[] call, ExternalActions p, int returnType) { }
 	
 	/*
@@ -395,7 +397,7 @@ public class GeoSenseMW  extends Environment implements ExternalTool{
 				
 		} 
 		else {
-			return ((TimeEntry) e).toArray(oopl);
+			return e.toArray(oopl);
 		}
 	
 	}
@@ -412,7 +414,7 @@ public class GeoSenseMW  extends Environment implements ExternalTool{
 	 * Add predicate integers to an array.
 	 */
 	public void addPredicate(int[] array, int cursor, int name, int arity){
-		array[cursor] = oopl.prolog.harvester.PREDICATE;
+		array[cursor] = IntHarvester.PREDICATE;
 		array[cursor+1] = name;
 		array[cursor+2] = arity;
 	}
@@ -420,7 +422,7 @@ public class GeoSenseMW  extends Environment implements ExternalTool{
 	 * Add a number to an array.
 	 */
 	public void addNumber(int[] array, int cursor, int number){
-		array[cursor] = oopl.prolog.harvester.NUMBER;
+		array[cursor] = IntHarvester.NUMBER;
 		array[cursor+1] = getInt(number,true);
 		array[cursor+2] = getInt(number,false);
 	}
@@ -570,23 +572,24 @@ public class GeoSenseMW  extends Environment implements ExternalTool{
 	}
 	
 	//agent use
+	//Possibly move to Tuple classes
 	public Term entryToTerm(TimeEntry timeEntry){ 
 		
-		if(timeEntry instanceof Points){ // in case of tuples return points(name,value,clock)
-			Points points = (Points) timeEntry;   // cast to tuple
-			return new APLFunction("points", new Term[]{new APLIdent(points.agent),new APLNum(points.value),new APLNum(points.clock)}); // construct result
+		if(timeEntry instanceof Points){ // points(Points)
+			Points points = (Points) timeEntry; 
+			return new APLFunction("points", new Term[]{new APLNum(points.value)}); // construct result
 		} 
-		else if(timeEntry instanceof Reading){ // in case of tuples return reading(name,position(2,4),value,clock)
-			Reading reading = (Reading) timeEntry;   // cast to tuple
-
-			//Term posTerm = new APLFunction("position", new Term[]{new APLNum(reading.cell.x),new APLNum(reading.cell.y)}); // get position
-
-			//return new APLFunction("tuple", new Term[]{new APLIdent(reading.agent),posTerm,new APLNum(reading.value.intValue()),new APLNum(reading.clock)}); // construct result
-			System.out.println("got reading: "+reading);
-			return new APLNum(reading.getValue());
+		else if(timeEntry instanceof Time){ // clock(Clock)
+			Points points = (Points) timeEntry; 
+			return new APLFunction("clock", new Term[]{new APLIdent(points.agent),new APLNum(points.value),new APLNum(points.clock)}); // construct result
 		} 
-		else if(timeEntry instanceof Obligation){ // in case of tuples return tuple(name,position(2,4),48)
-			Obligation o = (Obligation) timeEntry;   // cast to tuple
+		else if(timeEntry instanceof Reading){ // reading(at(X,Y),Value,Agent,Clock)
+			Reading reading = (Reading) timeEntry;
+			Term term = constructTerm("at",String.valueOf(reading.cell.x),String.valueOf(reading.cell.y));
+			return new APLFunction("reading", new Term[]{term,new APLNum(reading.value.intValue()),new APLIdent(reading.agent),new APLNum(reading.clock)}); // construct result
+		} 
+		else if(timeEntry instanceof Obligation){ //obligation(Goal, Deadline, Sanction)
+			Obligation o = (Obligation) timeEntry; 
 			String name = o.agent;
 			if(name==null)name="null"; 
 			Term posTerm = new APLIdent("null");
@@ -607,8 +610,8 @@ public class GeoSenseMW  extends Environment implements ExternalTool{
 			}
 			return new APLFunction("obligation", new Term[]{posTerm,posTerm1,posTerm2});
 		}
-		else if(timeEntry instanceof Prohibition){ // in case of tuples return tuple(name,position(2,4),48)
-			Prohibition o = (Prohibition) timeEntry;   // cast to tuple
+		else if(timeEntry instanceof Prohibition){ //prohibition(State,Sanction)
+			Prohibition o = (Prohibition) timeEntry; 
 			String name = o.agent;
 			if(name==null)name="null"; 
 			Term posTerm = new APLIdent("null");
@@ -735,6 +738,7 @@ public class GeoSenseMW  extends Environment implements ExternalTool{
 	/*
 	 * ENVIRONMENT OVERRIDES
 	 */
+	@Override
 	public void addAgent(String sAgent) {
 		System.out.println("register " + sAgent);
 
@@ -750,9 +754,10 @@ public class GeoSenseMW  extends Environment implements ExternalTool{
 			try {
 				session.addListener(new Prohibition(agent), handler);
 				session.addListener(new Obligation(agent), handler); 
-				session.addListener(new Points(agent), handler); 
+				session.addListener(new Points(agent), handler);
+				session.addListener(new Reading(agent), handler);
+				session.addListener(new Time(), handler);
 			} catch (TransactionException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			} 
 			
@@ -784,7 +789,7 @@ public class GeoSenseMW  extends Environment implements ExternalTool{
 	}
 	
 	public ArrayList<TimeEntry> readTuple(TimeEntry te, Timestamp date, Timestamp newTime) {
-		ArrayList<TimeEntry> t = (ArrayList<TimeEntry>) getAllFromDate(te, date,newTime);
+		ArrayList<TimeEntry> t = getAllFromDate(te, date,newTime);
 		System.out.println(te.toString() + " "+date.toString()+" - " + newTime.toString());
 		return t;
 	}
@@ -799,7 +804,7 @@ public class GeoSenseMW  extends Environment implements ExternalTool{
 			// txn = trans.transaction;
 			try {
 				ArrayList<TimeEntry> result = new ArrayList<TimeEntry>();
-				while ((entry = (TimeEntry) space.take(te)) != null){
+				while ((entry = space.take(te)) != null){
 					//System.out.println(entry.toString());
 					result.add(entry);
 				}
@@ -837,7 +842,7 @@ public class GeoSenseMW  extends Environment implements ExternalTool{
 			//Transaction txn = trans.transaction;
 			try {
 				ArrayList<TimeEntry> result = new ArrayList<TimeEntry>();
-				while ((entry = (TimeEntry) space.take(a)) != null){
+				while ((entry = space.take(a)) != null){
 					//System.out.println(entry.toString());
 					result.add(entry);
 				}
@@ -857,7 +862,8 @@ public class GeoSenseMW  extends Environment implements ExternalTool{
 		if (result.size() > 1) {
 			//System.out.println("to be compared: "+result.toString());	
 		Collections.sort(result, new Comparator<TimeEntry>(){
-			  public int compare(TimeEntry t1, TimeEntry t2) {
+			  @Override
+			public int compare(TimeEntry t1, TimeEntry t2) {
 				  //TimeEntry t3 = (TimeEntry) t1;
 				 //TimeEntry t4 = (TimeEntry) t2;
 				//if (t1.time != null && t1.time != null)  

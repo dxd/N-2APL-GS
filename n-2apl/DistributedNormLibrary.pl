@@ -112,11 +112,11 @@
 ///////////////////////////////////////////////// 
 clock(0).
 @update_clock:-
-    @external(envJavaSpace,clock,NewTime),
+    @external(geoSenseMW,clock,NewTime),
 	retract(clock(_)),
 	assert(clock(NewTime)).
 		
 @norm_notification((@countsas,norm(_,Agent,_,Deontic),_)):-
-   @external(envJavaSpace,notifyAgent(Agent,Deontic),_),!.
+   @external(geoSenseMW,notifyAgent(Agent,Deontic),_),!.
 @norm_notification(_).
 

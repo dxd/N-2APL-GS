@@ -1,4 +1,4 @@
-package envJavaSpace;
+package geoSenseMW;
 
 
 import java.util.HashMap;

@@ -1,5 +1,5 @@
 <apaplmas>
-  <environment name="space" file="SpaceEnv.jar"></environment>
+  <environment name="space" file="geoSenseMW.jar"></environment>
   <agent name="a1" file="pursuer.2apl"/>
    <agent name="a2" file="pursuer1.2apl"/>
     <agent name="a3" file="pursuer2.2apl"/>
