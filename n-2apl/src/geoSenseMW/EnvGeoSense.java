@@ -580,12 +580,12 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 			return new APLFunction("points", new Term[]{new APLNum(points.value)}); // construct result
 		} 
 		else if(timeEntry instanceof Time){ // clock(Clock)
-			Points points = (Points) timeEntry; 
-			return new APLFunction("clock", new Term[]{new APLIdent(points.agent),new APLNum(points.value),new APLNum(points.clock)}); // construct result
+			Time time = (Time) timeEntry; 
+			return new APLFunction("clock", new Term[]{new APLNum(time.clock)}); // construct result
 		} 
 		else if(timeEntry instanceof Reading){ // reading(at(X,Y),Value,Agent,Clock)
 			Reading reading = (Reading) timeEntry;
-			Term term = constructTerm("at",String.valueOf(reading.cell.x),String.valueOf(reading.cell.y));
+			Term term = constructTerm("at("+reading.cell.x+","+reading.cell.y+")");
 			return new APLFunction("reading", new Term[]{term,new APLNum(reading.value.intValue()),new APLIdent(reading.agent),new APLNum(reading.clock)}); // construct result
 		} 
 		else if(timeEntry instanceof Obligation){ //obligation(Goal, Deadline, Sanction)
@@ -596,10 +596,8 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 			Term posTerm1 = new APLIdent("null");
 			Term posTerm2 = new APLIdent("null");
 			//all possible obligations
-			String term;
-			int t = o.obligation.indexOf("(");
-			term = o.obligation.substring(1, t).trim();
-			posTerm = constructTerm(o.obligation,term,name);
+
+			posTerm = constructTerm(o.obligation);
 			
 			if(o.deadline!=null){
 				posTerm1 = new APLNum(o.deadline);
@@ -616,11 +614,8 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 			if(name==null)name="null"; 
 			Term posTerm = new APLIdent("null");
 			Term posTerm2 = new APLIdent("null");
-			
-			String term;
-			int t = o.prohibition.indexOf("(");
-			term = o.prohibition.substring(1, t).trim();
-			posTerm = constructTerm(o.prohibition,term,name);
+
+			posTerm = constructTerm(o.prohibition);
 
 			if(o.sanction!=null){
 				int i = o.sanction.indexOf("(");
@@ -631,7 +626,10 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 		return new APLIdent("null");
 	}
 	
-	private Term constructTerm(String s, String term, String agent) {
+	private Term constructTerm(String term) {
+		int tx = term.indexOf("(");
+		String s = term.substring(1, tx).trim();
+		
 		Term[] t = new Term[10];
 		int i = s.indexOf(",");
 		int index = 0;
@@ -727,14 +725,7 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 		}catch (Exception e){ e.printStackTrace(); return new APLIdent("null"); }
 	}
 	
-	public Term clock(String sAgent){
-		return new APLNum(updateClock(0));
-	}
-	public Term readingRequest(String sAgent, APLFunction call){
-		return new APLNum(50);
-		
-		//TODO hack
-	}
+
 	/*
 	 * ENVIRONMENT OVERRIDES
 	 */
@@ -804,7 +795,7 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 			// txn = trans.transaction;
 			try {
 				ArrayList<TimeEntry> result = new ArrayList<TimeEntry>();
-				while ((entry = space.take(te)) != null){
+				while ((entry = space.read(te)) != null){
 					//System.out.println(entry.toString());
 					result.add(entry);
 				}
@@ -842,7 +833,7 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 			//Transaction txn = trans.transaction;
 			try {
 				ArrayList<TimeEntry> result = new ArrayList<TimeEntry>();
-				while ((entry = space.take(a)) != null){
+				while ((entry = space.read(a)) != null){
 					//System.out.println(entry.toString());
 					result.add(entry);
 				}

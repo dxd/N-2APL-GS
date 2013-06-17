@@ -35,7 +35,7 @@ PC-rules:
 
 coin(X,Y,Agent) <- true | {
 
-    B(Clock(clock));
+    B(clock(Clock));
     UpdateCoins(X,Y,Agent);
     @space(write(coin(position(X,Y),Clock,Agent),-1),_)
 } 
