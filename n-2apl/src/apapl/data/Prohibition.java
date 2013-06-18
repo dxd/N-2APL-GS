@@ -107,6 +107,7 @@ public class Prohibition {
 	public void unvar() throws UnboundedVarException
 	{
 		prohibition.unvar();
+		sanction.unvar();
 	}
 	
 	/**
@@ -131,17 +132,20 @@ public class Prohibition {
 	public void applySubstitution(SubstList<Term> theta)
 	{
 		prohibition.applySubstitution(theta);
+		sanction.applySubstitution(theta);
 	}
 	
 	public void freshVars(ArrayList<String> unfresh, ArrayList<String> own, ArrayList<ArrayList<String>> changes)
 	{
 		prohibition.freshVars(unfresh,own,changes);
+		sanction.freshVars(unfresh,own,changes);
 	}
 	
 	public ArrayList<String> getVariables()
 	{
 		ArrayList<String> vars = new ArrayList<String>();
 		vars.addAll(prohibition.getVariables());
+		vars.addAll(sanction.getVariables());
 		return vars;
 	}
 

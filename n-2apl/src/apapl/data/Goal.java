@@ -212,6 +212,8 @@ public class Goal implements Iterable<Literal>
 			//System.out.println("substitution: "+ varDeadline);
 			this.deadline.setTime(System.currentTimeMillis() + 100*1000);//TODO
 		}
+		if (sanction != null)
+			sanction.applySubstitution(theta);
 	}
 	
 	/**
@@ -220,6 +222,8 @@ public class Goal implements Iterable<Literal>
 	public void evaluate()
 	{
 		for (Literal l : goal) l.evaluate();
+		if (sanction != null)
+			sanction.evaluate();
 	}
 	
 	/**
@@ -294,6 +298,8 @@ public class Goal implements Iterable<Literal>
 	public void freshVars(ArrayList<String> unfresh, ArrayList<String> own, ArrayList<ArrayList<String>> changes)
 	{
 		for (Literal l : goal) l.freshVars(unfresh,own,changes);
+		if (sanction != null)
+			sanction.freshVars(unfresh,own,changes);
 	}
 	
 	/**
@@ -305,6 +311,8 @@ public class Goal implements Iterable<Literal>
 	{
 		ArrayList<String> vars = new ArrayList<String>();
 		for (Literal l : goal) vars.addAll(l.getVariables());
+		if (sanction != null)
+			vars.addAll(sanction.getVariables());
 		return vars;
 	}
 	
@@ -382,6 +390,8 @@ public class Goal implements Iterable<Literal>
 		for (Literal l : goal) l.unvar();
 		if (varDeadline != null)
 			Term.unvar(varDeadline);
+		if (sanction != null)
+			sanction.unvar();
 	}
 
 	public boolean isObligation() {

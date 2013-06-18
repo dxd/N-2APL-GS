@@ -26,21 +26,21 @@ norm(
     enter_water(Thing),
     Thing, // the subject agent
     ( truck(Thing), water(X,Y)), // precondition
-    prohibition([at(X,Y,Thing)],[reduce_300(Thing)]) // prohibition format
+    prohibition([at(X,Y,Thing)],[reduce(Thing,300)]) // prohibition format
     ). 
     
 norm(
     game_area(Thing),
     Thing, // the subject agent
     ( truck(Thing), not_area(X,Y)), // precondition
-    prohibition([at(X,Y,Thing)],[reduce_500(Thing)]) // prohibition format
+    prohibition([at(X,Y,Thing)],[reduce(Thing,500)]) // prohibition format
     ).  
         
 norm(
     drop_load(Thing),
     Thing, // the subject agent
     ( truck(Thing), cargo(X,Y, Time), clock(Now), Deadline is Now + 15, time_since(NewTime), NewTime > 5), // precondition
-    obligation([cargo(NewTime)],Deadline,[reduce_100(Thing)]) // obligation format
+    obligation([cargo(NewTime)],Deadline,[reduce(Thing,400)]) // obligation format
     ).
     
 //norm(
@@ -63,7 +63,7 @@ norm(
     place_coin_near(Thing),
     Thing, // the subject agent
     ( controller(Thing), coin(X,Y), NewX is X + 1, NewY is Y + 1, gameArea(X,Y)), // precondition
-    prohibition([coin(NewX,NewY)],[reduce_100(Thing)]) // prohibition format
+    prohibition([coin(NewX,NewY)],[reduce(Thing,200)]) // prohibition format
     ). 
     
 //norm(
@@ -77,7 +77,7 @@ norm(
     place_coin_water(Thing),
     Thing, // the subject agent
     ( controller(Thing), agent(A1), water(X,Y)), // precondition
-    prohibition([coin(X,Y,A1)],[reduce_300(Thing)]) // prohibition format
+    prohibition([coin(X,Y,A1)],[reduce(Thing,300)]) // prohibition format
     ).   
       
 //norm(
@@ -91,7 +91,7 @@ norm(
     place_coin(Thing),//place coin for an agent
     Thing, // the subject agent
     ( controller(Thing), clock(Now), Deadline is Now + 5, time_since(NewTime), int(NewTime),agent(A) ), // precondition
-    obligation([coin(A)],Deadline,[reduce_100(Thing)]) // obligation format
+    obligation([coin(A)],Deadline,[reduce(Thing,100)]) // obligation format
     ).
 
 
@@ -114,7 +114,7 @@ norm(
     read_on_the_same_place(Thing),
     Thing, // the subject agent
     ( agent(Thing), reading(X,Y, Value,Thing,Time), NewTime is Time + 1), // precondition
-    prohibition([reading(X,Y,Thing)],[reduce_300(Thing)]) // prohibition format
+    prohibition([reading(X,Y,Thing)],[reduce(Thing,300)]) // prohibition format
     ). 
     
 //norm(
@@ -128,7 +128,7 @@ norm(
     enter_water(Thing),
     Thing, // the subject agent
     ( agent(Thing), water(X,Y)), // precondition
-    prohibition([at(X,Y,Thing)],[reduce_300(Thing)]) // prohibition format
+    prohibition([at(X,Y,Thing)],[reduce(Thing,300)]) // prohibition format
     ). 
 
 //norm(
@@ -141,8 +141,8 @@ norm(
 norm(
     collect_coin(Thing), //sending all agents
     Thing, // the subject agent
-    ( agent(Thing), coin(X,Y,A,B), clock(Now), Deadline is Now + 20 ), // precondition
-    obligation([makeReading(X,Y)],Deadline,[reduce_400(Thing)]) // obligation format
+    ( agent(Thing), coin(X,Y), clock(Now), Deadline is Now + 20 ), // precondition
+    obligation([makeReading(X,Y)],Deadline,[reduce(Thing,400)]) // obligation format
     ).
 
 //norm(
@@ -279,11 +279,11 @@ agent_directed(Label,Agent,prohibition(ListA,Sanction)):
 	false]
 
 Sanction rules:
-reduce_100(Agent) and do_reduce_health(Agent,100) and notifyAgent(Agent,changed(status)) => not reduce_100(Agent).
-reduce_200(Agent) and do_reduce_health(Agent,200) and notifyAgent(Agent,changed(status)) => not reduce_200(Agent).
-reduce_300(Agent) and do_reduce_health(Agent,300) and notifyAgent(Agent,changed(status)) => not reduce_300(Agent).
-reduce_400(Agent) and do_reduce_health(Agent,400) and notifyAgent(Agent,changed(status)) => not reduce_400(Agent).
-reduce_500(Agent) and do_reduce_health(Agent,500) and notifyAgent(Agent,changed(status)) => not reduce_500(Agent).
+reduce(Agent,X) and do_reduce_health(Agent,X) and notifyAgent(Agent,changed(status)) => not reduce(Agent,X).
+//reduce_200(Agent) and do_reduce_health(Agent,200) and notifyAgent(Agent,changed(status)) => not reduce_200(Agent).
+//reduce_300(Agent) and do_reduce_health(Agent,300) and notifyAgent(Agent,changed(status)) => not reduce_300(Agent).
+//reduce_400(Agent) and do_reduce_health(Agent,400) and notifyAgent(Agent,changed(status)) => not reduce_400(Agent).
+//reduce_500(Agent) and do_reduce_health(Agent,500) and notifyAgent(Agent,changed(status)) => not reduce_500(Agent).
 
 viol(agent_directed(Label,Agent,prohibition(State,Sanction))), do_sanction(Sanction)  => not viol(agent_directed(Label,Agent,prohibition(State,Sanction))).
 obey(agent_directed(Label,Agent,Deontic)) => not obey(agent_directed(Label,Agent,Deontic)).

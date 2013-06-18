@@ -92,6 +92,7 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
         // use gigaspace wrapper to for simpler API
         //this.space = new GigaSpaceConfigurer(ispace).gigaSpace();
         this.space=DataGridConnectionUtility.getSpace("myGrid");
+        space.clear(null);
         EventSessionConfig config = new EventSessionConfig();
         config.setFifo(true);
         //config.setBatch(100, 20);
@@ -100,100 +101,9 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
         session = factory.newDataEventSession(config); 
     }
     
-	/*public void initialize() throws RemoteException, UnusableEntryException, TimeoutException, InterruptedException { 
-		// Jini stuff
-		System.out.println("test.");  
-		System.setSecurityManager(new RMISecurityManager());
-		LookupLocator ll = null; 
-		try { 
-			ll = new LookupLocator("jini://kafka.cs.nott.ac.uk"); 
-			//ll = new LookupLocator("jini://localhost"); 
-			//ll = new LookupLocator("jini://10.154.154.26");
-			//ll = new LookupLocator("jini://192.168.0.5"); 
-		} catch (MalformedURLException e) { 
-			
-			e.printStackTrace(); 
-		} 
+	
 		
-		System.out.println("Lookup locator: "+ll.toString());
-		//StreamServiceRegistrar sr = ll.getStreamRegistrar();
-		
-		ServiceRegistrar sr = null; 
-		try { 
-			sr = ll.getRegistrar(); 
-			System.out.println("Service Registrar: "+sr.getServiceID());
-		} catch (Exception e) { 
-			
-			e.printStackTrace(); 
-		} 
-		
-		 try {
-	            File file = new File("./log/"+ new Date(System.currentTimeMillis()) +".log");
-
-	            // Create file if it does not exist
-	            boolean success = file.createNewFile();
-	            if (success) {
-	                // File did not exist and was created
-	            } else {
-	                // File already exists
-	            }
-	            
-	            PrintStream printStream;
-	    		try {
-	    			printStream = new PrintStream(new FileOutputStream(file));
-	    			System.setOut(printStream);
-	    		} catch (FileNotFoundException e1) {
-	    			// TODO Auto-generated catch block
-	    			e1.printStackTrace();
-	    		}
-	        } catch (IOException e) {
-	        	
-	        }
-		 System.out.println("test2.");
-		
-		System.out.println("Service Registrar: "+sr.getServiceID()); 
-		ServiceTemplate template = new ServiceTemplate(null, new Class[] { JavaSpace.class }, null); 
-		ServiceMatches sms = null; 
-		try { 
-			sms = sr.lookup(template, 10); 
-		} catch (RemoteException e) { 
-			e.printStackTrace(); 
-		} 
-		if(0 < sms.items.length) { 
-			space = (JavaSpace) sms.items[0].service; 
-			System.out.println("Java Space found.");  
-		
-			ServiceTemplate trans = new ServiceTemplate(null, new Class[] { TransactionManager.class }, null);
-
-			ServiceMatches sms1 = null;
-			try {
-				sms1 = sr.lookup(trans, 10);
-			} catch (RemoteException e) {
-
-				e.printStackTrace();
-			}
-			if(0 < sms1.items.length) {
-			    transManager = (TransactionManager) sms1.items[0].service;
-			    System.out.println("TransactionManager found.");
-			   
-			   
-			} else {
-			    System.out.println("No TransactionManager found.");
-			}
-			try {
-				sdm = new ServiceDiscoveryManager(null,null);
-				leaseRenewalManager = sdm.getLeaseRenewalManager();
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-
-		} else { 
-			System.out.println("No Java Space found."); 
-		}
-		this.clearJS();
-	}
-		
-*/		public void initializeOOPL() throws RemoteException {
+		public void initializeOOPL() throws RemoteException {
 			registerOrg();
 			p2j = new Prolog2Java();
 			// Starting the normative system:
@@ -244,8 +154,11 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 		Time t = new Time();
 		TimeEntry e = getLast(t);
 		//System.out.println(e.toString());
-		if (e != null)
-			return ((Time) e).clock;
+		if (e != null) {
+			
+		this.clock = ((Time) e).clock;
+		return ((Time) e).clock;
+		}
 		return 0;
 	}
 	
@@ -295,37 +208,14 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 		 */
 		if(call[1] == oopl.prolog.strStorage.getInt("read")){
 			try {
-				//
-				
-				//System.out.println("read hack 1");
-				//ea.intResult = ar_true;
-				/*Entry e = space.read(createEntry(call, true), null, Lease.FOREVER);
-				Entry e1 = space.read(createEntry(call, false), null, Lease.FOREVER);
-				if (e != null && e == e1)
-					ea.intResult = ar_true;
-				else
-					ea.intResult = ar_false;*/
+
 				TimeEntry a = createEntry(call);
 				//System.out.println(a.toString());
 				TimeEntry e = getLast(a);
 				//System.out.println(e.toString());
 				ea.intResult = entryToArray(e);
 			} catch (Exception e) {e.printStackTrace();}
-		/*} else if(call[1] == oopl.prolog.strStorage.getInt("readIfExists")){
-			try {
-				ea.intResult = entryToArray(space.readIfExists(createEntry(call), null, get_number(call,oopl.prolog.harvester.scanElement(call, 3, false, false)+1)));
-			} catch (Exception e) {e.printStackTrace();}
-		} else if(call[1] == oopl.prolog.strStorage.getInt("snapshot")){
-			ea.intResult = ar_true;
-		} else if(call[1] == oopl.prolog.strStorage.getInt("take")){
-			try {
-				ea.intResult = entryToArray(space.take(createEntry(call), null, get_number(call,oopl.prolog.harvester.scanElement(call, 3, false, false)+1)));
-			} catch (Exception e) {e.printStackTrace();}
-		} else if(call[1] == oopl.prolog.strStorage.getInt("takeIfExists")){
-			try {
-				ea.intResult = entryToArray(space.takeIfExists(createEntry(call), null, get_number(call,oopl.prolog.harvester.scanElement(call, 3, false, false)+1)));
-			} catch (Exception e) {e.printStackTrace();}
-	*/	} else if(call[1] == oopl.prolog.strStorage.getInt("write")){
+		} else if(call[1] == oopl.prolog.strStorage.getInt("write")){
 			//System.out.println("write");
 			try {
 				long lease = get_number(call,oopl.prolog.harvester.scanElement(call, 3, false, false)+1);
@@ -334,8 +224,10 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 				TimeEntry e = createEntry(call);
 				if (e.getTime() == null)
 					e.setTime();
-				if (e.getClock() == null)
+				if (e.getClock() == null) {
+					updateClock(0);
 					e.setClock(clock);
+				}
 				System.out.println("Organization writes: "+e.toString());
 				space.write(e);
 				//System.out.println(e+"  "+lease+"   "+Lease.FOREVER);
@@ -345,19 +237,16 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 	     * The next case throws towards the agent an event that its status is changed.
 	     */
 		} else if(call[1] == oopl.prolog.strStorage.getInt("notifyAgent")){ // notifyAgent(name,obligation(blabla)).
-			//System.out.println("notify agent THIS SHOULD NOT BE CALLED!!!!!!");
-/*			for (int i = 0;  i<call.length; i++){
-				
-				String recipient = oopl.prolog.strStorage.getString(call[i]);
-				System.out.println("create entry test "+ i + recipient);
-			}*/
+			
 			String recipient = oopl.prolog.strStorage.getString(call[4]);
 			APLFunction event = (APLFunction)converter.get2APLTerm(Arrays.copyOfRange(call, 6, call.length));
 			TimeEntry e = createEntry(recipient, event);
 			if (e.getTime() == null)
 				e.setTime();
-			if (e.getClock() == null)
+			if (e.getClock() == null) {
+				updateClock(0);
 				e.setClock(clock);
+			}
 			System.out.println("Organization notifies agent (write): "+e.toString());
 			space.write(e);
 			
@@ -561,10 +450,6 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 				o = new Obligation(sAgent, s1, s3, deadline, clock);
 				//System.out.println(s2);
 			}
-			//Integer health = null; // if health is null (which is ident) it stays also in java null
-			//if(call.getParams().get(1) instanceof APLNum) health = ((APLNum)call.getParams().get(1)).toInt(); // The health meter
-			//System.out.println(call.toString());
-			//System.out.println(o.toString());
 			return o; // Create Tuple
 		} 
 
@@ -603,10 +488,9 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 				posTerm1 = new APLNum(o.deadline);
 			}
 			if(o.sanction!=null){
-				int i = o.sanction.indexOf("(");
-				posTerm2 = new APLFunction(o.sanction.substring(1,i), new Term[]{new APLIdent(name)});
+				posTerm2 = constructTerm(o.sanction);
 			}
-			return new APLFunction("obligation", new Term[]{posTerm,posTerm1,posTerm2});
+			return new APLFunction("obligation", new Term[]{new APLList(posTerm),posTerm1,new APLList(posTerm2)});
 		}
 		else if(timeEntry instanceof Prohibition){ //prohibition(State,Sanction)
 			Prohibition o = (Prohibition) timeEntry; 
@@ -618,40 +502,42 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 			posTerm = constructTerm(o.prohibition);
 
 			if(o.sanction!=null){
-				int i = o.sanction.indexOf("(");
-				posTerm2 = new APLFunction(o.sanction.substring(1,i), new Term[]{new APLIdent(name)});
+				posTerm2 = constructTerm(o.sanction);
 			}
-			return new APLFunction("prohibition", new Term[]{posTerm,posTerm2});
+			return new APLFunction("prohibition", new Term[]{new APLList(posTerm),new APLList(posTerm2)});
 		}
 		return new APLIdent("null");
 	}
 	
 	private Term constructTerm(String term) {
+		term = term.replace("[","");
+		term.replace("]","");
+		
 		int tx = term.indexOf("(");
-		String s = term.substring(1, tx).trim();
+		String s = term.substring(0, tx).trim();
 		
 		Term[] t = new Term[10];
-		int i = s.indexOf(",");
+		int i = term.indexOf(",");
 		int index = 0;
 		if (i == -1) {
 			return new APLFunction(term);
 		}
 		else {
-			String x = s.substring(term.length() + 2, i).trim();
+			String x = term.substring(s.length() + 1, i).trim();
 			t[index] = numOrIdent(x);
 			index++;
 		}
-		while (s.indexOf(",", i+1) > 0) {
-			int j = s.indexOf(",", i+1);
-			String y = s.substring(i+1, j).trim();
+		while (term.indexOf(",", i+1) > 0) {
+			int j = term.indexOf(",", i+1);
+			String y = term.substring(i+1, j).trim();
 			t[index] = numOrIdent(y);
 			i=j;
 			index++;
 		}
-		int j = s.indexOf(")");
-		String y = s.substring(i+1, j).trim();
+		int j = term.indexOf(")");
+		String y = term.substring(i+1, j).trim();
 		t[index] = numOrIdent(y);
-		Term posTerm = new APLFunction(term, t);
+		Term posTerm = new APLFunction(s, t);
 		return posTerm;
 		
 	}
@@ -682,45 +568,20 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 		} catch(Exception e){ e.printStackTrace(); return new APLIdent("null"); }
 	}
 	
-	/*public Term readIfExists(String sAgent, APLFunction call, APLNum timeOut){
-		try{ 
-			return entryToTerm(space.readIfExists(createEntry(sAgent,call), null, Lease.FOREVER)); 
-		} catch(Exception e){ e.printStackTrace(); return new APLIdent("null"); }
-	}
-	
-	public Term snapshot(String sAgent, APLFunction call){
-		return new APLIdent("true");
-	}
-	
-	public Term take(String sAgent, APLFunction call, APLNum timeOut){
-		try{ 
-			Term e =  entryToTerm(space.take(createEntry(sAgent,call), null, Lease.FOREVER)); 
-			//oopl.handleEvent(ar_state_change, false); // check the norms
-			return e;
-		} catch(Exception e){ e.printStackTrace(); return new APLIdent("null"); }
-	}
-	
-	public Term takeIfExists(String sAgent, APLFunction call, APLNum timeOut){
-		try{ 
-			Term e =  entryToTerm(space.takeIfExists(createEntry(sAgent,call), null, Lease.FOREVER)); 
-			//if(e!=null)oopl.handleEvent(ar_state_change, false); // check the norms
-			return e;
-		} catch(Exception e){ e.printStackTrace(); return new APLIdent("null"); }
-	}
-	*/
 	public Term write(String sAgent, APLFunction call, APLNum lease){ 
 		//System.out.println("write " + sAgent);
 		try{
-			//long leaseVal = lease.toInt();
-			//if(leaseVal < 0) leaseVal = Lease.FOREVER; 
+
 			TimeEntry e = createEntry(sAgent,call);
 			if (e.getTime() == null)
 				e.setTime();
-			if (e.getClock() == null)
+			if (e.getClock() == null) {
+				updateClock(0);
 				e.setClock(clock);
+			}
 			//System.out.println("Agent writes: "+e.toString());
 			space.write(e);
-			//oopl.handleEvent(ar_state_change, false); // check the norms
+
 			return new APLIdent("true");
 		}catch (Exception e){ e.printStackTrace(); return new APLIdent("null"); }
 	}
@@ -746,26 +607,11 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 				session.addListener(new Prohibition(agent), handler);
 				session.addListener(new Obligation(agent), handler); 
 				session.addListener(new Points(agent), handler);
-				session.addListener(new Reading(agent), handler);
+				session.addListener(new Reading(), handler);
 				session.addListener(new Time(), handler);
 			} catch (TransactionException e) {
 				e.printStackTrace();
 			} 
-			
-			/*
-			space.notify(new Prohibition(agent), null,
-			        handler,
-			        Lease.FOREVER,
-			        new MarshalledObject<Object>(new String("prohibition")));
-			space.notify(new Obligation(agent), null,
-			        handler,
-			        Lease.FOREVER,
-			        new MarshalledObject<Object>(new String("obligation")));
-			space.notify(new Points(agent), null,
-			        handler,
-			        Lease.FOREVER,
-			        new MarshalledObject<Object>(new String("points")));
-			        */
 			
 		} catch (RemoteException e) {
 			// TODO Auto-generated catch block
@@ -775,103 +621,30 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 			e.printStackTrace();
 		}
 
-/*			theManager.renewFor(myReg.getLease(), Lease.FOREVER,
-                30000, new DebugListener());*/
 	}
 	
-	public ArrayList<TimeEntry> readTuple(TimeEntry te, Timestamp date, Timestamp newTime) {
-		ArrayList<TimeEntry> t = getAllFromDate(te, date,newTime);
-		System.out.println(te.toString() + " "+date.toString()+" - " + newTime.toString());
-		return t;
-	}
-	
-	
-	
-	private ArrayList<TimeEntry> getAllFromDate(TimeEntry te, Timestamp date, Timestamp newTime) {
-		TimeEntry entry;
-		
-			//Transaction.Created trans = TransactionFactory.create(transManager, Lease.FOREVER);
-			//leaseRenewalManager.renewUntil(trans.lease, Lease.FOREVER, null);
-			// txn = trans.transaction;
-			try {
-				ArrayList<TimeEntry> result = new ArrayList<TimeEntry>();
-				while ((entry = space.read(te)) != null){
-					//System.out.println(entry.toString());
-					result.add(entry);
-				}
-				ArrayList<TimeEntry> e = getFromDate(result,date,newTime);
-				//System.out.println(result.toString());
-				//txn.abort();
-				//leaseRenewalManager.cancel(trans.lease);
-				return e;
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
-		
-		return null;
-	}
-
-	private ArrayList<TimeEntry> getFromDate(ArrayList<TimeEntry> result,
-			Timestamp date, Timestamp newTime) {
-		ArrayList<TimeEntry> results = new ArrayList<TimeEntry>();
-		if (result.size() > 0) {
-			for (TimeEntry te : result) {
-				if (te.getTime().after(date) && te.getTime().before(newTime))
-					results.add(te);
-			}
-			return results;
-		}
-
-		return null;
-	}
-
-	private synchronized TimeEntry getLast(TimeEntry a) {
-		TimeEntry entry;
-		
-			//Transaction.Created trans = TransactionFactory.create(transManager, Lease.FOREVER);
-			//leaseRenewalManager.renewUntil(trans.lease, Lease.FOREVER, null);
-			//Transaction txn = trans.transaction;
-			try {
-				ArrayList<TimeEntry> result = new ArrayList<TimeEntry>();
-				while ((entry = space.read(a)) != null){
-					//System.out.println(entry.toString());
-					result.add(entry);
-				}
-				TimeEntry e = getLatest(result);
-				//System.out.println(result.toString());
-				//txn.abort();
-				//leaseRenewalManager.cancel(trans.lease);
-				return e;
+	private TimeEntry getLast(TimeEntry a) {
+		try {
+			TimeEntry[] result = space.readMultiple(a);
+				if (result.length > 0)
+					return getLatest(result);
 			} catch (Exception e) {
 				e.printStackTrace();
 			} 
-	
+
 		return null;
 	}
-	private TimeEntry getLatest(ArrayList<TimeEntry> result) {
-		
-		if (result.size() > 1) {
-			//System.out.println("to be compared: "+result.toString());	
-		Collections.sort(result, new Comparator<TimeEntry>(){
-			  @Override
+	
+	private TimeEntry getLatest(TimeEntry[] result) {
+		Arrays.sort(result, new Comparator<TimeEntry>(){
+			@Override
 			public int compare(TimeEntry t1, TimeEntry t2) {
-				  //TimeEntry t3 = (TimeEntry) t1;
-				 //TimeEntry t4 = (TimeEntry) t2;
-				//if (t1.time != null && t1.time != null)  
-					return t1.getTime().compareTo(t2.getTime());
-				//return 1;
-			  }
-			  
-			});
-		return result.get(result.size()-1);
+				return t1.getTime().compareTo(t2.getTime());
+			}
 
-		}
-		else if (result.size() == 1) {
-			return result.get(0);
-		}
-
-		return null;
-		
+		});
+		System.out.println("latest      "+result[result.length-1]);
+		return result[result.length-1];
 	}
 
 	public void notifyAgent(String agent, TimeEntry e) {
@@ -903,6 +676,7 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 					session.addListener(new Position(agents[i]), handler); 
 				}
 				session.addListener(new Cargo(), handler); 
+				session.addListener(new Reading(), handler); 
 			} catch (RemoteException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -913,50 +687,7 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-	/*
-    private void registerOrg() throws RemoteException {
-		
-		OrgHandler handler = new OrgHandler(this);
-		try {
-			for (int i=0; i<agents.length;i++) {
-				
-				space.notify(new Position(agents[i]), null,
-						handler,
-						Lease.FOREVER,
-						new MarshalledObject(new String[]{"position",agents[i]}));
-				space.notify(new Coin(agents[i]), null,
-						handler,
-						Lease.FOREVER,
-						new MarshalledObject(new String[]{"coin",agents[i]}));
-				space.notify(new Reading(agents[i]), null,
-						handler,
-						Lease.FOREVER,
-						new MarshalledObject(new String[]{"reading",agents[i]}));
-				space.notify(new Points(agents[i]), null,
-						handler,
-						Lease.FOREVER,
-						new MarshalledObject(new String[]{"points",agents[i]}));
-			}
-			space.notify(new Cargo(), null,
-					handler,
-					3000000,
-					new MarshalledObject(new String[]{"cargo"}));
-		} catch (RemoteException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (TransactionException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-
-/*			theManager.renewFor(myReg.getLease(), Lease.FOREVER,
-                30000, new DebugListener());*/
-	}
-
-
+	 }
     
    /* private void insertTestData()
     {
