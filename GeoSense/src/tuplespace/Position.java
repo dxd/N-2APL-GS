@@ -52,7 +52,7 @@ public class Position implements TimeEntry {
 			this.cell = new Cell(Integer.getInteger(params[1].toString()), Integer.getInteger(params[2].toString()));
 	}
 	
-	public int[] toArray(DistributedOOPL oopl) {
+	public int[] toIntArray(DistributedOOPL oopl) {
 		//JL = new JiniLib();
 		int[] r = new int[this.cell==null?12:18];
 		JL.addPredicate(r,0,oopl.prolog.strStorage.getInt("position"),2, oopl); // tuple/3

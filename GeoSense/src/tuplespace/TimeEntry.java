@@ -12,7 +12,7 @@ public interface TimeEntry extends Entry{
 	
 	public Timestamp time = null;
 	public JiniLib JL = new JiniLib();
-	public int[] toArray(DistributedOOPL oopl);
+	public int[] toIntArray(DistributedOOPL oopl);
 	public void setTime();
 	public Timestamp getTime();
 	//public Term to2APLterm();

@@ -45,7 +45,7 @@ public class Cargo implements TimeEntry {
 	}
 	
 	@Override
-	public int[] toArray(DistributedOOPL oopl) {
+	public int[] toIntArray(DistributedOOPL oopl) {
 		//JL = new JiniLib();
 		int[] r = new int[15];
 		JL.addPredicate(r,0,oopl.prolog.strStorage.getInt("cargo"),2, oopl); // cargo/2

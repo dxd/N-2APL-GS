@@ -50,7 +50,7 @@ public class Points implements TimeEntry {
 		//	this.value = Integer.getInteger(params[2].toString());
 	}
 
-	public int[] toArray(DistributedOOPL oopl) {
+	public int[] toIntArray(DistributedOOPL oopl) {
 		int[] r = new int[12];
 		JL.addPredicate(r,0,oopl.prolog.strStorage.getInt("points"),4, oopl); // points/2
 		

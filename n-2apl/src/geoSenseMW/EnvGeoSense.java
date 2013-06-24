@@ -6,10 +6,8 @@ import java.io.IOException;
 import java.io.PrintStream;
 import java.lang.reflect.InvocationTargetException;
 import java.rmi.*; 
-import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.Date;
 
@@ -47,9 +45,6 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 	public int[] ar_true, ar_null, ar_state_change, ar_false; // precalculated IntProlog data 
 	public int INT_TUPLE=0, INT_POINT=0, INT_NULL=0;
 	public APAPLTermConverter converter; // Converts between IntProlog and 2APL
-	//private static TransactionManager transManager;
-	//private Object leaseRenewalManager;
-	//private ServiceDiscoveryManager sdm;
 	private Prolog2Java p2j;
 	private GigaSpace space;
 	private DataEventSession session;
@@ -92,7 +87,8 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
         // use gigaspace wrapper to for simpler API
         //this.space = new GigaSpaceConfigurer(ispace).gigaSpace();
         this.space=DataGridConnectionUtility.getSpace("myGrid");
-        space.clear(null);
+        //space.clear(null);
+        dumpGSdata();
         EventSessionConfig config = new EventSessionConfig();
         config.setFifo(true);
         //config.setBatch(100, 20);
@@ -110,8 +106,6 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 			oopl = new DistributedOOPL(); // Create interpreter object
 			GUI g = new GUI(oopl,"SpaceOrg.2opl","OOPL",null,6677); // Make a GUI for the interpreter
 			converter = new APAPLTermConverter(oopl.prolog); // Make a term converter (relies on Prolog engine for string storage)
-			INT_TUPLE =makeStringKnown("tuple"); // Because strings get integers, you need to add them to the engine, so you can precompute constructs.
-			INT_POINT =makeStringKnown("point");
 			//INT_POINT =makeStringKnown("cell");
 			//INT_POINT =makeStringKnown("position");
 			INT_NULL =makeStringKnown("null"); 
@@ -126,10 +120,6 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 			makeStringKnown("coin");
 			makeStringKnown("points");
 			makeStringKnown("read"); 
-			makeStringKnown("readIfExists"); 
-			makeStringKnown("snapshot"); 
-			makeStringKnown("take"); 
-			makeStringKnown("takeIfExists"); 
 			makeStringKnown("write"); 
 			registerActions(oopl.prolog); // Register the possible actions on this ExternalTool (such as @external(space,theAction(arg1,arg2),Result).)
 			// Precompute some data: ('true.', 'null.', 'tuple_space_changed.')
@@ -185,10 +175,6 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 	@Override
 	public void registerActions(Prolog p) { 
 		oopl.prolog.builtin.external.registerAction("read", this, ExternalActions.INTAR, ExternalActions.INTAR);
-		oopl.prolog.builtin.external.registerAction("readIfExists", this, ExternalActions.INTAR, ExternalActions.INTAR);
-		oopl.prolog.builtin.external.registerAction("snapshot", this, ExternalActions.INTAR, ExternalActions.INTAR);
-		oopl.prolog.builtin.external.registerAction("take", this, ExternalActions.INTAR, ExternalActions.INTAR);
-		oopl.prolog.builtin.external.registerAction("takeIfExists", this, ExternalActions.INTAR, ExternalActions.INTAR);
 		oopl.prolog.builtin.external.registerAction("write", this, ExternalActions.INTAR, ExternalActions.INTAR);
 		oopl.prolog.builtin.external.registerAction("notifyAgent", this, ExternalActions.INTAR, ExternalActions.INTAR);
 		oopl.prolog.builtin.external.registerAction("clock", this, ExternalActions.INTAR, ExternalActions.INTAR);
@@ -225,7 +211,7 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 				if (e.getTime() == null)
 					e.setTime();
 				if (e.getClock() == null) {
-					updateClock(0);
+					//updateClock(0);
 					e.setClock(clock);
 				}
 				System.out.println("Organization writes: "+e.toString());
@@ -244,7 +230,7 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 			if (e.getTime() == null)
 				e.setTime();
 			if (e.getClock() == null) {
-				updateClock(0);
+				//updateClock(0);
 				e.setClock(clock);
 			}
 			System.out.println("Organization notifies agent (write): "+e.toString());
@@ -286,7 +272,7 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 				
 		} 
 		else {
-			return e.toArray(oopl);
+			return e.toIntArray(oopl);
 		}
 	
 	}
@@ -576,7 +562,7 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 			if (e.getTime() == null)
 				e.setTime();
 			if (e.getClock() == null) {
-				updateClock(0);
+				//updateClock(0);
 				e.setClock(clock);
 			}
 			//System.out.println("Agent writes: "+e.toString());
@@ -661,8 +647,9 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 		}
 	}
 
-	public void notifyOrg() {
-		//System.out.println("org notified ");
+	public void notifyOrg(TimeEntry te) {
+		System.out.println("org notified "+te);
+		int[] OOPLformat = te.toIntArray(oopl);
 		oopl.handleEvent(ar_state_change, false);
 	}
 	
@@ -672,21 +659,18 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 			
 			try {
 				for (int i=0; i<agents.length;i++) {
-					
 					session.addListener(new Position(agents[i]), handler); 
 				}
 				session.addListener(new Cargo(), handler); 
 				session.addListener(new Reading(), handler); 
+				session.addListener(new Time(), handler); 
 			} catch (RemoteException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			} catch (TransactionException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+			} 
 	 }
     
    /* private void insertTestData()
@@ -733,28 +717,20 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
     	
     }
 
+*/
 
-
-    private void clearJS() throws UnusableEntryException, InterruptedException {
+    private void dumpGSdata() {
     	TimeEntry entry;
         //Entry temp = new Time();
     	System.out.println("-------------------------last log tuples start--------------------------------");
-    	try {
-			ArrayList<TimeEntry> result = new ArrayList<TimeEntry>();
-			while ((entry = (TimeEntry) space.take(null, null, 200)) != null){
-				System.out.println(entry.toString());
-				result.add(entry);
-			}
-		System.out.println("-------------------------last log tuples end----------------------------------");
-		return;
-    	} catch (RemoteException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (TransactionException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+    	ArrayList<TimeEntry> result = new ArrayList<TimeEntry>();
+		while ((entry = (TimeEntry) space.take(null)) != null){
+			System.out.println(entry.toString());
+			result.add(entry);
 		}
+System.out.println("-------------------------last log tuples end----------------------------------");
+return;
 	}
-*/
+
 	
 }

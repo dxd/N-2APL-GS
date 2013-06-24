@@ -23,7 +23,7 @@ public class Time implements TimeEntry {
 		return "Time [clock=" + clock + ", time=" + time + "]";
 	}
 	@Override
-	public int[] toArray(DistributedOOPL oopl) {
+	public int[] toIntArray(DistributedOOPL oopl) {
 		// TODO Auto-generated method stub
 		return null;
 	}

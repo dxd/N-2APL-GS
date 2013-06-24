@@ -49,7 +49,7 @@ public Coin(Cell cell, String agent, Integer clock) {
 			this.agent = params[2].toString();
 	}
     
-	public int[] toArray(DistributedOOPL oopl) {
+	public int[] toIntArray(DistributedOOPL oopl) {
 		int[] r = new int[18];
 		JL.addPredicate(r,0,oopl.prolog.strStorage.getInt("coin"),3, oopl); // cargo/2
 

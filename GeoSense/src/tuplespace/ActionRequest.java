@@ -75,7 +75,7 @@ public class ActionRequest implements TimeEntry {
 		this.id = id;
 	}
 	@Override
-	public int[] toArray(DistributedOOPL oopl) {
+	public int[] toIntArray(DistributedOOPL oopl) {
 		// TODO Auto-generated method stub
 		return null;
 	}

@@ -47,7 +47,7 @@ public class Obligation implements TimeEntry {
 
 
 	@Override
-	public int[] toArray(DistributedOOPL oopl) {
+	public int[] toIntArray(DistributedOOPL oopl) {
 		// TODO Auto-generated method stub
 		return null;
 	}

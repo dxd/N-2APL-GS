@@ -28,7 +28,7 @@ public class OrgHandler extends UnicastRemoteObject implements RemoteEventListen
         	EntryArrivedRemoteEvent arrivedRemoteEvent =(EntryArrivedRemoteEvent) anEvent;
         	TimeEntry e = (TimeEntry) arrivedRemoteEvent.getObject();
         	System.out.println("org notification: "+e);
-        	envGeoSense.notifyOrg();
+        	envGeoSense.notifyOrg(e);
         	
             
 

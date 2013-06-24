@@ -50,7 +50,7 @@ public class Reading implements TimeEntry {
 		this.cell = c;
 	}
 
-	public int[] toArray(DistributedOOPL oopl) {
+	public int[] toIntArray(DistributedOOPL oopl) {
 		int[] r = new int[21];
 		JL.addPredicate(r,0,oopl.prolog.strStorage.getInt("reading"),4, oopl); // cargo/2
 

@@ -38,7 +38,7 @@ public class Prohibition implements TimeEntry {
 				+ time + "]";
 	}
 	@Override
-	public int[] toArray(DistributedOOPL oopl) {
+	public int[] toIntArray(DistributedOOPL oopl) {
 		// TODO Auto-generated method stub
 		return null;
 	}

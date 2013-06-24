@@ -1,0 +1,858 @@
+2013-06-18 11:03:58,000 CONFIG [com.gigaspaces.logger] - Log file: /Users/dxd/gigaspaces-xap-premium-9.5.1-ga/logs/2013-06-18~11.03-gigaspaces-service-128.243.23.149-1466.log
+register a1
+register a2
+register a3
+register c1
+register t1
+agent notification: Points [agent=a1, time=2013-06-18 11:04:08.689, clock=0, value=1000, id=null]
+agent notification: Points [agent=a2, time=2013-06-18 11:04:08.899, clock=0, value=1000, id=null]
+agent notification: Points [agent=a3, time=2013-06-18 11:04:08.901, clock=0, value=1000, id=null]
+agent notification: Points [agent=c1, time=2013-06-18 11:04:08.904, clock=0, value=1000, id=null]
+agent notification: Points [agent=t1, time=2013-06-18 11:04:08.908, clock=0, value=1000, id=null]
+Event sent to agent      a1 points(1000)
+Event sent to agent      a3 points(1000)
+Event sent to agent      a2 points(1000)
+Event sent to agent      t1 points(1000)
+Event sent to agent      c1 points(1000)
+agent notification: Time [clock=1, time=2013-06-18 11:04:09.212]
+Event sent to agent      a1 clock(1)
+agent notification: Time [clock=1, time=2013-06-18 11:04:09.212]
+Event sent to agent      t1 clock(1)
+agent notification: Time [clock=1, time=2013-06-18 11:04:09.212]
+Event sent to agent      c1 clock(1)
+agent notification: Time [clock=1, time=2013-06-18 11:04:09.212]
+Event sent to agent      a2 clock(1)
+agent notification: Time [clock=1, time=2013-06-18 11:04:09.212]
+Event sent to agent      a3 clock(1)
+agent notification: Time [clock=2, time=2013-06-18 11:04:09.237]
+Event sent to agent      c1 clock(2)
+agent notification: Time [clock=2, time=2013-06-18 11:04:09.237]
+agent notification: Time [clock=2, time=2013-06-18 11:04:09.237]
+Event sent to agent      t1 clock(2)
+Event sent to agent      a2 clock(2)
+agent notification: Time [clock=2, time=2013-06-18 11:04:09.237]
+Event sent to agent      a1 clock(2)
+agent notification: Time [clock=2, time=2013-06-18 11:04:09.237]
+Event sent to agent      a3 clock(2)
+agent notification: Time [clock=3, time=2013-06-18 11:04:10.236]
+agent notification: Time [clock=3, time=2013-06-18 11:04:10.236]
+agent notification: Time [clock=3, time=2013-06-18 11:04:10.236]
+Event sent to agent      t1 clock(3)
+agent notification: Time [clock=3, time=2013-06-18 11:04:10.236]
+Event sent to agent      c1 clock(3)
+agent notification: Time [clock=3, time=2013-06-18 11:04:10.236]
+Event sent to agent      a2 clock(3)
+Event sent to agent      a1 clock(3)
+Event sent to agent      a3 clock(3)
+agent notification: Time [clock=4, time=2013-06-18 11:04:11.237]
+Event sent to agent      a3 clock(4)
+agent notification: Time [clock=4, time=2013-06-18 11:04:11.237]
+agent notification: Time [clock=4, time=2013-06-18 11:04:11.237]
+agent notification: Time [clock=4, time=2013-06-18 11:04:11.237]
+Event sent to agent      a1 clock(4)
+agent notification: Time [clock=4, time=2013-06-18 11:04:11.237]
+Event sent to agent      t1 clock(4)
+Event sent to agent      c1 clock(4)
+Event sent to agent      a2 clock(4)
+agent notification: Time [clock=5, time=2013-06-18 11:04:12.266]
+agent notification: Time [clock=5, time=2013-06-18 11:04:12.266]
+Event sent to agent      t1 clock(5)
+agent notification: Time [clock=5, time=2013-06-18 11:04:12.266]
+agent notification: Time [clock=5, time=2013-06-18 11:04:12.266]
+Event sent to agent      c1 clock(5)
+Event sent to agent      a3 clock(5)
+Event sent to agent      a1 clock(5)
+agent notification: Time [clock=5, time=2013-06-18 11:04:12.266]
+Event sent to agent      a2 clock(5)
+agent notification: Time [clock=6, time=2013-06-18 11:04:13.241]
+Event sent to agent      a3 clock(6)
+agent notification: Time [clock=6, time=2013-06-18 11:04:13.241]
+Event sent to agent      c1 clock(6)
+agent notification: Time [clock=6, time=2013-06-18 11:04:13.241]
+Event sent to agent      a1 clock(6)
+agent notification: Time [clock=6, time=2013-06-18 11:04:13.241]
+Event sent to agent      t1 clock(6)
+agent notification: Time [clock=6, time=2013-06-18 11:04:13.241]
+Event sent to agent      a2 clock(6)
+Event processed UpdatePoints(1000)
+Event processed UpdateClock(1)
+Event processed UpdatePoints(1000)
+Event processed UpdateClock(1)
+Event processed UpdateClock(2)
+Event processed UpdateClock(2)
+Event processed UpdateClock(3)
+Event processed UpdateClock(3)
+Event processed UpdateClock(4)
+Event processed UpdateClock(4)
+Event processed UpdateClock(5)
+Event processed UpdateClock(5)
+Event processed UpdateClock(6)
+Event processed UpdateClock(6)
+Event processed UpdatePoints(1000)
+Event processed UpdateClock(1)
+Event processed UpdateClock(2)
+Event processed UpdateClock(3)
+Event processed UpdateClock(4)
+Event processed UpdatePoints(1000)
+Event processed UpdateClock(5)
+Event processed UpdateClock(1)
+Event processed UpdateClock(2)
+Event processed UpdateClock(3)
+Event processed UpdateClock(4)
+Event processed UpdateClock(6)
+Event processed UpdateClock(5)
+Event processed UpdatePoints(1000)
+Event processed UpdateClock(6)
+Event processed UpdateClock(1)
+Event processed UpdateClock(2)
+Event processed UpdateClock(3)
+Event processed UpdateClock(4)
+Event processed UpdateClock(5)
+Event processed UpdateClock(6)
+org notification: Cargo [id=null, cell=Cell [x=19, y=19], time=2013-06-18 11:04:13.936, clock=6]
+agent notification: Time [clock=7, time=2013-06-18 11:04:14.253]
+agent notification: Time [clock=7, time=2013-06-18 11:04:14.253]
+Event sent to agent      a1 clock(7)
+agent notification: Time [clock=7, time=2013-06-18 11:04:14.253]
+Event sent to agent      a3 clock(7)
+agent notification: Time [clock=7, time=2013-06-18 11:04:14.253]
+Event sent to agent      c1 clock(7)
+agent notification: Time [clock=7, time=2013-06-18 11:04:14.253]
+Event sent to agent      t1 clock(7)
+Event sent to agent      a2 clock(7)
+org notification: Position [agent=a1, id=null, cell=Cell [x=3, y=4], time=2013-06-18 11:04:14.297, clock=6]
+Event processed UpdateClock(7)
+Event processed UpdateClock(7)
+Event processed UpdateClock(7)
+Event processed UpdateClock(7)
+Event processed UpdateClock(7)
+agent notification: Time [clock=8, time=2013-06-18 11:04:15.257]
+Event sent to agent      a3 clock(8)
+agent notification: Time [clock=8, time=2013-06-18 11:04:15.257]
+Event sent to agent      c1 clock(8)
+agent notification: Time [clock=8, time=2013-06-18 11:04:15.257]
+Event sent to agent      a2 clock(8)
+Event processed UpdateClock(8)
+agent notification: Time [clock=8, time=2013-06-18 11:04:15.257]
+Event sent to agent      a1 clock(8)
+agent notification: Time [clock=8, time=2013-06-18 11:04:15.257]
+Event sent to agent      t1 clock(8)
+Event processed UpdateClock(8)
+Event processed UpdateClock(8)
+Event processed UpdateClock(8)
+org notification: Position [agent=a2, id=null, cell=Cell [x=7, y=19], time=2013-06-18 11:04:15.613, clock=6]
+Event processed UpdateClock(8)
+org notification: Position [agent=a3, id=null, cell=Cell [x=11, y=2], time=2013-06-18 11:04:15.677, clock=6]
+org notification: Position [agent=t1, id=null, cell=Cell [x=18, y=19], time=2013-06-18 11:04:16.177, clock=7]
+agent notification: Time [clock=9, time=2013-06-18 11:04:16.276]
+Event sent to agent      a3 clock(9)
+agent notification: Time [clock=9, time=2013-06-18 11:04:16.276]
+Event sent to agent      a1 clock(9)
+agent notification: Time [clock=9, time=2013-06-18 11:04:16.276]
+Event sent to agent      t1 clock(9)
+agent notification: Time [clock=9, time=2013-06-18 11:04:16.276]
+Event sent to agent      c1 clock(9)
+agent notification: Time [clock=9, time=2013-06-18 11:04:16.276]
+Event sent to agent      a2 clock(9)
+Event processed UpdateClock(9)
+Event processed UpdateClock(9)
+Event processed UpdateClock(9)
+Event processed UpdateClock(9)
+Event processed UpdateClock(9)
+agent notification: Time [clock=10, time=2013-06-18 11:04:17.25]
+agent notification: Time [clock=10, time=2013-06-18 11:04:17.25]
+Event sent to agent      c1 clock(10)
+agent notification: Time [clock=10, time=2013-06-18 11:04:17.25]
+Event sent to agent      a1 clock(10)
+agent notification: Time [clock=10, time=2013-06-18 11:04:17.25]
+agent notification: Time [clock=10, time=2013-06-18 11:04:17.25]
+Event sent to agent      t1 clock(10)
+Event sent to agent      a2 clock(10)
+Event sent to agent      a3 clock(10)
+Event processed UpdateClock(10)
+Event processed UpdateClock(10)
+Event processed UpdateClock(10)
+Event processed UpdateClock(10)
+Event processed UpdateClock(10)
+agent notification: Time [clock=11, time=2013-06-18 11:04:18.252]
+Event sent to agent      a3 clock(11)
+agent notification: Time [clock=11, time=2013-06-18 11:04:18.252]
+agent notification: Time [clock=11, time=2013-06-18 11:04:18.252]
+Event sent to agent      c1 clock(11)
+Event sent to agent      a1 clock(11)
+agent notification: Time [clock=11, time=2013-06-18 11:04:18.252]
+Event sent to agent      t1 clock(11)
+agent notification: Time [clock=11, time=2013-06-18 11:04:18.252]
+Event sent to agent      a2 clock(11)
+Event processed UpdateClock(11)
+Event processed UpdateClock(11)
+Event processed UpdateClock(11)
+Event processed UpdateClock(11)
+Event processed UpdateClock(11)
+agent notification: Time [clock=12, time=2013-06-18 11:04:19.252]
+Event sent to agent      a3 clock(12)
+agent notification: Time [clock=12, time=2013-06-18 11:04:19.252]
+agent notification: Time [clock=12, time=2013-06-18 11:04:19.252]
+Event sent to agent      t1 clock(12)
+Event sent to agent      a1 clock(12)
+agent notification: Time [clock=12, time=2013-06-18 11:04:19.252]
+Event sent to agent      a2 clock(12)
+agent notification: Time [clock=12, time=2013-06-18 11:04:19.252]
+Event sent to agent      c1 clock(12)
+Event processed UpdateClock(12)
+Event processed UpdateClock(12)
+Event processed UpdateClock(12)
+Event processed UpdateClock(12)
+Event processed UpdateClock(12)
+agent notification: Time [clock=13, time=2013-06-18 11:04:20.286]
+Event sent to agent      a2 clock(13)
+agent notification: Time [clock=13, time=2013-06-18 11:04:20.286]
+Event sent to agent      a3 clock(13)
+agent notification: Time [clock=13, time=2013-06-18 11:04:20.286]
+Event sent to agent      c1 clock(13)
+agent notification: Time [clock=13, time=2013-06-18 11:04:20.286]
+Event sent to agent      t1 clock(13)
+agent notification: Time [clock=13, time=2013-06-18 11:04:20.286]
+Event sent to agent      a1 clock(13)
+Event processed UpdateClock(13)
+Event processed UpdateClock(13)
+Event processed UpdateClock(13)
+Event processed UpdateClock(13)
+Event processed UpdateClock(13)
+agent notification: Time [clock=14, time=2013-06-18 11:04:21.26]
+agent notification: Time [clock=14, time=2013-06-18 11:04:21.26]
+Event sent to agent      a3 clock(14)
+agent notification: Time [clock=14, time=2013-06-18 11:04:21.26]
+agent notification: Time [clock=14, time=2013-06-18 11:04:21.26]
+Event sent to agent      t1 clock(14)
+Event sent to agent      c1 clock(14)
+Event sent to agent      a1 clock(14)
+agent notification: Time [clock=14, time=2013-06-18 11:04:21.26]
+Event sent to agent      a2 clock(14)
+Event processed UpdateClock(14)
+Event processed UpdateClock(14)
+Event processed UpdateClock(14)
+Event processed UpdateClock(14)
+Event processed UpdateClock(14)
+agent notification: Time [clock=15, time=2013-06-18 11:04:22.301]
+Event sent to agent      a1 clock(15)
+agent notification: Time [clock=15, time=2013-06-18 11:04:22.301]
+Event sent to agent      a3 clock(15)
+agent notification: Time [clock=15, time=2013-06-18 11:04:22.301]
+Event sent to agent      c1 clock(15)
+agent notification: Time [clock=15, time=2013-06-18 11:04:22.301]
+agent notification: Time [clock=15, time=2013-06-18 11:04:22.301]
+Event sent to agent      a2 clock(15)
+Event sent to agent      t1 clock(15)
+Event processed UpdateClock(15)
+Event processed UpdateClock(15)
+Event processed UpdateClock(15)
+Event processed UpdateClock(15)
+Event processed UpdateClock(15)
+agent notification: Time [clock=16, time=2013-06-18 11:04:23.261]
+Event sent to agent      a3 clock(16)
+agent notification: Time [clock=16, time=2013-06-18 11:04:23.261]
+Event sent to agent      c1 clock(16)
+agent notification: Time [clock=16, time=2013-06-18 11:04:23.261]
+Event sent to agent      t1 clock(16)
+agent notification: Time [clock=16, time=2013-06-18 11:04:23.261]
+Event sent to agent      a1 clock(16)
+agent notification: Time [clock=16, time=2013-06-18 11:04:23.261]
+Event sent to agent      a2 clock(16)
+Event processed UpdateClock(16)
+Event processed UpdateClock(16)
+Event processed UpdateClock(16)
+Event processed UpdateClock(16)
+Event processed UpdateClock(16)
+agent notification: Time [clock=17, time=2013-06-18 11:04:24.29]
+agent notification: Time [clock=17, time=2013-06-18 11:04:24.29]
+Event sent to agent      a1 clock(17)
+agent notification: Time [clock=17, time=2013-06-18 11:04:24.29]
+Event sent to agent      c1 clock(17)
+agent notification: Time [clock=17, time=2013-06-18 11:04:24.29]
+Event sent to agent      t1 clock(17)
+agent notification: Time [clock=17, time=2013-06-18 11:04:24.29]
+Event sent to agent      a2 clock(17)
+Event sent to agent      a3 clock(17)
+Event processed UpdateClock(17)
+Event processed UpdateClock(17)
+Event processed UpdateClock(17)
+Event processed UpdateClock(17)
+Event processed UpdateClock(17)
+agent notification: Time [clock=18, time=2013-06-18 11:04:25.264]
+agent notification: Time [clock=18, time=2013-06-18 11:04:25.264]
+Event sent to agent      a3 clock(18)
+Event sent to agent      t1 clock(18)
+agent notification: Time [clock=18, time=2013-06-18 11:04:25.264]
+Event sent to agent      a2 clock(18)
+agent notification: Time [clock=18, time=2013-06-18 11:04:25.264]
+Event sent to agent      a1 clock(18)
+agent notification: Time [clock=18, time=2013-06-18 11:04:25.264]
+Event sent to agent      c1 clock(18)
+Event processed UpdateClock(18)
+Event processed UpdateClock(18)
+Event processed UpdateClock(18)
+Event processed UpdateClock(18)
+Event processed UpdateClock(18)
+agent notification: Time [clock=19, time=2013-06-18 11:04:26.265]
+Event sent to agent      a2 clock(19)
+agent notification: Time [clock=19, time=2013-06-18 11:04:26.265]
+Event sent to agent      a1 clock(19)
+agent notification: Time [clock=19, time=2013-06-18 11:04:26.265]
+Event sent to agent      c1 clock(19)
+agent notification: Time [clock=19, time=2013-06-18 11:04:26.265]
+Event sent to agent      t1 clock(19)
+agent notification: Time [clock=19, time=2013-06-18 11:04:26.265]
+Event sent to agent      a3 clock(19)
+Event processed UpdateClock(19)
+Event processed UpdateClock(19)
+Event processed UpdateClock(19)
+Event processed UpdateClock(19)
+Event processed UpdateClock(19)
+agent notification: Time [clock=20, time=2013-06-18 11:04:27.264]
+Event sent to agent      a2 clock(20)
+agent notification: Time [clock=20, time=2013-06-18 11:04:27.264]
+Event sent to agent      a3 clock(20)
+agent notification: Time [clock=20, time=2013-06-18 11:04:27.264]
+Event sent to agent      c1 clock(20)
+agent notification: Time [clock=20, time=2013-06-18 11:04:27.264]
+Event sent to agent      a1 clock(20)
+agent notification: Time [clock=20, time=2013-06-18 11:04:27.264]
+Event sent to agent      t1 clock(20)
+Event processed UpdateClock(20)
+Event processed UpdateClock(20)
+Event processed UpdateClock(20)
+Event processed UpdateClock(20)
+Event processed UpdateClock(20)
+agent notification: Time [clock=21, time=2013-06-18 11:04:28.267]
+Event sent to agent      a1 clock(21)
+agent notification: Time [clock=21, time=2013-06-18 11:04:28.267]
+Event sent to agent      a3 clock(21)
+agent notification: Time [clock=21, time=2013-06-18 11:04:28.267]
+Event sent to agent      t1 clock(21)
+agent notification: Time [clock=21, time=2013-06-18 11:04:28.267]
+Event sent to agent      c1 clock(21)
+agent notification: Time [clock=21, time=2013-06-18 11:04:28.267]
+Event sent to agent      a2 clock(21)
+Event processed UpdateClock(21)
+Event processed UpdateClock(21)
+Event processed UpdateClock(21)
+Event processed UpdateClock(21)
+Event processed UpdateClock(21)
+agent notification: Time [clock=22, time=2013-06-18 11:04:29.296]
+Event sent to agent      a3 clock(22)
+agent notification: Time [clock=22, time=2013-06-18 11:04:29.296]
+Event sent to agent      c1 clock(22)
+agent notification: Time [clock=22, time=2013-06-18 11:04:29.296]
+Event sent to agent      a2 clock(22)
+agent notification: Time [clock=22, time=2013-06-18 11:04:29.296]
+Event sent to agent      a1 clock(22)
+agent notification: Time [clock=22, time=2013-06-18 11:04:29.296]
+Event sent to agent      t1 clock(22)
+Event processed UpdateClock(22)
+Event processed UpdateClock(22)
+Event processed UpdateClock(22)
+Event processed UpdateClock(22)
+Event processed UpdateClock(22)
+agent notification: Time [clock=23, time=2013-06-18 11:04:30.269]
+Event sent to agent      a3 clock(23)
+agent notification: Time [clock=23, time=2013-06-18 11:04:30.269]
+Event sent to agent      c1 clock(23)
+agent notification: Time [clock=23, time=2013-06-18 11:04:30.269]
+agent notification: Time [clock=23, time=2013-06-18 11:04:30.269]
+Event sent to agent      a2 clock(23)
+Event sent to agent      t1 clock(23)
+agent notification: Time [clock=23, time=2013-06-18 11:04:30.269]
+Event sent to agent      a1 clock(23)
+Event processed UpdateClock(23)
+Event processed UpdateClock(23)
+Event processed UpdateClock(23)
+Event processed UpdateClock(23)
+Event processed UpdateClock(23)
+agent notification: Time [clock=24, time=2013-06-18 11:04:31.269]
+Event sent to agent      c1 clock(24)
+agent notification: Time [clock=24, time=2013-06-18 11:04:31.269]
+Event sent to agent      a2 clock(24)
+agent notification: Time [clock=24, time=2013-06-18 11:04:31.269]
+Event sent to agent      a3 clock(24)
+agent notification: Time [clock=24, time=2013-06-18 11:04:31.269]
+agent notification: Time [clock=24, time=2013-06-18 11:04:31.269]
+Event sent to agent      t1 clock(24)
+Event sent to agent      a1 clock(24)
+Event processed UpdateClock(24)
+Event processed UpdateClock(24)
+Event processed UpdateClock(24)
+Event processed UpdateClock(24)
+Event processed UpdateClock(24)
+agent notification: Time [clock=25, time=2013-06-18 11:04:32.27]
+agent notification: Time [clock=25, time=2013-06-18 11:04:32.27]
+Event sent to agent      a1 clock(25)
+agent notification: Time [clock=25, time=2013-06-18 11:04:32.27]
+Event sent to agent      c1 clock(25)
+agent notification: Time [clock=25, time=2013-06-18 11:04:32.27]
+agent notification: Time [clock=25, time=2013-06-18 11:04:32.27]
+Event sent to agent      a3 clock(25)
+Event sent to agent      t1 clock(25)
+Event sent to agent      a2 clock(25)
+Event processed UpdateClock(25)
+Event processed UpdateClock(25)
+Event processed UpdateClock(25)
+Event processed UpdateClock(25)
+Event processed UpdateClock(25)
+agent notification: Time [clock=26, time=2013-06-18 11:04:33.298]
+Event sent to agent      a3 clock(26)
+agent notification: Time [clock=26, time=2013-06-18 11:04:33.298]
+Event sent to agent      c1 clock(26)
+agent notification: Time [clock=26, time=2013-06-18 11:04:33.298]
+Event sent to agent      a2 clock(26)
+agent notification: Time [clock=26, time=2013-06-18 11:04:33.298]
+Event sent to agent      a1 clock(26)
+agent notification: Time [clock=26, time=2013-06-18 11:04:33.298]
+Event sent to agent      t1 clock(26)
+Event processed UpdateClock(26)
+Event processed UpdateClock(26)
+Event processed UpdateClock(26)
+Event processed UpdateClock(26)
+Event processed UpdateClock(26)
+agent notification: Reading [id=null, agent=a3, cell=Cell [x=11, y=1], time=2013-06-18 11:04:33.633, value=0.0, clock=0]
+Event sent to agent      a3 reading(at(11,1), 0, a3, 0)
+agent notification: Reading [id=null, agent=a2, cell=Cell [x=8, y=19], time=2013-06-18 11:04:33.691, value=0.0, clock=0]
+Event sent to agent      a2 reading(at(8,19), 0, a2, 0)
+agent notification: Time [clock=27, time=2013-06-18 11:04:34.273]
+agent notification: Time [clock=27, time=2013-06-18 11:04:34.273]
+agent notification: Time [clock=27, time=2013-06-18 11:04:34.273]
+Event sent to agent      a1 clock(27)
+agent notification: Time [clock=27, time=2013-06-18 11:04:34.273]
+Event sent to agent      a3 clock(27)
+Event sent to agent      c1 clock(27)
+Event sent to agent      t1 clock(27)
+agent notification: Time [clock=27, time=2013-06-18 11:04:34.273]
+Event sent to agent      a2 clock(27)
+Event processed UpdateClock(27)
+Event processed UpdateClock(27)
+Event processed UpdateClock(27)
+Event processed UpdateClock(27)
+Event processed UpdateClock(27)
+agent notification: Time [clock=28, time=2013-06-18 11:04:35.274]
+agent notification: Time [clock=28, time=2013-06-18 11:04:35.274]
+Event sent to agent      a2 clock(28)
+Event sent to agent      a3 clock(28)
+agent notification: Time [clock=28, time=2013-06-18 11:04:35.274]
+Event sent to agent      a1 clock(28)
+agent notification: Time [clock=28, time=2013-06-18 11:04:35.274]
+agent notification: Time [clock=28, time=2013-06-18 11:04:35.274]
+Event sent to agent      c1 clock(28)
+Event sent to agent      t1 clock(28)
+Event processed UpdateClock(28)
+Event processed UpdateClock(28)
+Event processed UpdateClock(28)
+Event processed UpdateClock(28)
+Event processed UpdateClock(28)
+agent notification: Time [clock=29, time=2013-06-18 11:04:36.302]
+Event sent to agent      c1 clock(29)
+agent notification: Time [clock=29, time=2013-06-18 11:04:36.302]
+Event sent to agent      a3 clock(29)
+agent notification: Time [clock=29, time=2013-06-18 11:04:36.302]
+Event sent to agent      a2 clock(29)
+agent notification: Time [clock=29, time=2013-06-18 11:04:36.302]
+Event sent to agent      a1 clock(29)
+agent notification: Time [clock=29, time=2013-06-18 11:04:36.302]
+Event sent to agent      t1 clock(29)
+Event processed UpdateClock(29)
+Event processed UpdateClock(29)
+Event processed UpdateClock(29)
+Event processed UpdateClock(29)
+Event processed UpdateClock(29)
+agent notification: Time [clock=30, time=2013-06-18 11:04:37.304]
+agent notification: Time [clock=30, time=2013-06-18 11:04:37.304]
+Event sent to agent      a3 clock(30)
+Event sent to agent      c1 clock(30)
+agent notification: Time [clock=30, time=2013-06-18 11:04:37.304]
+Event sent to agent      a1 clock(30)
+agent notification: Time [clock=30, time=2013-06-18 11:04:37.304]
+Event sent to agent      a2 clock(30)
+agent notification: Time [clock=30, time=2013-06-18 11:04:37.304]
+Event sent to agent      t1 clock(30)
+Event processed UpdateClock(30)
+Event processed UpdateClock(30)
+Event processed UpdateClock(30)
+Event processed UpdateClock(30)
+Event processed UpdateClock(30)
+agent notification: Time [clock=31, time=2013-06-18 11:04:38.28]
+agent notification: Time [clock=31, time=2013-06-18 11:04:38.28]
+Event sent to agent      a3 clock(31)
+Event sent to agent      a1 clock(31)
+agent notification: Time [clock=31, time=2013-06-18 11:04:38.28]
+Event sent to agent      c1 clock(31)
+agent notification: Time [clock=31, time=2013-06-18 11:04:38.28]
+Event sent to agent      a2 clock(31)
+agent notification: Time [clock=31, time=2013-06-18 11:04:38.28]
+Event sent to agent      t1 clock(31)
+agent notification: Reading [id=null, agent=a1, cell=Cell [x=5, y=5], time=2013-06-18 11:04:38.298, value=0.0, clock=0]
+Event sent to agent      a1 reading(at(5,5), 0, a1, 0)
+Event processed UpdateClock(31)
+Event processed UpdateClock(31)
+Event processed UpdateClock(31)
+Event processed UpdateClock(31)
+Event processed UpdateClock(31)
+agent notification: Time [clock=32, time=2013-06-18 11:04:39.283]
+agent notification: Time [clock=32, time=2013-06-18 11:04:39.283]
+Event sent to agent      a1 clock(32)
+Event sent to agent      a2 clock(32)
+agent notification: Time [clock=32, time=2013-06-18 11:04:39.283]
+Event sent to agent      a3 clock(32)
+agent notification: Time [clock=32, time=2013-06-18 11:04:39.283]
+Event sent to agent      c1 clock(32)
+agent notification: Time [clock=32, time=2013-06-18 11:04:39.283]
+Event sent to agent      t1 clock(32)
+Event processed UpdateClock(32)
+Event processed UpdateClock(32)
+Event processed UpdateClock(32)
+Event processed UpdateClock(32)
+Event processed UpdateClock(32)
+agent notification: Time [clock=33, time=2013-06-18 11:04:40.308]
+agent notification: Time [clock=33, time=2013-06-18 11:04:40.308]
+Event sent to agent      a3 clock(33)
+agent notification: Time [clock=33, time=2013-06-18 11:04:40.308]
+agent notification: Time [clock=33, time=2013-06-18 11:04:40.308]
+agent notification: Time [clock=33, time=2013-06-18 11:04:40.308]
+Event sent to agent      a1 clock(33)
+Event sent to agent      t1 clock(33)
+Event sent to agent      a2 clock(33)
+Event sent to agent      c1 clock(33)
+Event processed UpdateClock(33)
+Event processed UpdateClock(33)
+Event processed UpdateClock(33)
+Event processed UpdateClock(33)
+Event processed UpdateClock(33)
+agent notification: Time [clock=34, time=2013-06-18 11:04:41.283]
+agent notification: Time [clock=34, time=2013-06-18 11:04:41.283]
+Event sent to agent      a3 clock(34)
+agent notification: Time [clock=34, time=2013-06-18 11:04:41.283]
+agent notification: Time [clock=34, time=2013-06-18 11:04:41.283]
+Event sent to agent      a1 clock(34)
+agent notification: Time [clock=34, time=2013-06-18 11:04:41.283]
+Event sent to agent      t1 clock(34)
+Event sent to agent      c1 clock(34)
+Event sent to agent      a2 clock(34)
+Event processed UpdateClock(34)
+Event processed UpdateClock(34)
+Event processed UpdateClock(34)
+Event processed UpdateClock(34)
+Event processed UpdateClock(34)
+agent notification: Time [clock=35, time=2013-06-18 11:04:42.283]
+Event sent to agent      t1 clock(35)
+agent notification: Time [clock=35, time=2013-06-18 11:04:42.283]
+Event sent to agent      a3 clock(35)
+agent notification: Time [clock=35, time=2013-06-18 11:04:42.283]
+Event sent to agent      a1 clock(35)
+agent notification: Time [clock=35, time=2013-06-18 11:04:42.283]
+Event sent to agent      a2 clock(35)
+agent notification: Time [clock=35, time=2013-06-18 11:04:42.283]
+Event sent to agent      c1 clock(35)
+Event processed UpdateClock(35)
+Event processed UpdateClock(35)
+Event processed UpdateClock(35)
+Event processed UpdateClock(35)
+Event processed UpdateClock(35)
+agent notification: Time [clock=36, time=2013-06-18 11:04:43.284]
+agent notification: Time [clock=36, time=2013-06-18 11:04:43.284]
+Event sent to agent      a1 clock(36)
+Event sent to agent      c1 clock(36)
+agent notification: Time [clock=36, time=2013-06-18 11:04:43.284]
+Event sent to agent      t1 clock(36)
+agent notification: Time [clock=36, time=2013-06-18 11:04:43.284]
+Event sent to agent      a3 clock(36)
+agent notification: Time [clock=36, time=2013-06-18 11:04:43.284]
+Event sent to agent      a2 clock(36)
+Event processed UpdateClock(36)
+Event processed UpdateClock(36)
+Event processed UpdateClock(36)
+Event processed UpdateClock(36)
+Event processed UpdateClock(36)
+agent notification: Time [clock=37, time=2013-06-18 11:04:44.313]
+agent notification: Time [clock=37, time=2013-06-18 11:04:44.313]
+Event sent to agent      c1 clock(37)
+agent notification: Time [clock=37, time=2013-06-18 11:04:44.313]
+Event sent to agent      a1 clock(37)
+agent notification: Time [clock=37, time=2013-06-18 11:04:44.313]
+Event sent to agent      t1 clock(37)
+Event sent to agent      a3 clock(37)
+agent notification: Time [clock=37, time=2013-06-18 11:04:44.313]
+Event sent to agent      a2 clock(37)
+Event processed UpdateClock(37)
+Event processed UpdateClock(37)
+Event processed UpdateClock(37)
+Event processed UpdateClock(37)
+Event processed UpdateClock(37)
+agent notification: Time [clock=38, time=2013-06-18 11:04:45.287]
+agent notification: Time [clock=38, time=2013-06-18 11:04:45.287]
+Event sent to agent      c1 clock(38)
+agent notification: Time [clock=38, time=2013-06-18 11:04:45.287]
+Event sent to agent      a1 clock(38)
+Event sent to agent      a3 clock(38)
+agent notification: Time [clock=38, time=2013-06-18 11:04:45.287]
+agent notification: Time [clock=38, time=2013-06-18 11:04:45.287]
+Event sent to agent      t1 clock(38)
+Event sent to agent      a2 clock(38)
+Event processed UpdateClock(38)
+Event processed UpdateClock(38)
+Event processed UpdateClock(38)
+Event processed UpdateClock(38)
+Event processed UpdateClock(38)
+agent notification: Time [clock=39, time=2013-06-18 11:04:46.29]
+Event sent to agent      c1 clock(39)
+agent notification: Time [clock=39, time=2013-06-18 11:04:46.29]
+Event sent to agent      a3 clock(39)
+agent notification: Time [clock=39, time=2013-06-18 11:04:46.29]
+Event sent to agent      a1 clock(39)
+agent notification: Time [clock=39, time=2013-06-18 11:04:46.29]
+Event sent to agent      t1 clock(39)
+agent notification: Time [clock=39, time=2013-06-18 11:04:46.29]
+Event sent to agent      a2 clock(39)
+Event processed UpdateClock(39)
+Event processed UpdateClock(39)
+Event processed UpdateClock(39)
+Event processed UpdateClock(39)
+Event processed UpdateClock(39)
+agent notification: Time [clock=40, time=2013-06-18 11:04:47.318]
+agent notification: Time [clock=40, time=2013-06-18 11:04:47.318]
+agent notification: Time [clock=40, time=2013-06-18 11:04:47.318]
+Event sent to agent      a3 clock(40)
+Event sent to agent      a2 clock(40)
+Event sent to agent      c1 clock(40)
+agent notification: Time [clock=40, time=2013-06-18 11:04:47.318]
+Event sent to agent      t1 clock(40)
+agent notification: Time [clock=40, time=2013-06-18 11:04:47.318]
+Event sent to agent      a1 clock(40)
+Event processed UpdateClock(40)
+Event processed UpdateClock(40)
+Event processed UpdateClock(40)
+Event processed UpdateClock(40)
+Event processed UpdateClock(40)
+agent notification: Time [clock=41, time=2013-06-18 11:04:48.292]
+Event sent to agent      a1 clock(41)
+agent notification: Time [clock=41, time=2013-06-18 11:04:48.292]
+agent notification: Time [clock=41, time=2013-06-18 11:04:48.292]
+Event sent to agent      t1 clock(41)
+agent notification: Time [clock=41, time=2013-06-18 11:04:48.292]
+Event sent to agent      a3 clock(41)
+agent notification: Time [clock=41, time=2013-06-18 11:04:48.292]
+Event sent to agent      c1 clock(41)
+Event sent to agent      a2 clock(41)
+Event processed UpdateClock(41)
+Event processed UpdateClock(41)
+Event processed UpdateClock(41)
+Event processed UpdateClock(41)
+Event processed UpdateClock(41)
+agent notification: Time [clock=42, time=2013-06-18 11:04:49.291]
+Event sent to agent      a2 clock(42)
+agent notification: Time [clock=42, time=2013-06-18 11:04:49.291]
+Event sent to agent      a1 clock(42)
+agent notification: Time [clock=42, time=2013-06-18 11:04:49.291]
+Event sent to agent      a3 clock(42)
+agent notification: Time [clock=42, time=2013-06-18 11:04:49.291]
+Event sent to agent      t1 clock(42)
+agent notification: Time [clock=42, time=2013-06-18 11:04:49.291]
+Event sent to agent      c1 clock(42)
+Event processed UpdateClock(42)
+Event processed UpdateClock(42)
+Event processed UpdateClock(42)
+Event processed UpdateClock(42)
+Event processed UpdateClock(42)
+agent notification: Time [clock=43, time=2013-06-18 11:04:50.292]
+Event sent to agent      a3 clock(43)
+agent notification: Time [clock=43, time=2013-06-18 11:04:50.292]
+Event sent to agent      c1 clock(43)
+agent notification: Time [clock=43, time=2013-06-18 11:04:50.292]
+Event sent to agent      a1 clock(43)
+agent notification: Time [clock=43, time=2013-06-18 11:04:50.292]
+Event sent to agent      t1 clock(43)
+agent notification: Time [clock=43, time=2013-06-18 11:04:50.292]
+Event sent to agent      a2 clock(43)
+Event processed UpdateClock(43)
+Event processed UpdateClock(43)
+Event processed UpdateClock(43)
+Event processed UpdateClock(43)
+Event processed UpdateClock(43)
+agent notification: Time [clock=44, time=2013-06-18 11:04:51.321]
+agent notification: Time [clock=44, time=2013-06-18 11:04:51.321]
+Event sent to agent      a1 clock(44)
+agent notification: Time [clock=44, time=2013-06-18 11:04:51.321]
+agent notification: Time [clock=44, time=2013-06-18 11:04:51.321]
+agent notification: Time [clock=44, time=2013-06-18 11:04:51.321]
+Event sent to agent      a3 clock(44)
+Event sent to agent      c1 clock(44)
+Event sent to agent      t1 clock(44)
+Event sent to agent      a2 clock(44)
+Event processed UpdateClock(44)
+Event processed UpdateClock(44)
+Event processed UpdateClock(44)
+Event processed UpdateClock(44)
+Event processed UpdateClock(44)
+agent notification: Time [clock=45, time=2013-06-18 11:04:52.295]
+agent notification: Time [clock=45, time=2013-06-18 11:04:52.295]
+Event sent to agent      c1 clock(45)
+Event sent to agent      a2 clock(45)
+agent notification: Time [clock=45, time=2013-06-18 11:04:52.295]
+Event sent to agent      a1 clock(45)
+agent notification: Time [clock=45, time=2013-06-18 11:04:52.295]
+Event sent to agent      t1 clock(45)
+agent notification: Time [clock=45, time=2013-06-18 11:04:52.295]
+Event sent to agent      a3 clock(45)
+Event processed UpdateClock(45)
+Event processed UpdateClock(45)
+Event processed UpdateClock(45)
+Event processed UpdateClock(45)
+Event processed UpdateClock(45)
+agent notification: Time [clock=46, time=2013-06-18 11:04:53.295]
+agent notification: Time [clock=46, time=2013-06-18 11:04:53.295]
+Event sent to agent      a3 clock(46)
+Event sent to agent      c1 clock(46)
+agent notification: Time [clock=46, time=2013-06-18 11:04:53.295]
+Event sent to agent      t1 clock(46)
+agent notification: Time [clock=46, time=2013-06-18 11:04:53.295]
+Event sent to agent      a1 clock(46)
+agent notification: Time [clock=46, time=2013-06-18 11:04:53.295]
+Event sent to agent      a2 clock(46)
+Event processed UpdateClock(46)
+Event processed UpdateClock(46)
+Event processed UpdateClock(46)
+Event processed UpdateClock(46)
+Event processed UpdateClock(46)
+agent notification: Time [clock=47, time=2013-06-18 11:04:54.295]
+Event sent to agent      a3 clock(47)
+agent notification: Time [clock=47, time=2013-06-18 11:04:54.295]
+agent notification: Time [clock=47, time=2013-06-18 11:04:54.295]
+Event sent to agent      a1 clock(47)
+agent notification: Time [clock=47, time=2013-06-18 11:04:54.295]
+Event sent to agent      t1 clock(47)
+Event sent to agent      c1 clock(47)
+agent notification: Time [clock=47, time=2013-06-18 11:04:54.295]
+Event sent to agent      a2 clock(47)
+Event processed UpdateClock(47)
+Event processed UpdateClock(47)
+Event processed UpdateClock(47)
+Event processed UpdateClock(47)
+Event processed UpdateClock(47)
+agent notification: Time [clock=48, time=2013-06-18 11:04:55.324]
+agent notification: Time [clock=48, time=2013-06-18 11:04:55.324]
+Event sent to agent      a3 clock(48)
+agent notification: Time [clock=48, time=2013-06-18 11:04:55.324]
+agent notification: Time [clock=48, time=2013-06-18 11:04:55.324]
+Event sent to agent      a2 clock(48)
+Event sent to agent      c1 clock(48)
+Event sent to agent      a1 clock(48)
+agent notification: Time [clock=48, time=2013-06-18 11:04:55.324]
+Event sent to agent      t1 clock(48)
+Event processed UpdateClock(48)
+Event processed UpdateClock(48)
+Event processed UpdateClock(48)
+Event processed UpdateClock(48)
+Event processed UpdateClock(48)
+agent notification: Time [clock=49, time=2013-06-18 11:04:56.299]
+agent notification: Time [clock=49, time=2013-06-18 11:04:56.299]
+Event sent to agent      a3 clock(49)
+agent notification: Time [clock=49, time=2013-06-18 11:04:56.299]
+Event sent to agent      t1 clock(49)
+agent notification: Time [clock=49, time=2013-06-18 11:04:56.299]
+Event sent to agent      a2 clock(49)
+Event sent to agent      c1 clock(49)
+agent notification: Time [clock=49, time=2013-06-18 11:04:56.299]
+Event sent to agent      a1 clock(49)
+Event processed UpdateClock(49)
+Event processed UpdateClock(49)
+Event processed UpdateClock(49)
+Event processed UpdateClock(49)
+Event processed UpdateClock(49)
+agent notification: Time [clock=50, time=2013-06-18 11:04:57.298]
+Event sent to agent      a1 clock(50)
+agent notification: Time [clock=50, time=2013-06-18 11:04:57.298]
+Event sent to agent      t1 clock(50)
+agent notification: Time [clock=50, time=2013-06-18 11:04:57.298]
+agent notification: Time [clock=50, time=2013-06-18 11:04:57.298]
+Event sent to agent      c1 clock(50)
+Event sent to agent      a2 clock(50)
+agent notification: Time [clock=50, time=2013-06-18 11:04:57.298]
+Event sent to agent      a3 clock(50)
+Event processed UpdateClock(50)
+Event processed UpdateClock(50)
+Event processed UpdateClock(50)
+Event processed UpdateClock(50)
+Event processed UpdateClock(50)
+agent notification: Time [clock=51, time=2013-06-18 11:04:58.326]
+agent notification: Time [clock=51, time=2013-06-18 11:04:58.326]
+Event sent to agent      a2 clock(51)
+agent notification: Time [clock=51, time=2013-06-18 11:04:58.326]
+agent notification: Time [clock=51, time=2013-06-18 11:04:58.326]
+Event sent to agent      t1 clock(51)
+Event sent to agent      a3 clock(51)
+Event sent to agent      c1 clock(51)
+agent notification: Time [clock=51, time=2013-06-18 11:04:58.326]
+Event sent to agent      a1 clock(51)
+Event processed UpdateClock(51)
+Event processed UpdateClock(51)
+Event processed UpdateClock(51)
+Event processed UpdateClock(51)
+Event processed UpdateClock(51)
+agent notification: Time [clock=52, time=2013-06-18 11:04:59.302]
+Event sent to agent      t1 clock(52)
+agent notification: Time [clock=52, time=2013-06-18 11:04:59.302]
+agent notification: Time [clock=52, time=2013-06-18 11:04:59.302]
+Event sent to agent      c1 clock(52)
+Event sent to agent      a2 clock(52)
+agent notification: Time [clock=52, time=2013-06-18 11:04:59.302]
+agent notification: Time [clock=52, time=2013-06-18 11:04:59.302]
+Event sent to agent      a3 clock(52)
+Event sent to agent      a1 clock(52)
+Event processed UpdateClock(52)
+Event processed UpdateClock(52)
+Event processed UpdateClock(52)
+Event processed UpdateClock(52)
+Event processed UpdateClock(52)
+org notification: Position [agent=t1, id=null, cell=Cell [x=17, y=19], time=2013-06-18 11:04:16.97, clock=9]
+agent notification: Time [clock=53, time=2013-06-18 11:05:00.301]
+Event sent to agent      a1 clock(53)
+agent notification: Time [clock=53, time=2013-06-18 11:05:00.301]
+agent notification: Time [clock=53, time=2013-06-18 11:05:00.301]
+Event sent to agent      a3 clock(53)
+Event sent to agent      a2 clock(53)
+agent notification: Time [clock=53, time=2013-06-18 11:05:00.301]
+Event sent to agent      c1 clock(53)
+agent notification: Time [clock=53, time=2013-06-18 11:05:00.301]
+Event sent to agent      t1 clock(53)
+Event processed UpdateClock(53)
+Event processed UpdateClock(53)
+Event processed UpdateClock(53)
+Event processed UpdateClock(53)
+Event processed UpdateClock(53)
+agent notification: Time [clock=54, time=2013-06-18 11:05:01.301]
+agent notification: Time [clock=54, time=2013-06-18 11:05:01.301]
+Event sent to agent      c1 clock(54)
+Event sent to agent      a1 clock(54)
+agent notification: Time [clock=54, time=2013-06-18 11:05:01.301]
+Event sent to agent      a3 clock(54)
+agent notification: Time [clock=54, time=2013-06-18 11:05:01.301]
+Event sent to agent      t1 clock(54)
+agent notification: Time [clock=54, time=2013-06-18 11:05:01.301]
+Event sent to agent      a2 clock(54)
+Event processed UpdateClock(54)
+Event processed UpdateClock(54)
+Event processed UpdateClock(54)
+Event processed UpdateClock(54)
+Event processed UpdateClock(54)
+agent notification: Time [clock=55, time=2013-06-18 11:05:02.328]
+Event sent to agent      a2 clock(55)
+agent notification: Time [clock=55, time=2013-06-18 11:05:02.328]
+agent notification: Time [clock=55, time=2013-06-18 11:05:02.328]
+agent notification: Time [clock=55, time=2013-06-18 11:05:02.328]
+Event sent to agent      c1 clock(55)
+agent notification: Time [clock=55, time=2013-06-18 11:05:02.328]
+Event sent to agent      t1 clock(55)
+Event sent to agent      a1 clock(55)
+Event sent to agent      a3 clock(55)
+Event processed UpdateClock(55)
+Event processed UpdateClock(55)
+Event processed UpdateClock(55)
+Event processed UpdateClock(55)
+Event processed UpdateClock(55)
