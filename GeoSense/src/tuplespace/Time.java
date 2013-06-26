@@ -28,6 +28,10 @@ public class Time implements TimeEntry {
 		return null;
 	}
 	@Override
+	public String toPrologString() {
+		return "time(" + clock + ")";
+	}
+	@Override
 	public void setTime() {
 		this.time = new Timestamp(new Date().getTime());
 		

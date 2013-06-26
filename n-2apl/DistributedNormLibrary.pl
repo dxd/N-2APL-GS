@@ -102,7 +102,7 @@
 	retractall(@ni(_,_,remove)),
 	retract(Type).
 @execution_cycle_oopl(Alpha):- 
-	@update_clock, // for deadlines in the agent directed norm aware system
+	//@update_clock, // for deadlines in the agent directed norm aware system
 	@perform_update(Alpha), 
 	@rule_closure(@countsas), 
 	@rule_closure(@sanction). 
@@ -110,11 +110,7 @@
 /////////////////////////////////////////////////
 /// Added functionality for norm-aware agents ///
 ///////////////////////////////////////////////// 
-clock(0).
-@update_clock:-
-    @external(geoSenseMW,clock,NewTime),
-	retract(clock(_)),
-	assert(clock(NewTime)).
+
 		
 @norm_notification((@countsas,norm(_,Agent,_,Deontic),_)):-
    @external(geoSenseMW,notifyAgent(Agent,Deontic),_),!.

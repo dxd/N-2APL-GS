@@ -71,4 +71,8 @@ public class Obligation implements TimeEntry {
 		this.clock = clock;
 	}
 
+	@Override
+	public String toPrologString() {
+		return "obligation(" + agent + "," + obligation + "," + sanction + "," + deadline + "," + clock + ")";
+	}
 }

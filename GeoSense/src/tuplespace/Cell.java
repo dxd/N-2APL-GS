@@ -18,4 +18,8 @@ public class Cell implements Serializable {
 	public String toString() {
 		return "Cell [x=" + x + ", y=" + y + "]";
 	}
+
+	public String toPrologString() {
+		return "cell(" + x + "," + y + ")";
+	}
 }

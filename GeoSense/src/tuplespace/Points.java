@@ -50,6 +50,10 @@ public class Points implements TimeEntry {
 		//	this.value = Integer.getInteger(params[2].toString());
 	}
 
+	@Override
+	public String toPrologString() {
+		return "points(" + agent + "," + clock + "," + value + ")";
+	}
 	public int[] toIntArray(DistributedOOPL oopl) {
 		int[] r = new int[12];
 		JL.addPredicate(r,0,oopl.prolog.strStorage.getInt("points"),4, oopl); // points/2
@@ -60,6 +64,7 @@ public class Points implements TimeEntry {
 
 		return r;
 	}
+	
 	
 	@Override
 	public String toString() {

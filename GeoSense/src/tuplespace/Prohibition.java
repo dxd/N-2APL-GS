@@ -42,6 +42,10 @@ public class Prohibition implements TimeEntry {
 		// TODO Auto-generated method stub
 		return null;
 	}
+	@Override
+	public String toPrologString() {
+		return "prohibition(" + agent + "," + prohibition + "," + sanction + "," + clock + ")";
+	}
 
 	@Override
 	public void setTime() {

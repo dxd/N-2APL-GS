@@ -70,6 +70,10 @@ public class Reading implements TimeEntry {
 		//addNumber(r, c,t.i);
 		return r;
 	}
+	@Override
+	public String toPrologString() {
+		return "reading(" + agent + "," + cell + "," + value.intValue() + "," + clock + ")";
+	}
 	
 	@Override
 	public String toString() {

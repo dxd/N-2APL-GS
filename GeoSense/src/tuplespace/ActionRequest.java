@@ -100,4 +100,8 @@ public class ActionRequest implements TimeEntry {
 		this.clock = clock;
 	}
 
+	@Override
+	public String toPrologString() {
+		return "actionRequest(" + agent + "," + type + "," + cell.toPrologString() + "," + clock + ")";
+	}
 }

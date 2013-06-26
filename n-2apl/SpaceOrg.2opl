@@ -236,7 +236,7 @@ not_area(X,Y):-
 
 area(X,Y):-
 	int(X), int(Y), X > 0, Y > 0, X < 21, Y < 21.
-
+	
 water(5,5).
 water(5,6).
 water(6,5).
@@ -264,8 +264,13 @@ do_reduce_health(Agent,P):-
 listTrue([H|T]):- H, listTrue(T).
 listTrue([]).
 
+
 Effects:
-{true} tuple_space_changed {true} // causes compliance checking
+
+{clock(Old)} clock(New) {not clock(Old), clock(New)}
+{true} clock(X) {clock(X)}
+
+
 
 Temporal norms:
 agent_directed(Label,Agent,obligation(ListA,Deadline,Sanction)): 

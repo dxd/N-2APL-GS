@@ -55,6 +55,11 @@ public class Investigate implements TimeEntry {
 	}
 	
 	@Override
+	public String toPrologString() {
+		return "investigate(" + cell.toPrologString() + "," + agent + clock + ")";
+	}
+	
+	@Override
 	public String toString() {
 		return "Reading [id=" + id + ", agent=" + agent + ", cell=" + cell
 				+ ", time=" + time + ", value=" + value + ", clock=" + clock

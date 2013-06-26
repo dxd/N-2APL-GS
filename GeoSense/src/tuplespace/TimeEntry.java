@@ -18,6 +18,7 @@ public interface TimeEntry extends Entry{
 	//public Term to2APLterm();
 	public Integer getClock();
 	public void setClock(int clock);
+	public String toPrologString();
 	
 
 }

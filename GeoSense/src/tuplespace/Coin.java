@@ -69,6 +69,10 @@ public Coin(Cell cell, String agent, Integer clock) {
 		//addNumber(r, c,t.i);
 		return r;
 	}
+	@Override
+	public String toPrologString() {
+		return "coin(" + cell.toPrologString() + "," + clock + "," + agent + ")";
+	}
     
 	@Override
 	public String toString() {
