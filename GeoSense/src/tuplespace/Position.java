@@ -72,7 +72,7 @@ public class Position implements TimeEntry {
 	
 	@Override
 	public String toPrologString() {
-		return "position(" + agent + "," + cell.toPrologString() + clock + ")";
+		return "position(" + agent + "," + cell.toPrologString()+ "," + clock + ").";
 	}
 	
 	@Override

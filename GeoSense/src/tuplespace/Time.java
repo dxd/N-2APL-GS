@@ -29,7 +29,7 @@ public class Time implements TimeEntry {
 	}
 	@Override
 	public String toPrologString() {
-		return "time(" + clock + ")";
+		return "time(" + clock + ").";
 	}
 	@Override
 	public void setTime() {

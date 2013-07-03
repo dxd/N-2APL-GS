@@ -52,7 +52,7 @@ public class Points implements TimeEntry {
 
 	@Override
 	public String toPrologString() {
-		return "points(" + agent + "," + clock + "," + value + ")";
+		return "points(" + agent + "," + clock + "," + value + ").";
 	}
 	public int[] toIntArray(DistributedOOPL oopl) {
 		int[] r = new int[12];

@@ -648,7 +648,7 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 	}
 
 	public void notifyOrg(TimeEntry te) {
-		System.out.println("org notified found "+te.toPrologString());
+		System.out.println("org notified found "+te.toString());
 		System.out.println("org notified sent "+te.toPrologString());
 		//int[] OOPLformat = te.toIntArray(oopl);
 		//oopl.handleEvent(ar_state_change, false);
@@ -666,6 +666,7 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 				session.addListener(new Cargo(), handler); 
 				session.addListener(new Reading(), handler); 
 				session.addListener(new Time(), handler); 
+				session.addListener(new Coin(), handler); 
 			} catch (RemoteException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

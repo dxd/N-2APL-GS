@@ -68,7 +68,7 @@ public class Cargo implements TimeEntry {
 	
 	@Override
 	public String toPrologString() {
-		return "cargo(" + cell.toPrologString() + "," + clock + ")";
+		return "cargo(" + cell.toPrologString() + "," + clock + ").";
 	}
 	
 	public Integer getId() {

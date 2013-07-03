@@ -71,7 +71,7 @@ public Coin(Cell cell, String agent, Integer clock) {
 	}
 	@Override
 	public String toPrologString() {
-		return "coin(" + cell.toPrologString() + "," + clock + "," + agent + ")";
+		return "coin(" + cell.toPrologString() + "," + clock + "," + agent + ").";
 	}
     
 	@Override
