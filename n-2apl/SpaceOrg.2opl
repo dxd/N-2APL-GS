@@ -19,8 +19,8 @@ norm(
 norm(
     drop_load(Thing),
     Thing, // the subject agent
-    ( truck(Thing), cargo(X,Y, Time), clock(Now), Deadline is Now + 15, time_since(NewTime), NewTime > 5), // precondition
-    obligation([cargo(NewTime)],Deadline,[reduce(Thing,400)]) // obligation format
+    ( truck(Thing), cargo(X,Y, Time), time_since(NewTime), NewTime > 5), // precondition
+    obligation([cargo(NewTime)],now+15,[reduce(Thing,400)]) // obligation format
     ).
     
 %Controller:
@@ -42,8 +42,8 @@ norm(
 norm(
     place_coin(Thing),//place coin for an agent
     Thing, // the subject agent
-    ( controller(Thing), clock(Now), Deadline is Now + 5, time_since(NewTime), int(NewTime),agent(A) ), // precondition
-    obligation([coin(A)],Deadline,[reduce(Thing,100)]) // obligation format
+    ( controller(Thing), time_since(NewTime), int(NewTime),agent(A) ), // precondition
+    obligation([coin(A)],now+15,[reduce(Thing,100)]) // obligation format
     ).
 
 
@@ -66,8 +66,8 @@ norm(
 norm(
     collect_coin(Thing), //sending all agents
     Thing, // the subject agent
-    ( agent(Thing), coin(X,Y), clock(Now), Deadline is Now + 20 ), // precondition
-    obligation([makeReading(X,Y)],Deadline,[reduce(Thing,400)]) // obligation format
+    ( agent(Thing), coin(X,Y) ), // precondition
+    obligation([makeReading(X,Y)],now+15,[reduce(Thing,400)]) // obligation format
     ).
     
 agent(a1).
