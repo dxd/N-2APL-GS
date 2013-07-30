@@ -17,11 +17,20 @@
 @broadcast(_).
 //@scheme(Name,Pre,_,_,_,_,_,_), Pre, not(@ni(Name,Pre,_,_)), @norm_notification(Pre)
 // Operation: instantiate norms
+//@instantiate_norms:-
+//    @scheme(Name,Pre,_,_,_,_,_,_), 
+//    Pre, 
+//    not(@ni(Name,Pre,_,_)), 
+//	@solve_deadline(Pre,Deadline),
+//    @norm_notification(Pre,Deadline), // For norm aware agents
+//    uniqueassertz(@ni(Name,Pre,Deadline,keep)), fail.
+//@instantiate_norms.
 @instantiate_norms:-
-    @scheme(Name,Pre,_,_,_,_,_,_), 
+    @scheme(Name,(@countsas,Norm,Pre),_,_,_,_,_,_), 
+    Norm,
     Pre, 
     not(@ni(Name,Pre,_,_)), 
-	@solve_deadline(Pre,Deadline),
+    @solve_deadline(Pre,Deadline),
     @norm_notification(Pre,Deadline), // For norm aware agents
     uniqueassertz(@ni(Name,Pre,Deadline,keep)), fail.
 @instantiate_norms.
@@ -125,7 +134,7 @@ clock(0).
    @external(envJavaSpace,notifyAgent(Agent,obligation(A,Deadline,C)),_),!. // Deadline is replaced with the resolved value
 @norm_notification(_,_).
 
-@solve_deadline((@countsas,norm(_,_,_,obligation(_,+(now,Amount),_)),_),Deadline):- // Solve the deadline separately
+@solve_deadline((@countsas,norm(_,_,_,obligation(_,now + Amount,_)),_),Deadline):- // Solve the deadline separately
 	clock(Now),
 	Deadline is Now+Amount,!.
 @solve_deadline(_,-1).

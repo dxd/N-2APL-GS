@@ -136,6 +136,9 @@ Effects:
 {at(X1,Y1,Agent)} position(Agent, cell(X,Y), Clock) {not at(X1,Y1,Agent), at(X,Y,Agent)}
 {true} position(Agent, cell(X,Y), Clock) {at(X,Y,Agent)}
 
+{reading(X,Y,Value1,Agent,Clock1)} reading(Agent, cell(X,Y), Value, Clock) {not reading(X,Y,Value1,Agent,Clock1), reading(X,Y,Value,Agent,Clock)}
+{true} reading(Agent, cell(X,Y), Value, Clock) { reading(X,Y,Value,Agent,Clock)}
+
 {true} coin(cell(X,Y), Clock, Agent) {coin(X,Y)}
 
 {points(Agent,OldValue)} points(Agent, Clock, Value) {not points(Agent,OldValue), points(Agent,Value)}
