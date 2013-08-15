@@ -19,8 +19,8 @@ norm(
 norm(
     drop_load(Thing),
     Thing, // the subject agent
-    ( truck(Thing), cargo(X,Y, Time), time_since(NewTime), NewTime > 5), // precondition
-    obligation([cargo(NewTime)],now+15,[reduce(Thing,400)]) // obligation format
+    ( truck(Thing), cargo(X,Y)), // precondition
+    prohibition([cargo(X,Y)],[reduce(Thing,400)]) // obligation format
     ).
     
 %Controller:
@@ -133,13 +133,15 @@ Effects:
 {clock(Old)} time(New) {not clock(Old), clock(New)}
 {true} time(X) {clock(X)}
 
-{at(X1,Y1,Agent)} position(Agent, cell(X,Y), Clock) {not at(X1,Y1,Agent), at(X,Y,Agent)}
+{at(X1,Y1,Agent)} position(Agent, cell(X,Y), Clock) {not at(X1,Y1,Agent), at(X,Y,Agent), not coin(X,Y)}
 {true} position(Agent, cell(X,Y), Clock) {at(X,Y,Agent)}
 
 {reading(X,Y,Value1,Agent,Clock1)} reading(Agent, cell(X,Y), Value, Clock) {not reading(X,Y,Value1,Agent,Clock1), reading(X,Y,Value,Agent,Clock)}
 {true} reading(Agent, cell(X,Y), Value, Clock) { reading(X,Y,Value,Agent,Clock)}
 
 {true} coin(cell(X,Y), Clock, Agent) {coin(X,Y)}
+
+{true} cargo(cell(X,Y), Clock) {cargo(X,Y)}
 
 {points(Agent,OldValue)} points(Agent, Clock, Value) {not points(Agent,OldValue), points(Agent,Value)}
 {true} points(Agent, Clock, Value) {points(Agent,Value)}
@@ -163,3 +165,7 @@ reduce(Agent,X) and do_reduce_health(Agent,X) and notifyAgent(Agent,changed(stat
 
 viol(agent_directed(Label,Agent,prohibition(State,Sanction))), do_sanction(Sanction)  => not viol(agent_directed(Label,Agent,prohibition(State,Sanction))).
 obey(agent_directed(Label,Agent,Deontic)) => not obey(agent_directed(Label,Agent,Deontic)).
+
+//@quick_scheme_fix_hack
+
+

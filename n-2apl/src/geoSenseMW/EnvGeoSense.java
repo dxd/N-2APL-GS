@@ -202,7 +202,7 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 				ea.intResult = entryToArray(e);
 			} catch (Exception e) {e.printStackTrace();}
 		} else if(call[1] == oopl.prolog.strStorage.getInt("write")){
-			//System.out.println("write");
+			System.out.println("write (points)");
 			try {
 				long lease = get_number(call,oopl.prolog.harvester.scanElement(call, 3, false, false)+1);
 				//if(lease <= 0) lease = Lease.FOREVER;
