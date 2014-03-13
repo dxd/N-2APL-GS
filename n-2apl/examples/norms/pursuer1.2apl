@@ -7,6 +7,7 @@ Beliefs:
   points(1000).
   position(8, 19).
   clock(0).
+
   
 Goals:
   //randomize :: 200 >> 1,
@@ -22,6 +23,15 @@ at(X,Y) <- true | {
     dropgoal(at(X,Y))]
     
 } : 1
+
+surround(X,Y) <- raise(X,newX) | {
+
+   [
+   moveTo(newX,Y); 
+   readingP(newX,Y);
+   dropgoal(surround(X,Y))]
+    
+} : 100
 
 makeReading <- position(X,Y) | {
 
@@ -53,3 +63,5 @@ readingP(X,Y) <- true | {
     @space(write(readingRequest(position(X,Y)),-1),Z)
 
 } 
+
+//type:1
