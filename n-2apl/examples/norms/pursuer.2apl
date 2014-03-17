@@ -31,6 +31,15 @@ reading(X,Y) <- true | {
     
 } : 10000
 
+westreading(X,Y) <- true | {
+
+   [B(lower(X,EX));
+   moveTo(EX,Y); 
+   readingP(EX,Y);
+   dropgoal(reading(EX,Y))]
+    
+} : 10000
+
 makeReading <- position(X,Y) | {
 
    [readingP(X,Y); 

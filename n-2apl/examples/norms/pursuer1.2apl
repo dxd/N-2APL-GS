@@ -22,7 +22,14 @@ at(X,Y) <- true | {
     dropgoal(at(X,Y))]
     
 } : 1
+eastreading(X,Y) <- true | {
 
+   [B(raise(X,EX));
+   moveTo(EX,Y); 
+   readingP(EX,Y);
+   dropgoal(reading(EX,Y))]
+    
+} : 10000
 makeReading <- position(X,Y) | {
 
    [readingP(X,Y); 

@@ -116,6 +116,18 @@ adoptObligation(investigate(X,Y,_,_,_), D, reduce(_,Value)) <- true | {
     adopta(investigate(X,Y) : D -> reduce(Value))
 }
 
+adoptObligation(west(X,Y,_), D, reduce(_,Value)) <- true | {
+    adopta(westreading(X,Y) : D -> reduce(Value))
+}
+adoptObligation(east(X,Y,_), D, reduce(_,Value)) <- true | {
+    adopta(eastreading(X,Y) : D -> reduce(Value))
+}
+adoptObligation(north(X,Y,_), D, reduce(_,Value)) <- true | {
+    adopta(northreading(X,Y) : D -> reduce(Value))
+}
+adoptObligation(south(X,Y,_), D, reduce(_,Value)) <- true | {
+    adopta(southreading(X,Y) : D -> reduce(Value))
+}
 
 Sanctions:
 	reduce(100) -> 5,

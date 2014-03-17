@@ -18,30 +18,30 @@ norm(
     
 %agents group norms from RA
 norm(
-    group_task(Agent),
+    group_task(a1),
     a1, // the subject agent
-    ( pursuer(a1), groupnorm(ra)), // precondition - add triggering condition
-    obligation([west(X,Y,Agent)],now+15,[reduce(a1, Sanction)]) // prohibition format
+    ( pursuer(a1), groupcoin(X,Y)), // precondition - add triggering condition
+    obligation([west(X,Y,a1)],now+15,[reduce(a1, Sanction)]) // prohibition format
     ).  
     
 norm(
     group_task(a2),
     a2, // the subject agent
-    ( pursuer(a2), groupnorm(ra)), // precondition - add triggering condition
+    ( pursuer(a2), groupcoin(X,Y)), // precondition - add triggering condition
     obligation([east(X,Y,a2)],now+15,[reduce(a2, Sanction)]) // prohibition format
     ).  
 
 norm(
     group_task(a3),
     a3, // the subject agent
-    ( pursuer(a3), groupnorm(ra)), // precondition - add triggering condition
+    ( pursuer(a3), groupcoin(X,Y)), // precondition - add triggering condition
     obligation([north(X,Y,a3)],now+15,[reduce(a3, Sanction)]) // prohibition format
     ). 
     
 norm(
     group_task(a4),
     a4, // the subject agent
-    ( pursuer(a4), groupnorm(ra)), // precondition - add triggering condition
+    ( pursuer(a4), groupcoin(X,Y)), // precondition - add triggering condition
     obligation([south(X,Y,a4)],now+15,[reduce(a4, Sanction)]) // prohibition format
     ). 
     
@@ -49,12 +49,14 @@ norm(
 %original norms    
 
     
-agent(a1).
-agent(a2).
-agent(a3).
-agent(a4).
+pursuer(a1).
+pursuer(a2).
+pursuer(a3).
+pursuer(a4).
 ra(ra).
 truck(t1).
+group(group).
+groupcoin(10,10).
 
 movable(A) :- agent(A).
 movable(A) :- truck(A).
@@ -131,7 +133,7 @@ listTrue(_).
 listTrue([H|T]):- H, listTrue(T).
 listTrue([]).
 
-//clock(0).
+clock(0).
 
 
 
