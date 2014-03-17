@@ -1,7 +1,7 @@
 package apapl;
 
 /**
- * Defines interface for an object that listens for changes in the multi-agent
+ * Defines interface for an object that listens for changes in the multi-subject
  * system configuration. This object is informed when new modules are
  * created, activated, deactivated or released.
  */
@@ -9,14 +9,14 @@ public interface MASChangeListener
 {
 
 	/**
-	 * Invoked when a new module has been created in the multi-agent system.
+	 * Invoked when a new module has been created in the multi-subject system.
 	 * 
 	 * @param module the newly created module
 	 */
 	public void moduleCreated(APLModule module);
 
 	/**
-	 * Invoked right before a module is removed from the multi-agent system.
+	 * Invoked right before a module is removed from the multi-subject system.
 	 * 
 	 * @param module the removed module
 	 */

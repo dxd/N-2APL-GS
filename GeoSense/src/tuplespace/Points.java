@@ -71,7 +71,7 @@ public class Points implements TimeEntry {
 	
 	@Override
 	public String toString() {
-		return "Points [agent=" + agent + ", time=" + time + ", clock=" + clock
+		return "Points [subject=" + agent + ", time=" + time + ", clock=" + clock
 				+ ", value=" + value + ", id=" + id + "]";
 	}
 	@Override

@@ -61,7 +61,7 @@ public class Investigate implements TimeEntry {
 	
 	@Override
 	public String toString() {
-		return "Reading [id=" + id + ", agent=" + agent + ", cell=" + cell
+		return "Reading [id=" + id + ", subject=" + agent + ", cell=" + cell
 				+ ", time=" + time + ", value=" + value + ", clock=" + clock
 				+ "]";
 	}

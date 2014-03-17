@@ -78,4 +78,3 @@ obey(agent_directed(Label,Agent,Deontic)) => not obey(agent_directed(Label,Agent
 //@quick_scheme_fix_hack
 //@scheme(agent_directed(A,B,prohibition(C,D)),(@countsas,norm(A,B,E,prohibition(C,D)),E),(listTrue(C)),false,(false),false,[plus(viol(agent_directed(A,B,prohibition(C,D))))|[]],[plus(obey(agent_directed(A,B,prohibition(C,D))))|[]])
 
-

@@ -58,7 +58,7 @@ public class Env extends Environment implements ObsVectListener
 	// To hold our reference to the window
 	final protected Window 					m_window;
 	
-	// max distance of cells visible to each agent
+	// max distance of cells visible to each subject
 	protected int							_senserange = 5;
 	
 	// size of environment
@@ -127,7 +127,7 @@ public class Env extends Environment implements ObsVectListener
 
 	/* Called from 2APL */
 	
-	// Enter the agent into the world
+	// Enter the subject into the world
 	// Succesful returns true, else the ExternalActionFailedException exception is thrown
 	public Term enter( String sAgent, APLNum xt, APLNum yt, APLIdent colort) throws ExternalActionFailedException
 	{
@@ -135,7 +135,7 @@ public class Env extends Environment implements ObsVectListener
 		int y = yt.toInt();
 		String color = colort.toString();
 		
-		// Get the agent
+		// Get the subject
 		Agent agent = getAgent(sAgent);
 		
 		// Give a signal that we want to move
@@ -149,7 +149,7 @@ public class Env extends Environment implements ObsVectListener
 		// Agent already entered
 		if( agent.isEntered() ) 
 		{
-			writeToLog( "agent already entered" );
+			writeToLog( "subject already entered" );
 			throw new ExternalActionFailedException("Agent \""+agent.getName()+"\" has already entered.");
 		}
 		
@@ -164,14 +164,14 @@ public class Env extends Environment implements ObsVectListener
 			throw new ExternalActionFailedException("Position "+pos+" is not free.");
 		}
 		
-		// Update the agent his position
+		// Update the subject his position
 		agent._position = position;
 		
-		// Which color does the agent want to be
+		// Which color does the subject want to be
 		int nColorID = getColorID(color);
 		agent._colorID = nColorID;
 	
-		// Redraw so we can see the agent
+		// Redraw so we can see the subject
 		validatewindow();
 		m_window.repaint();
 		
@@ -181,17 +181,17 @@ public class Env extends Environment implements ObsVectListener
 		return wrapBoolean(true);
 	}
 	
-	// Move the agent north
+	// Move the subject north
 	public Term north(String sAgent) throws ExternalActionFailedException
 	{
-		// Get the correct agent
+		// Get the correct subject
 		Agent agent = getAgent(sAgent);
 		
-		// Get the agent his position
+		// Get the subject his position
 		Point p = (Point) agent.getPosition().clone();
 		p.y = p.y - 1;
 		
-		// Set the position for the agent
+		// Set the position for the subject
 		boolean  r = setAgentPosition( agent, p);
 		
 		// can't move north
@@ -203,17 +203,17 @@ public class Env extends Environment implements ObsVectListener
 		return wrapBoolean(r);
 	}
 	
-	// Move the agent east
+	// Move the subject east
 	public Term east(String sAgent) throws ExternalActionFailedException
 	{
-		// Get the correct agent
+		// Get the correct subject
 		Agent agent = getAgent(sAgent);
 		
-		// Get the agent his position
+		// Get the subject his position
 		Point p = (Point) agent.getPosition().clone();
 		p.x = p.x + 1;
 		
-		// Set the position for the agent
+		// Set the position for the subject
 		boolean  r = setAgentPosition( agent, p);
 		
 		// can't move north
@@ -225,17 +225,17 @@ public class Env extends Environment implements ObsVectListener
 		return wrapBoolean(r);
 	}
 	
-	// Move the agent south
+	// Move the subject south
 	public Term south(String sAgent) throws ExternalActionFailedException
 	{
-		// Get the correct agent
+		// Get the correct subject
 		Agent agent = getAgent(sAgent);
 		
-		// Get the agent his position
+		// Get the subject his position
 		Point p = (Point) agent.getPosition().clone();
 		p.y = p.y + 1;
 		
-		// Set the position for the agent
+		// Set the position for the subject
 		boolean  r = setAgentPosition( agent, p);
 		
 		// can't move north
@@ -247,17 +247,17 @@ public class Env extends Environment implements ObsVectListener
 		return wrapBoolean(r);
 	}
 	
-	// Move the agent west
+	// Move the subject west
 	public Term west(String sAgent) throws ExternalActionFailedException
 	{
-		// Get the correct agent
+		// Get the correct subject
 		Agent agent = getAgent(sAgent);
 		
-		// Get the agent his position
+		// Get the subject his position
 		Point p = (Point) agent.getPosition().clone();
 		p.x = p.x - 1;
 		
-		// Set the position for the agent
+		// Set the position for the subject
 		boolean  r = setAgentPosition( agent, p);
 		
 		// can't move north
@@ -272,7 +272,7 @@ public class Env extends Environment implements ObsVectListener
 	// Pickup a bomb
 	public Term pickup( String sAgent ) throws ExternalActionFailedException
 	{
-		// Get the agent
+		// Get the subject
 		Agent agent = getAgent(sAgent);
 		
 		// Let everyone know we are going to pick up a bomb	
@@ -309,7 +309,7 @@ public class Env extends Environment implements ObsVectListener
 	// Drop a bomb
 	public Term drop( String sAgent ) throws ExternalActionFailedException
 	{
-		// Get the agent
+		// Get the subject
 		Agent agent = getAgent(sAgent);
 		// we are going to drop a bomb
 		agent.signalDropBomb.emit();
@@ -351,7 +351,7 @@ public class Env extends Environment implements ObsVectListener
 		return wrapBoolean(true);
 	}
 	
-	// What is the agent his Sense Range
+	// What is the subject his Sense Range
 	public Term getSenseRange(String agent)
 	{
 		// the below function is also used by EnvView
@@ -362,7 +362,7 @@ public class Env extends Environment implements ObsVectListener
 	// Sense all agents. This does not include self.
 	public synchronized Term senseAllAgent(String sAgent) throws ExternalActionFailedException
 	{
-		//Collection c = senseAllAgents(getAgent(agent).getPosition());
+		//Collection c = senseAllAgents(getAgent(subject).getPosition());
 		Point position = getAgent(sAgent).getPosition();
 		// iterate over all agents
 		Vector all = new Vector();
@@ -393,17 +393,17 @@ public class Env extends Environment implements ObsVectListener
 		return new APLList(listpar);
 	}
 	
-	// Sense the given agent his position
+	// Sense the given subject his position
 	public synchronized Term sensePosition(String sAgent) throws ExternalActionFailedException
 	{
 		Point p = getAgent(sAgent).getPosition();
 		return new APLList(new APLNum(p.x),new APLNum(p.y));
 	}
 	
-	// is there a trap in the senserange of the agent?
+	// is there a trap in the senserange of the subject?
 	public synchronized Term senseTraps(String agent) throws ExternalActionFailedException
 	{
-		// Get the agent his position
+		// Get the subject his position
 		Point position = getAgent(agent).getPosition();
 		
 		// iterate over all traps and decide according to distance if it is in
@@ -435,10 +435,10 @@ public class Env extends Environment implements ObsVectListener
 		return convertCollectionToTerm(all);
 	}
 	
-	// Sends a bom in the senserange of the agent
+	// Sends a bom in the senserange of the subject
 	public synchronized Term senseBombs(String agent) throws ExternalActionFailedException, RemoteException, TransactionException
 	{
-		// Get the agent his position
+		// Get the subject his position
 		Point position = getAgent(agent).getPosition();
 		
 		// iterate over all bombs and decide according to distance if it is in
@@ -474,10 +474,10 @@ public class Env extends Environment implements ObsVectListener
 		return convertCollectionToTerm(all);
 	}
 	
-	// Sense the stones in the agent senserange
+	// Sense the stones in the subject senserange
 	public synchronized Term senseStones(String agent) throws ExternalActionFailedException
 	{
-		// Get the agent his position
+		// Get the subject his position
 		Point position = getAgent(agent).getPosition();
 		
 		// iterate over all stones and decide according to distance if it is in
@@ -513,7 +513,7 @@ public class Env extends Environment implements ObsVectListener
 	// Sense visible area for agents. This does not include self.
 	public synchronized Term senseAgent(String sAgent) throws ExternalActionFailedException
 	{
-		//Collection c = senseAgents(getAgent(agent).getPosition());
+		//Collection c = senseAgents(getAgent(subject).getPosition());
 		Point position = getAgent(sAgent).getPosition();
 		
 		// iterate over all agents and decide according to distance if it is in
@@ -537,7 +537,7 @@ public class Env extends Environment implements ObsVectListener
 			if( p.equals( position ) )
 				continue;
 
-			// agent within visible range
+			// subject within visible range
 			if( position.distance( p ) <= _senserange )
 				visible.add( agent );
 		}
@@ -568,7 +568,7 @@ public class Env extends Environment implements ObsVectListener
 		ArrayList<String> targetAgents = new ArrayList<String>();
 		for (Agent a : agentmap.values())
 		{
-			// Changed SA: I got no idea why there is always 1 agent which does not exists, 
+			// Changed SA: I got no idea why there is always 1 subject which does not exists, 
 			// but this fixes the exceptions
 			if ((a.getPosition() != null) && (ptPosition.distance(a.getPosition()) <= getSenseRange()))
 				targetAgents.add(a.getName());
@@ -582,7 +582,7 @@ public class Env extends Environment implements ObsVectListener
 		}
 	}
 	
-	// Add an agent to the environment
+	// Add an subject to the environment
     public synchronized void addAgent(String sAgent) {
         String sAgentMain = getMainModule(sAgent);
         // Agent not yet in the environment
@@ -593,11 +593,11 @@ public class Env extends Environment implements ObsVectListener
             final Agent agent = new Agent(sAgentMain);
             _agents.add(agent);
             agentmap.put(sAgent, agent);
-            writeToLog("agent " + agent + " added");
+            writeToLog("subject " + agent + " added");
         }                
     }
 	
-	// Remove the agent from the environment
+	// Remove the subject from the environment
 	public synchronized void removeAgent(String sAgent)
 	{
 		try 
@@ -607,7 +607,7 @@ public class Env extends Environment implements ObsVectListener
 			Agent a = getAgent(sAgent);			
 			agentmap.remove( sAgent );
 			
-			// there can be several agent
+			// there can be several subject
 			if (!agentmap.containsValue(a)) {
 			    _agents.remove(a);		
 			    a.reset();
@@ -638,13 +638,13 @@ public class Env extends Environment implements ObsVectListener
 		return new APLList(new APLNum(w),new APLNum(h));
 	}
 	
-	// Get the agent from its name
+	// Get the subject from its name
 	private synchronized Agent getAgent(String name) throws ExternalActionFailedException
 	{    
 		Agent a = null;
 		//a = agentmap.get(getMainModule(name));
 		a = agentmap.get(name);
-		if (a==null) throw new ExternalActionFailedException("No such agent: "+name);
+		if (a==null) throw new ExternalActionFailedException("No such subject: "+name);
 		else return a;
 		
 	}
@@ -707,7 +707,7 @@ public class Env extends Environment implements ObsVectListener
 		SwingUtilities.invokeLater(repaint);
 	}
 	
-	// Move the agent
+	// Move the subject
 	private synchronized boolean setAgentPosition( Agent agent, Point position) 
 	{
 		agent.signalMove.emit();
@@ -715,7 +715,7 @@ public class Env extends Environment implements ObsVectListener
 		if( isOutOfBounds( position ) )
 			return false;
 
-		// suspend thread if some other agent is blocking our entrance
+		// suspend thread if some other subject is blocking our entrance
 		
 		// Is the position free?
 		if( !isFree( position ) )
@@ -723,7 +723,7 @@ public class Env extends Environment implements ObsVectListener
 
 		agent.signalMoveSucces.emit();
 
-		// there may be other threads blocked because this agent was in the way,
+		// there may be other threads blocked because this subject was in the way,
 		// notify
 		// them of the changed state of environment
 		synchronized( this ) 
@@ -731,7 +731,7 @@ public class Env extends Environment implements ObsVectListener
 			notifyAll();
 		}
 
-		// set the agent position
+		// set the subject position
 		agent._position = position;
 		try {
 			service.writePosition(agent.getName(), position);
@@ -769,8 +769,8 @@ public class Env extends Environment implements ObsVectListener
 		return (isStone( position )) == null && (isAgent( position ) == null);
 	}
 	
-	 // Check for agent at coordinate. \return Null if there is no agent at the
-	 // specified coordinate. Otherwise return a reference to the agent there.
+	 // Check for subject at coordinate. \return Null if there is no subject at the
+	 // specified coordinate. Otherwise return a reference to the subject there.
 	public synchronized Agent isAgent( final Point p ) 
 	{
 	    synchronized (_agents) {
@@ -860,7 +860,7 @@ public class Env extends Environment implements ObsVectListener
     			{
     				i.remove();				
     
-    				// there may be other threads blocked because this agent was in
+    				// there may be other threads blocked because this subject was in
     				// the way, notify
     				// them of the changed state of environment
     				synchronized( this ) 
@@ -972,7 +972,7 @@ public class Env extends Environment implements ObsVectListener
 		return new APLList(new APLIdent(b ? "true" : "false"));
 	}
 	
-	// Which color does the agent want to be!
+	// Which color does the subject want to be!
 	private int getColorID(String sColor)
 	{
 		if (sColor.equals("army") )
@@ -1123,8 +1123,8 @@ public class Env extends Environment implements ObsVectListener
 	
 	// / This listener is notified upon changes regarding the Agent list.
 	// / Please note that this only involves registering new agents or
-	// / removing existing agents. To track agent position changes, add
-	// / a listener to that specific agent.
+	// / removing existing agents. To track subject position changes, add
+	// / a listener to that specific subject.
 	// / \sa Agent
 	public void addAgentListener( ObsVectListener o ) 
 	{
@@ -1208,7 +1208,7 @@ public class Env extends Environment implements ObsVectListener
 	
     public void addAgentEntity(String agent) {
         // If the number of entities has been specified in the MAS file, 
-        // bypass 2APL specific automatic agent-entity attaching mechanism.
+        // bypass 2APL specific automatic subject-entity attaching mechanism.
         if (agentmap.containsKey("robot0")) return;
         
         super.addAgentEntity(agent);

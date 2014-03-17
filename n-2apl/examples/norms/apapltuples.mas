@@ -6,4 +6,5 @@
     <agent name="a4" file="pursuer3.2apl"/>
      <agent name="c1" file="controller.2apl"/>
       <agent name="t1" file="truck.2apl"/>
+      <agent name="ra" file="ra.2apl"/>
 </apaplmas>

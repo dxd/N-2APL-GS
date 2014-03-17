@@ -95,6 +95,7 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
         IJSpace ispace = new UrlSpaceConfigurer("jini://*/*/myGrid").space();
         EventSessionFactory factory = EventSessionFactory.getFactory(ispace);
         session = factory.newDataEventSession(config); 
+        
     }
     
 	
@@ -160,7 +161,8 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 	 */
 	public EnvGeoSense(){
 		super();
-		try { initializeGS(); initializeOOPL();} catch (Exception e) { e.printStackTrace(); }
+		try { initializeGS(); initializeOOPL();} 
+		catch (Exception e) { e.printStackTrace(); }
 	}
 	
 	//////////////////////// 2OPL TO JAVASPACE AND 2APL
@@ -224,7 +226,7 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 				ea.intResult = ar_true;
 			} catch (Exception e) {e.printStackTrace();}
 	    /*
-	     * The next case throws towards the agent an event that its status is changed.
+	     * The next case throws towards the subject an event that its status is changed.
 	     */
 		} else if(call[1] == oopl.prolog.strStorage.getInt("notifyAgent")){ // notifyAgent(name,obligation(blabla)).
 			
@@ -237,14 +239,14 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 				//updateClock(0);
 				e.setClock(clock);
 			}
-			System.out.println("Organization notifies agent (write): "+e.toString());
+			System.out.println("Organization notifies subject (write): "+e.toString());
 			space.write(e);
 			
 			//throwEvent(event, new String[]{recipient});
 			ea.intResult = ar_true;
 		}
 			else if(call[1] == oopl.prolog.strStorage.getInt("sanction")){ // notifyAgent(name,obligation(blabla)).
-				System.out.println("Organization sanctions agent (write): ");
+				System.out.println("Organization sanctions subject (write): ");
 				String recipient = oopl.prolog.strStorage.getString(call[4]);
 				APLFunction event = (APLFunction)converter.get2APLTerm(Arrays.copyOfRange(call, 6, call.length));
 				TimeEntry e = createEntry(recipient, event);
@@ -254,7 +256,7 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 					//updateClock(0);
 					e.setClock(clock);
 				}
-				System.out.println("Organization notifies agent (write): "+e.toString());
+				System.out.println("Organization notifies subject (write): "+e.toString());
 				space.write(e);
 				
 				//throwEvent(event, new String[]{recipient});
@@ -339,13 +341,13 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 
 	/**
 	 * Convert a Prolog predicate to a suitable JavaSpace datatype.
-	 * @param sAgent The agent that calls the method (important for the name in the status).
+	 * @param sAgent The subject that calls the method (important for the name in the status).
 	 * @param call The predicate from the call.
 	 * @return The entry representation of the predicate.
 	 */
 	public TimeEntry createEntry(String sAgent, APLFunction call){ 
 		
-		//System.out.print("from/for agent " + sAgent + "  ");
+		//System.out.print("from/for subject " + sAgent + "  ");
 		//System.out.println(call.toString());
 		if(call.getName().equals(TYPE_STATUS)){ // Prolog format: status(position(1,4),30) 
 			Cell c = null;
@@ -368,7 +370,7 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 				int pointY = ((APLNum)point.getParams().get(1)).toInt();
 				c = new Cell(pointX,pointY);
 			}
-			//System.out.print("from/for agent " + sAgent + "  ");
+			//System.out.print("from/for subject " + sAgent + "  ");
 			//System.out.println(call.toString());
 			return new ActionRequest(sAgent,"reading",c,clock); // Create Tuple
 		}
@@ -380,7 +382,7 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 				int pointY = ((APLNum)point.getParams().get(1)).toInt();
 				c = new Cell(pointX,pointY);
 			}
-			System.out.print("from/for agent " + sAgent + "  ");
+			System.out.print("from/for subject " + sAgent + "  ");
 			System.out.println(call.toString());
 			System.out.println(new Reading(sAgent,c));
 			return new Reading(sAgent,c); // Create Tuple
@@ -464,7 +466,7 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 		return null;
 	}
 	
-	//agent use
+	//subject use
 	//Possibly move to Tuple classes
 	public Term entryToTerm(TimeEntry timeEntry){ 
 		
@@ -564,7 +566,7 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 	}
 
 
-	//from agent program
+	//from subject program
 	public Term read(String sAgent, APLFunction call, APLNum timeOut){
 	
 		try{ 
@@ -660,7 +662,7 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 		if (t.toString() == "null")
 			return;
 		throwEvent((APLFunction) t, new String[]{agent});
-		System.out.println("Event sent to agent      "+agent+ " " +t.toString());
+		System.out.println("Event sent to subject      "+agent+ " " +t.toString());
 		
 	}
 	public void notifyAgent(String agent, ArrayList<TimeEntry> r) {

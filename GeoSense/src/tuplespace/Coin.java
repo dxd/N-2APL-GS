@@ -76,7 +76,7 @@ public Coin(Cell cell, String agent, Integer clock) {
     
 	@Override
 	public String toString() {
-		return "Coin [id=" + id + ", cell=" + cell + ", agent=" + agent
+		return "Coin [id=" + id + ", cell=" + cell + ", subject=" + agent
 				+ ", time=" + time + ", clock=" + clock + "]";
 	}
 

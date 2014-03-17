@@ -33,7 +33,7 @@ public class Prohibition implements TimeEntry {
 
 	@Override
 	public String toString() {
-		return "Prohibition [agent=" + agent + ", prohibition=" + prohibition
+		return "Prohibition [subject=" + agent + ", prohibition=" + prohibition
 				+ ", sanction=" + sanction + ", clock=" + clock + ", time="
 				+ time + "]";
 	}

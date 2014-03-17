@@ -1,103 +1,59 @@
 Facts:
 
-%RA:
+%RA
 norm(
-    sanction_group(Thing),
-    Thing, // the subject agent
-    ( truck(Thing), water(X,Y)), // precondition
-    prohibition([at(X,Y,Thing)],[reduce(Thing,300)]) // prohibition format
-    ). 
-
+    sanction_group(ra),
+    RA, // the subject agent
+    ( ra(ra), sanction(Group,Sanction)), // precondition
+    obligation([atleast(agent_sanctions(g),Sanction)],now+15,[reduce(RA,Sanction)]) // prohibition format
+    ).    
+     
+%group
+norm(
+    group_action(Group),
+    Group, // the subject agent
+    ( group(Group)), // precondition - left blank for now
+    obligation([atleast(agent_sanctions(g),Sanction)],now+15,[sanction_group(Group,Sanction)]) // prohibition format
+    ).
     
-%Truck:
-
+%agents group norms from RA
 norm(
-    enter_water(Thing),
-    Thing, // the subject agent
-    ( truck(Thing), water(X,Y)), // precondition
-    prohibition([at(X,Y,Thing)],[reduce(Thing,300)]) // prohibition format
-    ). 
-    
-norm(
-    game_area(Thing),
-    Thing, // the subject agent
-    ( truck(Thing), not_area(X,Y)), // precondition
-    prohibition([at(X,Y,Thing)],[reduce(Thing,500)]) // prohibition format
+    group_task(Agent),
+    a1, // the subject agent
+    ( pursuer(a1), groupnorm(ra)), // precondition - add triggering condition
+    obligation([west(X,Y,Agent)],now+15,[reduce(a1, Sanction)]) // prohibition format
     ).  
-        
-norm(
-    drop_load(Thing),
-    Thing, // the subject agent
-    ( truck(Thing), cargo(X,Y)), // precondition
-    prohibition([cargo(X,Y)],[reduce(Thing,400)]) // obligation format
-    ).
     
-%Controller:
+norm(
+    group_task(a2),
+    a2, // the subject agent
+    ( pursuer(a2), groupnorm(ra)), // precondition - add triggering condition
+    obligation([east(X,Y,a2)],now+15,[reduce(a2, Sanction)]) // prohibition format
+    ).  
 
 norm(
-    place_coin_near(Thing),
-    Thing, // the subject agent
-    ( controller(Thing), coin(X,Y), NewX is X + 1, NewY is Y + 1, gameArea(X,Y)), // precondition
-    prohibition([coin(NewX,NewY)],[reduce(Thing,200)]) // prohibition format
-    ). 
-
-norm(
-    place_coin_water(Thing),
-    Thing, // the subject agent
-    ( controller(Thing), agent(A1), water(X,Y)), // precondition
-    prohibition([coin(X,Y,A1)],[reduce(Thing,300)]) // prohibition format
-    ).   
-
-norm(
-    place_coin(Thing),//place coin for an agent
-    Thing, // the subject agent
-    ( controller(Thing),agent(A) ), // precondition
-    obligation([coin(A)],now+15,[reduce(Thing,100)]) // obligation format
-    ).
-
-
-%Pursuer:
-
-norm(
-    read_on_the_same_place(Thing),
-    Thing, // the subject agent
-    ( agent(Thing), reading(X,Y, Value,Thing,Time), NewTime is Time + 1), // precondition
-    prohibition([reading(X,Y,Thing)],[reduce(Thing,300)]) // prohibition format
+    group_task(a3),
+    a3, // the subject agent
+    ( pursuer(a3), groupnorm(ra)), // precondition - add triggering condition
+    obligation([north(X,Y,a3)],now+15,[reduce(a3, Sanction)]) // prohibition format
     ). 
     
 norm(
-    enter_water(Thing),
-    Thing, // the subject agent
-    ( agent(Thing), water(X,Y)), // precondition
-    prohibition([at(X,Y,Thing)],[reduce(Thing,300)]) // prohibition format
+    group_task(a4),
+    a4, // the subject agent
+    ( pursuer(a4), groupnorm(ra)), // precondition - add triggering condition
+    obligation([south(X,Y,a4)],now+15,[reduce(a4, Sanction)]) // prohibition format
     ). 
     
-norm(
-   collect_coin(Thing), //sending to all pursuers
-    Thing, // the subject agent
-    ( agent(Thing), coin(X,Y) ), // precondition
-    obligation([makeReading(X,Y)],now+15,[reduce(Thing,400)]) // obligation format
-   ).
     
-norm(
-    surround_coin(Thing), //sending to all pursuers
-    Thing, // the subject agent
-    ( agent(Thing), coin(X,Y) ), // precondition
-    obligation([surround(X,Y)],now+15,[reduce(Thing,400)]) // obligation format
-    ).
-    
-//norm(
-//    collect_coin(Thing), //sending to group of agents
-//    Thing, // the subject agent
-//    ( [a1,a2,a3,a4], coin(X,Y) ), // precondition
-//    obligation([makeGroupReading(X,Y)],now+15,[reduce(400)]) // obligation format
-//    ).
+%original norms    
+
     
 agent(a1).
 agent(a2).
 agent(a3).
 agent(a4).
-
+ra(ra).
 truck(t1).
 
 movable(A) :- agent(A).
@@ -130,6 +86,18 @@ water(15,15).
 water(15,16).
 water(16,15).
 water(16,16).
+
+east(X,Y,EX,Y) :- EX is X + 1.
+west(X,Y,EX,Y) :- EX is X - 1.
+north(X,Y,X,EY) :- EY is Y + 1.
+south(X,Y,X,EY) :- EY is Y - 1.
+
+groupnorm(ra).
+
+east(X,Y,A) :- EX is X + 1, at(EX,Y,A).
+west(X,Y,A) :- EX is X - 1, at(EX,Y,A).
+north(X,Y,A) :- EY is Y + 1, at(X,EY,A).
+south(X,Y,A) :- EY is Y - 1, at(X,EY,A).
 
 surround(X,Y) :-
 	East is X + 1, North is Y + 1, West is X - 1, South is Y - 1,
