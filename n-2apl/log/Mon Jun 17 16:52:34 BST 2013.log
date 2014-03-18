@@ -1,0 +1,320 @@
+2013-06-17 16:52:35,863 CONFIG [com.gigaspaces.logger] - Log file: /Users/dxd/gigaspaces-xap-premium-9.5.1-ga/logs/2013-06-17~16.52-gigaspaces-service-128.243.23.149-2502.log
+register a1
+register a2
+register a3
+register c1
+register t1
+org notification: Cargo [id=null, cell=Cell [x=19, y=19], time=2013-06-17 16:52:44.674, clock=0]
+org notification: Position [agent=a1, id=null, cell=Cell [x=3, y=4], time=2013-06-17 16:52:44.777, clock=0]
+Organization notifies agent (write): Obligation [agent=a1, obligation=[makeReading(8, 6)], sanction=[reduce_400(a1)], deadline=20, time=2013-06-17 16:52:46.307, clock=0]
+Organization notifies agent (write): Prohibition [agent=t1, prohibition=[at(5, 5, t1)], sanction=[reduce_300(t1)], clock=0, time=2013-06-17 16:52:46.373]
+Organization notifies agent (write): Prohibition [agent=t1, prohibition=[at(5, 6, t1)], sanction=[reduce_300(t1)], clock=0, time=2013-06-17 16:52:46.382]
+Organization notifies agent (write): Prohibition [agent=t1, prohibition=[at(6, 5, t1)], sanction=[reduce_300(t1)], clock=0, time=2013-06-17 16:52:46.385]
+Organization notifies agent (write): Prohibition [agent=t1, prohibition=[at(6, 6, t1)], sanction=[reduce_300(t1)], clock=0, time=2013-06-17 16:52:46.395]
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(5, 5, a1)], sanction=[reduce_300(c1)], clock=0, time=2013-06-17 16:52:46.404]
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(5, 6, a1)], sanction=[reduce_300(c1)], clock=0, time=2013-06-17 16:52:46.422]
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(6, 5, a1)], sanction=[reduce_300(c1)], clock=0, time=2013-06-17 16:52:46.424]
+agent notification: Obligation [agent=a1, obligation=[makeReading(8, 6)], sanction=[reduce_400(a1)], deadline=20, time=2013-06-17 16:52:46.307, clock=0]
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(6, 6, a1)], sanction=[reduce_300(c1)], clock=0, time=2013-06-17 16:52:46.43]
+Event sent to agent      a1 obligation(makeReading(8, 6), 20, reduce_400(a1))
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(5, 5, a2)], sanction=[reduce_300(c1)], clock=0, time=2013-06-17 16:52:46.44]
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(5, 6, a2)], sanction=[reduce_300(c1)], clock=0, time=2013-06-17 16:52:46.442]
+agent notification: Prohibition [agent=c1, prohibition=[coin(5, 5, a1)], sanction=[reduce_300(c1)], clock=0, time=2013-06-17 16:52:46.404]
+Event sent to agent      c1 prohibition(coin(5, 5, a1), reduce_300(c1))
+agent notification: Prohibition [agent=c1, prohibition=[coin(5, 6, a1)], sanction=[reduce_300(c1)], clock=0, time=2013-06-17 16:52:46.422]
+Event sent to agent      c1 prohibition(coin(5, 6, a1), reduce_300(c1))
+agent notification: Prohibition [agent=c1, prohibition=[coin(6, 5, a1)], sanction=[reduce_300(c1)], clock=0, time=2013-06-17 16:52:46.424]
+Event sent to agent      c1 prohibition(coin(6, 5, a1), reduce_300(c1))
+agent notification: Prohibition [agent=t1, prohibition=[at(5, 5, t1)], sanction=[reduce_300(t1)], clock=0, time=2013-06-17 16:52:46.373]
+Event sent to agent      t1 prohibition(at(5, 5, t1), reduce_300(t1))
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(6, 5, a2)], sanction=[reduce_300(c1)], clock=0, time=2013-06-17 16:52:46.481]
+agent notification: Prohibition [agent=t1, prohibition=[at(5, 6, t1)], sanction=[reduce_300(t1)], clock=0, time=2013-06-17 16:52:46.382]
+Event sent to agent      t1 prohibition(at(5, 6, t1), reduce_300(t1))
+agent notification: Prohibition [agent=t1, prohibition=[at(6, 5, t1)], sanction=[reduce_300(t1)], clock=0, time=2013-06-17 16:52:46.385]
+Event sent to agent      t1 prohibition(at(6, 5, t1), reduce_300(t1))
+agent notification: Prohibition [agent=t1, prohibition=[at(6, 6, t1)], sanction=[reduce_300(t1)], clock=0, time=2013-06-17 16:52:46.395]
+Event sent to agent      t1 prohibition(at(6, 6, t1), reduce_300(t1))
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(6, 6, a2)], sanction=[reduce_300(c1)], clock=0, time=2013-06-17 16:52:46.495]
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(5, 5, a3)], sanction=[reduce_300(c1)], clock=0, time=2013-06-17 16:52:46.497]
+agent notification: Prohibition [agent=c1, prohibition=[coin(6, 6, a1)], sanction=[reduce_300(c1)], clock=0, time=2013-06-17 16:52:46.43]
+Event sent to agent      c1 prohibition(coin(6, 6, a1), reduce_300(c1))
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(5, 6, a3)], sanction=[reduce_300(c1)], clock=0, time=2013-06-17 16:52:46.501]
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(6, 5, a3)], sanction=[reduce_300(c1)], clock=0, time=2013-06-17 16:52:46.504]
+agent notification: Prohibition [agent=c1, prohibition=[coin(5, 5, a2)], sanction=[reduce_300(c1)], clock=0, time=2013-06-17 16:52:46.44]
+Event sent to agent      c1 prohibition(coin(5, 5, a2), reduce_300(c1))
+agent notification: Prohibition [agent=c1, prohibition=[coin(5, 6, a2)], sanction=[reduce_300(c1)], clock=0, time=2013-06-17 16:52:46.442]
+Event sent to agent      c1 prohibition(coin(5, 6, a2), reduce_300(c1))
+agent notification: Prohibition [agent=c1, prohibition=[coin(6, 5, a2)], sanction=[reduce_300(c1)], clock=0, time=2013-06-17 16:52:46.481]
+Event sent to agent      c1 prohibition(coin(6, 5, a2), reduce_300(c1))
+agent notification: Prohibition [agent=c1, prohibition=[coin(6, 6, a2)], sanction=[reduce_300(c1)], clock=0, time=2013-06-17 16:52:46.495]
+Event sent to agent      c1 prohibition(coin(6, 6, a2), reduce_300(c1))
+agent notification: Prohibition [agent=c1, prohibition=[coin(5, 5, a3)], sanction=[reduce_300(c1)], clock=0, time=2013-06-17 16:52:46.497]
+Event sent to agent      c1 prohibition(coin(5, 5, a3), reduce_300(c1))
+Organization notifies agent (write): Prohibition [agent=c1, prohibition=[coin(6, 6, a3)], sanction=[reduce_300(c1)], clock=0, time=2013-06-17 16:52:46.509]
+agent notification: Prohibition [agent=c1, prohibition=[coin(5, 6, a3)], sanction=[reduce_300(c1)], clock=0, time=2013-06-17 16:52:46.501]
+Event sent to agent      c1 prohibition(coin(5, 6, a3), reduce_300(c1))
+agent notification: Prohibition [agent=c1, prohibition=[coin(6, 5, a3)], sanction=[reduce_300(c1)], clock=0, time=2013-06-17 16:52:46.504]
+Event sent to agent      c1 prohibition(coin(6, 5, a3), reduce_300(c1))
+agent notification: Prohibition [agent=c1, prohibition=[coin(6, 6, a3)], sanction=[reduce_300(c1)], clock=0, time=2013-06-17 16:52:46.509]
+Event sent to agent      c1 prohibition(coin(6, 6, a3), reduce_300(c1))
+Organization notifies agent (write): Prohibition [agent=a1, prohibition=[at(5, 5, a1)], sanction=[reduce_300(a1)], clock=0, time=2013-06-17 16:52:46.522]
+Organization notifies agent (write): Prohibition [agent=a1, prohibition=[at(5, 6, a1)], sanction=[reduce_300(a1)], clock=0, time=2013-06-17 16:52:46.524]
+Organization notifies agent (write): Prohibition [agent=a1, prohibition=[at(6, 5, a1)], sanction=[reduce_300(a1)], clock=0, time=2013-06-17 16:52:46.537]
+Organization notifies agent (write): Prohibition [agent=a1, prohibition=[at(6, 6, a1)], sanction=[reduce_300(a1)], clock=0, time=2013-06-17 16:52:46.54]
+agent notification: Prohibition [agent=a1, prohibition=[at(5, 5, a1)], sanction=[reduce_300(a1)], clock=0, time=2013-06-17 16:52:46.522]
+Event sent to agent      a1 prohibition(at(5, 5, a1), reduce_300(a1))
+Organization notifies agent (write): Prohibition [agent=a2, prohibition=[at(5, 5, a2)], sanction=[reduce_300(a2)], clock=0, time=2013-06-17 16:52:46.601]
+agent notification: Prohibition [agent=a1, prohibition=[at(5, 6, a1)], sanction=[reduce_300(a1)], clock=0, time=2013-06-17 16:52:46.524]
+Event sent to agent      a1 prohibition(at(5, 6, a1), reduce_300(a1))
+agent notification: Prohibition [agent=a1, prohibition=[at(6, 5, a1)], sanction=[reduce_300(a1)], clock=0, time=2013-06-17 16:52:46.537]
+Event sent to agent      a1 prohibition(at(6, 5, a1), reduce_300(a1))
+Organization notifies agent (write): Prohibition [agent=a2, prohibition=[at(5, 6, a2)], sanction=[reduce_300(a2)], clock=0, time=2013-06-17 16:52:46.603]
+agent notification: Prohibition [agent=a1, prohibition=[at(6, 6, a1)], sanction=[reduce_300(a1)], clock=0, time=2013-06-17 16:52:46.54]
+Event sent to agent      a1 prohibition(at(6, 6, a1), reduce_300(a1))
+Organization notifies agent (write): Prohibition [agent=a2, prohibition=[at(6, 5, a2)], sanction=[reduce_300(a2)], clock=0, time=2013-06-17 16:52:46.606]
+Organization notifies agent (write): Prohibition [agent=a2, prohibition=[at(6, 6, a2)], sanction=[reduce_300(a2)], clock=0, time=2013-06-17 16:52:46.608]
+agent notification: Prohibition [agent=a2, prohibition=[at(5, 5, a2)], sanction=[reduce_300(a2)], clock=0, time=2013-06-17 16:52:46.601]
+Event sent to agent      a2 prohibition(at(5, 5, a2), reduce_300(a2))
+agent notification: Prohibition [agent=a2, prohibition=[at(5, 6, a2)], sanction=[reduce_300(a2)], clock=0, time=2013-06-17 16:52:46.603]
+Event sent to agent      a2 prohibition(at(5, 6, a2), reduce_300(a2))
+Organization notifies agent (write): Prohibition [agent=a3, prohibition=[at(5, 5, a3)], sanction=[reduce_300(a3)], clock=0, time=2013-06-17 16:52:46.614]
+agent notification: Prohibition [agent=a2, prohibition=[at(6, 5, a2)], sanction=[reduce_300(a2)], clock=0, time=2013-06-17 16:52:46.606]
+Organization notifies agent (write): Prohibition [agent=a3, prohibition=[at(5, 6, a3)], sanction=[reduce_300(a3)], clock=0, time=2013-06-17 16:52:46.616]
+Event sent to agent      a2 prohibition(at(6, 5, a2), reduce_300(a2))
+agent notification: Prohibition [agent=a2, prohibition=[at(6, 6, a2)], sanction=[reduce_300(a2)], clock=0, time=2013-06-17 16:52:46.608]
+Event sent to agent      a2 prohibition(at(6, 6, a2), reduce_300(a2))
+Organization notifies agent (write): Prohibition [agent=a3, prohibition=[at(6, 5, a3)], sanction=[reduce_300(a3)], clock=0, time=2013-06-17 16:52:46.62]
+agent notification: Prohibition [agent=a3, prohibition=[at(5, 5, a3)], sanction=[reduce_300(a3)], clock=0, time=2013-06-17 16:52:46.614]
+Event sent to agent      a3 prohibition(at(5, 5, a3), reduce_300(a3))
+agent notification: Prohibition [agent=a3, prohibition=[at(5, 6, a3)], sanction=[reduce_300(a3)], clock=0, time=2013-06-17 16:52:46.616]
+Event sent to agent      a3 prohibition(at(5, 6, a3), reduce_300(a3))
+Organization notifies agent (write): Prohibition [agent=a3, prohibition=[at(6, 6, a3)], sanction=[reduce_300(a3)], clock=0, time=2013-06-17 16:52:46.622]
+agent notification: Prohibition [agent=a3, prohibition=[at(6, 5, a3)], sanction=[reduce_300(a3)], clock=0, time=2013-06-17 16:52:46.62]
+Event sent to agent      a3 prohibition(at(6, 5, a3), reduce_300(a3))
+agent notification: Prohibition [agent=a3, prohibition=[at(6, 6, a3)], sanction=[reduce_300(a3)], clock=0, time=2013-06-17 16:52:46.622]
+Event sent to agent      a3 prohibition(at(6, 6, a3), reduce_300(a3))
+Event processed aprohibition(at(5, 5, a3), reduce_300(a3))
+Event processed aprohibition(at(5, 6, a3), reduce_300(a3))
+Event processed aprohibition(at(6, 5, a3), reduce_300(a3))
+Event processed aprohibition(at(6, 6, a3), reduce_300(a3))
+Event processed adoptObligation(makeReading(8, 6), 20, reduce_400(a1))
+Event processed aprohibition(at(5, 5, a1), reduce_300(a1))
+Event processed aprohibition(at(5, 6, a1), reduce_300(a1))
+Event processed aprohibition(at(6, 5, a1), reduce_300(a1))
+Event processed aprohibition(at(6, 6, a1), reduce_300(a1))
+Event processed aprohibition(at(5, 5, t1), reduce_300(t1))
+Event processed aprohibition(at(5, 6, t1), reduce_300(t1))
+Event processed aprohibition(at(6, 5, t1), reduce_300(t1))
+Event processed aprohibition(at(6, 6, t1), reduce_300(t1))
+Event processed aprohibition(coin(5, 5, a1), reduce_300(c1))
+Event processed aprohibition(coin(5, 6, a1), reduce_300(c1))
+Event processed aprohibition(coin(6, 5, a1), reduce_300(c1))
+Event processed aprohibition(coin(6, 6, a1), reduce_300(c1))
+Event processed aprohibition(coin(5, 5, a2), reduce_300(c1))
+Event processed aprohibition(coin(5, 6, a2), reduce_300(c1))
+Event processed aprohibition(coin(6, 5, a2), reduce_300(c1))
+Event processed aprohibition(coin(6, 6, a2), reduce_300(c1))
+Event processed aprohibition(coin(5, 5, a3), reduce_300(c1))
+Event processed aprohibition(coin(5, 6, a3), reduce_300(c1))
+Event processed aprohibition(coin(6, 5, a3), reduce_300(c1))
+Event processed aprohibition(coin(6, 6, a3), reduce_300(c1))
+Event processed aprohibition(at(5, 5, a2), reduce_300(a2))
+Event processed aprohibition(at(5, 6, a2), reduce_300(a2))
+Event processed aprohibition(at(6, 5, a2), reduce_300(a2))
+Event processed aprohibition(at(6, 6, a2), reduce_300(a2))
+org notification: Cargo [id=null, cell=Cell [x=19, y=19], time=2013-06-17 16:52:44.674, clock=0]
+org notification: Position [agent=a2, id=null, cell=Cell [x=7, y=19], time=2013-06-17 16:52:47.001, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=11, y=2], time=2013-06-17 16:52:47.04, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=18, y=19], time=2013-06-17 16:52:47.077, clock=0]
+org notification: Position [agent=a1, id=null, cell=Cell [x=3, y=4], time=2013-06-17 16:52:44.777, clock=0]
+org notification: Position [agent=a1, id=null, cell=Cell [x=3, y=5], time=2013-06-17 16:52:46.82, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=18, y=19], time=2013-06-17 16:52:47.077, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=11, y=2], time=2013-06-17 16:52:47.04, clock=0]
+org notification: Position [agent=a2, id=null, cell=Cell [x=7, y=19], time=2013-06-17 16:52:47.001, clock=0]
+org notification: Position [agent=a2, id=null, cell=Cell [x=6, y=19], time=2013-06-17 16:52:47.911, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=11, y=3], time=2013-06-17 16:52:47.939, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=17, y=19], time=2013-06-17 16:52:47.96, clock=0]
+org notification: Position [agent=a1, id=null, cell=Cell [x=3, y=5], time=2013-06-17 16:52:46.82, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=11, y=3], time=2013-06-17 16:52:47.939, clock=0]
+org notification: Position [agent=a2, id=null, cell=Cell [x=6, y=19], time=2013-06-17 16:52:47.911, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=17, y=19], time=2013-06-17 16:52:47.96, clock=0]
+org notification: Position [agent=a1, id=null, cell=Cell [x=3, y=6], time=2013-06-17 16:52:48.25, clock=0]
+org notification: Position [agent=a2, id=null, cell=Cell [x=5, y=19], time=2013-06-17 16:52:48.635, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=11, y=4], time=2013-06-17 16:52:48.667, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=16, y=19], time=2013-06-17 16:52:48.686, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=11, y=4], time=2013-06-17 16:52:48.667, clock=0]
+org notification: Position [agent=a2, id=null, cell=Cell [x=5, y=19], time=2013-06-17 16:52:48.635, clock=0]
+org notification: Position [agent=a1, id=null, cell=Cell [x=3, y=6], time=2013-06-17 16:52:48.25, clock=0]
+org notification: Position [agent=a2, id=null, cell=Cell [x=4, y=19], time=2013-06-17 16:52:49.168, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=11, y=5], time=2013-06-17 16:52:49.19, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=15, y=19], time=2013-06-17 16:52:49.205, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=11, y=6], time=2013-06-17 16:52:49.724, clock=0]
+org notification: Position [agent=a2, id=null, cell=Cell [x=3, y=19], time=2013-06-17 16:52:49.691, clock=0]
+org notification: Position [agent=a1, id=null, cell=Cell [x=4, y=6], time=2013-06-17 16:52:48.911, clock=0]
+org notification: Position [agent=a1, id=null, cell=Cell [x=5, y=6], time=2013-06-17 16:52:49.452, clock=0]
+org notification: Position [agent=a1, id=null, cell=Cell [x=6, y=6], time=2013-06-17 16:52:50.004, clock=0]
+org notification: Position [agent=a2, id=null, cell=Cell [x=3, y=18], time=2013-06-17 16:52:50.211, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=11, y=7], time=2013-06-17 16:52:50.243, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=14, y=19], time=2013-06-17 16:52:49.728, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=11, y=7], time=2013-06-17 16:52:50.243, clock=0]
+org notification: Position [agent=a2, id=null, cell=Cell [x=3, y=18], time=2013-06-17 16:52:50.211, clock=0]
+org notification: Position [agent=a1, id=null, cell=Cell [x=7, y=6], time=2013-06-17 16:52:50.389, clock=0]
+org notification: Position [agent=a2, id=null, cell=Cell [x=3, y=19], time=2013-06-17 16:52:49.691, clock=0]
+org notification: Position [agent=a2, id=null, cell=Cell [x=4, y=19], time=2013-06-17 16:52:49.168, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=11, y=6], time=2013-06-17 16:52:49.724, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=13, y=19], time=2013-06-17 16:52:50.249, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=11, y=5], time=2013-06-17 16:52:49.19, clock=0]
+org notification: Position [agent=a1, id=null, cell=Cell [x=7, y=6], time=2013-06-17 16:52:50.389, clock=0]
+org notification: Position [agent=a2, id=null, cell=Cell [x=3, y=17], time=2013-06-17 16:52:51.144, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=13, y=19], time=2013-06-17 16:52:50.249, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=14, y=19], time=2013-06-17 16:52:49.728, clock=0]
+org notification: Position [agent=a2, id=null, cell=Cell [x=3, y=17], time=2013-06-17 16:52:51.144, clock=0]
+org notification: Position [agent=a1, id=null, cell=Cell [x=6, y=6], time=2013-06-17 16:52:50.004, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=11, y=8], time=2013-06-17 16:52:51.126, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=11, y=8], time=2013-06-17 16:52:51.126, clock=0]
+org notification: Position [agent=a1, id=null, cell=Cell [x=5, y=6], time=2013-06-17 16:52:49.452, clock=0]
+org notification: Position [agent=a2, id=null, cell=Cell [x=3, y=16], time=2013-06-17 16:52:51.883, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=15, y=19], time=2013-06-17 16:52:49.205, clock=0]
+org notification: Position [agent=a2, id=null, cell=Cell [x=3, y=16], time=2013-06-17 16:52:51.883, clock=0]
+org notification: Position [agent=a1, id=null, cell=Cell [x=4, y=6], time=2013-06-17 16:52:48.911, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=11, y=9], time=2013-06-17 16:52:51.864, clock=0]
+org notification: Position [agent=a1, id=null, cell=Cell [x=8, y=6], time=2013-06-17 16:52:51.193, clock=0]
+org notification: Position [agent=a2, id=null, cell=Cell [x=3, y=15], time=2013-06-17 16:52:52.549, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=16, y=19], time=2013-06-17 16:52:48.686, clock=0]
+org notification: Position [agent=a2, id=null, cell=Cell [x=3, y=15], time=2013-06-17 16:52:52.549, clock=0]
+org notification: Position [agent=a1, id=null, cell=Cell [x=8, y=6], time=2013-06-17 16:52:51.193, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=11, y=9], time=2013-06-17 16:52:51.864, clock=0]
+org notification: Position [agent=a1, id=null, cell=Cell [x=4, y=5], time=2013-06-17 16:52:52.353, clock=0]
+org notification: Position [agent=a2, id=null, cell=Cell [x=3, y=14], time=2013-06-17 16:52:53.23, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=12, y=19], time=2013-06-17 16:52:51.092, clock=0]
+org notification: Position [agent=a2, id=null, cell=Cell [x=3, y=14], time=2013-06-17 16:52:53.23, clock=0]
+org notification: Position [agent=a1, id=null, cell=Cell [x=4, y=5], time=2013-06-17 16:52:52.353, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=11, y=10], time=2013-06-17 16:52:52.537, clock=0]
+org notification: Position [agent=a1, id=null, cell=Cell [x=4, y=6], time=2013-06-17 16:52:53.337, clock=0]
+org notification: Position [agent=a2, id=null, cell=Cell [x=3, y=13], time=2013-06-17 16:52:53.894, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=12, y=19], time=2013-06-17 16:52:51.092, clock=0]
+org notification: Position [agent=a2, id=null, cell=Cell [x=3, y=13], time=2013-06-17 16:52:53.894, clock=0]
+org notification: Position [agent=a1, id=null, cell=Cell [x=4, y=6], time=2013-06-17 16:52:53.337, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=11, y=10], time=2013-06-17 16:52:52.537, clock=0]
+org notification: Position [agent=a1, id=null, cell=Cell [x=4, y=7], time=2013-06-17 16:52:53.995, clock=0]
+org notification: Position [agent=a2, id=null, cell=Cell [x=3, y=12], time=2013-06-17 16:52:54.489, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=11, y=19], time=2013-06-17 16:52:51.832, clock=0]
+org notification: Position [agent=a2, id=null, cell=Cell [x=3, y=12], time=2013-06-17 16:52:54.489, clock=0]
+org notification: Position [agent=a1, id=null, cell=Cell [x=4, y=7], time=2013-06-17 16:52:53.995, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=11, y=11], time=2013-06-17 16:52:53.211, clock=0]
+org notification: Position [agent=a1, id=null, cell=Cell [x=4, y=8], time=2013-06-17 16:52:54.614, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=11, y=19], time=2013-06-17 16:52:51.832, clock=0]
+org notification: Position [agent=a1, id=null, cell=Cell [x=4, y=8], time=2013-06-17 16:52:54.614, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=11, y=11], time=2013-06-17 16:52:53.211, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=10, y=19], time=2013-06-17 16:52:52.537, clock=0]
+org notification: Position [agent=a2, id=null, cell=Cell [x=3, y=11], time=2013-06-17 16:52:55.104, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=11, y=12], time=2013-06-17 16:52:53.781, clock=0]
+org notification: Position [agent=a2, id=null, cell=Cell [x=3, y=11], time=2013-06-17 16:52:55.104, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=10, y=19], time=2013-06-17 16:52:52.537, clock=0]
+org notification: Position [agent=a1, id=null, cell=Cell [x=4, y=9], time=2013-06-17 16:52:55.25, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=11, y=12], time=2013-06-17 16:52:53.781, clock=0]
+org notification: Position [agent=a1, id=null, cell=Cell [x=4, y=9], time=2013-06-17 16:52:55.25, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=9, y=19], time=2013-06-17 16:52:53.217, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=11, y=13], time=2013-06-17 16:52:54.39, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=9, y=19], time=2013-06-17 16:52:53.217, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=11, y=13], time=2013-06-17 16:52:54.39, clock=0]
+org notification: Position [agent=a2, id=null, cell=Cell [x=3, y=10], time=2013-06-17 16:52:55.738, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=11, y=14], time=2013-06-17 16:52:55.012, clock=0]
+org notification: Position [agent=a1, id=null, cell=Cell [x=4, y=10], time=2013-06-17 16:52:55.973, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=8, y=19], time=2013-06-17 16:52:53.897, clock=0]
+org notification: Position [agent=a1, id=null, cell=Cell [x=4, y=10], time=2013-06-17 16:52:55.973, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=11, y=14], time=2013-06-17 16:52:55.012, clock=0]
+org notification: Position [agent=a2, id=null, cell=Cell [x=3, y=10], time=2013-06-17 16:52:55.738, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=11, y=15], time=2013-06-17 16:52:55.617, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=8, y=19], time=2013-06-17 16:52:53.897, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=11, y=15], time=2013-06-17 16:52:55.617, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=7, y=19], time=2013-06-17 16:52:54.495, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=11, y=16], time=2013-06-17 16:52:56.367, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=7, y=19], time=2013-06-17 16:52:54.495, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=11, y=16], time=2013-06-17 16:52:56.367, clock=0]
+org notification: Position [agent=a2, id=null, cell=Cell [x=3, y=9], time=2013-06-17 16:52:56.504, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=6, y=19], time=2013-06-17 16:52:55.109, clock=0]
+org notification: Position [agent=a2, id=null, cell=Cell [x=3, y=9], time=2013-06-17 16:52:56.504, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=6, y=19], time=2013-06-17 16:52:55.109, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=5, y=19], time=2013-06-17 16:52:55.743, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=5, y=19], time=2013-06-17 16:52:55.743, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=4, y=19], time=2013-06-17 16:52:56.495, clock=0]
+org notification: Position [agent=a1, id=null, cell=Cell [x=5, y=10], time=2013-06-17 16:52:56.695, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=4, y=19], time=2013-06-17 16:52:56.495, clock=0]
+org notification: Position [agent=a1, id=null, cell=Cell [x=5, y=10], time=2013-06-17 16:52:56.695, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=11, y=17], time=2013-06-17 16:52:57.003, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=11, y=17], time=2013-06-17 16:52:57.003, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=3, y=19], time=2013-06-17 16:52:57.099, clock=0]
+org notification: Position [agent=a2, id=null, cell=Cell [x=3, y=8], time=2013-06-17 16:52:57.116, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=3, y=19], time=2013-06-17 16:52:57.099, clock=0]
+org notification: Position [agent=a2, id=null, cell=Cell [x=3, y=8], time=2013-06-17 16:52:57.116, clock=0]
+org notification: Position [agent=a1, id=null, cell=Cell [x=6, y=10], time=2013-06-17 16:52:57.28, clock=0]
+org notification: Position [agent=a1, id=null, cell=Cell [x=6, y=10], time=2013-06-17 16:52:57.28, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=11, y=18], time=2013-06-17 16:52:57.549, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=11, y=18], time=2013-06-17 16:52:57.549, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=2, y=19], time=2013-06-17 16:52:57.644, clock=0]
+org notification: Position [agent=a2, id=null, cell=Cell [x=3, y=7], time=2013-06-17 16:52:57.654, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=2, y=19], time=2013-06-17 16:52:57.644, clock=0]
+org notification: Position [agent=a2, id=null, cell=Cell [x=3, y=7], time=2013-06-17 16:52:57.654, clock=0]
+org notification: Position [agent=a1, id=null, cell=Cell [x=7, y=10], time=2013-06-17 16:52:57.816, clock=0]
+org notification: Position [agent=a1, id=null, cell=Cell [x=7, y=10], time=2013-06-17 16:52:57.816, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=11, y=19], time=2013-06-17 16:52:58.07, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=11, y=19], time=2013-06-17 16:52:58.07, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=2, y=18], time=2013-06-17 16:52:58.164, clock=0]
+org notification: Position [agent=a2, id=null, cell=Cell [x=3, y=6], time=2013-06-17 16:52:58.168, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=2, y=18], time=2013-06-17 16:52:58.164, clock=0]
+org notification: Position [agent=a2, id=null, cell=Cell [x=3, y=6], time=2013-06-17 16:52:58.168, clock=0]
+org notification: Position [agent=a1, id=null, cell=Cell [x=8, y=10], time=2013-06-17 16:52:58.336, clock=0]
+org notification: Position [agent=a1, id=null, cell=Cell [x=8, y=10], time=2013-06-17 16:52:58.336, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=12, y=19], time=2013-06-17 16:52:58.591, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=12, y=19], time=2013-06-17 16:52:58.591, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=2, y=17], time=2013-06-17 16:52:58.689, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=2, y=17], time=2013-06-17 16:52:58.689, clock=0]
+org notification: Position [agent=a1, id=null, cell=Cell [x=9, y=10], time=2013-06-17 16:52:58.844, clock=0]
+org notification: Position [agent=a1, id=null, cell=Cell [x=9, y=10], time=2013-06-17 16:52:58.844, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=13, y=19], time=2013-06-17 16:52:59.078, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=13, y=19], time=2013-06-17 16:52:59.078, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=2, y=16], time=2013-06-17 16:52:59.157, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=2, y=16], time=2013-06-17 16:52:59.157, clock=0]
+org notification: Position [agent=a1, id=null, cell=Cell [x=10, y=10], time=2013-06-17 16:52:59.32, clock=0]
+org notification: Position [agent=a1, id=null, cell=Cell [x=10, y=10], time=2013-06-17 16:52:59.32, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=14, y=19], time=2013-06-17 16:52:59.532, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=14, y=19], time=2013-06-17 16:52:59.532, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=2, y=15], time=2013-06-17 16:52:59.6, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=2, y=15], time=2013-06-17 16:52:59.6, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=15, y=19], time=2013-06-17 16:52:59.951, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=15, y=19], time=2013-06-17 16:52:59.951, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=2, y=14], time=2013-06-17 16:53:00.01, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=2, y=14], time=2013-06-17 16:53:00.01, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=16, y=19], time=2013-06-17 16:53:00.351, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=16, y=19], time=2013-06-17 16:53:00.351, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=2, y=13], time=2013-06-17 16:53:00.409, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=2, y=13], time=2013-06-17 16:53:00.409, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=17, y=19], time=2013-06-17 16:53:00.744, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=17, y=19], time=2013-06-17 16:53:00.744, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=2, y=12], time=2013-06-17 16:53:00.81, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=2, y=12], time=2013-06-17 16:53:00.81, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=18, y=19], time=2013-06-17 16:53:01.153, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=18, y=19], time=2013-06-17 16:53:01.153, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=2, y=11], time=2013-06-17 16:53:01.211, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=2, y=11], time=2013-06-17 16:53:01.211, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=19, y=19], time=2013-06-17 16:53:01.549, clock=0]
+org notification: Position [agent=a3, id=null, cell=Cell [x=19, y=19], time=2013-06-17 16:53:01.549, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=2, y=10], time=2013-06-17 16:53:01.612, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=2, y=10], time=2013-06-17 16:53:01.612, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=2, y=9], time=2013-06-17 16:53:01.98, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=2, y=9], time=2013-06-17 16:53:01.98, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=2, y=8], time=2013-06-17 16:53:02.294, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=2, y=8], time=2013-06-17 16:53:02.294, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=2, y=7], time=2013-06-17 16:53:02.607, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=2, y=7], time=2013-06-17 16:53:02.607, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=2, y=6], time=2013-06-17 16:53:02.904, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=2, y=6], time=2013-06-17 16:53:02.904, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=2, y=5], time=2013-06-17 16:53:03.206, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=2, y=5], time=2013-06-17 16:53:03.206, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=2, y=4], time=2013-06-17 16:53:03.517, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=2, y=4], time=2013-06-17 16:53:03.517, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=2, y=3], time=2013-06-17 16:53:03.836, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=2, y=3], time=2013-06-17 16:53:03.836, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=2, y=2], time=2013-06-17 16:53:04.171, clock=0]
+org notification: Position [agent=t1, id=null, cell=Cell [x=2, y=2], time=2013-06-17 16:53:04.171, clock=0]

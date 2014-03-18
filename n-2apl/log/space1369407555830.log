@@ -189,8 +189,8 @@ a2
 null
 [null]
 java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1127)
-	at envJavaSpace.AgentHandler.notify(AgentHandler.java:58)
+	at geoSenseMW.EnvGeoSense.notifyAgent(SpaceTest.java:1127)
+	at geoSenseMW.AgentHandler.notify(AgentHandler.java:58)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)

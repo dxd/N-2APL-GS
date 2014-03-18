@@ -61,7 +61,7 @@ public class PAction extends ModulePlan
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		if (action.equals("adoptprohibition")) {
+		if (action.equals("aprohibition")) {
 			//p.evaluate();
 			prohibitions.add(p);
 			//System.out.println("PAction:   "+p);

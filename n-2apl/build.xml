@@ -70,9 +70,7 @@
     							lib/jade/jadeTools.jar		
     							lib/jiprolog/jipxsystem.jar
     							lib/apleis/eis-0.2-lib.jar
-    	        				lib/river/jini-core.jar		
-    	        	    		lib/river/jini-ext.jar		
-    	        	    		lib/river/sun-util.jar
+    	        	
     	          "
     		    />
 	   </manifest>
@@ -94,6 +92,21 @@
   	<!-- Distributes re-compiled blockworld environment to the examples -->
     <copy file="${releasedir}/environments/blockworld.jar" tofile="${releasedir}/examples/explorer and carrier/blockworld.jar" />
     <copy file="${releasedir}/environments/blockworld.jar" tofile="${releasedir}/examples/harry and sally/blockworld.jar" />
+  	
+  	<jar basedir="${builddir}/" destfile="${releasedir}/environments/geoSenseMW.jar">
+  	      <include name="geoSenseMW/**" />
+  	    	<include name="apapl/data/**" />
+  	    	<include name="apapl/Environment.class" />
+  	    	<include name="apapl/ExternalActionFailedException.class" />
+  	    	<include name="apapl/Substitutable.class" />
+  	    	<manifest>
+  	        <attribute name="Main-Class" value="geoSenseMW.EnvGeoSense"/>
+  		    </manifest>
+  	    </jar>
+  	  	
+  	  	<!-- Distributes re-compiled GeoSense environment to the examples -->
+  	    <copy file="${releasedir}/environments/geoSenseMW.jar" tofile="${releasedir}/examples/enorms/geoSenseMW.jar" />
+  	
   	<delete dir="${releasedir}/environments" />
   	
   </target>

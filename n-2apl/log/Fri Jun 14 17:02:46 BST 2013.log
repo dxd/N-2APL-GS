@@ -11,7 +11,7 @@ from/for agent a1  reading(position(5, 5))
 Reading [id=null, agent=a1, cell=Cell [x=5, y=5], time=null, value=null, clock=null]
 Error while processing notification
 java.lang.NullPointerException
-	at envJavaSpace.AgentHandler.notify(AgentHandler.java:39)
+	at geoSenseMW.AgentHandler.notify(AgentHandler.java:39)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -21,7 +21,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while processing notification
 java.lang.NullPointerException
-	at envJavaSpace.AgentHandler.notify(AgentHandler.java:39)
+	at geoSenseMW.AgentHandler.notify(AgentHandler.java:39)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -31,7 +31,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while processing notification
 java.lang.NullPointerException
-	at envJavaSpace.AgentHandler.notify(AgentHandler.java:39)
+	at geoSenseMW.AgentHandler.notify(AgentHandler.java:39)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -41,7 +41,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while processing notification
 java.lang.NullPointerException
-	at envJavaSpace.AgentHandler.notify(AgentHandler.java:39)
+	at geoSenseMW.AgentHandler.notify(AgentHandler.java:39)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -51,7 +51,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while processing notification
 java.lang.NullPointerException
-	at envJavaSpace.AgentHandler.notify(AgentHandler.java:39)
+	at geoSenseMW.AgentHandler.notify(AgentHandler.java:39)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -61,7 +61,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -71,7 +71,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -81,7 +81,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -91,7 +91,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -101,7 +101,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -111,7 +111,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -121,7 +121,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -131,7 +131,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -141,7 +141,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -151,7 +151,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -161,7 +161,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -171,7 +171,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -181,7 +181,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -191,7 +191,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -201,7 +201,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -211,7 +211,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -221,7 +221,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -231,7 +231,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -241,7 +241,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -251,7 +251,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -261,7 +261,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -271,7 +271,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -281,7 +281,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -291,7 +291,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -301,7 +301,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -311,7 +311,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -321,7 +321,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -331,7 +331,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -341,7 +341,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -351,7 +351,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -361,7 +361,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -371,7 +371,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -381,7 +381,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -391,7 +391,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -401,7 +401,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -411,7 +411,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -421,7 +421,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -431,7 +431,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -441,7 +441,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -451,7 +451,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -461,7 +461,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -471,7 +471,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -481,7 +481,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -491,7 +491,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -501,7 +501,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -511,7 +511,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -521,7 +521,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -531,7 +531,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -541,7 +541,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -551,7 +551,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -561,7 +561,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -571,7 +571,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -581,7 +581,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -591,7 +591,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -601,7 +601,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -611,7 +611,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -621,7 +621,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -631,7 +631,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -641,7 +641,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -651,7 +651,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -661,7 +661,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -671,7 +671,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -681,7 +681,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -691,7 +691,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -701,7 +701,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -711,7 +711,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -721,7 +721,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -731,7 +731,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -741,7 +741,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -751,7 +751,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -761,7 +761,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -771,7 +771,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -781,7 +781,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -791,7 +791,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -801,7 +801,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -811,7 +811,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -821,7 +821,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -831,7 +831,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -841,7 +841,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -851,7 +851,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -861,7 +861,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -871,7 +871,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -881,7 +881,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -891,7 +891,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -901,7 +901,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -911,7 +911,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -921,7 +921,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -931,7 +931,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -941,7 +941,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -951,7 +951,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -961,7 +961,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -971,7 +971,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
@@ -981,7 +981,7 @@ java.lang.NullPointerException
 	at java.lang.Thread.run(Thread.java:680)
 Error while procession organizaiton notification
 java.lang.NullPointerException
-	at envJavaSpace.OrgHandler.notify(OrgHandler.java:25)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:25)
 	at com.j_spaces.core.client.NotifyDelegator.notifyBatch(NotifyDelegator.java:152)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$BatchNotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:363)
 	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)

@@ -64,7 +64,7 @@ class MASFilenameFilter implements FilenameFilter {
  * <p>
  * The communication between GUI and 2APL interpreter is asynchronous. It
  * listens for interpreter callbacks to maintain its own local representation of
- * the current state of the multi-agent system.
+ * the current state of the multi-subject system.
  */
 public class GUI extends JFrame implements WindowListener,
 		ModuleChangeListener, MASChangeListener, MASExecutionListener,
@@ -88,7 +88,7 @@ public class GUI extends JFrame implements WindowListener,
 
 	/**
 	 * Module tree model mirrors the current hierarchy of modules in the
-	 * multi-agent system. It maintains information about the state of their
+	 * multi-subject system. It maintains information about the state of their
 	 * activity (active or inactive) and about their current execution state
 	 * (running, stopped or sleeping).
 	 * <p>
@@ -190,7 +190,7 @@ public class GUI extends JFrame implements WindowListener,
 		{
 			mas = builder.buildMas(masfile, msgr, new MultiThreadedExecutor());
 
-			// Add multi-agent system root node
+			// Add multi-subject system root node
 			treeModel = new ModuleTreeModel();
 			tree.setModel(treeModel);
 			tree.expandRow(0);
@@ -222,7 +222,7 @@ public class GUI extends JFrame implements WindowListener,
 
 			toolbar.setMAS(mas);
 
-			// The multi-agent system node is selected initially
+			// The multi-subject system node is selected initially
 			tree.setSelectionRow(0);
 		} catch (ParseMASException e)
 		{

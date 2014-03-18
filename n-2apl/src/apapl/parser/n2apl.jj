@@ -143,7 +143,7 @@ TOKEN :
 |	<EXECUTE:		("execute")>
 |	<UPDATEBB:		("updateBB")>
 |	<GOALACTION:	("adopta" | "adoptz" | "dropgoal" | "dropsubgoals" | "dropsupergoals")>
-|   <PACTION:		("adoptprohibition" | "adopttest")>
+|   <PACTION:		("aprohibition" | "adopttest")>
 }
 
 <DEFAULT, IN_INCLUDE_SECTION>
@@ -335,7 +335,7 @@ void Sanctionbase(Sanctionbase sanctions) :
 Sanction Sanction() :
 {    Literal l;
 	Sanction s = new Sanction();
-	String priority;}{    l = Literal() {s.addLiteral(l);}
+	String priority;}{    l = LiteralBody(true) {s.addLiteral(l);}
 	(<RIGHTARROW> priority = AnyName() {s.addPriority(priority);})?
 	{return s;}
 }
@@ -915,10 +915,8 @@ Goal LiteralBodyDeadline(boolean sign) :
 	l = LiteralBody(sign) {g.addLiteral(l);}
 	(<COLON> vartime = APLVar() {g.addDeadlineVar(vartime);})?
 	(<DBLCOLON> time = AnyName() {g.addDeadline(time);})?
-	//(<COLON> time = AnyName() {g.addDeadline(time);})?
-	//(<DBLCOLON> vartime = APLVar() {g.addDeadlineVar(vartime);})?
 	(<DBLRIGHTARROW> priority = AnyName() {g.addPriority(priority);})?
-	(<RIGHTARROW> sanction = Literal() {g.addSanction(sanction);})?
+	(<RIGHTARROW> sanction = LiteralBody(sign) {g.addSanction(sanction);})?
 	{return g;}
 }
 
@@ -927,7 +925,7 @@ Goal ObligationBody(boolean sign) :
 {
 	l = LiteralBody(sign) {g.addLiteral(l);}
 	<COLON> time = AnyName() {g.addDeadline(time);}
-	<RIGHTARROW> sanction = Literal() {g.addSanction(sanction);}
+	<RIGHTARROW> sanction = LiteralBody(sign) {g.addSanction(sanction);}
 	{return g;}
 }
 
@@ -935,7 +933,7 @@ Prohibition ProhibitionBody(boolean sign) :
 {Prohibition p = new Prohibition(); Literal l; Literal sanction;}
 {
 	l = LiteralBody(sign) {p.addLiteral(l);}
-	<RIGHTARROW> sanction = Literal() {p.addSanction(sanction);}
+	<RIGHTARROW> sanction = LiteralBody(sign) {p.addSanction(sanction);}
 	{return p;}
 }
 

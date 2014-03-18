@@ -1,10 +1,5 @@
 Include: agent.2apl
 
-BeliefUpdates:
-  { reading(X,Y,Old) } UpdateReading(X,Y,Value) { not reading(X,Y,Old), reading(X,Y,Value) }
-  { not reading(X,Y,Old) } UpdateReading(X,Y,Value) { reading(X,Y,Value) }
-  {position(X,Y) } UpdatePosition(X1,Y1) { not position(X,Y), position(X1,Y1) }
-
 Beliefs:   
   raise(X,NewX):- NewX is X + 1.
   lower(X,NewX):- NewX is X - 1.
@@ -12,10 +7,11 @@ Beliefs:
   points(1000).
   position(8, 19).
   clock(0).
+
   
 Goals:
   //randomize :: 200 >> 1,
-  at(3,6) :: 200 >> 7, 
+  at(6,6) :: 200 >> 1, 
   makeReading :: 300 >> 5
  
 
@@ -27,6 +23,24 @@ at(X,Y) <- true | {
     dropgoal(at(X,Y))]
     
 } : 1
+eastreading(X,Y) <- true | {
+
+   [B(raise(X,EX));
+   moveTo(EX,Y); 
+   readingP(EX,Y);
+   dropgoal(reading(EX,Y))]
+    
+} : 10000
+
+surround(X,Y) <- raise(X,newX) | {
+
+   [
+   moveTo(newX,Y); 
+   readingP(newX,Y);
+   dropgoal(surround(X,Y))]
+    
+} : 100
+
 
 makeReading <- position(X,Y) | {
 
@@ -54,9 +68,9 @@ makeReading(X,Y) <- true | {
 PC-rules:
 
 readingP(X,Y) <- true | {
-    //@space(readingRequest(position(X,Y)),V);
-    @space(write(readingRequest(position(X,Y)),-1),Z);
-    @space(read(reading(position(X,Y)),-1),V);
-    B(V=[actionresult(Value)]);
-    UpdateReading(X,Y,Value)
+
+    @space(write(readingRequest(position(X,Y)),-1),Z)
+
 } 
+
+//type:1

@@ -316,8 +316,8 @@ obligation([cargo(_, _, _)], 89, [reduce_100(t1)])
 t1
 create entry obligation [[cargo(_, _, _)], 89, [reduce_100(t1)]]
 java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1100)
-	at envJavaSpace.AgentHandler.notify(AgentHandler.java:68)
+	at geoSenseMW.EnvGeoSense.notifyAgent(SpaceTest.java:1100)
+	at geoSenseMW.AgentHandler.notify(AgentHandler.java:68)
 	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
 	at java.lang.reflect.Method.invoke(Method.java:597)
@@ -332,8 +332,8 @@ java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.A
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
 	at java.lang.Thread.run(Thread.java:680)
 java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1100)
-	at envJavaSpace.AgentHandler.notify(AgentHandler.java:68)
+	at geoSenseMW.EnvGeoSense.notifyAgent(SpaceTest.java:1100)
+	at geoSenseMW.AgentHandler.notify(AgentHandler.java:68)
 	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
 	at java.lang.reflect.Method.invoke(Method.java:597)

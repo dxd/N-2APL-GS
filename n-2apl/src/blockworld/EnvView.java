@@ -24,7 +24,7 @@ import javax.swing.JPanel;
 import blockworld.lib.ObsVectListener;
 import blockworld.lib.Signal;
 
-/// Grid view of agent enviroment ('world')
+/// Grid view of subject enviroment ('world')
 class EnvView extends JPanel implements ObsVectListener, Observer {
 
 	Map imgMap = new HashMap();
@@ -145,8 +145,8 @@ class EnvView extends JPanel implements ObsVectListener, Observer {
 			try
 			{
 				if (_state == STATE_SELECT)
-				{	// Try to select an agent
-					// if it's an agent, change selected agent
+				{	// Try to select an subject
+					// if it's an subject, change selected subject
 					final Agent	a	= _env.isAgent(p);
 					if (a != null)
 					{
@@ -230,10 +230,10 @@ class EnvView extends JPanel implements ObsVectListener, Observer {
 
 	double _ch = 10;
 
-	public Signal signalSelectionChanged = new Signal( "Selected agent changed" );
+	public Signal signalSelectionChanged = new Signal( "Selected subject changed" );
 	
-	// Changed SA: We need something to indicate the window (static and env) that the agent has moved.
-	// We cannot use an agent for this because they are not created in the beginnning
+	// Changed SA: We need something to indicate the window (static and env) that the subject has moved.
+	// We cannot use an subject for this because they are not created in the beginnning
 //	public Signal signalRefresh = new Signal( "Refresh of screen" );
 
 	protected Agent _selectedAgent = null;
@@ -471,38 +471,38 @@ class EnvView extends JPanel implements ObsVectListener, Observer {
 
 			// Changed SA: don't know what this is for, do know it's giving a lot of exceptions
 			// Seems like you can use a custom picture
-			/*if(!imgMap.containsKey("agent_"+agent.getName())) {
+			/*if(!imgMap.containsKey("agent_"+subject.getName())) {
 			try {
-				imgMap.put(("agent_"+agent.getName()),createImage((ImageProducer)(
-					new URL(urlPath+"agent_"+agent.getName()+".gif")).getContent()));
-					System.out.println("Unloaded agent ["+agent.getName()+"] icon found");
+				imgMap.put(("agent_"+subject.getName()),createImage((ImageProducer)(
+					new URL(urlPath+"agent_"+subject.getName()+".gif")).getContent()));
+					System.out.println("Unloaded subject ["+subject.getName()+"] icon found");
 				} catch(Exception xEx) {
 					xEx.printStackTrace();
-					imgMap.put(("agent_"+agent.getName()),null);
+					imgMap.put(("agent_"+subject.getName()),null);
 				}
 			}
 
-			if(!imgMap.containsKey("holding_"+agent.getName())) {
+			if(!imgMap.containsKey("holding_"+subject.getName())) {
 			try {
-				imgMap.put(("holding_"+agent.getName()),createImage((ImageProducer)(
-					new URL(urlPath+"holding_"+agent.getName()+".gif")).getContent()));
-					System.out.println("Loaded agent ["+agent.getName()+"] icon found");
+				imgMap.put(("holding_"+subject.getName()),createImage((ImageProducer)(
+					new URL(urlPath+"holding_"+subject.getName()+".gif")).getContent()));
+					System.out.println("Loaded subject ["+subject.getName()+"] icon found");
 				} catch(Exception xEx) {
 					xEx.printStackTrace();
-					imgMap.put(("holding_"+agent.getName()),null);
+					imgMap.put(("holding_"+subject.getName()),null);
 				}
 			}*/
 
-			// draw agent position
+			// draw subject position
 			final Point p = agent.getPosition();
 			final int x = (int) ((double) p.x * cw);
 			final int y = (int) ((double) p.y * ch);
 			if (agent.senseBomb() != null)
 			{
-				// Changed SA: there's only one type of agent holding a bomb!
+				// Changed SA: there's only one type of subject holding a bomb!
 				/*
-				if(imgMap.get("holding_"+agent.getName()) != null) {
-					g.drawImage((Image) imgMap.get("holding_"+agent.getName()),
+				if(imgMap.get("holding_"+subject.getName()) != null) {
+					g.drawImage((Image) imgMap.get("holding_"+subject.getName()),
 						x + 1, y + 1, (int) cw - 1,(int) ch - 1, this);
 				} else*/
 				if(imgAgentsHolding[agent._colorID] != null)
@@ -521,8 +521,8 @@ class EnvView extends JPanel implements ObsVectListener, Observer {
 			{
 				// Changed SA: there are 10 agents to choose from!
 				/*
-				if(imgMap.get("agent_"+agent.getName()) != null) {
-					g.drawImage((Image) imgMap.get("agent_"+agent.getName()),
+				if(imgMap.get("agent_"+subject.getName()) != null) {
+					g.drawImage((Image) imgMap.get("agent_"+subject.getName()),
 						x + 1, y + 1, (int) cw - 1,(int) ch - 1, this);
 				} 
 				else*/

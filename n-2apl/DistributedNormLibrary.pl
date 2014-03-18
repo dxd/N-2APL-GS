@@ -102,7 +102,7 @@
 	retractall(@ni(_,_,remove)),
 	retract(Type).
 @execution_cycle_oopl(Alpha):- 
-	@update_clock, // for deadlines in the agent directed norm aware system
+	//@update_clock, // for deadlines in the agent directed norm aware system
 	@perform_update(Alpha), 
 	@rule_closure(@countsas), 
 	@rule_closure(@sanction). 
@@ -119,4 +119,6 @@ clock(0).
 @norm_notification((@countsas,norm(_,Agent,_,Deontic),_)):-
    @external(envJavaSpace,notifyAgent(Agent,Deontic),_),!.
 @norm_notification(_).
+
+
 

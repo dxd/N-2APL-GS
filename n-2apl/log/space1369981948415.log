@@ -38,9 +38,9 @@ Agent writes: Position [agent=t1, id=null, cell=Cell [x=18, y=19], time=Fri May 
 Got event for agent but couldn't display it
 java.lang.StringIndexOutOfBoundsException: String index out of range: -8
 	at java.lang.String.substring(String.java:1937)
-	at envJavaSpace.SpaceTest.entryToTerm(SpaceTest.java:774)
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1147)
-	at envJavaSpace.AgentHandler.notify(AgentHandler.java:59)
+	at geoSenseMW.EnvGeoSense.entryToTerm(SpaceTest.java:774)
+	at geoSenseMW.EnvGeoSense.notifyAgent(SpaceTest.java:1147)
+	at geoSenseMW.AgentHandler.notify(AgentHandler.java:59)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -72,9 +72,9 @@ Coin [id=null, cell=null, agent=a2, time=null, clock=null]
 Got event for agent but couldn't display it
 java.lang.StringIndexOutOfBoundsException: String index out of range: -7
 	at java.lang.String.substring(String.java:1937)
-	at envJavaSpace.SpaceTest.entryToTerm(SpaceTest.java:774)
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1147)
-	at envJavaSpace.AgentHandler.notify(AgentHandler.java:59)
+	at geoSenseMW.EnvGeoSense.entryToTerm(SpaceTest.java:774)
+	at geoSenseMW.EnvGeoSense.notifyAgent(SpaceTest.java:1147)
+	at geoSenseMW.AgentHandler.notify(AgentHandler.java:59)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -99,9 +99,9 @@ agent obligation notification
 Got event for agent but couldn't display it
 java.lang.StringIndexOutOfBoundsException: String index out of range: -7
 	at java.lang.String.substring(String.java:1937)
-	at envJavaSpace.SpaceTest.entryToTerm(SpaceTest.java:774)
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1147)
-	at envJavaSpace.AgentHandler.notify(AgentHandler.java:59)
+	at geoSenseMW.EnvGeoSense.entryToTerm(SpaceTest.java:774)
+	at geoSenseMW.EnvGeoSense.notifyAgent(SpaceTest.java:1147)
+	at geoSenseMW.AgentHandler.notify(AgentHandler.java:59)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -122,9 +122,9 @@ Coin [id=null, cell=null, agent=a1, time=null, clock=null]
 Got event for agent but couldn't display it
 java.lang.StringIndexOutOfBoundsException: String index out of range: -7
 	at java.lang.String.substring(String.java:1937)
-	at envJavaSpace.SpaceTest.entryToTerm(SpaceTest.java:774)
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1147)
-	at envJavaSpace.AgentHandler.notify(AgentHandler.java:59)
+	at geoSenseMW.EnvGeoSense.entryToTerm(SpaceTest.java:774)
+	at geoSenseMW.EnvGeoSense.notifyAgent(SpaceTest.java:1147)
+	at geoSenseMW.AgentHandler.notify(AgentHandler.java:59)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -164,9 +164,9 @@ Agent writes: Position [agent=t1, id=null, cell=Cell [x=17, y=19], time=Fri May 
 Got event for agent but couldn't display it
 java.lang.StringIndexOutOfBoundsException: String index out of range: -7
 	at java.lang.String.substring(String.java:1937)
-	at envJavaSpace.SpaceTest.entryToTerm(SpaceTest.java:774)
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1147)
-	at envJavaSpace.AgentHandler.notify(AgentHandler.java:59)
+	at geoSenseMW.EnvGeoSense.entryToTerm(SpaceTest.java:774)
+	at geoSenseMW.EnvGeoSense.notifyAgent(SpaceTest.java:1147)
+	at geoSenseMW.AgentHandler.notify(AgentHandler.java:59)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -184,9 +184,9 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: -7
 Got event for agent but couldn't display it
 java.lang.StringIndexOutOfBoundsException: String index out of range: -8
 	at java.lang.String.substring(String.java:1937)
-	at envJavaSpace.SpaceTest.entryToTerm(SpaceTest.java:774)
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1147)
-	at envJavaSpace.AgentHandler.notify(AgentHandler.java:59)
+	at geoSenseMW.EnvGeoSense.entryToTerm(SpaceTest.java:774)
+	at geoSenseMW.EnvGeoSense.notifyAgent(SpaceTest.java:1147)
+	at geoSenseMW.AgentHandler.notify(AgentHandler.java:59)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -210,9 +210,9 @@ Reading [id=null, agent=a2, cell=null, time=null, value=null, clock=null]
 Got event for agent but couldn't display it
 java.lang.StringIndexOutOfBoundsException: String index out of range: -7
 	at java.lang.String.substring(String.java:1937)
-	at envJavaSpace.SpaceTest.entryToTerm(SpaceTest.java:774)
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1147)
-	at envJavaSpace.AgentHandler.notify(AgentHandler.java:59)
+	at geoSenseMW.EnvGeoSense.entryToTerm(SpaceTest.java:774)
+	at geoSenseMW.EnvGeoSense.notifyAgent(SpaceTest.java:1147)
+	at geoSenseMW.AgentHandler.notify(AgentHandler.java:59)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -235,9 +235,9 @@ Agent writes: Position [agent=a3, id=null, cell=Cell [x=11, y=4], time=Fri May 3
 Got event for agent but couldn't display it
 java.lang.StringIndexOutOfBoundsException: String index out of range: -7
 	at java.lang.String.substring(String.java:1937)
-	at envJavaSpace.SpaceTest.entryToTerm(SpaceTest.java:774)
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1147)
-	at envJavaSpace.AgentHandler.notify(AgentHandler.java:59)
+	at geoSenseMW.EnvGeoSense.entryToTerm(SpaceTest.java:774)
+	at geoSenseMW.EnvGeoSense.notifyAgent(SpaceTest.java:1147)
+	at geoSenseMW.AgentHandler.notify(AgentHandler.java:59)
 	at sun.reflect.GeneratedMethodAccessor32.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
 	at java.lang.reflect.Method.invoke(Method.java:597)

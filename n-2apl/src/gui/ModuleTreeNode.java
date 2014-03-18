@@ -11,9 +11,9 @@ import apapl.APLModule;
 
 /**
  * This class represents one node in the {@link ModuleTreeModel}. One node of
- * the module tree corresponds to one module from a multi-agent system, except
+ * the module tree corresponds to one module from a multi-subject system, except
  * the root node, which does not have any corresponding module and stands for a
- * multi-agent system itself.
+ * multi-subject system itself.
  * 
  * @author Michal Cap
  */
@@ -54,7 +54,7 @@ class ModuleTreeNode extends Object implements TreeNode
 	 * Returns the module this node represents.
 	 * 
 	 * @return the module this node represents, <code>null</code> if this root
-	 *         node that represents multi-agent system
+	 *         node that represents multi-subject system
 	 */
 	public APLModule getModule()
 	{
@@ -163,7 +163,7 @@ class ModuleTreeNode extends Object implements TreeNode
 	}
 
 	/**
-	 * Determines whether this node represents the multi-agent system.
+	 * Determines whether this node represents the multi-subject system.
 	 * 
 	 * @return <code>true</code> if node represents multi-agents system,
 	 *         <code>false</code> if it represents a module
@@ -177,7 +177,7 @@ class ModuleTreeNode extends Object implements TreeNode
 	 * Determines whether this node represents a module.
 	 * 
 	 * @return <code>true</code> if node represents a module, <code>false</code>
-	 *         if it represents a multi-agent system
+	 *         if it represents a multi-subject system
 	 */
 	public boolean isModule()
 	{

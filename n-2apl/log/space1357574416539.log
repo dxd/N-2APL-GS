@@ -102,8 +102,8 @@ agent c1
 create entry prohibition [[coin(6, 6, _, a3)], [reduce_300(c1)]]
 Prohibition [agent=c1, prohibition=[coin(6, 6, _, a3)], sanction=[reduce_300(c1)], clock=1, time=Mon Jan 07 16:00:22 GMT 2013]
 java.lang.ClassCastException: apapl.data.APLIdent cannot be cast to apapl.data.APLFunction
-	at envJavaSpace.SpaceTest.notifyAgent(SpaceTest.java:1112)
-	at envJavaSpace.AgentHandler.notify(AgentHandler.java:58)
+	at geoSenseMW.EnvGeoSense.notifyAgent(SpaceTest.java:1112)
+	at geoSenseMW.AgentHandler.notify(AgentHandler.java:58)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
