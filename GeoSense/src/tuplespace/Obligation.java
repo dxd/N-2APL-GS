@@ -40,7 +40,7 @@ public class Obligation implements TimeEntry {
 
 	@Override
 	public String toString() {
-		return "Obligation [agent=" + agent + ", obligation=" + obligation
+		return "Obligation [subject=" + agent + ", obligation=" + obligation
 				+ ", sanction=" + sanction + ", deadline=" + deadline
 				+ ", time=" + time + ", clock=" + clock + "]";
 	}

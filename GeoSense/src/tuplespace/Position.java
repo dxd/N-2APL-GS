@@ -77,7 +77,7 @@ public class Position implements TimeEntry {
 	
 	@Override
 	public String toString() {
-		return "Position [agent=" + agent + ", id=" + id + ", cell=" + cell
+		return "Position [subject=" + agent + ", id=" + id + ", cell=" + cell
 				+ ", time=" + time + ", clock=" + clock + "]";
 	}
 

@@ -56,7 +56,7 @@ pursuer(a4).
 ra(ra).
 truck(t1).
 group(group).
-groupcoin(10,10).
+groupnorm(ra).
 
 movable(A) :- agent(A).
 movable(A) :- truck(A).

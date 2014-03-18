@@ -15,7 +15,7 @@ import apapl.APLModule;
 
 /**
  * This class implements the tree structure representing the hierarchy of
- * modules in the multi-agent system. It implements {@link TreeModel} interface
+ * modules in the multi-subject system. It implements {@link TreeModel} interface
  * and therefore can act as a data provider for the {@link JTree} component.
  * 
  * @author Michal Cap
@@ -32,7 +32,7 @@ class ModuleTreeModel implements TreeModel
 	public ModuleTreeModel()
 	{
 		super();
-		// Creates a root node representing the multi-agent system
+		// Creates a root node representing the multi-subject system
 		root = new ModuleTreeNode(null);
 		treeNodes.put(null, root);
 	}
@@ -140,7 +140,7 @@ class ModuleTreeModel implements TreeModel
 	}
 
 	/**
-	 * Adds the node representing certain module in the multi-agent system.
+	 * Adds the node representing certain module in the multi-subject system.
 	 * 
 	 * @param parent the parent of the child module, set to <code>null</code> if
 	 *        the child is a main module
@@ -165,7 +165,7 @@ class ModuleTreeModel implements TreeModel
 	}
 
 	/**
-	 * Removes the node representing certain module in the multi-agent system.
+	 * Removes the node representing certain module in the multi-subject system.
 	 * 
 	 * @param parent the parent of the removed module, set to <code>null</code>
 	 *        if the child is a main module

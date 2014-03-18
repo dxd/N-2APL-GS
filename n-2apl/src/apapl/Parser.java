@@ -285,9 +285,9 @@ public class Parser
 	}
 
 	/**
-	 * Parses a multi-agent system file into a list of lines in the mas file. Such a line is
+	 * Parses a multi-subject system file into a list of lines in the mas file. Such a line is
 	 * is represented as a list of strings, in which the first element denotes the name of
-	 * the agent, the second denotes the name of the specification file and the third until
+	 * the subject, the second denotes the name of the specification file and the third until
 	 * the n-th denote the names of the environments in which the module is situated. 
 	 *  
 	 * @param file the MAS specification file

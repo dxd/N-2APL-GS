@@ -1,3 +1,7 @@
+Beliefs:   
+  raise(X,NewX):- NewX is X + 1.
+  lower(X,NewX):- NewX is X - 1.
+
 BeliefUpdates:
   { clock(Old) } UpdateClock(New) { not clock(Old), clock(New) }
   { true } AddReading(at(X,Y),Value,Agent,Clock) { reading(at(X,Y),Value,Agent,Clock) }
@@ -106,6 +110,10 @@ adoptObligation(reading(A), D, reduce(_,Value)) <- true | {
 
 adoptObligation(makeReading(X,Y), D, reduce(_,Value)) <- true | {
     adopta(makeReading(X,Y) : D -> reduce(Value))
+}
+
+adoptObligation(surround(X,Y), D, reduce(_,Value)) <- true | {
+    adopta(surround(X,Y) : D -> reduce(Value))
 }
 
 adoptProhibition(investigate(X,Y,_,_,_), reduce(_,Value)) <- true | {

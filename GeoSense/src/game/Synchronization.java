@@ -65,6 +65,7 @@ public class Synchronization {
 		postJoin("email", "a1", "runner");
 		postJoin("email1", "a2", "runner");
 		postJoin("email2", "a3", "runner");
+		postJoin("email3", "a4", "runner");
 		postJoin("email3", "t1", "truck");
 		postJoin("email4", "c1", "controller");
 		startGame();

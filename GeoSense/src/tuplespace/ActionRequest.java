@@ -86,7 +86,7 @@ public class ActionRequest implements TimeEntry {
 	}
 	@Override
 	public String toString() {
-		return "ActionRequest [id=" + id + ", agent=" + agent + ", type="
+		return "ActionRequest [id=" + id + ", subject=" + agent + ", type="
 				+ type + ", cell=" + cell + ", clock=" + clock + ", time="
 				+ time + "]";
 	}

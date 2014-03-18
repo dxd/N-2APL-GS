@@ -8,7 +8,7 @@ public class MessageAgent extends Agent
 	private String agentname;
 	
 	/**
-	 * This method is called when the agent is initialized.
+	 * This method is called when the subject is initialized.
 	 */
 	protected void setup()
 	{

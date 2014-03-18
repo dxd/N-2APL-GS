@@ -44,10 +44,13 @@ public class Points implements TimeEntry {
 	public Points(Object[] params) {
 		this.agent = params[0].toString();
 		if (params[1] != null)
-			this.clock = Integer.getInteger(params[1].toString());
+			this.clock = Integer.parseInt((String) params[1]);
+		
+		if (params[2] != null)
+			this.value = Integer.parseInt((String) params[2]);
+		//System.out.println(params[1].toString());
+		//System.out.println(params[2].toString());
 		//System.out.println(this);
-		//if (params[2] != null)
-		//	this.value = Integer.getInteger(params[2].toString());
 	}
 
 	@Override
@@ -68,7 +71,7 @@ public class Points implements TimeEntry {
 	
 	@Override
 	public String toString() {
-		return "Points [agent=" + agent + ", time=" + time + ", clock=" + clock
+		return "Points [subject=" + agent + ", time=" + time + ", clock=" + clock
 				+ ", value=" + value + ", id=" + id + "]";
 	}
 	@Override
