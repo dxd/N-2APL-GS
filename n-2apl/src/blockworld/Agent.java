@@ -18,7 +18,7 @@ public class Agent
 	protected String _name;
 
 	/**
-	 * _position is null means subject did not enter the world. This method is
+	 * _position is null means agent did not enter the world. This method is
 	 * only for the blockworld package to prevent setting the position by other
 	 * means that through the north/south/west/east methods of the environment.
 	 * \todo is protection "package" correct?
@@ -38,15 +38,15 @@ public class Agent
 	}
 
 	/**
-	 * Get current subject position. \returns This will return null if the subject
+	 * Get current agent position. \returns This will return null if the agent
 	 * is not entered in the world.
 	 */
 	public Point getPosition() {
 		return _position;
 	}
 
-	// / Sense if subject is carrying a bomb.
-	// / \return True if subject is carrying a bomb, false otherwise.
+	// / Sense if agent is carrying a bomb.
+	// / \return True if agent is carrying a bomb, false otherwise.
 	public TypeObject senseBomb() {
 		return _bomb;
 	}
@@ -67,8 +67,8 @@ public class Agent
 	}
 
 	/**
-	 * Check if subject is "entered" in the environment. That is, it has a
-	 * position in the world. \returns true if subject is entered in the
+	 * Check if agent is "entered" in the environment. That is, it has a
+	 * position in the world. \returns true if agent is entered in the
 	 * environment
 	 */
 	public boolean isEntered() {
@@ -76,7 +76,7 @@ public class Agent
 	}
 
 	/**
-	 * Called by the interpreter when the subject this instance refers to is
+	 * Called by the interpreter when the agent this instance refers to is
 	 * reset. \todo signalMove show become special signal enter/exit
 	 */
 	public void reset() {
@@ -86,7 +86,7 @@ public class Agent
 	}
 
 	/**
-	 * returns the unique name of the subject this instance refers to.
+	 * returns the unique name of the agent this instance refers to.
 	 */
 	public String toString() {
 		return getName();
@@ -103,25 +103,25 @@ public class Agent
 		signalDropBombSucces.deleteObservers();
 	}
 
-	// / emitted if subject attemps movement (succesful or not)
-	public transient Signal signalMove = new Signal( "subject attempts move" );
+	// / emitted if agent attemps movement (succesful or not)
+	public transient Signal signalMove = new Signal( "agent attempts move" );
 
-	// / emitted if subject attemps to pickup a bomb (succesful or not)
+	// / emitted if agent attemps to pickup a bomb (succesful or not)
 	public transient Signal signalPickupBomb = new Signal(
-			"subject attempts pickup" );
+			"agent attempts pickup" );
 
-	// / emitted if subject attemps to drop a bomb (succesful or not)
-	public transient Signal signalDropBomb = new Signal( "subject attempts drop" );
+	// / emitted if agent attemps to drop a bomb (succesful or not)
+	public transient Signal signalDropBomb = new Signal( "agent attempts drop" );
 
-	// / emitted if subject succesfully moves
+	// / emitted if agent succesfully moves
 	public transient Signal signalMoveSucces = new Signal(
-			"subject succesful move" );
+			"agent succesful move" );
 
-	// / emitted if subject (succesfully) picks up a bomb
+	// / emitted if agent (succesfully) picks up a bomb
 	public transient Signal signalPickupBombSucces = new Signal(
-			"subject succesful pickup" );
+			"agent succesful pickup" );
 
-	// / emitted if subject (succesfully) drops a bomb
+	// / emitted if agent (succesfully) drops a bomb
 	public transient Signal signalDropBombSucces = new Signal(
-			"subject sucessful drop" );
+			"agent sucessful drop" );
 }

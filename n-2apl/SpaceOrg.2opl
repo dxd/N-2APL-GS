@@ -2,18 +2,18 @@ Facts:
 
 %RA
 norm(
-    sanction_group(ra),
-    RA, // the subject agent
-    ( ra(ra), sanction(Group,Sanction)), // precondition
-    obligation([atleast(agent_sanctions(g),Sanction)],now+15,[reduce(RA,Sanction)]) // prohibition format
+    sanction_group(ra1),
+    ra1, // the subject agent
+    ( ra(ra1), sanction(Group,Sanction)), // precondition
+    obligation([atleast(agent_sanctions(g),Sanction)],now+15,[reduce(ra1,Sanction)]) // prohibition format
     ).    
      
 %group
 norm(
-    group_action(Group),
-    Group, // the subject agent
-    ( group(Group)), // precondition - left blank for now
-    obligation([atleast(agent_sanctions(g),Sanction)],now+15,[sanction_group(Group,Sanction)]) // prohibition format
+    group_action(g),
+    ra1, // the subject agent
+    ( group(g)), // precondition - left blank for now
+    obligation([surround(10,10)],now+15,[sanction_group(g,1000)]) // prohibition format
     ).
     
 %agents group norms from RA
@@ -53,10 +53,10 @@ pursuer(a1).
 pursuer(a2).
 pursuer(a3).
 pursuer(a4).
-ra(ra).
+ra(ra1).
 truck(t1).
-group(group).
-groupnorm(ra).
+group(g).
+groupcoin(10,10).
 
 movable(A) :- agent(A).
 movable(A) :- truck(A).
@@ -135,7 +135,11 @@ listTrue([]).
 
 clock(0).
 
-
+check(GN):-
+	setof(S, (groupmember(G,A), sanction(A,S)),Ss),
+	sum(Ss,T), //sumlist
+	sanction(GN,GS),
+	GS =< T.
 
 Effects:
 {true} tuple_space_changed {true} // causes compliance checking

@@ -14,7 +14,7 @@ import java.util.LinkedList;
 
 /**
  * Messenger that implements interconnection between 2APL platform and JADE
- * middleware. Each 2APL module is represented by one shadow JADE subject whose
+ * middleware. Each 2APL module is represented by one shadow JADE agent whose
  * only responsibilities are sending and receiving message.
  */
 public class JadeMessenger implements Messenger

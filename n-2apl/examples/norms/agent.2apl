@@ -1,7 +1,3 @@
-Beliefs:   
-  raise(X,NewX):- NewX is X + 1.
-  lower(X,NewX):- NewX is X - 1.
-
 BeliefUpdates:
   { clock(Old) } UpdateClock(New) { not clock(Old), clock(New) }
   { true } AddReading(at(X,Y),Value,Agent,Clock) { reading(at(X,Y),Value,Agent,Clock) }
@@ -112,10 +108,6 @@ adoptObligation(makeReading(X,Y), D, reduce(_,Value)) <- true | {
     adopta(makeReading(X,Y) : D -> reduce(Value))
 }
 
-adoptObligation(surround(X,Y), D, reduce(_,Value)) <- true | {
-    adopta(surround(X,Y) : D -> reduce(Value))
-}
-
 adoptProhibition(investigate(X,Y,_,_,_), reduce(_,Value)) <- true | {
     aprohibition(investigate(X,Y) -> reduce(Value))
 }
@@ -135,6 +127,12 @@ adoptObligation(north(X,Y,_), D, reduce(_,Value)) <- true | {
 }
 adoptObligation(south(X,Y,_), D, reduce(_,Value)) <- true | {
     adopta(southreading(X,Y) : D -> reduce(Value))
+}
+adoptObligation(surround(X,Y), D, sanction_group(Group,Sanction)) <- true | {
+    adopta(surround(X,Y) : D -> reduce(Sanction))
+}
+adoptObligation(atleast(agent_sanctions(G),Sanction), D, sanction_group(Group,Sanction)) <- true | {
+    adopta(sanction_agents(agent_sanctions(G),Sanction) : D -> reduce(Sanction))
 }
 
 Sanctions:

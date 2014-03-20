@@ -85,12 +85,12 @@ class Statistics extends AbstractTableModel implements Observer {
 		
 		// Changed SA: On a screen refresh of the environment update yourself (call the update( Observable o, Object arg ))
 	//	_view.signalRefresh.addObserver(this);
-		// subject/env changed
+		// agent/env changed
 		update();
 	}
 
 	public void update( Observable o, Object arg ) {
-		// subject/env changed
+		// agent/env changed
 		update();
 	}
 
@@ -320,7 +320,7 @@ public class Window extends JFrame{
 		senserange.addActionListener( new ActionListener() {
 			public void actionPerformed( ActionEvent e ) {
 				String range = (String) JOptionPane.showInputDialog(
-						Window.this, "Set subject sensor range in cells",
+						Window.this, "Set agent sensor range in cells",
 						"Set Sensor Range in Cells", JOptionPane.PLAIN_MESSAGE, null, null,
 						Integer.toString( env.getSenseRange() ) );
 
@@ -382,7 +382,7 @@ public class Window extends JFrame{
 		// The toolbar
 		m_tbToolbar	 = new JToolBar();
 		m_tbToolbar.setFloatable(false);
-		addButton("info.gif", "Select subject", envView.tool.STATE_SELECT, envView.tool).setSelected(true);
+		addButton("info.gif", "Select agent", envView.tool.STATE_SELECT, envView.tool).setSelected(true);
 		addButton("bomb.gif", "Place bombs", envView.tool.STATE_ADDBOMB, envView.tool);
 		addButton("stone.gif", "Place walls", envView.tool.STATE_ADDWALL, envView.tool);
 		addButton("trap.gif", "Place traps", envView.tool.STATE_ADDTRAP, envView.tool);

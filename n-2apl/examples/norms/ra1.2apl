@@ -23,6 +23,12 @@ at(X,Y) <- true | {
     
 } : 100
 
+surround(X,Y) <- true | {
+
+   surround(X,Y)
+    
+} : 100
+
 reading(X,Y) <- true | {
 
    [moveTo(X,Y); 
@@ -53,3 +59,9 @@ readingP(X,Y) <- true | {
     @space(write(readingRequest(position(X,Y)),-1),Z)
 
 } 
+surround(X,Y) <- true | {
+
+    @space(write(groupcoin(X,Y),-1),Z)
+
+} 
+

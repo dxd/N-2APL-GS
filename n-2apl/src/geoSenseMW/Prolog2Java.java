@@ -25,7 +25,7 @@ public class Prolog2Java {
 	//public APAPLTermConverter converter;
 	
 	public synchronized TimeEntry parseTerm(int[] call,APAPLTermConverter converter, DistributedOOPL oopl) throws IllegalArgumentException, InstantiationException, IllegalAccessException, InvocationTargetException, ClassNotFoundException, SecurityException, NoSuchMethodException {
-		//int type = call[4];
+		int type = call[4];
 		//converter = new APAPLTermConverter(oopl.prolog); // Make a term converter (relies on Prolog engine for string storage)
 		//System.out.println("!!!!! from org !!!!!!");
 		
@@ -85,10 +85,9 @@ public class Prolog2Java {
 		String output = tuple.substring(0, 1).toUpperCase() + tuple.substring(1);
 		Class<?> clazz = Class.forName("tuplespace."+ output);
 		Constructor<?> ctor = clazz.getConstructor(Object[].class);
-		TimeEntry object = (TimeEntry) ctor.newInstance(new Object[] { params });
-		//System.out.println("after");
+		Object object = ctor.newInstance(new Object[] { params });
 		//System.out.println(object.toString());
-		return  object;
+		return (TimeEntry) object;
 		
 		
 		/*

@@ -28,7 +28,7 @@ import eis.iilang.Numeral;
 import eis.iilang.Parameter;
 
 /**
- * A builder used to construct a multi-subject system. The builder uses parser to
+ * A builder used to construct a multi-agent system. The builder uses parser to
  * parse the mas file and the 2APL files that specify the modules.
  * 
  * @see apapl.Parser
@@ -189,15 +189,15 @@ public class APAPLBuilder {
 				}
 				
 			}
-			// node is an subject-specification
-			else if( child.getNodeName().equals("subject") ) {
+			// node is an agent-specification
+			else if( child.getNodeName().equals("agent") ) {
 		
 				// attributes = environment name and file
 				String agentName = child.getAttributes().getNamedItem("name").getNodeValue();
 				String agentFile = child.getAttributes().getNamedItem("file").getNodeValue();
 				HashMap<String,Boolean> externalBeliefs = new HashMap<String,Boolean>(); // external beliefs
 				
-				// subject can have beliefs (external)
+				// agent can have beliefs (external)
 				for( int b = 0 ; b < child.getChildNodes().getLength() ; b++ ) {
 					
 					Node childchild = child.getChildNodes().item(b);
@@ -266,7 +266,7 @@ public class APAPLBuilder {
     }  
     
     /**
-     * Builds a multi-subject system from a MAS specification file.
+     * Builds a multi-agent system from a MAS specification file.
      * 
      * @param masfile the file that specifies the MAS
      * @param msgr the messenger used by the modules for communication
@@ -290,12 +290,12 @@ public class APAPLBuilder {
         // Each element of a list returned by parseMas(File) is a list of 
         // strings (as). The interpretation of this list is:
         // 
-        //  as[0]                :  name of the subject, 
+        //  as[0]                :  name of the agent, 
         //  as[1]                :  main module specification, 
         //  as[2] .. as[n]       :  environments 
         ArrayList<ArrayList<String>> ass = parser.parseMas(masfile);
 
-        // Build the main modules for each subject that resides in this MAS
+        // Build the main modules for each agent that resides in this MAS
         for (ArrayList<String> as : ass) {
             // Build the module
             Tuple<APLModule, LinkedList<File>> t = buildModule(as.get(1), as
@@ -338,7 +338,7 @@ public class APAPLBuilder {
      * 
      * @param moduleSpec the name of the module specification
      * @param name the name of the module instance
-     * @param mas the multi-subject system in which will the module reside
+     * @param mas the multi-agent system in which will the module reside
      * @return a tuple containing the module instance and the list of processed
      *         specification files
      * @throws ParseModuleException if the module cannot be instantiated, e.g.
@@ -417,7 +417,7 @@ public class APAPLBuilder {
      * suffix. If the expected file does not yet exist, an empty one will be
      * created.
      * 
-     * @param mas the multi-subject system this module belongs to
+     * @param mas the multi-agent system this module belongs to
      * @param moduleSpec the name of the module specification
      * @return the file containing the module specification
      */
