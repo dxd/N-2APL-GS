@@ -61,7 +61,7 @@ readingP(X,Y) <- true | {
 } 
 surround(X,Y) <- true | {
 
-    @space(write(groupcoin(X,Y),-1),Z)
+    @space(write(groupCoin(X,Y),-1),Z)
 
 } 
 

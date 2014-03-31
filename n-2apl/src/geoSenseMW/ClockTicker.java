@@ -1,4 +1,4 @@
-/*package geoSenseMW;
+package geoSenseMW;
 
 public class ClockTicker implements Runnable{
 	EnvGeoSense env;
@@ -18,4 +18,3 @@ public class ClockTicker implements Runnable{
 		}
 	}
 }
-*/

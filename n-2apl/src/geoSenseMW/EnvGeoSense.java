@@ -43,7 +43,7 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 	public DistributedOOPL oopl; // norm interpreter
 	public static String TYPE_STATUS="status", TYPE_PROHIBITION="prohibition", 
 		TYPE_OBLIGATION="obligation", TYPE_READINGREQ = "readingRequest",TYPE_READING = "reading",TYPE_INVESTIGATE = "investigate",TYPE_CARGO = "cargo",TYPE_COIN = "coin",TYPE_POINTS = "points",
-			TYPE_OBJECT="object", TYPE_INVENTORY="inventory", TYPE_SANCTION="sanction", TYPE_GROUPTASK="grouptask", NULL="null"; // for matching string with class type
+			TYPE_OBJECT="object", TYPE_INVENTORY="inventory", TYPE_SANCTION="sanction", TYPE_GROUPCOIN="groupCoin", NULL="null"; // for matching string with class type
 	public int[] ar_true, ar_null, ar_state_change, ar_false; // precalculated IntProlog data 
 	public int INT_TUPLE=0, INT_POINT=0, INT_NULL=0;
 	public APAPLTermConverter converter; // Converts between IntProlog and 2APL
@@ -131,8 +131,8 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 			ar_state_change = oopl.prolog.mp.parseFact("tuple_space_changed.", oopl.prolog.strStorage, false);
 			// To create a IntProlog structure out of a string use the above lines (but replace the fact string such as "true.")
 			// Starting the clock 
-			//Thread t = new Thread(new ClockTicker(this));
-			//t.start(); 
+			Thread t = new Thread(new ClockTicker(this));
+			t.start(); 
 			//this.insertTestData();
 			
 		
@@ -144,14 +144,13 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 	public synchronized int updateClock(int amount){
 		//if(amount>0)  oopl.handleEvent(ar_state_change, false); // clock ticked so deadlines can be passed, handleEvent causes the interpreter to check the norms
 		Time t = new Time();
-		TimeEntry e = getLast(t);
-		//System.out.println(e.toString());
-		if (e != null) {
-			
-		this.clock = ((Time) e).clock;
-		return ((Time) e).clock;
-		}
-		return 0;
+		//TimeEntry e = new TimeEntry();
+		clock++;
+		System.out.println(clock);
+		t.setClock(clock);
+		space.write(t);
+
+		return clock;
 	}
 	
 	/*
@@ -396,12 +395,12 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 			return new Cargo(c,clock); // Create Tuple
 		} 
 		else if(call.getName().equals(TYPE_POINTS)){ //points(Agent,Now,NewHealth)
-			//System.out.println("create entry points "+call.getParams().toString());
+			System.out.println("create entry points "+call.getParams().toString());
 			
-			//Integer clock = null; // if health is null (which is ident) it stays also in java null
-			//if(call.getParams().get(1) instanceof APLNum) clock = ((APLNum)call.getParams().get(1)).toInt(); // The health meter
-			//Integer health = null; // if health is null (which is ident) it stays also in java null
-			//if(call.getParams().get(2) instanceof APLNum) health = ((APLNum)call.getParams().get(2)).toInt(); // The health meter
+			Integer clock = null; // if health is null (which is ident) it stays also in java null
+			if(call.getParams().get(1) instanceof APLNum) clock = ((APLNum)call.getParams().get(1)).toInt(); // The health meter
+			Integer health = null; // if health is null (which is ident) it stays also in java null
+			if(call.getParams().get(2) instanceof APLNum) health = ((APLNum)call.getParams().get(2)).toInt(); // The health meter
 		
 			return new Points(sAgent); // Create Tuple
 		}
@@ -458,8 +457,8 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 			}
 			return s; // Create Tuple
 		}
-		else if(call.getName().equals(TYPE_GROUPTASK)){ // Prolog format: status(position(1,4),30) 
-			Sanction s = null;
+		else if(call.getName().equals(TYPE_GROUPCOIN)){ // Prolog format: status(position(1,4),30) 
+			GroupCoin s = null;
 			//System.out.println("create entry obligation "+call.getParams().toString());
 			
 		
@@ -471,8 +470,8 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 				
 				int value = ((APLNum)call.getParams().get(1)).toInt();
 				
-				s = new Sanction(sAgent, value, clock);
-				//System.out.println(s2);
+				s = new GroupCoin(10, 10);
+				System.out.println(s);
 			}
 			return s; // Create Tuple
 		}
@@ -705,6 +704,7 @@ public class EnvGeoSense  extends Environment implements ExternalTool{
 				session.addListener(new Reading(), handler); 
 				session.addListener(new Time(), handler); 
 				session.addListener(new Coin(), handler); 
+				session.addListener(new GroupCoin(), handler); 
 			} catch (RemoteException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

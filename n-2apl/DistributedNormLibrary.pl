@@ -131,6 +131,7 @@
 
 // Replacement for deadline check as we now compute it elsewhere.
 @check_deadline((time_past(_)),(@countsas,norm(_,_,_,obligation(_,D,_)),_)):- time_past(D). 
+
 @quick_scheme_fix_hack :-
 	retract(@scheme(agent_directed(A,B,obligation(C,D,E)),(@countsas,norm(A,B,F,obligation(C,D,E)),F),false,(listTrue(C)),(time_past(D)),false,[plus(viol(agent_directed(A,B,obligation(C,D,E))))|[]],[plus(obey(agent_directed(A,B,obligation(C,D,E))))|[]])),
 	assert(@scheme(agent_directed(A,B,obligation(C,D,E)),(@countsas,norm(A,B,F,obligation(C,D2,E)),F),false,(listTrue(C)),(time_past(D)),false,[plus(viol(agent_directed(A,B,obligation(C,D,E))))|[]],[plus(obey(agent_directed(A,B,obligation(C,D,E))))|[]])

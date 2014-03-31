@@ -1,48 +1,48 @@
 Facts:
 
 %RA
-norm(
-    sanction_group(ra1),
-    ra1, // the subject agent
-    ( ra(ra1), sanction(Group,Sanction)), // precondition
-    obligation([atleast(agent_sanctions(g),Sanction)],now+15,[reduce(ra1,Sanction)]) // prohibition format
-    ).    
+//norm(
+//    sanction_group(ra1),
+//    ra1, // the subject agent
+//    ( ra(ra1), sanction(Group,Sanction)), // precondition
+//    obligation([atleast(agent_sanctions(g),Sanction)],now+15,[reduce(ra1,Sanction)]) // prohibition format
+//    ).    
      
 %group
 norm(
     group_action(g),
     ra1, // the subject agent
     ( group(g)), // precondition - left blank for now
-    obligation([surround(10,10)],now+15,[sanction_group(g,1000)]) // prohibition format
+    obligation([surround(10,10)],now + 1,[reduce(g,1000)]) // prohibition format
     ).
     
 %agents group norms from RA
 norm(
     group_task(a1),
     a1, // the subject agent
-    ( pursuer(a1), groupcoin(X,Y)), // precondition - add triggering condition
-    obligation([west(X,Y,a1)],now+15,[reduce(a1, Sanction)]) // prohibition format
+    ( pursuer(a1), groupCoin(X,Y)), // precondition - add triggering condition
+    obligation([west(X,Y,a1)],now + 1,[reduce(a1, 1000)]) // prohibition format
     ).  
     
 norm(
     group_task(a2),
     a2, // the subject agent
-    ( pursuer(a2), groupcoin(X,Y)), // precondition - add triggering condition
-    obligation([east(X,Y,a2)],now+15,[reduce(a2, Sanction)]) // prohibition format
+    ( pursuer(a2), groupCoin(X,Y)), // precondition - add triggering condition
+    obligation([east(X,Y,a2)],now + 1,[reduce(a2, 1000)]) // prohibition format
     ).  
 
 norm(
     group_task(a3),
     a3, // the subject agent
-    ( pursuer(a3), groupcoin(X,Y)), // precondition - add triggering condition
-    obligation([north(X,Y,a3)],now+15,[reduce(a3, Sanction)]) // prohibition format
+    ( pursuer(a3), groupCoin(X,Y)), // precondition - add triggering condition
+    obligation([north(X,Y,a3)],now + 1,[reduce(a3, 1000)]) // prohibition format
     ). 
     
 norm(
     group_task(a4),
     a4, // the subject agent
-    ( pursuer(a4), groupcoin(X,Y)), // precondition - add triggering condition
-    obligation([south(X,Y,a4)],now+15,[reduce(a4, Sanction)]) // prohibition format
+    ( pursuer(a4), groupCoin(X,Y)), // precondition - add triggering condition
+    obligation([south(X,Y,a4)],now + 1,[reduce(a4, 1000)]) // prohibition format
     ). 
     
     
@@ -53,10 +53,17 @@ pursuer(a1).
 pursuer(a2).
 pursuer(a3).
 pursuer(a4).
+pursuer(ra1).
 ra(ra1).
 truck(t1).
+
 group(g).
-groupcoin(10,10).
+//groupCoin(15,10).
+
+sanction(a1,500,50).
+sanction(a2,500,50).
+sanction(a3,500,50).
+sanction(a4,500,50).
 
 movable(A) :- agent(A).
 movable(A) :- truck(A).
@@ -107,8 +114,6 @@ surround(X,Y) :-
 	reading(West,Y),
 	reading(X,North),
 	reading(X,South).
-	
-reading(X,Y):- reading(X,Y,_,_,_);
 
 makeGroupReading(X,Y) :-
 	East is X + 1, North is Y + 1, West is X - 1, South is Y - 1,
@@ -123,13 +128,23 @@ do_sanction([not(H)|T]):- retract(H),do_sanction(T).
 do_sanction([H|T]):- uniqueassertz(H),do_sanction(T).
 do_sanction([]).
 
+do_reduce_health(Group,P):- 
+
+   @external(geoSenseMW,write(points(x,1,1),-1),_).
+   
 do_reduce_health(Agent,P):- 
+   pursuer(Agent),
    points(Agent, Health),
    NewHealth is Health - P,
    clock(Now),
    @external(geoSenseMW,write(points(Agent,Now,NewHealth),-1),_).
+   
+do_reduce_health(Group,P):- 
+   group(Group),
+   clock(Now),
+   @external(geoSenseMW,write(points(Group,Now,NewHealth),-1),_).
 
-listTrue(_).
+//listTrue(_).
 listTrue([H|T]):- H, listTrue(T).
 listTrue([]).
 
@@ -159,6 +174,8 @@ Effects:
 
 {true} cargo(cell(X,Y), Clock) {cargo(X,Y)}
 
+{true} groupCoin(X,Y, Clock) {groupCoin(X,Y)}
+
 {points(Agent,OldValue)} points(Agent, Clock, Value) {not points(Agent,OldValue), points(Agent,Value)}
 {true} points(Agent, Clock, Value) {points(Agent,Value)}
 
@@ -176,7 +193,7 @@ agent_directed(Label,Agent,prohibition(ListA,Sanction)):
 	false]
 
 Sanction rules:
-reduce(Agent,X) and do_reduce_health(Agent,X) => not reduce(Agent,X).
+//reduce(Agent,X) and do_reduce_health(Agent,X) => not reduce(Agent,X).
 
-viol(agent_directed(Label,Agent,prohibition(State,Sanction))) and do_sanction(Sanction) => not viol(agent_directed(Label,Agent,prohibition(State,Sanction))).
+viol(agent_directed(Label,Agent,prohibition(State,Sanction))), do_sanction(Sanction) => not viol(agent_directed(Label,Agent,prohibition(State,Sanction))).
 obey(agent_directed(Label,Agent,Deontic)) => not obey(agent_directed(Label,Agent,Deontic)).
