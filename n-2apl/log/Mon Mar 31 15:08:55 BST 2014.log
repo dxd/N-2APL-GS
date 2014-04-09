@@ -1,0 +1,929 @@
+2014-03-31 15:08:56,431 CONFIG [com.gigaspaces.logger] - Log file: /Users/dxd/gigaspaces-xap-premium-9.5.1-ga/logs/2014-03-31~15.08-gigaspaces-service-128.243.23.149-20128.log
+-------------------------last log tuples start--------------------------------
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=139, time=2014-03-31 15:08:50.755]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=130, time=2014-03-31 15:08:46.149]
+Position [subject=t1, id=null, cell=Cell [x=2, y=7], time=2014-03-31 15:08:07.459, clock=52]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=135, time=2014-03-31 15:08:49.01]
+Position [subject=t1, id=null, cell=Cell [x=2, y=2], time=2014-03-31 15:08:10.802, clock=59]
+Time [clock=80, time=null]
+Obligation [subject=a3, obligation=[north(10, 10, a3)], sanction=[reduce(a3, 1000)], deadline=9, time=2014-03-31 15:07:45.089, clock=8]
+Coin [id=null, cell=Cell [x=8, y=6], subject=a1, time=2014-03-31 15:07:44.746, clock=6]
+Coin [id=null, cell=Cell [x=16, y=16], subject=a2, time=2014-03-31 15:07:45.822, clock=8]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=137, time=2014-03-31 15:08:50.032]
+Position [subject=t1, id=null, cell=Cell [x=2, y=3], time=2014-03-31 15:08:10.179, clock=57]
+Position [subject=t1, id=null, cell=Cell [x=2, y=13], time=2014-03-31 15:08:03.442, clock=43]
+Obligation [subject=a2, obligation=[east(10, 10, a2)], sanction=[reduce(a2, 1000)], deadline=9, time=2014-03-31 15:07:45.08, clock=8]
+Cargo [id=null, cell=Cell [x=19, y=19], time=2014-03-31 15:07:44.687, clock=6]
+Time [clock=138, time=null]
+Coin [id=null, cell=Cell [x=2, y=2], subject=a3, time=2014-03-31 15:07:46.678, clock=10]
+Obligation [subject=ra1, obligation=[surround(10, 10)], sanction=[reduce(g, 1000)], deadline=2, time=2014-03-31 15:07:43.492, clock=5]
+Obligation [subject=a1, obligation=[west(10, 10, a1)], sanction=[reduce(a1, 1000)], deadline=9, time=2014-03-31 15:07:45.074, clock=8]
+Time [clock=44, time=null]
+Time [clock=104, time=null]
+Time [clock=130, time=null]
+Time [clock=131, time=null]
+Position [subject=a1, id=null, cell=Cell [x=3, y=9], time=2014-03-31 15:07:49.744, clock=16]
+Position [subject=t1, id=null, cell=Cell [x=2, y=9], time=2014-03-31 15:08:06.2, clock=49]
+Position [subject=a1, id=null, cell=Cell [x=5, y=10], time=2014-03-31 15:07:52.305, clock=21]
+Position [subject=t1, id=null, cell=Cell [x=2, y=17], time=2014-03-31 15:08:00.171, clock=37]
+Position [subject=t1, id=null, cell=Cell [x=2, y=16], time=2014-03-31 15:08:00.957, clock=39]
+Position [subject=a2, id=null, cell=Cell [x=11, y=10], time=2014-03-31 15:07:56.515, clock=30]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=137, time=2014-03-31 15:08:49.723]
+Obligation [subject=a4, obligation=[south(10, 10, a4)], sanction=[reduce(a4, 1000)], deadline=9, time=2014-03-31 15:07:45.092, clock=8]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=138, time=2014-03-31 15:08:50.453]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=137, time=2014-03-31 15:08:49.732]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=139, time=2014-03-31 15:08:50.576]
+Position [subject=t1, id=null, cell=Cell [x=5, y=19], time=2014-03-31 15:07:56.396, clock=30]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=123, time=2014-03-31 15:08:42.542]
+Time [clock=108, time=null]
+Time [clock=112, time=null]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=130, time=2014-03-31 15:08:46.146]
+Time [clock=87, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=88, time=2014-03-31 15:08:24.964]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=133, time=2014-03-31 15:08:47.663]
+Position [subject=t1, id=null, cell=Cell [x=7, y=19], time=2014-03-31 15:07:54.8, clock=26]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=134, time=2014-03-31 15:08:48.251]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=129, time=2014-03-31 15:08:45.564]
+Time [clock=105, time=null]
+Position [subject=t1, id=null, cell=Cell [x=2, y=11], time=2014-03-31 15:08:04.839, clock=46]
+Time [clock=134, time=null]
+Time [clock=116, time=null]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=123, time=2014-03-31 15:08:42.835]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=132, time=2014-03-31 15:08:47.112]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=136, time=2014-03-31 15:08:49.31]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=119, time=2014-03-31 15:08:40.655]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=138, time=2014-03-31 15:08:50.45]
+Time [clock=135, time=null]
+Position [subject=a2, id=null, cell=Cell [x=11, y=15], time=2014-03-31 15:07:52.365, clock=22]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=108, time=2014-03-31 15:08:35.295]
+Position [subject=t1, id=null, cell=Cell [x=2, y=5], time=2014-03-31 15:08:08.704, clock=54]
+Time [clock=94, time=null]
+Position [subject=a1, id=null, cell=Cell [x=9, y=10], time=2014-03-31 15:07:55.648, clock=28]
+Position [subject=a1, id=null, cell=Cell [x=8, y=10], time=2014-03-31 15:07:54.858, clock=27]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=127, time=2014-03-31 15:08:44.678]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=125, time=2014-03-31 15:08:43.98]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=137, time=2014-03-31 15:08:49.867]
+Time [clock=137, time=null]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=124, time=2014-03-31 15:08:43.248]
+Time [clock=114, time=null]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=127, time=2014-03-31 15:08:44.983]
+Time [clock=139, time=null]
+Position [subject=t1, id=null, cell=Cell [x=2, y=6], time=2014-03-31 15:08:08.088, clock=53]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=125, time=2014-03-31 15:08:43.983]
+Time [clock=122, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=118, time=2014-03-31 15:08:40.358]
+Position [subject=a1, id=null, cell=Cell [x=7, y=10], time=2014-03-31 15:07:54.029, clock=25]
+Time [clock=117, time=null]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=120, time=2014-03-31 15:08:41.143]
+Position [subject=t1, id=null, cell=Cell [x=17, y=19], time=2014-03-31 15:07:46.872, clock=11]
+Time [clock=110, time=null]
+Time [clock=83, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=101, time=2014-03-31 15:08:31.544]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=132, time=2014-03-31 15:08:47.534]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=135, time=2014-03-31 15:08:49.014]
+Time [clock=15, time=null]
+Position [subject=t1, id=null, cell=Cell [x=2, y=8], time=2014-03-31 15:08:06.85, clock=51]
+Time [clock=115, time=null]
+Time [clock=125, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=117, time=2014-03-31 15:08:39.581]
+Time [clock=133, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=132, time=2014-03-31 15:08:47.537]
+Time [clock=109, time=null]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=121, time=2014-03-31 15:08:41.818]
+Time [clock=96, time=null]
+Position [subject=t1, id=null, cell=Cell [x=2, y=10], time=2014-03-31 15:08:05.555, clock=48]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=111, time=2014-03-31 15:08:36.594]
+Time [clock=90, time=null]
+Time [clock=136, time=null]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=72, time=2014-03-31 15:08:17.097]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=97, time=2014-03-31 15:08:29.564]
+Time [clock=118, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=96, time=2014-03-31 15:08:29.435]
+Time [clock=62, time=null]
+Time [clock=97, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=99, time=2014-03-31 15:08:30.837]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=130, time=2014-03-31 15:08:46.431]
+Time [clock=123, time=null]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=105, time=2014-03-31 15:08:33.685]
+Position [subject=a2, id=null, cell=Cell [x=11, y=13], time=2014-03-31 15:07:54.083, clock=25]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=131, time=2014-03-31 15:08:46.967]
+Position [subject=a3, id=null, cell=Cell [x=10, y=11], time=2014-03-31 15:07:54.009, clock=25]
+Time [clock=20, time=null]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=136, time=2014-03-31 15:08:49.152]
+Time [clock=95, time=null]
+Time [clock=29, time=null]
+Position [subject=t1, id=null, cell=Cell [x=2, y=4], time=2014-03-31 15:08:09.408, clock=56]
+Position [subject=a3, id=null, cell=Cell [x=11, y=11], time=2014-03-31 15:07:53.184, clock=23]
+Position [subject=t1, id=null, cell=Cell [x=10, y=19], time=2014-03-31 15:07:52.25, clock=21]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=92, time=2014-03-31 15:08:27.217]
+Time [clock=128, time=null]
+Position [subject=t1, id=null, cell=Cell [x=2, y=12], time=2014-03-31 15:08:04.047, clock=45]
+Position [subject=t1, id=null, cell=Cell [x=11, y=19], time=2014-03-31 15:07:51.357, clock=20]
+Time [clock=120, time=null]
+Time [clock=84, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=131, time=2014-03-31 15:08:46.839]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=108, time=2014-03-31 15:08:35.453]
+Position [subject=a2, id=null, cell=Cell [x=11, y=19], time=2014-03-31 15:07:49.117, clock=15]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=124, time=2014-03-31 15:08:43.527]
+Time [clock=102, time=null]
+Time [clock=100, time=null]
+Position [subject=a2, id=null, cell=Cell [x=9, y=19], time=2014-03-31 15:07:47.789, clock=12]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=134, time=2014-03-31 15:08:48.254]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=135, time=2014-03-31 15:08:48.589]
+Time [clock=81, time=null]
+Time [clock=53, time=null]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=116, time=2014-03-31 15:08:39.146]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=128, time=2014-03-31 15:08:45.422]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=133, time=2014-03-31 15:08:47.841]
+Position [subject=a4, id=null, cell=Cell [x=11, y=8], time=2014-03-31 15:07:50.808, clock=18]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=117, time=2014-03-31 15:08:39.577]
+Time [clock=85, time=null]
+Time [clock=39, time=null]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=120, time=2014-03-31 15:08:41.287]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=128, time=2014-03-31 15:08:45.426]
+Time [clock=129, time=null]
+Time [clock=91, time=null]
+Position [subject=t1, id=null, cell=Cell [x=8, y=19], time=2014-03-31 15:07:53.973, clock=25]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=130, time=2014-03-31 15:08:46.279]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=62, time=2014-03-31 15:08:12.194]
+Time [clock=77, time=null]
+Position [subject=a4, id=null, cell=Cell [x=10, y=9], time=2014-03-31 15:07:52.521, clock=22]
+Position [subject=a3, id=null, cell=Cell [x=11, y=8], time=2014-03-31 15:07:50.573, clock=18]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=114, time=2014-03-31 15:08:38.176]
+Time [clock=33, time=null]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=129, time=2014-03-31 15:08:45.729]
+Position [subject=t1, id=null, cell=Cell [x=9, y=19], time=2014-03-31 15:07:53.134, clock=23]
+Time [clock=88, time=null]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=109, time=2014-03-31 15:08:35.873]
+Time [clock=24, time=null]
+Position [subject=a4, id=null, cell=Cell [x=11, y=9], time=2014-03-31 15:07:51.665, clock=20]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=124, time=2014-03-31 15:08:43.251]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=121, time=2014-03-31 15:08:41.962]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=84, time=2014-03-31 15:08:23.061]
+Position [subject=a1, id=null, cell=Cell [x=6, y=10], time=2014-03-31 15:07:53.202, clock=23]
+Position [subject=t1, id=null, cell=Cell [x=2, y=14], time=2014-03-31 15:08:02.55, clock=42]
+Position [subject=a2, id=null, cell=Cell [x=11, y=18], time=2014-03-31 15:07:49.783, clock=17]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=123, time=2014-03-31 15:08:42.675]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=111, time=2014-03-31 15:08:36.9]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=127, time=2014-03-31 15:08:44.684]
+Time [clock=124, time=null]
+Time [clock=132, time=null]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=104, time=2014-03-31 15:08:33.125]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=120, time=2014-03-31 15:08:41.437]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=110, time=2014-03-31 15:08:36.168]
+Position [subject=t1, id=null, cell=Cell [x=6, y=19], time=2014-03-31 15:07:55.594, clock=28]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=96, time=2014-03-31 15:08:29.017]
+Position [subject=t1, id=null, cell=Cell [x=12, y=19], time=2014-03-31 15:07:50.535, clock=18]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=95, time=2014-03-31 15:08:28.728]
+Position [subject=a1, id=null, cell=Cell [x=3, y=7], time=2014-03-31 15:07:48.498, clock=14]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=86, time=2014-03-31 15:08:24.34]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=70, time=2014-03-31 15:08:16.367]
+Time [clock=78, time=null]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=55, time=2014-03-31 15:08:08.43]
+Position [subject=a4, id=null, cell=Cell [x=11, y=4], time=2014-03-31 15:07:48.008, clock=13]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=118, time=2014-03-31 15:08:40.355]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=122, time=2014-03-31 15:08:42.115]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=102, time=2014-03-31 15:08:32.392]
+Time [clock=111, time=null]
+Position [subject=t1, id=null, cell=Cell [x=3, y=19], time=2014-03-31 15:07:57.978, clock=33]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=126, time=2014-03-31 15:08:44.276]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=104, time=2014-03-31 15:08:32.992]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=89, time=2014-03-31 15:08:25.71]
+Position [subject=a2, id=null, cell=Cell [x=11, y=14], time=2014-03-31 15:07:53.268, clock=23]
+Position [subject=ra1, id=null, cell=Cell [x=3, y=5], time=2014-03-31 15:07:46.062, clock=9]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=44, time=2014-03-31 15:08:03.073]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=118, time=2014-03-31 15:08:40.489]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=98, time=2014-03-31 15:08:30.124]
+Position [subject=a4, id=null, cell=Cell [x=11, y=5], time=2014-03-31 15:07:48.646, clock=14]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=124, time=2014-03-31 15:08:43.381]
+Position [subject=a3, id=null, cell=Cell [x=11, y=2], time=2014-03-31 15:07:45.575, clock=8]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=127, time=2014-03-31 15:08:44.819]
+Position [subject=a2, id=null, cell=Cell [x=11, y=17], time=2014-03-31 15:07:50.633, clock=18]
+Position [subject=a1, id=null, cell=Cell [x=3, y=4], time=2014-03-31 15:07:45.019, clock=6]
+Time [clock=67, time=null]
+Time [clock=26, time=null]
+Position [subject=t1, id=null, cell=Cell [x=2, y=19], time=2014-03-31 15:07:58.818, clock=34]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=90, time=2014-03-31 15:08:26.023]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=101, time=2014-03-31 15:08:31.833]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=51, time=2014-03-31 15:08:06.596]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=115, time=2014-03-31 15:08:38.808]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=101, time=2014-03-31 15:08:31.677]
+Position [subject=t1, id=null, cell=Cell [x=18, y=19], time=2014-03-31 15:07:46.022, clock=9]
+Position [subject=a2, id=null, cell=Cell [x=11, y=11], time=2014-03-31 15:07:55.705, clock=28]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=113, time=2014-03-31 15:08:37.595]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=85, time=2014-03-31 15:08:23.603]
+Time [clock=16, time=null]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=112, time=2014-03-31 15:08:37.445]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=126, time=2014-03-31 15:08:44.113]
+Position [subject=ra1, id=null, cell=Cell [x=6, y=6], time=2014-03-31 15:07:49.755, clock=17]
+Position [subject=a1, id=null, cell=Cell [x=3, y=8], time=2014-03-31 15:07:49.087, clock=15]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=117, time=2014-03-31 15:08:39.874]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=88, time=2014-03-31 15:08:24.962]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=94, time=2014-03-31 15:08:28.343]
+Position [subject=a3, id=null, cell=Cell [x=11, y=5], time=2014-03-31 15:07:48.478, clock=14]
+Time [clock=71, time=null]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=95, time=2014-03-31 15:08:28.867]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=112, time=2014-03-31 15:08:37.31]
+Time [clock=107, time=null]
+Time [clock=18, time=null]
+Position [subject=a2, id=null, cell=Cell [x=11, y=16], time=2014-03-31 15:07:51.479, clock=20]
+Position [subject=t1, id=null, cell=Cell [x=14, y=19], time=2014-03-31 15:07:49.058, clock=15]
+Time [clock=76, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=94, time=2014-03-31 15:08:28.045]
+Position [subject=ra1, id=null, cell=Cell [x=5, y=5], time=2014-03-31 15:07:47.786, clock=12]
+Position [subject=a3, id=null, cell=Cell [x=11, y=4], time=2014-03-31 15:07:47.749, clock=12]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=79, time=2014-03-31 15:08:20.459]
+Position [subject=a4, id=null, cell=Cell [x=11, y=2], time=2014-03-31 15:07:45.579, clock=8]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=94, time=2014-03-31 15:08:28.184]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=111, time=2014-03-31 15:08:36.597]
+Time [clock=127, time=null]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=91, time=2014-03-31 15:08:26.58]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=77, time=2014-03-31 15:08:19.744]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=108, time=2014-03-31 15:08:35.152]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=48, time=2014-03-31 15:08:04.894]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=97, time=2014-03-31 15:08:29.722]
+Time [clock=74, time=null]
+Time [clock=121, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=46, time=2014-03-31 15:08:03.941]
+Time [clock=106, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=106, time=2014-03-31 15:08:34.416]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=117, time=2014-03-31 15:08:39.717]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=114, time=2014-03-31 15:08:38.029]
+Position [subject=a2, id=null, cell=Cell [x=7, y=19], time=2014-03-31 15:07:45.069, clock=6]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=36, time=2014-03-31 15:07:59.155]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=109, time=2014-03-31 15:08:35.879]
+Position [subject=t1, id=null, cell=Cell [x=13, y=19], time=2014-03-31 15:07:49.673, clock=16]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=120, time=2014-03-31 15:08:41.146]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=85, time=2014-03-31 15:08:23.465]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=104, time=2014-03-31 15:08:33.286]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=90, time=2014-03-31 15:08:26.441]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=134, time=2014-03-31 15:08:48.407]
+Time [clock=68, time=null]
+Time [clock=46, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=86, time=2014-03-31 15:08:24.206]
+Position [subject=a1, id=null, cell=Cell [x=3, y=6], time=2014-03-31 15:07:47.769, clock=12]
+Time [clock=17, time=null]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=74, time=2014-03-31 15:08:18.415]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=83, time=2014-03-31 15:08:22.745]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=78, time=2014-03-31 15:08:20.055]
+Time [clock=6, time=null]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=100, time=2014-03-31 15:08:31.134]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=99, time=2014-03-31 15:08:30.834]
+Position [subject=a2, id=null, cell=Cell [x=8, y=19], time=2014-03-31 15:07:46.914, clock=11]
+Time [clock=89, time=null]
+Position [subject=a4, id=null, cell=Cell [x=11, y=7], time=2014-03-31 15:07:49.964, clock=17]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=107, time=2014-03-31 15:08:34.717]
+Time [clock=43, time=null]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=110, time=2014-03-31 15:08:36.007]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=39, time=2014-03-31 15:08:00.401]
+Position [subject=a3, id=null, cell=Cell [x=11, y=9], time=2014-03-31 15:07:51.407, clock=20]
+Position [subject=t1, id=null, cell=Cell [x=2, y=15], time=2014-03-31 15:08:01.764, clock=40]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=74, time=2014-03-31 15:08:18.293]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=92, time=2014-03-31 15:08:27.37]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=82, time=2014-03-31 15:08:22.187]
+Time [clock=21, time=null]
+Position [subject=a1, id=null, cell=Cell [x=3, y=5], time=2014-03-31 15:07:46.897, clock=11]
+Position [subject=t1, id=null, cell=Cell [x=2, y=18], time=2014-03-31 15:07:59.502, clock=36]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=89, time=2014-03-31 15:08:25.854]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=106, time=2014-03-31 15:08:33.999]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=115, time=2014-03-31 15:08:38.943]
+Position [subject=t1, id=null, cell=Cell [x=4, y=19], time=2014-03-31 15:07:57.176, clock=31]
+Time [clock=73, time=null]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=81, time=2014-03-31 15:08:21.598]
+Time [clock=2, time=null]
+Time [clock=126, time=null]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=91, time=2014-03-31 15:08:26.739]
+Time [clock=59, time=null]
+Position [subject=a3, id=null, cell=Cell [x=11, y=6], time=2014-03-31 15:07:49.072, clock=15]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=76, time=2014-03-31 15:08:19.352]
+Position [subject=a1, id=null, cell=Cell [x=3, y=10], time=2014-03-31 15:07:50.587, clock=18]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=79, time=2014-03-31 15:08:20.802]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=68, time=2014-03-31 15:08:15.284]
+Time [clock=72, time=null]
+Time [clock=63, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=54, time=2014-03-31 15:08:08.136]
+Position [subject=t1, id=null, cell=Cell [x=15, y=19], time=2014-03-31 15:07:48.454, clock=14]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=131, time=2014-03-31 15:08:46.834]
+Position [subject=a4, id=null, cell=Cell [x=11, y=3], time=2014-03-31 15:07:47.122, clock=11]
+Time [clock=70, time=null]
+Time [clock=64, time=null]
+Time [clock=52, time=null]
+Position [subject=a1, id=null, cell=Cell [x=4, y=10], time=2014-03-31 15:07:51.42, clock=20]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=89, time=2014-03-31 15:08:25.713]
+Time [clock=103, time=null]
+Time [clock=51, time=null]
+Time [clock=66, time=null]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=102, time=2014-03-31 15:08:32.245]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=123, time=2014-03-31 15:08:42.545]
+Time [clock=82, time=null]
+Time [clock=79, time=null]
+Position [subject=a2, id=null, cell=Cell [x=11, y=12], time=2014-03-31 15:07:54.912, clock=27]
+Time [clock=101, time=null]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=87, time=2014-03-31 15:08:24.504]
+Position [subject=a3, id=null, cell=Cell [x=11, y=3], time=2014-03-31 15:07:46.89, clock=11]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=106, time=2014-03-31 15:08:34.413]
+Position [subject=a3, id=null, cell=Cell [x=11, y=7], time=2014-03-31 15:07:49.729, clock=16]
+Time [clock=40, time=null]
+Time [clock=86, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=102, time=2014-03-31 15:08:32.254]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=112, time=2014-03-31 15:08:37.302]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=47, time=2014-03-31 15:08:04.757]
+Time [clock=75, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=79, time=2014-03-31 15:08:20.463]
+Position [subject=a3, id=null, cell=Cell [x=11, y=10], time=2014-03-31 15:07:52.288, clock=21]
+Time [clock=22, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=85, time=2014-03-31 15:08:23.471]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=71, time=2014-03-31 15:08:16.893]
+Position [subject=a4, id=null, cell=Cell [x=11, y=6], time=2014-03-31 15:07:49.241, clock=16]
+Time [clock=65, time=null]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=68, time=2014-03-31 15:08:15.261]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=88, time=2014-03-31 15:08:25.12]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=64, time=2014-03-31 15:08:13.109]
+Position [subject=ra1, id=null, cell=Cell [x=5, y=6], time=2014-03-31 15:07:49.101, clock=15]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=98, time=2014-03-31 15:08:30.417]
+Time [clock=61, time=null]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=82, time=2014-03-31 15:08:22.045]
+Time [clock=58, time=null]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=37, time=2014-03-31 15:07:59.525]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=77, time=2014-03-31 15:08:19.741]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=59, time=2014-03-31 15:08:10.635]
+Position [subject=t1, id=null, cell=Cell [x=16, y=19], time=2014-03-31 15:07:47.735, clock=12]
+Time [clock=31, time=null]
+Time [clock=27, time=null]
+Position [subject=a2, id=null, cell=Cell [x=10, y=19], time=2014-03-31 15:07:48.516, clock=14]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=28, time=2014-03-31 15:07:55.251]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=105, time=2014-03-31 15:08:33.69]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=51, time=2014-03-31 15:08:06.873]
+Time [clock=7, time=null]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=50, time=2014-03-31 15:08:06.052]
+Time [clock=54, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=121, time=2014-03-31 15:08:41.822]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=74, time=2014-03-31 15:08:18.296]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=103, time=2014-03-31 15:08:32.553]
+Position [subject=ra1, id=null, cell=Cell [x=4, y=5], time=2014-03-31 15:07:46.908, clock=11]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=92, time=2014-03-31 15:08:27.221]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=73, time=2014-03-31 15:08:17.821]
+Time [clock=19, time=null]
+Time [clock=49, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=38, time=2014-03-31 15:08:00.024]
+Time [clock=45, time=null]
+Position [subject=ra1, id=null, cell=Cell [x=3, y=4], time=2014-03-31 15:07:45.06, clock=6]
+Time [clock=60, time=null]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=71, time=2014-03-31 15:08:16.776]
+Time [clock=57, time=null]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=32, time=2014-03-31 15:07:57.226]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=70, time=2014-03-31 15:08:16.024]
+Time [clock=41, time=null]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=80, time=2014-03-31 15:08:21.241]
+Time [clock=9, time=null]
+Time [clock=93, time=null]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=83, time=2014-03-31 15:08:22.887]
+Time [clock=92, time=null]
+Time [clock=3, time=null]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=69, time=2014-03-31 15:08:15.595]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=61, time=2014-03-31 15:08:11.441]
+Time [clock=37, time=null]
+Time [clock=28, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=108, time=2014-03-31 15:08:35.156]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=73, time=2014-03-31 15:08:17.511]
+Time [clock=35, time=null]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=63, time=2014-03-31 15:08:12.618]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=101, time=2014-03-31 15:08:31.542]
+Time [clock=34, time=null]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=51, time=2014-03-31 15:08:06.505]
+Time [clock=23, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=95, time=2014-03-31 15:08:28.731]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=94, time=2014-03-31 15:08:28.041]
+Time [clock=5, time=null]
+Time [clock=56, time=null]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=38, time=2014-03-31 15:07:59.881]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=115, time=2014-03-31 15:08:38.805]
+Time [clock=14, time=null]
+Time [clock=25, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=67, time=2014-03-31 15:08:14.591]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=56, time=2014-03-31 15:08:09.236]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=93, time=2014-03-31 15:08:27.548]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=80, time=2014-03-31 15:08:21.244]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=82, time=2014-03-31 15:08:22.048]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=85, time=2014-03-31 15:08:23.782]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=79, time=2014-03-31 15:08:20.608]
+Time [clock=13, time=null]
+Time [clock=4, time=null]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=83, time=2014-03-31 15:08:22.743]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=114, time=2014-03-31 15:08:38.339]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=36, time=2014-03-31 15:07:59.251]
+Time [clock=47, time=null]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=27, time=2014-03-31 15:07:54.616]
+Time [clock=42, time=null]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=114, time=2014-03-31 15:08:38.026]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=111, time=2014-03-31 15:08:36.728]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=73, time=2014-03-31 15:08:17.626]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=76, time=2014-03-31 15:08:19.057]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=64, time=2014-03-31 15:08:13.001]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=104, time=2014-03-31 15:08:32.996]
+Time [clock=36, time=null]
+Time [clock=32, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=48, time=2014-03-31 15:08:04.902]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=75, time=2014-03-31 15:08:18.623]
+Time [clock=30, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=65, time=2014-03-31 15:08:13.768]
+Time [clock=12, time=null]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=43, time=2014-03-31 15:08:02.391]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=61, time=2014-03-31 15:08:11.56]
+Time [clock=11, time=null]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=38, time=2014-03-31 15:08:00.021]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=73, time=2014-03-31 15:08:17.523]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=71, time=2014-03-31 15:08:16.784]
+Time [clock=8, time=null]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=40, time=2014-03-31 15:08:00.868]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=34, time=2014-03-31 15:07:58.238]
+Time [clock=113, time=null]
+Time [clock=48, time=null]
+Time [clock=55, time=null]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=98, time=2014-03-31 15:08:30.264]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=67, time=2014-03-31 15:08:14.87]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=67, time=2014-03-31 15:08:14.559]
+Time [clock=50, time=null]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=65, time=2014-03-31 15:08:13.858]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=98, time=2014-03-31 15:08:30.131]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=62, time=2014-03-31 15:08:12.336]
+Time [clock=10, time=null]
+Time [clock=1, time=null]
+Time [clock=119, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=58, time=2014-03-31 15:08:09.918]
+Time [clock=99, time=null]
+Time [clock=98, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=70, time=2014-03-31 15:08:16.043]
+Time [clock=69, time=null]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=52, time=2014-03-31 15:08:07.333]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=65, time=2014-03-31 15:08:13.744]
+Time [clock=38, time=null]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=67, time=2014-03-31 15:08:14.677]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=61, time=2014-03-31 15:08:11.816]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=68, time=2014-03-31 15:08:15.374]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=49, time=2014-03-31 15:08:05.665]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=64, time=2014-03-31 15:08:13.041]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=44, time=2014-03-31 15:08:02.872]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=33, time=2014-03-31 15:07:57.625]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=64, time=2014-03-31 15:08:13.331]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=105, time=2014-03-31 15:08:33.837]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=107, time=2014-03-31 15:08:34.545]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=99, time=2014-03-31 15:08:30.968]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=29, time=2014-03-31 15:07:55.63]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=61, time=2014-03-31 15:08:11.498]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=30, time=2014-03-31 15:07:56.256]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=34, time=2014-03-31 15:07:58.083]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=24, time=2014-03-31 15:07:53.207]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=53, time=2014-03-31 15:08:07.647]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=59, time=2014-03-31 15:08:10.71]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=44, time=2014-03-31 15:08:03.075]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=58, time=2014-03-31 15:08:10.247]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=54, time=2014-03-31 15:08:08.133]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=51, time=2014-03-31 15:08:06.589]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=76, time=2014-03-31 15:08:19.169]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=96, time=2014-03-31 15:08:29.432]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=58, time=2014-03-31 15:08:09.967]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=90, time=2014-03-31 15:08:26.444]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=52, time=2014-03-31 15:08:07.339]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=82, time=2014-03-31 15:08:22.339]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=88, time=2014-03-31 15:08:25.281]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=86, time=2014-03-31 15:08:24.203]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=80, time=2014-03-31 15:08:21.412]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=57, time=2014-03-31 15:08:09.814]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=70, time=2014-03-31 15:08:16.138]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=41, time=2014-03-31 15:08:01.406]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=35, time=2014-03-31 15:07:58.63]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=77, time=2014-03-31 15:08:19.876]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=59, time=2014-03-31 15:08:10.759]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=62, time=2014-03-31 15:08:12.25]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=34, time=2014-03-31 15:07:58.242]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=66, time=2014-03-31 15:08:14.103]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=11, y=1], clock=6, time=2014-03-31 15:07:44.104]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=42, time=2014-03-31 15:08:02.02]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=56, time=2014-03-31 15:08:08.917]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=76, time=2014-03-31 15:08:19.06]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=46, time=2014-03-31 15:08:03.933]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=49, time=2014-03-31 15:08:05.749]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=42, time=2014-03-31 15:08:01.867]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=31, time=2014-03-31 15:07:56.637]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=26, time=2014-03-31 15:07:54.239]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=55, time=2014-03-31 15:08:08.82]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=60, time=2014-03-31 15:08:11.028]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=52, time=2014-03-31 15:08:07.251]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=49, time=2014-03-31 15:08:05.756]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=48, time=2014-03-31 15:08:05.281]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=46, time=2014-03-31 15:08:04.279]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=45, time=2014-03-31 15:08:03.834]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=40, time=2014-03-31 15:08:01.014]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=36, time=2014-03-31 15:07:59.259]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=11, y=1], clock=6, time=2014-03-31 15:07:44.077]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=32, time=2014-03-31 15:07:57.23]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=30, time=2014-03-31 15:07:56.253]
+ActionRequest [id=null, subject=ra1, type=reading, cell=Cell [x=5, y=5], clock=15, time=2014-03-31 15:07:48.351]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=56, time=2014-03-31 15:08:08.92]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=54, time=2014-03-31 15:08:08.048]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=45, time=2014-03-31 15:08:03.485]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=42, time=2014-03-31 15:08:02.017]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=40, time=2014-03-31 15:08:01.017]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=32, time=2014-03-31 15:07:57.082]
+GroupCoin [x=10, y=10, clock=8]
+-------------------------last log tuples end----------------------------------
+1
+register a1
+register a2
+register a3
+register a4
+register c1
+register t1
+register ra1
+2
+3
+4
+5
+org notification: Time [clock=1, time=null]
+org notified found Time [clock=1, time=null]
+org notified sent time(1).
+Organization notifies agent (write): Obligation [subject=ra1, obligation=[surround(10, 10)], sanction=[reduce(g, 1000)], deadline=2, time=2014-03-31 15:09:00.635, clock=5]
+agent notification: Time [clock=2, time=null]
+Event sent to agent      a3 clock(2)
+Organization notifies agent (write): Prohibition [subject=a1, prohibition=[at(10, 10, a1)], sanction=[reduce(a1, 300)], clock=5, time=2014-03-31 15:09:00.649]
+agent notification: Time [clock=2, time=null]
+agent notification: Time [clock=2, time=null]
+Event sent to agent      a2 clock(2)
+Event sent to agent      t1 clock(2)
+agent notification: Time [clock=3, time=null]
+Event sent to agent      t1 clock(3)
+agent notification: Time [clock=2, time=null]
+Event sent to agent      a1 clock(2)
+agent notification: Time [clock=3, time=null]
+Event sent to agent      a1 clock(3)
+Organization notifies agent (write): Prohibition [subject=a1, prohibition=[at(9, 10, a1)], sanction=[reduce(a1, 300)], clock=5, time=2014-03-31 15:09:00.67]
+Organization notifies agent (write): Prohibition [subject=a1, prohibition=[at(10, 9, a1)], sanction=[reduce(a1, 300)], clock=5, time=2014-03-31 15:09:00.674]
+Organization notifies agent (write): Prohibition [subject=a1, prohibition=[at(11, 10, a1)], sanction=[reduce(a1, 300)], clock=5, time=2014-03-31 15:09:00.678]
+agent notification: Time [clock=2, time=null]
+agent notification: Time [clock=2, time=null]
+Organization notifies agent (write): Prohibition [subject=a2, prohibition=[at(10, 10, a2)], sanction=[reduce(a2, 300)], clock=5, time=2014-03-31 15:09:00.686]
+agent notification: Time [clock=2, time=null]
+Event sent to agent      c1 clock(2)
+agent notification: Time [clock=3, time=null]
+Event sent to agent      c1 clock(3)
+agent notification: Time [clock=4, time=null]
+Event sent to agent      c1 clock(4)
+agent notification: Time [clock=3, time=null]
+Event sent to agent      a2 clock(3)
+agent notification: Time [clock=4, time=null]
+Event sent to agent      a2 clock(4)
+agent notification: Time [clock=5, time=null]
+Event sent to agent      a2 clock(5)
+Organization notifies agent (write): Prohibition [subject=a2, prohibition=[at(9, 10, a2)], sanction=[reduce(a2, 300)], clock=5, time=2014-03-31 15:09:00.691]
+agent notification: Time [clock=4, time=null]
+Event sent to agent      t1 clock(4)
+agent notification: Time [clock=5, time=null]
+Event sent to agent      t1 clock(5)
+Event sent to agent      a4 clock(2)
+agent notification: Obligation [subject=ra1, obligation=[surround(10, 10)], sanction=[reduce(g, 1000)], deadline=2, time=2014-03-31 15:09:00.635, clock=5]
+Event sent to agent      ra1 clock(2)
+agent notification: Time [clock=3, time=null]
+Event sent to agent      ra1 clock(3)
+agent notification: Time [clock=3, time=null]
+agent notification: Time [clock=4, time=null]
+Event sent to agent      a4 clock(3)
+Event sent to agent      a1 clock(4)
+agent notification: Time [clock=5, time=null]
+Event sent to agent      a1 clock(5)
+agent notification: Time [clock=4, time=null]
+Event sent to agent      a4 clock(4)
+agent notification: Time [clock=5, time=null]
+Event sent to agent      a4 clock(5)
+agent notification: Time [clock=4, time=null]
+Event sent to agent      ra1 obligation([surround(10, 10)], 2, [reduce(g, 1000)])
+agent notification: Time [clock=5, time=null]
+agent notification: Time [clock=3, time=null]
+Event sent to agent      ra1 clock(4)
+Event sent to agent      c1 clock(5)
+agent notification: Time [clock=5, time=null]
+Event sent to agent      a3 clock(3)
+Event sent to agent      ra1 clock(5)
+agent notification: Time [clock=4, time=null]
+Event sent to agent      a3 clock(4)
+agent notification: Time [clock=5, time=null]
+Event sent to agent      a3 clock(5)
+Organization notifies agent (write): Prohibition [subject=a2, prohibition=[at(10, 9, a2)], sanction=[reduce(a2, 300)], clock=5, time=2014-03-31 15:09:00.698]
+Organization notifies agent (write): Prohibition [subject=a2, prohibition=[at(11, 10, a2)], sanction=[reduce(a2, 300)], clock=5, time=2014-03-31 15:09:00.699]
+Organization notifies agent (write): Prohibition [subject=a3, prohibition=[at(10, 10, a3)], sanction=[reduce(a3, 300)], clock=5, time=2014-03-31 15:09:00.701]
+Organization notifies agent (write): Prohibition [subject=a3, prohibition=[at(9, 10, a3)], sanction=[reduce(a3, 300)], clock=5, time=2014-03-31 15:09:00.703]
+Organization notifies agent (write): Prohibition [subject=a3, prohibition=[at(10, 9, a3)], sanction=[reduce(a3, 300)], clock=5, time=2014-03-31 15:09:00.705]
+Organization notifies agent (write): Prohibition [subject=a3, prohibition=[at(11, 10, a3)], sanction=[reduce(a3, 300)], clock=5, time=2014-03-31 15:09:00.708]
+Organization notifies agent (write): Prohibition [subject=a4, prohibition=[at(10, 10, a4)], sanction=[reduce(a4, 300)], clock=5, time=2014-03-31 15:09:00.71]
+Organization notifies agent (write): Prohibition [subject=a4, prohibition=[at(9, 10, a4)], sanction=[reduce(a4, 300)], clock=5, time=2014-03-31 15:09:00.712]
+Organization notifies agent (write): Prohibition [subject=a4, prohibition=[at(10, 9, a4)], sanction=[reduce(a4, 300)], clock=5, time=2014-03-31 15:09:00.717]
+Organization notifies agent (write): Prohibition [subject=a4, prohibition=[at(11, 10, a4)], sanction=[reduce(a4, 300)], clock=5, time=2014-03-31 15:09:00.72]
+Organization notifies agent (write): Prohibition [subject=ra1, prohibition=[at(10, 10, ra1)], sanction=[reduce(ra1, 300)], clock=5, time=2014-03-31 15:09:00.722]
+Organization notifies agent (write): Prohibition [subject=ra1, prohibition=[at(9, 10, ra1)], sanction=[reduce(ra1, 300)], clock=5, time=2014-03-31 15:09:00.724]
+Organization notifies agent (write): Prohibition [subject=ra1, prohibition=[at(10, 9, ra1)], sanction=[reduce(ra1, 300)], clock=5, time=2014-03-31 15:09:00.726]
+Organization notifies agent (write): Prohibition [subject=ra1, prohibition=[at(11, 10, ra1)], sanction=[reduce(ra1, 300)], clock=5, time=2014-03-31 15:09:00.728]
+org notification: Time [clock=2, time=null]
+org notified found Time [clock=2, time=null]
+org notified sent time(2).
+org notification: Time [clock=3, time=null]
+org notified found Time [clock=3, time=null]
+org notified sent time(3).
+org notification: Time [clock=4, time=null]
+org notified found Time [clock=4, time=null]
+org notified sent time(4).
+org notification: Time [clock=5, time=null]
+org notified found Time [clock=5, time=null]
+org notified sent time(5).
+6
+7
+Event processed UpdateClock(2)
+Event processed UpdateClock(3)
+Event processed UpdateClock(4)
+Event processed UpdateClock(2)
+Event processed UpdateClock(5)
+Event processed UpdateClock(3)
+Event processed UpdateClock(4)
+Event processed UpdateClock(5)
+Event processed UpdateClock(2)
+Event processed UpdateClock(2)
+Event processed UpdateClock(3)
+Event processed UpdateClock(3)
+Event processed UpdateClock(4)
+Event processed UpdateClock(4)
+Event processed UpdateClock(5)
+Event processed UpdateClock(5)
+Event processed UpdateClock(2)
+Event processed UpdateClock(3)
+Event processed UpdateClock(4)
+Event processed UpdateClock(2)
+Event processed UpdateClock(5)
+Event processed UpdateClock(3)
+Event processed UpdateClock(4)
+Event processed UpdateClock(5)
+Event processed UpdateClock(2)
+Event processed UpdateClock(3)
+Event processed adoptObligation(surround(10, 10), 2, reduce(g, 1000))
+Event processed UpdateClock(4)
+Event processed UpdateClock(5)
+8
+9
+GroupCoin [x=10, y=10, clock=null]
+10
+11
+12
+13
+agent notification: Prohibition [subject=a1, prohibition=[at(10, 10, a1)], sanction=[reduce(a1, 300)], clock=5, time=2014-03-31 15:09:00.649]
+Event sent to agent      a1 prohibition([at(10, 10, a1)], [reduce(a1, 300)])
+agent notification: Prohibition [subject=a1, prohibition=[at(9, 10, a1)], sanction=[reduce(a1, 300)], clock=5, time=2014-03-31 15:09:00.67]
+Event sent to agent      a1 prohibition([at(9, 10, a1)], [reduce(a1, 300)])
+Event processed adoptProhibition(at(10, 10, a1), reduce(a1, 300))
+Event processed adoptProhibition(at(9, 10, a1), reduce(a1, 300))
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+agent notification: Prohibition [subject=a1, prohibition=[at(10, 9, a1)], sanction=[reduce(a1, 300)], clock=5, time=2014-03-31 15:09:00.674]
+Event sent to agent      a1 prohibition([at(10, 9, a1)], [reduce(a1, 300)])
+Event processed adoptProhibition(at(10, 9, a1), reduce(a1, 300))
+76
+77
+78
+79
+80
+81
+82
+83
+agent notification: Prohibition [subject=a1, prohibition=[at(11, 10, a1)], sanction=[reduce(a1, 300)], clock=5, time=2014-03-31 15:09:00.678]
+Event sent to agent      a1 prohibition([at(11, 10, a1)], [reduce(a1, 300)])
+Event processed adoptProhibition(at(11, 10, a1), reduce(a1, 300))
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+agent notification: Prohibition [subject=a2, prohibition=[at(10, 10, a2)], sanction=[reduce(a2, 300)], clock=5, time=2014-03-31 15:09:00.686]
+Event sent to agent      a2 prohibition([at(10, 10, a2)], [reduce(a2, 300)])
+Event processed adoptProhibition(at(10, 10, a2), reduce(a2, 300))
+122
+123
+124
+125
+126
+127
+128
+129
+agent notification: Prohibition [subject=a2, prohibition=[at(9, 10, a2)], sanction=[reduce(a2, 300)], clock=5, time=2014-03-31 15:09:00.691]
+Event sent to agent      a2 prohibition([at(9, 10, a2)], [reduce(a2, 300)])
+Event processed adoptProhibition(at(9, 10, a2), reduce(a2, 300))
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+agent notification: Prohibition [subject=a2, prohibition=[at(10, 9, a2)], sanction=[reduce(a2, 300)], clock=5, time=2014-03-31 15:09:00.698]
+Event sent to agent      a2 prohibition([at(10, 9, a2)], [reduce(a2, 300)])
+agent notification: Prohibition [subject=a2, prohibition=[at(11, 10, a2)], sanction=[reduce(a2, 300)], clock=5, time=2014-03-31 15:09:00.699]
+Event sent to agent      a2 prohibition([at(11, 10, a2)], [reduce(a2, 300)])
+Event processed adoptProhibition(at(10, 9, a2), reduce(a2, 300))
+Event processed adoptProhibition(at(11, 10, a2), reduce(a2, 300))
+191
+192
+193
+194
+195
+196
+197
+198
+agent notification: Prohibition [subject=a3, prohibition=[at(10, 10, a3)], sanction=[reduce(a3, 300)], clock=5, time=2014-03-31 15:09:00.701]
+Event sent to agent      a3 prohibition([at(10, 10, a3)], [reduce(a3, 300)])
+Event processed adoptProhibition(at(10, 10, a3), reduce(a3, 300))
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+agent notification: Prohibition [subject=a3, prohibition=[at(9, 10, a3)], sanction=[reduce(a3, 300)], clock=5, time=2014-03-31 15:09:00.703]
+Event sent to agent      a3 prohibition([at(9, 10, a3)], [reduce(a3, 300)])
+Event processed adoptProhibition(at(9, 10, a3), reduce(a3, 300))
+238

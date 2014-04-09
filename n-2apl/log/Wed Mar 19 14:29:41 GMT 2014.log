@@ -1,0 +1,262 @@
+2014-03-19 14:29:42,459 CONFIG [com.gigaspaces.logger] - Log file: /Users/dxd/gigaspaces-xap-premium-9.5.1-ga/logs/2014-03-19~14.29-gigaspaces-service-128.243.23.149-5346.log
+-------------------------last log tuples start--------------------------------
+-------------------------last log tuples end----------------------------------
+register a1
+register a2
+register a3
+register a4
+register c1
+register t1
+register ra1
+org notification: Cargo [id=null, cell=Cell [x=19, y=19], time=2014-03-19 14:29:47.468, clock=0]
+org notified found Cargo [id=null, cell=Cell [x=19, y=19], time=2014-03-19 14:29:47.468, clock=0]
+org notified sent cargo(cell(19,19),0).
+Organization notifies agent (write): Obligation [subject=ra1, obligation=[group_action(surround(10, 10))], sanction=[sanction_group(g, 1000)], deadline=15, time=2014-03-19 14:29:47.492, clock=0]
+Organization notifies agent (write): Obligation [subject=a1, obligation=[west(10, 10, a1)], sanction=[reduce(a1, _)], deadline=15, time=2014-03-19 14:29:47.503, clock=0]
+Organization notifies agent (write): Obligation [subject=a2, obligation=[east(10, 10, a2)], sanction=[reduce(a2, _)], deadline=15, time=2014-03-19 14:29:47.511, clock=0]
+Organization notifies agent (write): Obligation [subject=a3, obligation=[north(10, 10, a3)], sanction=[reduce(a3, _)], deadline=15, time=2014-03-19 14:29:47.515, clock=0]
+agent notification: Obligation [subject=ra1, obligation=[group_action(surround(10, 10))], sanction=[sanction_group(g, 1000)], deadline=15, time=2014-03-19 14:29:47.492, clock=0]
+Event sent to agent      ra1 obligation([group_action('surround(10', 10)], 15, [sanction_group(g, 1000)])
+Organization notifies agent (write): Obligation [subject=a4, obligation=[south(10, 10, a4)], sanction=[reduce(a4, _)], deadline=15, time=2014-03-19 14:29:47.522, clock=0]
+agent notification: Obligation [subject=a2, obligation=[east(10, 10, a2)], sanction=[reduce(a2, _)], deadline=15, time=2014-03-19 14:29:47.511, clock=0]
+Event sent to agent      a2 obligation([east(10, 10, a2)], 15, [reduce(a2, _)])
+agent notification: Obligation [subject=a1, obligation=[west(10, 10, a1)], sanction=[reduce(a1, _)], deadline=15, time=2014-03-19 14:29:47.503, clock=0]
+Event sent to agent      a1 obligation([west(10, 10, a1)], 15, [reduce(a1, _)])
+agent notification: Obligation [subject=a4, obligation=[south(10, 10, a4)], sanction=[reduce(a4, _)], deadline=15, time=2014-03-19 14:29:47.522, clock=0]
+Event sent to agent      a4 obligation([south(10, 10, a4)], 15, [reduce(a4, _)])
+agent notification: Obligation [subject=a3, obligation=[north(10, 10, a3)], sanction=[reduce(a3, _)], deadline=15, time=2014-03-19 14:29:47.515, clock=0]
+Event sent to agent      a3 obligation([north(10, 10, a3)], 15, [reduce(a3, _)])
+org notification: Coin [id=null, cell=Cell [x=8, y=6], subject=a1, time=2014-03-19 14:29:47.535, clock=0]
+org notified found Coin [id=null, cell=Cell [x=8, y=6], subject=a1, time=2014-03-19 14:29:47.535, clock=0]
+org notified sent coin(cell(8,6),0,a1).
+Event processed adoptObligation(east(10, 10, a2), 15, reduce(a2, _))
+Event processed adoptObligation(north(10, 10, a3), 15, reduce(a3, _))
+Event processed adoptObligation(group_action('surround(10', 10), 15, sanction_group(g, 1000))
+Event processed adoptObligation(west(10, 10, a1), 15, reduce(a1, _))
+Event processed adoptObligation(south(10, 10, a4), 15, reduce(a4, _))
+org notification: Position [subject=a2, id=null, cell=Cell [x=7, y=19], time=2014-03-19 14:29:47.792, clock=0]
+org notified found Position [subject=a2, id=null, cell=Cell [x=7, y=19], time=2014-03-19 14:29:47.792, clock=0]
+org notified sent position(a2,cell(7,19),0).
+org notification: Position [subject=a1, id=null, cell=Cell [x=3, y=4], time=2014-03-19 14:29:47.845, clock=0]
+org notified found Position [subject=a1, id=null, cell=Cell [x=3, y=4], time=2014-03-19 14:29:47.845, clock=0]
+org notified sent position(a1,cell(3,4),0).
+org notification: Coin [id=null, cell=Cell [x=16, y=16], subject=a2, time=2014-03-19 14:29:48.58, clock=0]
+org notified found Coin [id=null, cell=Cell [x=16, y=16], subject=a2, time=2014-03-19 14:29:48.58, clock=0]
+org notified sent coin(cell(16,16),0,a2).
+org notification: Position [subject=t1, id=null, cell=Cell [x=18, y=19], time=2014-03-19 14:29:48.73, clock=0]
+org notified found Position [subject=t1, id=null, cell=Cell [x=18, y=19], time=2014-03-19 14:29:48.73, clock=0]
+org notified sent position(t1,cell(18,19),0).
+org notification: Position [subject=a3, id=null, cell=Cell [x=11, y=3], time=2014-03-19 14:29:49.34, clock=0]
+org notified found Position [subject=a3, id=null, cell=Cell [x=11, y=3], time=2014-03-19 14:29:49.34, clock=0]
+org notified sent position(a3,cell(11,3),0).
+org notification: Position [subject=a2, id=null, cell=Cell [x=8, y=19], time=2014-03-19 14:29:49.4, clock=0]
+org notified found Position [subject=a2, id=null, cell=Cell [x=8, y=19], time=2014-03-19 14:29:49.4, clock=0]
+org notified sent position(a2,cell(8,19),0).
+org notification: Coin [id=null, cell=Cell [x=2, y=2], subject=a3, time=2014-03-19 14:29:49.426, clock=0]
+org notified found Coin [id=null, cell=Cell [x=2, y=2], subject=a3, time=2014-03-19 14:29:49.426, clock=0]
+org notified sent coin(cell(2,2),0,a3).
+org notification: Position [subject=a1, id=null, cell=Cell [x=3, y=5], time=2014-03-19 14:29:49.446, clock=0]
+org notified found Position [subject=a1, id=null, cell=Cell [x=3, y=5], time=2014-03-19 14:29:49.446, clock=0]
+org notified sent position(a1,cell(3,5),0).
+org notification: Position [subject=t1, id=null, cell=Cell [x=17, y=19], time=2014-03-19 14:29:49.539, clock=0]
+org notified found Position [subject=t1, id=null, cell=Cell [x=17, y=19], time=2014-03-19 14:29:49.539, clock=0]
+org notified sent position(t1,cell(17,19),0).
+org notification: Position [subject=a3, id=null, cell=Cell [x=11, y=4], time=2014-03-19 14:29:50.181, clock=0]
+org notified found Position [subject=a3, id=null, cell=Cell [x=11, y=4], time=2014-03-19 14:29:50.181, clock=0]
+org notified sent position(a3,cell(11,4),0).
+org notification: Position [subject=a2, id=null, cell=Cell [x=9, y=19], time=2014-03-19 14:29:50.216, clock=0]
+org notified found Position [subject=a2, id=null, cell=Cell [x=9, y=19], time=2014-03-19 14:29:50.216, clock=0]
+org notified sent position(a2,cell(9,19),0).
+org notification: Position [subject=a1, id=null, cell=Cell [x=3, y=6], time=2014-03-19 14:29:50.264, clock=0]
+org notified found Position [subject=a1, id=null, cell=Cell [x=3, y=6], time=2014-03-19 14:29:50.264, clock=0]
+org notified sent position(a1,cell(3,6),0).
+org notification: Position [subject=t1, id=null, cell=Cell [x=16, y=19], time=2014-03-19 14:29:50.334, clock=0]
+org notified found Position [subject=t1, id=null, cell=Cell [x=16, y=19], time=2014-03-19 14:29:50.334, clock=0]
+org notified sent position(t1,cell(16,19),0).
+org notification: Position [subject=a3, id=null, cell=Cell [x=11, y=5], time=2014-03-19 14:29:50.929, clock=0]
+org notified found Position [subject=a3, id=null, cell=Cell [x=11, y=5], time=2014-03-19 14:29:50.929, clock=0]
+org notified sent position(a3,cell(11,5),0).
+org notification: Position [subject=a2, id=null, cell=Cell [x=10, y=19], time=2014-03-19 14:29:50.982, clock=0]
+org notified found Position [subject=a2, id=null, cell=Cell [x=10, y=19], time=2014-03-19 14:29:50.982, clock=0]
+org notified sent position(a2,cell(10,19),0).
+org notification: Position [subject=a1, id=null, cell=Cell [x=3, y=7], time=2014-03-19 14:29:51.029, clock=0]
+org notified found Position [subject=a1, id=null, cell=Cell [x=3, y=7], time=2014-03-19 14:29:51.029, clock=0]
+org notified sent position(a1,cell(3,7),0).
+org notification: Position [subject=t1, id=null, cell=Cell [x=15, y=19], time=2014-03-19 14:29:51.058, clock=0]
+org notified found Position [subject=t1, id=null, cell=Cell [x=15, y=19], time=2014-03-19 14:29:51.058, clock=0]
+org notified sent position(t1,cell(15,19),0).
+org notification: Position [subject=a3, id=null, cell=Cell [x=11, y=6], time=2014-03-19 14:29:51.696, clock=0]
+org notified found Position [subject=a3, id=null, cell=Cell [x=11, y=6], time=2014-03-19 14:29:51.696, clock=0]
+org notified sent position(a3,cell(11,6),0).
+org notification: Position [subject=a2, id=null, cell=Cell [x=11, y=19], time=2014-03-19 14:29:51.752, clock=0]
+org notified found Position [subject=a2, id=null, cell=Cell [x=11, y=19], time=2014-03-19 14:29:51.752, clock=0]
+org notified sent position(a2,cell(11,19),0).
+org notification: Position [subject=a1, id=null, cell=Cell [x=3, y=8], time=2014-03-19 14:29:51.797, clock=0]
+org notified found Position [subject=a1, id=null, cell=Cell [x=3, y=8], time=2014-03-19 14:29:51.797, clock=0]
+org notified sent position(a1,cell(3,8),0).
+org notification: Position [subject=t1, id=null, cell=Cell [x=14, y=19], time=2014-03-19 14:29:51.815, clock=0]
+org notified found Position [subject=t1, id=null, cell=Cell [x=14, y=19], time=2014-03-19 14:29:51.815, clock=0]
+org notified sent position(t1,cell(14,19),0).
+org notification: Position [subject=a3, id=null, cell=Cell [x=11, y=7], time=2014-03-19 14:29:52.404, clock=0]
+org notified found Position [subject=a3, id=null, cell=Cell [x=11, y=7], time=2014-03-19 14:29:52.404, clock=0]
+org notified sent position(a3,cell(11,7),0).
+org notification: Position [subject=a2, id=null, cell=Cell [x=11, y=18], time=2014-03-19 14:29:52.458, clock=0]
+org notified found Position [subject=a2, id=null, cell=Cell [x=11, y=18], time=2014-03-19 14:29:52.458, clock=0]
+org notified sent position(a2,cell(11,18),0).
+org notification: Position [subject=a1, id=null, cell=Cell [x=3, y=9], time=2014-03-19 14:29:52.499, clock=0]
+org notified found Position [subject=a1, id=null, cell=Cell [x=3, y=9], time=2014-03-19 14:29:52.499, clock=0]
+org notified sent position(a1,cell(3,9),0).
+org notification: Position [subject=t1, id=null, cell=Cell [x=13, y=19], time=2014-03-19 14:29:52.515, clock=0]
+org notified found Position [subject=t1, id=null, cell=Cell [x=13, y=19], time=2014-03-19 14:29:52.515, clock=0]
+org notified sent position(t1,cell(13,19),0).
+org notification: Position [subject=a3, id=null, cell=Cell [x=11, y=8], time=2014-03-19 14:29:53.139, clock=0]
+org notified found Position [subject=a3, id=null, cell=Cell [x=11, y=8], time=2014-03-19 14:29:53.139, clock=0]
+org notified sent position(a3,cell(11,8),0).
+org notification: Position [subject=a2, id=null, cell=Cell [x=11, y=17], time=2014-03-19 14:29:53.19, clock=0]
+org notified found Position [subject=a2, id=null, cell=Cell [x=11, y=17], time=2014-03-19 14:29:53.19, clock=0]
+org notified sent position(a2,cell(11,17),0).
+org notification: Position [subject=a1, id=null, cell=Cell [x=3, y=10], time=2014-03-19 14:29:53.225, clock=0]
+org notified found Position [subject=a1, id=null, cell=Cell [x=3, y=10], time=2014-03-19 14:29:53.225, clock=0]
+org notified sent position(a1,cell(3,10),0).
+org notification: Position [subject=t1, id=null, cell=Cell [x=12, y=19], time=2014-03-19 14:29:53.24, clock=0]
+org notified found Position [subject=t1, id=null, cell=Cell [x=12, y=19], time=2014-03-19 14:29:53.24, clock=0]
+org notified sent position(t1,cell(12,19),0).
+org notification: Position [subject=a3, id=null, cell=Cell [x=11, y=9], time=2014-03-19 14:29:53.823, clock=0]
+org notified found Position [subject=a3, id=null, cell=Cell [x=11, y=9], time=2014-03-19 14:29:53.823, clock=0]
+org notified sent position(a3,cell(11,9),0).
+org notification: Position [subject=a2, id=null, cell=Cell [x=11, y=16], time=2014-03-19 14:29:53.868, clock=0]
+org notified found Position [subject=a2, id=null, cell=Cell [x=11, y=16], time=2014-03-19 14:29:53.868, clock=0]
+org notified sent position(a2,cell(11,16),0).
+org notification: Position [subject=a1, id=null, cell=Cell [x=4, y=10], time=2014-03-19 14:29:53.915, clock=0]
+org notified found Position [subject=a1, id=null, cell=Cell [x=4, y=10], time=2014-03-19 14:29:53.915, clock=0]
+org notified sent position(a1,cell(4,10),0).
+org notification: Position [subject=t1, id=null, cell=Cell [x=11, y=19], time=2014-03-19 14:29:53.928, clock=0]
+org notified found Position [subject=t1, id=null, cell=Cell [x=11, y=19], time=2014-03-19 14:29:53.928, clock=0]
+org notified sent position(t1,cell(11,19),0).
+org notification: Position [subject=a3, id=null, cell=Cell [x=11, y=10], time=2014-03-19 14:29:54.505, clock=0]
+org notified found Position [subject=a3, id=null, cell=Cell [x=11, y=10], time=2014-03-19 14:29:54.505, clock=0]
+org notified sent position(a3,cell(11,10),0).
+org notification: Position [subject=a2, id=null, cell=Cell [x=11, y=15], time=2014-03-19 14:29:54.554, clock=0]
+org notified found Position [subject=a2, id=null, cell=Cell [x=11, y=15], time=2014-03-19 14:29:54.554, clock=0]
+org notified sent position(a2,cell(11,15),0).
+org notification: Position [subject=a1, id=null, cell=Cell [x=5, y=10], time=2014-03-19 14:29:54.592, clock=0]
+org notification: Position [subject=t1, id=null, cell=Cell [x=10, y=19], time=2014-03-19 14:29:54.607, clock=0]
+org notified found Position [subject=a1, id=null, cell=Cell [x=5, y=10], time=2014-03-19 14:29:54.592, clock=0]
+org notified found Position [subject=t1, id=null, cell=Cell [x=10, y=19], time=2014-03-19 14:29:54.607, clock=0]
+org notified sent position(t1,cell(10,19),0).
+org notified sent position(a1,cell(5,10),0).
+Error while procession organization notification
+java.lang.ArrayIndexOutOfBoundsException: -1
+	at aplprolog.Parsing.IntPrologTokenManager.jjMoveNfa_0(IntPrologTokenManager.java:343)
+	at aplprolog.Parsing.IntPrologTokenManager.jjMoveStringLiteralDfa0_0(IntPrologTokenManager.java:131)
+	at aplprolog.Parsing.IntPrologTokenManager.getNextToken(IntPrologTokenManager.java:1042)
+	at aplprolog.Parsing.IntProlog.jj_scan_token(IntProlog.java:1294)
+	at aplprolog.Parsing.IntProlog.jj_3R_16(IntProlog.java:734)
+	at aplprolog.Parsing.IntProlog.jj_3R_6(IntProlog.java:786)
+	at aplprolog.Parsing.IntProlog.jj_3R_5(IntProlog.java:810)
+	at aplprolog.Parsing.IntProlog.jj_3R_24(IntProlog.java:776)
+	at aplprolog.Parsing.IntProlog.jj_3R_15(IntProlog.java:747)
+	at aplprolog.Parsing.IntProlog.jj_3R_38(IntProlog.java:792)
+	at aplprolog.Parsing.IntProlog.jj_3R_33(IntProlog.java:990)
+	at aplprolog.Parsing.IntProlog.jj_3R_17(IntProlog.java:1037)
+	at aplprolog.Parsing.IntProlog.jj_3R_7(IntProlog.java:1139)
+	at aplprolog.Parsing.IntProlog.jj_3R_5(IntProlog.java:812)
+	at aplprolog.Parsing.IntProlog.jj_3R_24(IntProlog.java:776)
+	at aplprolog.Parsing.IntProlog.jj_3R_15(IntProlog.java:747)
+	at aplprolog.Parsing.IntProlog.jj_3R_40(IntProlog.java:1145)
+	at aplprolog.Parsing.IntProlog.jj_3R_38(IntProlog.java:796)
+	at aplprolog.Parsing.IntProlog.jj_3R_33(IntProlog.java:990)
+	at aplprolog.Parsing.IntProlog.jj_3R_17(IntProlog.java:1037)
+	at aplprolog.Parsing.IntProlog.jj_3R_7(IntProlog.java:1139)
+	at aplprolog.Parsing.IntProlog.jj_3R_5(IntProlog.java:812)
+	at aplprolog.Parsing.IntProlog.jj_3_2(IntProlog.java:1150)
+	at aplprolog.Parsing.IntProlog.jj_2_2(IntProlog.java:723)
+	at aplprolog.Parsing.IntProlog.Argument(IntProlog.java:381)
+	at aplprolog.Parsing.IntProlog.Arguments(IntProlog.java:372)
+	at aplprolog.Parsing.IntProlog.PosLiteral(IntProlog.java:317)
+	at aplprolog.Parsing.IntProlog.Rule(IntProlog.java:250)
+	at aplprolog.Parsing.IntProlog.parseFact(IntProlog.java:80)
+	at geoSenseMW.EnvGeoSense.notifyOrg(EnvGeoSense.java:655)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:31)
+	at com.j_spaces.core.client.NotifyDelegator.notify(NotifyDelegator.java:142)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:319)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+aplprolog.Parsing.ParseException: Encountered " <FLOATING_POINT_LITERAL> ",10),0) "" at line 1, column 19.
+Was expecting one of:
+    "(" ...
+    "." ...
+    ":-" ...
+    
+Error while procession organization notification
+java.lang.NullPointerException
+	at oopl.DistributedOOPL.handleEvent(DistributedOOPL.java:49)
+	at geoSenseMW.EnvGeoSense.notifyOrg(EnvGeoSense.java:655)
+	at geoSenseMW.OrgHandler.notify(OrgHandler.java:31)
+	at com.j_spaces.core.client.NotifyDelegator.notify(NotifyDelegator.java:142)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.dequeueAndTrigger(BlockedOrderedQueue.java:319)
+	at com.gigaspaces.events.fifo.BlockedOrderedQueue$NotifyFifoTask.run(BlockedOrderedQueue.java:290)
+	at com.gigaspaces.internal.utils.concurrent.RunnableContextClassLoaderDecorator.run(RunnableContextClassLoaderDecorator.java:40)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:695)
+org notification: Position [subject=a3, id=null, cell=Cell [x=11, y=11], time=2014-03-19 14:29:55.189, clock=0]
+org notified found Position [subject=a3, id=null, cell=Cell [x=11, y=11], time=2014-03-19 14:29:55.189, clock=0]
+org notified sent position(a3,cell(11,11),0).
+org notification: Position [subject=a2, id=null, cell=Cell [x=11, y=14], time=2014-03-19 14:29:55.231, clock=0]
+org notified found Position [subject=a2, id=null, cell=Cell [x=11, y=14], time=2014-03-19 14:29:55.231, clock=0]
+org notified sent position(a2,cell(11,14),0).
+org notification: Position [subject=a1, id=null, cell=Cell [x=6, y=10], time=2014-03-19 14:29:55.266, clock=0]
+org notified found Position [subject=a1, id=null, cell=Cell [x=6, y=10], time=2014-03-19 14:29:55.266, clock=0]
+org notified sent position(a1,cell(6,10),0).
+org notification: Position [subject=t1, id=null, cell=Cell [x=9, y=19], time=2014-03-19 14:29:55.284, clock=0]
+org notified found Position [subject=t1, id=null, cell=Cell [x=9, y=19], time=2014-03-19 14:29:55.284, clock=0]
+org notified sent position(t1,cell(9,19),0).
+org notification: Position [subject=a3, id=null, cell=Cell [x=10, y=11], time=2014-03-19 14:29:55.869, clock=0]
+org notified found Position [subject=a3, id=null, cell=Cell [x=10, y=11], time=2014-03-19 14:29:55.869, clock=0]
+org notified sent position(a3,cell(10,11),0).
+org notification: Position [subject=a2, id=null, cell=Cell [x=11, y=13], time=2014-03-19 14:29:55.93, clock=0]
+org notified found Position [subject=a2, id=null, cell=Cell [x=11, y=13], time=2014-03-19 14:29:55.93, clock=0]
+org notified sent position(a2,cell(11,13),0).
+org notification: Position [subject=a1, id=null, cell=Cell [x=7, y=10], time=2014-03-19 14:29:55.967, clock=0]
+org notified found Position [subject=a1, id=null, cell=Cell [x=7, y=10], time=2014-03-19 14:29:55.967, clock=0]
+org notified sent position(a1,cell(7,10),0).
+org notification: Position [subject=t1, id=null, cell=Cell [x=8, y=19], time=2014-03-19 14:29:55.984, clock=0]
+org notified found Position [subject=t1, id=null, cell=Cell [x=8, y=19], time=2014-03-19 14:29:55.984, clock=0]
+org notified sent position(t1,cell(8,19),0).
+org notification: Position [subject=a2, id=null, cell=Cell [x=11, y=12], time=2014-03-19 14:29:56.611, clock=0]
+org notified found Position [subject=a2, id=null, cell=Cell [x=11, y=12], time=2014-03-19 14:29:56.611, clock=0]
+org notified sent position(a2,cell(11,12),0).
+org notification: Position [subject=a1, id=null, cell=Cell [x=8, y=10], time=2014-03-19 14:29:56.65, clock=0]
+org notified found Position [subject=a1, id=null, cell=Cell [x=8, y=10], time=2014-03-19 14:29:56.65, clock=0]
+org notified sent position(a1,cell(8,10),0).
+org notification: Position [subject=t1, id=null, cell=Cell [x=7, y=19], time=2014-03-19 14:29:56.662, clock=0]
+org notified found Position [subject=t1, id=null, cell=Cell [x=7, y=19], time=2014-03-19 14:29:56.662, clock=0]
+org notified sent position(t1,cell(7,19),0).
+org notification: Position [subject=a2, id=null, cell=Cell [x=11, y=11], time=2014-03-19 14:29:57.299, clock=0]
+org notified found Position [subject=a2, id=null, cell=Cell [x=11, y=11], time=2014-03-19 14:29:57.299, clock=0]
+org notified sent position(a2,cell(11,11),0).
+org notification: Position [subject=a1, id=null, cell=Cell [x=9, y=10], time=2014-03-19 14:29:57.345, clock=0]
+org notified found Position [subject=a1, id=null, cell=Cell [x=9, y=10], time=2014-03-19 14:29:57.345, clock=0]
+org notified sent position(a1,cell(9,10),0).
+org notification: Position [subject=t1, id=null, cell=Cell [x=6, y=19], time=2014-03-19 14:29:57.358, clock=0]
+org notified found Position [subject=t1, id=null, cell=Cell [x=6, y=19], time=2014-03-19 14:29:57.358, clock=0]
+org notified sent position(t1,cell(6,19),0).
+org notification: Position [subject=a2, id=null, cell=Cell [x=11, y=10], time=2014-03-19 14:29:57.989, clock=0]
+org notified found Position [subject=a2, id=null, cell=Cell [x=11, y=10], time=2014-03-19 14:29:57.989, clock=0]
+org notified sent position(a2,cell(11,10),0).
+org notification: Position [subject=t1, id=null, cell=Cell [x=5, y=19], time=2014-03-19 14:29:58.051, clock=0]
+org notified found Position [subject=t1, id=null, cell=Cell [x=5, y=19], time=2014-03-19 14:29:58.051, clock=0]
+org notified sent position(t1,cell(5,19),0).
+org notification: Position [subject=t1, id=null, cell=Cell [x=4, y=19], time=2014-03-19 14:29:58.705, clock=0]
+org notified found Position [subject=t1, id=null, cell=Cell [x=4, y=19], time=2014-03-19 14:29:58.705, clock=0]
+org notified sent position(t1,cell(4,19),0).
+org notification: Position [subject=t1, id=null, cell=Cell [x=3, y=19], time=2014-03-19 14:29:59.398, clock=0]
+org notified found Position [subject=t1, id=null, cell=Cell [x=3, y=19], time=2014-03-19 14:29:59.398, clock=0]
+org notified sent position(t1,cell(3,19),0).
+org notification: Position [subject=t1, id=null, cell=Cell [x=2, y=19], time=2014-03-19 14:30:00.067, clock=0]
+org notified found Position [subject=t1, id=null, cell=Cell [x=2, y=19], time=2014-03-19 14:30:00.067, clock=0]
+org notified sent position(t1,cell(2,19),0).
