@@ -1,0 +1,3744 @@
+2014-04-02 14:14:41,102 CONFIG [com.gigaspaces.logger] - Log file: /Users/dxd/gigaspaces-xap-premium-9.5.1-ga/logs/2014-04-02~14.14-gigaspaces-service-128.243.23.149-24260.log
+-------------------------last log tuples start--------------------------------
+Position [subject=t1, id=null, cell=Cell [x=2, y=13], time=2014-04-02 14:12:10.309, clock=84]
+Time [clock=190, time=null]
+Position [subject=t1, id=null, cell=Cell [x=2, y=4], time=2014-04-02 14:12:22.542, clock=108]
+Time [clock=235, time=null]
+Position [subject=t1, id=null, cell=Cell [x=2, y=6], time=2014-04-02 14:12:19.648, clock=103]
+Coin [id=null, cell=Cell [x=2, y=2], subject=a3, time=2014-04-02 14:11:37.268, clock=18]
+Position [subject=t1, id=null, cell=Cell [x=2, y=9], time=2014-04-02 14:12:15.648, clock=95]
+Time [clock=237, time=null]
+Cargo [id=null, cell=Cell [x=19, y=19], time=2014-04-02 14:11:31.341, clock=0]
+Position [subject=t1, id=null, cell=Cell [x=2, y=2], time=2014-04-02 14:12:25.529, clock=114]
+Obligation [subject=a1, obligation=[west(10, 10, a1)], sanction=[reduce(a1, 1000)], deadline=19, time=2014-04-02 14:11:36.323, clock=18]
+Time [clock=215, time=null]
+Position [subject=t1, id=null, cell=Cell [x=2, y=10], time=2014-04-02 14:12:14.377, clock=92]
+Time [clock=130, time=null]
+Prohibition [subject=ra1, prohibition=[at(11, 10, ra1)], sanction=[reduce(ra1, 300)], clock=12, time=2014-04-02 14:11:33.284]
+Time [clock=225, time=null]
+Position [subject=a1, id=null, cell=Cell [x=9, y=10], time=2014-04-02 14:11:54.596, clock=52]
+Time [clock=232, time=null]
+Position [subject=t1, id=null, cell=Cell [x=2, y=12], time=2014-04-02 14:12:11.72, clock=87]
+Time [clock=239, time=null]
+Time [clock=240, time=null]
+Coin [id=null, cell=Cell [x=16, y=16], subject=a2, time=2014-04-02 14:11:35.274, clock=0]
+Time [clock=176, time=null]
+Coin [id=null, cell=Cell [x=8, y=6], subject=a1, time=2014-04-02 14:11:31.328, clock=0]
+Position [subject=ra1, id=null, cell=Cell [x=3, y=4], time=2014-04-02 14:11:32.625, clock=0]
+Prohibition [subject=a2, prohibition=[at(9, 10, a2)], sanction=[reduce(a2, 300)], clock=12, time=2014-04-02 14:11:33.217]
+Time [clock=216, time=null]
+Time [clock=204, time=null]
+Obligation [subject=a2, obligation=[east(10, 10, a2)], sanction=[reduce(a2, 1000)], deadline=19, time=2014-04-02 14:11:36.325, clock=18]
+Prohibition [subject=a1, prohibition=[at(10, 10, a1)], sanction=[reduce(a1, 300)], clock=12, time=2014-04-02 14:11:33.202]
+Time [clock=218, time=null]
+Time [clock=236, time=null]
+Obligation [subject=a3, obligation=[north(10, 10, a3)], sanction=[reduce(a3, 1000)], deadline=19, time=2014-04-02 14:11:36.327, clock=18]
+Obligation [subject=ra1, obligation=[surround(10, 10)], sanction=[reduce(g, 1000)], deadline=2, time=2014-04-02 14:11:33.197, clock=12]
+Prohibition [subject=a1, prohibition=[at(11, 10, a1)], sanction=[reduce(a1, 300)], clock=12, time=2014-04-02 14:11:33.211]
+Time [clock=234, time=null]
+GroupCoin [x=10, y=10, clock=18]
+Position [subject=t1, id=null, cell=Cell [x=4, y=19], time=2014-04-02 14:11:58.614, clock=61]
+Position [subject=a2, id=null, cell=Cell [x=11, y=12], time=2014-04-02 14:11:56.224, clock=56]
+Prohibition [subject=a4, prohibition=[at(10, 9, a4)], sanction=[reduce(a4, 300)], clock=12, time=2014-04-02 14:11:33.262]
+Position [subject=a2, id=null, cell=Cell [x=11, y=14], time=2014-04-02 14:11:52.935, clock=49]
+Time [clock=191, time=null]
+Position [subject=a1, id=null, cell=Cell [x=8, y=10], time=2014-04-02 14:11:52.946, clock=49]
+Time [clock=230, time=null]
+Position [subject=t1, id=null, cell=Cell [x=11, y=19], time=2014-04-02 14:11:47.768, clock=39]
+Position [subject=a2, id=null, cell=Cell [x=11, y=16], time=2014-04-02 14:11:49.834, clock=43]
+Time [clock=144, time=null]
+Obligation [subject=a4, obligation=[south(10, 10, a4)], sanction=[reduce(a4, 1000)], deadline=19, time=2014-04-02 14:11:36.331, clock=18]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=236, time=2014-04-02 14:13:25.553]
+Prohibition [subject=ra1, prohibition=[at(10, 10, ra1)], sanction=[reduce(ra1, 300)], clock=12, time=2014-04-02 14:11:33.271]
+Position [subject=a4, id=null, cell=Cell [x=11, y=9], time=2014-04-02 14:11:48.287, clock=40]
+Prohibition [subject=ra1, prohibition=[at(9, 10, ra1)], sanction=[reduce(ra1, 300)], clock=12, time=2014-04-02 14:11:33.274]
+Time [clock=231, time=null]
+Prohibition [subject=a3, prohibition=[at(9, 10, a3)], sanction=[reduce(a3, 300)], clock=12, time=2014-04-02 14:11:33.244]
+Time [clock=126, time=null]
+Time [clock=228, time=null]
+Prohibition [subject=a4, prohibition=[at(11, 10, a4)], sanction=[reduce(a4, 300)], clock=12, time=2014-04-02 14:11:33.266]
+Position [subject=a3, id=null, cell=Cell [x=11, y=7], time=2014-04-02 14:11:44.969, clock=33]
+Prohibition [subject=a4, prohibition=[at(10, 10, a4)], sanction=[reduce(a4, 300)], clock=12, time=2014-04-02 14:11:33.255]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=230, time=2014-04-02 14:13:22.575]
+Position [subject=t1, id=null, cell=Cell [x=2, y=15], time=2014-04-02 14:12:07.477, clock=78]
+Time [clock=233, time=null]
+Time [clock=139, time=null]
+Prohibition [subject=a1, prohibition=[at(10, 9, a1)], sanction=[reduce(a1, 300)], clock=12, time=2014-04-02 14:11:33.209]
+Position [subject=a3, id=null, cell=Cell [x=11, y=11], time=2014-04-02 14:11:51.395, clock=46]
+Time [clock=117, time=null]
+Time [clock=207, time=null]
+Time [clock=182, time=null]
+Position [subject=t1, id=null, cell=Cell [x=2, y=3], time=2014-04-02 14:12:24.062, clock=111]
+Prohibition [subject=a1, prohibition=[at(9, 10, a1)], sanction=[reduce(a1, 300)], clock=12, time=2014-04-02 14:11:33.206]
+Prohibition [subject=a3, prohibition=[at(11, 10, a3)], sanction=[reduce(a3, 300)], clock=12, time=2014-04-02 14:11:33.252]
+Prohibition [subject=a3, prohibition=[at(10, 10, a3)], sanction=[reduce(a3, 300)], clock=12, time=2014-04-02 14:11:33.231]
+Time [clock=166, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=233, time=2014-04-02 14:13:24.222]
+Prohibition [subject=a2, prohibition=[at(11, 10, a2)], sanction=[reduce(a2, 300)], clock=12, time=2014-04-02 14:11:33.226]
+Prohibition [subject=a3, prohibition=[at(10, 9, a3)], sanction=[reduce(a3, 300)], clock=12, time=2014-04-02 14:11:33.249]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=188, time=2014-04-02 14:13:01.889]
+Prohibition [subject=a4, prohibition=[at(9, 10, a4)], sanction=[reduce(a4, 300)], clock=12, time=2014-04-02 14:11:33.259]
+Prohibition [subject=a2, prohibition=[at(10, 10, a2)], sanction=[reduce(a2, 300)], clock=12, time=2014-04-02 14:11:33.214]
+Prohibition [subject=ra1, prohibition=[at(10, 9, ra1)], sanction=[reduce(ra1, 300)], clock=12, time=2014-04-02 14:11:33.277]
+Prohibition [subject=a2, prohibition=[at(10, 9, a2)], sanction=[reduce(a2, 300)], clock=12, time=2014-04-02 14:11:33.222]
+Position [subject=a1, id=null, cell=Cell [x=4, y=9], time=2014-04-02 14:11:44.909, clock=33]
+Time [clock=223, time=null]
+Time [clock=189, time=null]
+Position [subject=t1, id=null, cell=Cell [x=8, y=19], time=2014-04-02 14:11:52.446, clock=48]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=228, time=2014-04-02 14:13:21.582]
+Time [clock=222, time=null]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=232, time=2014-04-02 14:13:23.896]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=189, time=2014-04-02 14:13:02.24]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=183, time=2014-04-02 14:12:59.243]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=229, time=2014-04-02 14:13:22.227]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=218, time=2014-04-02 14:13:16.632]
+Time [clock=194, time=null]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=238, time=2014-04-02 14:13:26.594]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=236, time=2014-04-02 14:13:25.902]
+Position [subject=t1, id=null, cell=Cell [x=2, y=7], time=2014-04-02 14:12:18.312, clock=100]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=222, time=2014-04-02 14:13:18.637]
+Time [clock=238, time=null]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=239, time=2014-04-02 14:13:27.208]
+Position [subject=a4, id=null, cell=Cell [x=10, y=9], time=2014-04-02 14:11:49.855, clock=43]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=234, time=2014-04-02 14:13:24.924]
+Position [subject=t1, id=null, cell=Cell [x=2, y=8], time=2014-04-02 14:12:16.978, clock=97]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=240, time=2014-04-02 14:13:27.752]
+Time [clock=195, time=null]
+Position [subject=t1, id=null, cell=Cell [x=2, y=14], time=2014-04-02 14:12:08.876, clock=81]
+Time [clock=118, time=null]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=231, time=2014-04-02 14:13:23.274]
+Position [subject=t1, id=null, cell=Cell [x=2, y=11], time=2014-04-02 14:12:13.079, clock=90]
+Position [subject=a1, id=null, cell=Cell [x=6, y=10], time=2014-04-02 14:11:49.845, clock=43]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=199, time=2014-04-02 14:13:07.391]
+Time [clock=220, time=null]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=190, time=2014-04-02 14:13:02.524]
+Time [clock=183, time=null]
+Time [clock=165, time=null]
+Position [subject=a2, id=null, cell=Cell [x=11, y=18], time=2014-04-02 14:11:46.497, clock=36]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=215, time=2014-04-02 14:13:15.353]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=232, time=2014-04-02 14:13:23.617]
+Position [subject=ra1, id=null, cell=Cell [x=5, y=5], time=2014-04-02 14:11:39.513, clock=22]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=171, time=2014-04-02 14:12:53.313]
+Position [subject=t1, id=null, cell=Cell [x=13, y=19], time=2014-04-02 14:11:44.479, clock=32]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=108, time=2014-04-02 14:12:21.631]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=187, time=2014-04-02 14:13:01.231]
+Position [subject=t1, id=null, cell=Cell [x=2, y=5], time=2014-04-02 14:12:21.132, clock=106]
+Time [clock=185, time=null]
+Position [subject=t1, id=null, cell=Cell [x=2, y=18], time=2014-04-02 14:12:03.139, clock=70]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=166, time=2014-04-02 14:12:50.834]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=165, time=2014-04-02 14:12:50.153]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=164, time=2014-04-02 14:12:49.795]
+Position [subject=a1, id=null, cell=Cell [x=5, y=10], time=2014-04-02 14:11:48.269, clock=40]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=235, time=2014-04-02 14:13:25.25]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=238, time=2014-04-02 14:13:26.933]
+Position [subject=a2, id=null, cell=Cell [x=11, y=10], time=2014-04-02 14:11:59.035, clock=62]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=225, time=2014-04-02 14:13:20.248]
+Time [clock=105, time=null]
+Time [clock=217, time=null]
+Time [clock=196, time=null]
+Time [clock=219, time=null]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=226, time=2014-04-02 14:13:20.541]
+Time [clock=227, time=null]
+Time [clock=152, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=156, time=2014-04-02 14:12:45.464]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=152, time=2014-04-02 14:12:43.664]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=198, time=2014-04-02 14:13:06.768]
+Time [clock=203, time=null]
+Time [clock=134, time=null]
+Position [subject=a4, id=null, cell=Cell [x=11, y=4], time=2014-04-02 14:11:40.045, clock=23]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=220, time=2014-04-02 14:13:17.601]
+Position [subject=a1, id=null, cell=Cell [x=4, y=7], time=2014-04-02 14:11:41.81, clock=27]
+Time [clock=71, time=null]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=228, time=2014-04-02 14:13:21.925]
+Time [clock=162, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=210, time=2014-04-02 14:13:12.706]
+Position [subject=a2, id=null, cell=Cell [x=11, y=11], time=2014-04-02 14:11:57.666, clock=59]
+Position [subject=t1, id=null, cell=Cell [x=6, y=19], time=2014-04-02 14:11:55.77, clock=55]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=205, time=2014-04-02 14:13:10.468]
+Position [subject=t1, id=null, cell=Cell [x=2, y=19], time=2014-04-02 14:12:01.612, clock=66]
+Time [clock=213, time=null]
+Time [clock=116, time=null]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=219, time=2014-04-02 14:13:17.256]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=223, time=2014-04-02 14:13:19.252]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=196, time=2014-04-02 14:13:05.762]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=215, time=2014-04-02 14:13:15.01]
+Position [subject=t1, id=null, cell=Cell [x=7, y=19], time=2014-04-02 14:11:54.036, clock=51]
+Position [subject=a2, id=null, cell=Cell [x=11, y=13], time=2014-04-02 14:11:54.57, clock=52]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=196, time=2014-04-02 14:13:05.475]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=106, time=2014-04-02 14:12:20.589]
+Position [subject=ra1, id=null, cell=Cell [x=4, y=5], time=2014-04-02 14:11:37.791, clock=19]
+Position [subject=a1, id=null, cell=Cell [x=4, y=10], time=2014-04-02 14:11:46.521, clock=36]
+Time [clock=210, time=null]
+Time [clock=131, time=null]
+Position [subject=t1, id=null, cell=Cell [x=16, y=19], time=2014-04-02 14:11:39.413, clock=22]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=212, time=2014-04-02 14:13:13.717]
+Time [clock=149, time=null]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=209, time=2014-04-02 14:13:12.373]
+Time [clock=141, time=null]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=75, time=2014-04-02 14:12:05.138]
+Position [subject=t1, id=null, cell=Cell [x=2, y=17], time=2014-04-02 14:12:04.619, clock=73]
+Time [clock=68, time=null]
+Position [subject=t1, id=null, cell=Cell [x=17, y=19], time=2014-04-02 14:11:37.731, clock=18]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=216, time=2014-04-02 14:13:15.95]
+Position [subject=ra1, id=null, cell=Cell [x=3, y=5], time=2014-04-02 14:11:35.868, clock=13]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=176, time=2014-04-02 14:12:55.84]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=155, time=2014-04-02 14:12:45.118]
+Time [clock=173, time=null]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=154, time=2014-04-02 14:12:44.46]
+Time [clock=186, time=null]
+Time [clock=132, time=null]
+Position [subject=t1, id=null, cell=Cell [x=2, y=16], time=2014-04-02 14:12:06.095, clock=76]
+Time [clock=201, time=null]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=218, time=2014-04-02 14:13:16.966]
+Position [subject=t1, id=null, cell=Cell [x=3, y=19], time=2014-04-02 14:12:00.017, clock=63]
+Time [clock=99, time=null]
+Position [subject=t1, id=null, cell=Cell [x=9, y=19], time=2014-04-02 14:11:50.884, clock=45]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=208, time=2014-04-02 14:13:11.746]
+Position [subject=a4, id=null, cell=Cell [x=11, y=3], time=2014-04-02 14:11:36.865, clock=17]
+Position [subject=a1, id=null, cell=Cell [x=7, y=10], time=2014-04-02 14:11:51.346, clock=46]
+Time [clock=224, time=null]
+Position [subject=t1, id=null, cell=Cell [x=5, y=19], time=2014-04-02 14:11:57.223, clock=58]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=197, time=2014-04-02 14:13:06.077]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=221, time=2014-04-02 14:13:18.286]
+Position [subject=a2, id=null, cell=Cell [x=11, y=17], time=2014-04-02 14:11:48.241, clock=40]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=186, time=2014-04-02 14:13:00.615]
+Position [subject=a1, id=null, cell=Cell [x=3, y=4], time=2014-04-02 14:11:32.565, clock=0]
+Position [subject=a1, id=null, cell=Cell [x=3, y=5], time=2014-04-02 14:11:35.842, clock=13]
+Position [subject=a3, id=null, cell=Cell [x=11, y=9], time=2014-04-02 14:11:48.313, clock=40]
+Position [subject=t1, id=null, cell=Cell [x=15, y=19], time=2014-04-02 14:11:41.343, clock=26]
+Time [clock=145, time=null]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=205, time=2014-04-02 14:13:10.14]
+Time [clock=199, time=null]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=222, time=2014-04-02 14:13:18.907]
+Position [subject=a1, id=null, cell=Cell [x=4, y=6], time=2014-04-02 14:11:40.015, clock=23]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=190, time=2014-04-02 14:13:02.853]
+Time [clock=143, time=null]
+Position [subject=t1, id=null, cell=Cell [x=12, y=19], time=2014-04-02 14:11:46.046, clock=35]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=186, time=2014-04-02 14:13:00.889]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=224, time=2014-04-02 14:13:19.905]
+Position [subject=t1, id=null, cell=Cell [x=14, y=19], time=2014-04-02 14:11:42.962, clock=29]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=169, time=2014-04-02 14:12:51.902]
+Position [subject=a3, id=null, cell=Cell [x=11, y=8], time=2014-04-02 14:11:46.56, clock=36]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=185, time=2014-04-02 14:13:00.274]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=166, time=2014-04-02 14:12:50.46]
+Time [clock=229, time=null]
+Time [clock=161, time=null]
+Time [clock=140, time=null]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=201, time=2014-04-02 14:13:08.456]
+Position [subject=a3, id=null, cell=Cell [x=11, y=10], time=2014-04-02 14:11:49.881, clock=43]
+Time [clock=209, time=null]
+Time [clock=198, time=null]
+Time [clock=206, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=207, time=2014-04-02 14:13:11.095]
+Time [clock=120, time=null]
+Time [clock=102, time=null]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=136, time=2014-04-02 14:12:35.403]
+Position [subject=t1, id=null, cell=Cell [x=18, y=19], time=2014-04-02 14:11:35.85, clock=13]
+Position [subject=a4, id=null, cell=Cell [x=11, y=8], time=2014-04-02 14:11:46.537, clock=36]
+Time [clock=221, time=null]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=180, time=2014-04-02 14:12:57.548]
+Time [clock=113, time=null]
+Position [subject=ra1, id=null, cell=Cell [x=6, y=6], time=2014-04-02 14:11:44.563, clock=33]
+Position [subject=a4, id=null, cell=Cell [x=11, y=6], time=2014-04-02 14:11:43.393, clock=30]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=226, time=2014-04-02 14:13:20.868]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=136, time=2014-04-02 14:12:35.773]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=130, time=2014-04-02 14:12:32.369]
+Position [subject=a4, id=null, cell=Cell [x=11, y=7], time=2014-04-02 14:11:44.927, clock=33]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=137, time=2014-04-02 14:12:36.08]
+Position [subject=a3, id=null, cell=Cell [x=11, y=6], time=2014-04-02 14:11:43.439, clock=30]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=119, time=2014-04-02 14:12:27.213]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=194, time=2014-04-02 14:13:04.465]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=211, time=2014-04-02 14:13:13.382]
+Position [subject=a1, id=null, cell=Cell [x=4, y=8], time=2014-04-02 14:11:43.378, clock=30]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=161, time=2014-04-02 14:12:47.948]
+Position [subject=a4, id=null, cell=Cell [x=11, y=5], time=2014-04-02 14:11:41.818, clock=27]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=110, time=2014-04-02 14:12:22.705]
+Time [clock=96, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=91, time=2014-04-02 14:12:13.189]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=176, time=2014-04-02 14:12:55.529]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=179, time=2014-04-02 14:12:57.252]
+Position [subject=a2, id=null, cell=Cell [x=7, y=18], time=2014-04-02 14:11:39.945, clock=23]
+Position [subject=a3, id=null, cell=Cell [x=11, y=3], time=2014-04-02 14:11:36.887, clock=17]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=183, time=2014-04-02 14:12:58.946]
+Time [clock=159, time=null]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=148, time=2014-04-02 14:12:41.452]
+Position [subject=ra1, id=null, cell=Cell [x=5, y=6], time=2014-04-02 14:11:43.044, clock=29]
+Position [subject=a2, id=null, cell=Cell [x=7, y=19], time=2014-04-02 14:11:32.515, clock=0]
+Time [clock=202, time=null]
+Position [subject=a3, id=null, cell=Cell [x=10, y=11], time=2014-04-02 14:11:52.986, clock=49]
+Time [clock=89, time=null]
+Position [subject=a3, id=null, cell=Cell [x=11, y=4], time=2014-04-02 14:11:40.076, clock=23]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=141, time=2014-04-02 14:12:38.255]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=173, time=2014-04-02 14:12:54.335]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=151, time=2014-04-02 14:12:43.263]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=97, time=2014-04-02 14:12:16.084]
+Position [subject=a2, id=null, cell=Cell [x=9, y=18], time=2014-04-02 14:11:43.354, clock=30]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=172, time=2014-04-02 14:12:53.683]
+Time [clock=61, time=null]
+Time [clock=84, time=null]
+Position [subject=a2, id=null, cell=Cell [x=11, y=15], time=2014-04-02 14:11:51.331, clock=46]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=145, time=2014-04-02 14:12:40.048]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=202, time=2014-04-02 14:13:08.818]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=195, time=2014-04-02 14:13:05.134]
+Time [clock=85, time=null]
+Time [clock=103, time=null]
+Position [subject=t1, id=null, cell=Cell [x=10, y=19], time=2014-04-02 14:11:49.369, clock=42]
+Position [subject=a2, id=null, cell=Cell [x=6, y=19], time=2014-04-02 14:11:35.775, clock=13]
+Position [subject=a3, id=null, cell=Cell [x=11, y=2], time=2014-04-02 14:11:34.524, clock=0]
+Position [subject=a2, id=null, cell=Cell [x=10, y=18], time=2014-04-02 14:11:44.884, clock=33]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=83, time=2014-04-02 14:12:09.022]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=213, time=2014-04-02 14:13:14.334]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=161, time=2014-04-02 14:12:48.312]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=110, time=2014-04-02 14:12:22.324]
+Time [clock=135, time=null]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=133, time=2014-04-02 14:12:33.944]
+Position [subject=a2, id=null, cell=Cell [x=8, y=18], time=2014-04-02 14:11:41.755, clock=27]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=192, time=2014-04-02 14:13:03.856]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=107, time=2014-04-02 14:12:21.225]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=209, time=2014-04-02 14:13:12.094]
+Time [clock=192, time=null]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=118, time=2014-04-02 14:12:26.494]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=216, time=2014-04-02 14:13:15.612]
+Position [subject=a3, id=null, cell=Cell [x=11, y=5], time=2014-04-02 14:11:41.871, clock=27]
+Time [clock=226, time=null]
+Position [subject=a4, id=null, cell=Cell [x=11, y=2], time=2014-04-02 14:11:34.477, clock=0]
+Time [clock=181, time=null]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=203, time=2014-04-02 14:13:09.101]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=177, time=2014-04-02 14:12:56.204]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=140, time=2014-04-02 14:12:37.584]
+Time [clock=81, time=null]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=146, time=2014-04-02 14:12:40.777]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=151, time=2014-04-02 14:12:42.97]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=163, time=2014-04-02 14:12:48.992]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=184, time=2014-04-02 14:12:59.612]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=169, time=2014-04-02 14:12:52.181]
+Time [clock=175, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=159, time=2014-04-02 14:12:47.198]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=96, time=2014-04-02 14:12:15.457]
+Time [clock=211, time=null]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=162, time=2014-04-02 14:12:48.645]
+Time [clock=178, time=null]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=157, time=2014-04-02 14:12:46.161]
+Time [clock=142, time=null]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=129, time=2014-04-02 14:12:32.014]
+Time [clock=98, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=85, time=2014-04-02 14:12:09.69]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=144, time=2014-04-02 14:12:39.697]
+Time [clock=128, time=null]
+Time [clock=200, time=null]
+Time [clock=67, time=null]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=73, time=2014-04-02 14:12:03.945]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=115, time=2014-04-02 14:12:24.91]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=127, time=2014-04-02 14:12:30.816]
+Time [clock=180, time=null]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=100, time=2014-04-02 14:12:17.448]
+Time [clock=169, time=null]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=57, time=2014-04-02 14:11:55.889]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=119, time=2014-04-02 14:12:26.815]
+Time [clock=177, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=170, time=2014-04-02 14:12:52.558]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=91, time=2014-04-02 14:12:12.824]
+Time [clock=174, time=null]
+Time [clock=208, time=null]
+Time [clock=188, time=null]
+Time [clock=78, time=null]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=133, time=2014-04-02 14:12:34.259]
+Time [clock=133, time=null]
+Time [clock=154, time=null]
+Time [clock=171, time=null]
+Time [clock=127, time=null]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=193, time=2014-04-02 14:13:04.118]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=148, time=2014-04-02 14:12:41.813]
+Time [clock=168, time=null]
+Time [clock=21, time=null]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=212, time=2014-04-02 14:13:13.989]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=124, time=2014-04-02 14:12:29.753]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=112, time=2014-04-02 14:12:23.455]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=138, time=2014-04-02 14:12:36.447]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=143, time=2014-04-02 14:12:39.026]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=107, time=2014-04-02 14:12:20.956]
+Time [clock=110, time=null]
+Time [clock=121, time=null]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=79, time=2014-04-02 14:12:06.917]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=73, time=2014-04-02 14:12:03.678]
+Time [clock=157, time=null]
+Time [clock=164, time=null]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=69, time=2014-04-02 14:12:01.798]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=182, time=2014-04-02 14:12:58.62]
+Time [clock=32, time=null]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=125, time=2014-04-02 14:12:30.119]
+Time [clock=148, time=null]
+Time [clock=197, time=null]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=65, time=2014-04-02 14:11:59.779]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=116, time=2014-04-02 14:12:25.294]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=111, time=2014-04-02 14:12:23.028]
+Time [clock=112, time=null]
+Time [clock=6, time=null]
+Time [clock=49, time=null]
+Time [clock=122, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=134, time=2014-04-02 14:12:34.629]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=95, time=2014-04-02 14:12:14.818]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=122, time=2014-04-02 14:12:28.316]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=103, time=2014-04-02 14:12:19.108]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=55, time=2014-04-02 14:11:55.029]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=87, time=2014-04-02 14:12:11.117]
+Time [clock=158, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=123, time=2014-04-02 14:12:29.007]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=147, time=2014-04-02 14:12:41.133]
+Time [clock=187, time=null]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=90, time=2014-04-02 14:12:12.54]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=94, time=2014-04-02 14:12:14.456]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=206, time=2014-04-02 14:13:10.762]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=203, time=2014-04-02 14:13:09.436]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=200, time=2014-04-02 14:13:07.741]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=192, time=2014-04-02 14:13:03.508]
+Time [clock=104, time=null]
+Time [clock=153, time=null]
+Time [clock=214, time=null]
+Time [clock=124, time=null]
+Time [clock=156, time=null]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=94, time=2014-04-02 14:12:14.211]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=141, time=2014-04-02 14:12:37.875]
+Time [clock=34, time=null]
+Time [clock=155, time=null]
+Time [clock=111, time=null]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=113, time=2014-04-02 14:12:24.233]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=66, time=2014-04-02 14:12:00.462]
+Time [clock=119, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=88, time=2014-04-02 14:12:11.459]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=168, time=2014-04-02 14:12:51.549]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=131, time=2014-04-02 14:12:32.828]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=114, time=2014-04-02 14:12:24.592]
+Time [clock=212, time=null]
+Time [clock=109, time=null]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=178, time=2014-04-02 14:12:56.915]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=99, time=2014-04-02 14:12:17.105]
+Time [clock=88, time=null]
+Time [clock=137, time=null]
+Time [clock=123, time=null]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=175, time=2014-04-02 14:12:55.169]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=128, time=2014-04-02 14:12:31.622]
+Time [clock=25, time=null]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=173, time=2014-04-02 14:12:53.99]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=104, time=2014-04-02 14:12:19.378]
+Time [clock=160, time=null]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=150, time=2014-04-02 14:12:42.578]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=86, time=2014-04-02 14:12:10.446]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=158, time=2014-04-02 14:12:46.815]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=90, time=2014-04-02 14:12:12.205]
+Time [clock=9, time=null]
+Time [clock=205, time=null]
+Time [clock=115, time=null]
+Time [clock=63, time=null]
+Time [clock=184, time=null]
+Time [clock=193, time=null]
+Time [clock=172, time=null]
+Time [clock=91, time=null]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=144, time=2014-04-02 14:12:39.401]
+Time [clock=23, time=null]
+Time [clock=150, time=null]
+Time [clock=107, time=null]
+Time [clock=43, time=null]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=54, time=2014-04-02 14:11:54.212]
+Time [clock=94, time=null]
+Time [clock=77, time=null]
+Time [clock=42, time=null]
+Time [clock=170, time=null]
+Time [clock=73, time=null]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=122, time=2014-04-02 14:12:28.634]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=199, time=2014-04-02 14:13:07.113]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=139, time=2014-04-02 14:12:37.215]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=105, time=2014-04-02 14:12:19.865]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=100, time=2014-04-02 14:12:17.69]
+Time [clock=55, time=null]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=87, time=2014-04-02 14:12:10.831]
+Time [clock=147, time=null]
+Time [clock=60, time=null]
+Time [clock=51, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=70, time=2014-04-02 14:12:02.516]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=58, time=2014-04-02 14:11:56.287]
+Time [clock=39, time=null]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=80, time=2014-04-02 14:12:07.273]
+Time [clock=163, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=180, time=2014-04-02 14:12:57.877]
+Time [clock=52, time=null]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=77, time=2014-04-02 14:12:05.841]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=72, time=2014-04-02 14:12:03.293]
+Time [clock=40, time=null]
+Time [clock=76, time=null]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=117, time=2014-04-02 14:12:26.049]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=98, time=2014-04-02 14:12:16.447]
+Time [clock=70, time=null]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=84, time=2014-04-02 14:12:09.297]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=78, time=2014-04-02 14:12:06.2]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=158, time=2014-04-02 14:12:46.521]
+Time [clock=46, time=null]
+Time [clock=100, time=null]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=93, time=2014-04-02 14:12:13.854]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=132, time=2014-04-02 14:12:33.588]
+Time [clock=22, time=null]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=76, time=2014-04-02 14:12:05.517]
+Time [clock=138, time=null]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=126, time=2014-04-02 14:12:30.423]
+Time [clock=179, time=null]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=80, time=2014-04-02 14:12:07.564]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=74, time=2014-04-02 14:12:04.341]
+Time [clock=80, time=null]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=64, time=2014-04-02 14:11:59.396]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=47, time=2014-04-02 14:11:51.006]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=121, time=2014-04-02 14:12:27.932]
+Time [clock=114, time=null]
+Time [clock=136, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=11, y=1], clock=7, time=2014-04-02 14:11:30.541]
+Time [clock=129, time=null]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=68, time=2014-04-02 14:12:01.308]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=101, time=2014-04-02 14:12:18.072]
+Time [clock=93, time=null]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=97, time=2014-04-02 14:12:15.818]
+Time [clock=38, time=null]
+Time [clock=31, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=81, time=2014-04-02 14:12:07.954]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=65, time=2014-04-02 14:12:00.107]
+Time [clock=58, time=null]
+Time [clock=28, time=null]
+Time [clock=44, time=null]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=61, time=2014-04-02 14:11:58.054]
+ActionRequest [id=null, subject=ra1, type=reading, cell=Cell [x=5, y=5], clock=27, time=2014-04-02 14:11:41.007]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=103, time=2014-04-02 14:12:18.77]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=61, time=2014-04-02 14:11:57.69]
+Time [clock=57, time=null]
+Time [clock=151, time=null]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=10, y=11], clock=154, time=2014-04-02 14:12:44.817]
+ActionRequest [id=null, subject=a1, type=reading, cell=Cell [x=9, y=10], clock=82, time=2014-04-02 14:12:08.656]
+ActionRequest [id=null, subject=a2, type=reading, cell=Cell [x=11, y=10], clock=69, time=2014-04-02 14:12:02.131]
+Time [clock=17, time=null]
+Time [clock=108, time=null]
+Time [clock=101, time=null]
+Time [clock=30, time=null]
+Time [clock=90, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=63, time=2014-04-02 14:11:58.712]
+Time [clock=29, time=null]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=59, time=2014-04-02 14:11:56.971]
+ActionRequest [id=null, subject=a4, type=reading, cell=Cell [x=10, y=9], clock=51, time=2014-04-02 14:11:52.955]
+Time [clock=95, time=null]
+ActionRequest [id=null, subject=a3, type=reading, cell=Cell [x=11, y=1], clock=7, time=2014-04-02 14:11:30.541]
+Time [clock=87, time=null]
+Time [clock=59, time=null]
+Time [clock=72, time=null]
+Time [clock=35, time=null]
+Time [clock=50, time=null]
+Time [clock=19, time=null]
+Time [clock=20, time=null]
+Time [clock=69, time=null]
+Time [clock=79, time=null]
+Time [clock=75, time=null]
+Time [clock=65, time=null]
+Time [clock=33, time=null]
+Time [clock=10, time=null]
+Time [clock=37, time=null]
+Time [clock=53, time=null]
+Time [clock=13, time=null]
+Time [clock=66, time=null]
+Time [clock=8, time=null]
+Time [clock=12, time=null]
+Time [clock=14, time=null]
+Time [clock=86, time=null]
+Time [clock=45, time=null]
+Time [clock=47, time=null]
+Time [clock=27, time=null]
+Time [clock=54, time=null]
+Time [clock=26, time=null]
+Time [clock=7, time=null]
+Time [clock=4, time=null]
+Time [clock=11, time=null]
+Time [clock=125, time=null]
+Time [clock=2, time=null]
+Time [clock=167, time=null]
+Time [clock=146, time=null]
+Time [clock=48, time=null]
+Time [clock=24, time=null]
+Time [clock=3, time=null]
+Time [clock=106, time=null]
+Time [clock=36, time=null]
+Time [clock=5, time=null]
+Time [clock=16, time=null]
+Time [clock=92, time=null]
+Time [clock=82, time=null]
+Time [clock=64, time=null]
+Time [clock=97, time=null]
+Time [clock=83, time=null]
+Time [clock=18, time=null]
+Time [clock=74, time=null]
+Time [clock=1, time=null]
+Time [clock=15, time=null]
+Time [clock=62, time=null]
+Time [clock=56, time=null]
+Time [clock=41, time=null]
+-------------------------last log tuples end----------------------------------
+1
+2
+register a1
+org notification: Time [clock=1, time=null]
+org notified found Time [clock=1, time=null]
+org notified sent time(1).
+Organization notifies agent (write): Obligation [subject=ra1, obligation=[surround(10, 10)], sanction=[reduce(g, 1000)], deadline=2, time=2014-04-02 14:14:45.529, clock=2]
+Organization notifies agent (write): Prohibition [subject=a1, prohibition=[at(10, 10, a1)], sanction=[reduce(a1, 300)], clock=2, time=2014-04-02 14:14:45.534]
+Organization notifies agent (write): Prohibition [subject=a1, prohibition=[at(9, 10, a1)], sanction=[reduce(a1, 300)], clock=2, time=2014-04-02 14:14:45.538]
+Organization notifies agent (write): Prohibition [subject=a1, prohibition=[at(10, 9, a1)], sanction=[reduce(a1, 300)], clock=2, time=2014-04-02 14:14:45.543]
+Organization notifies agent (write): Prohibition [subject=a1, prohibition=[at(11, 10, a1)], sanction=[reduce(a1, 300)], clock=2, time=2014-04-02 14:14:45.546]
+Organization notifies agent (write): Prohibition [subject=a2, prohibition=[at(10, 10, a2)], sanction=[reduce(a2, 300)], clock=2, time=2014-04-02 14:14:45.55]
+Organization notifies agent (write): Prohibition [subject=a2, prohibition=[at(9, 10, a2)], sanction=[reduce(a2, 300)], clock=2, time=2014-04-02 14:14:45.552]
+Organization notifies agent (write): Prohibition [subject=a2, prohibition=[at(10, 9, a2)], sanction=[reduce(a2, 300)], clock=2, time=2014-04-02 14:14:45.555]
+Organization notifies agent (write): Prohibition [subject=a2, prohibition=[at(11, 10, a2)], sanction=[reduce(a2, 300)], clock=2, time=2014-04-02 14:14:45.558]
+Organization notifies agent (write): Prohibition [subject=a3, prohibition=[at(10, 10, a3)], sanction=[reduce(a3, 300)], clock=2, time=2014-04-02 14:14:45.561]
+Organization notifies agent (write): Prohibition [subject=a3, prohibition=[at(9, 10, a3)], sanction=[reduce(a3, 300)], clock=2, time=2014-04-02 14:14:45.563]
+Organization notifies agent (write): Prohibition [subject=a3, prohibition=[at(10, 9, a3)], sanction=[reduce(a3, 300)], clock=2, time=2014-04-02 14:14:45.566]
+Organization notifies agent (write): Prohibition [subject=a3, prohibition=[at(11, 10, a3)], sanction=[reduce(a3, 300)], clock=2, time=2014-04-02 14:14:45.569]
+Organization notifies agent (write): Prohibition [subject=a4, prohibition=[at(10, 10, a4)], sanction=[reduce(a4, 300)], clock=2, time=2014-04-02 14:14:45.571]
+Organization notifies agent (write): Prohibition [subject=a4, prohibition=[at(9, 10, a4)], sanction=[reduce(a4, 300)], clock=2, time=2014-04-02 14:14:45.575]
+Organization notifies agent (write): Prohibition [subject=a4, prohibition=[at(10, 9, a4)], sanction=[reduce(a4, 300)], clock=2, time=2014-04-02 14:14:45.578]
+Organization notifies agent (write): Prohibition [subject=a4, prohibition=[at(11, 10, a4)], sanction=[reduce(a4, 300)], clock=2, time=2014-04-02 14:14:45.581]
+Organization notifies agent (write): Prohibition [subject=ra1, prohibition=[at(10, 10, ra1)], sanction=[reduce(ra1, 300)], clock=2, time=2014-04-02 14:14:45.584]
+Organization notifies agent (write): Prohibition [subject=ra1, prohibition=[at(9, 10, ra1)], sanction=[reduce(ra1, 300)], clock=2, time=2014-04-02 14:14:45.587]
+Organization notifies agent (write): Prohibition [subject=ra1, prohibition=[at(10, 9, ra1)], sanction=[reduce(ra1, 300)], clock=2, time=2014-04-02 14:14:45.591]
+Organization notifies agent (write): Prohibition [subject=ra1, prohibition=[at(11, 10, ra1)], sanction=[reduce(ra1, 300)], clock=2, time=2014-04-02 14:14:45.594]
+3
+register a2
+register a3
+register a4
+register c1
+register t1
+org notification: Time [clock=2, time=null]
+org notified found Time [clock=2, time=null]
+org notified sent time(2).
+register ra1
+4
+5
+6
+7
+8
+9
+10
+org notification: Time [clock=3, time=null]
+org notified found Time [clock=3, time=null]
+org notified sent time(3).
+agent notification: Time [clock=4, time=null]
+agent notification: Time [clock=3, time=null]
+Event sent to agent      a1 clock(3)
+Event sent to agent      c1 clock(4)
+org notification: Time [clock=4, time=null]
+org notified found Time [clock=4, time=null]
+org notified sent time(4).
+agent notification: Time [clock=4, time=null]
+Event sent to agent      a2 clock(4)
+agent notification: Time [clock=5, time=null]
+org notification: Time [clock=5, time=null]
+org notified found Time [clock=5, time=null]
+org notified sent time(5).
+org notification: Time [clock=6, time=null]
+org notified found Time [clock=6, time=null]
+org notified sent time(6).
+agent notification: Time [clock=5, time=null]
+agent notification: Time [clock=4, time=null]
+Event sent to agent      t1 clock(4)
+Event sent to agent      c1 clock(5)
+agent notification: Time [clock=6, time=null]
+Event sent to agent      c1 clock(6)
+agent notification: Time [clock=7, time=null]
+Event sent to agent      c1 clock(7)
+agent notification: Time [clock=8, time=null]
+Event sent to agent      c1 clock(8)
+agent notification: Time [clock=9, time=null]
+Event sent to agent      c1 clock(9)
+agent notification: Time [clock=4, time=null]
+Event sent to agent      a3 clock(4)
+agent notification: Time [clock=5, time=null]
+agent notification: Time [clock=10, time=null]
+Event sent to agent      c1 clock(10)
+agent notification: Time [clock=5, time=null]
+agent notification: Time [clock=4, time=null]
+Event sent to agent      ra1 clock(4)
+agent notification: Time [clock=5, time=null]
+Event sent to agent      ra1 clock(5)
+agent notification: Time [clock=6, time=null]
+Event sent to agent      ra1 clock(6)
+agent notification: Time [clock=7, time=null]
+Event sent to agent      ra1 clock(7)
+agent notification: Time [clock=8, time=null]
+Event sent to agent      ra1 clock(8)
+agent notification: Time [clock=9, time=null]
+Event sent to agent      ra1 clock(9)
+agent notification: Time [clock=10, time=null]
+Event sent to agent      ra1 clock(10)
+agent notification: Time [clock=4, time=null]
+Event sent to agent      a4 clock(4)
+agent notification: Time [clock=4, time=null]
+agent notification: Time [clock=5, time=null]
+Event sent to agent      a4 clock(5)
+agent notification: Time [clock=6, time=null]
+Event sent to agent      a4 clock(6)
+agent notification: Time [clock=7, time=null]
+Event sent to agent      a4 clock(7)
+agent notification: Time [clock=8, time=null]
+Event sent to agent      a4 clock(8)
+agent notification: Time [clock=9, time=null]
+Event sent to agent      a4 clock(9)
+agent notification: Time [clock=10, time=null]
+Event sent to agent      a4 clock(10)
+Event sent to agent      a3 clock(5)
+Event sent to agent      a2 clock(5)
+Event sent to agent      a1 clock(4)
+agent notification: Time [clock=6, time=null]
+Event sent to agent      t1 clock(5)
+agent notification: Time [clock=5, time=null]
+agent notification: Time [clock=6, time=null]
+agent notification: Time [clock=6, time=null]
+Event sent to agent      a1 clock(5)
+Event sent to agent      t1 clock(6)
+Event sent to agent      a3 clock(6)
+Event sent to agent      a2 clock(6)
+agent notification: Time [clock=7, time=null]
+agent notification: Time [clock=7, time=null]
+agent notification: Time [clock=6, time=null]
+Event sent to agent      t1 clock(7)
+agent notification: Time [clock=7, time=null]
+Event sent to agent      a1 clock(6)
+Event sent to agent      a2 clock(7)
+Event sent to agent      a3 clock(7)
+agent notification: Time [clock=8, time=null]
+agent notification: Time [clock=8, time=null]
+agent notification: Time [clock=8, time=null]
+agent notification: Time [clock=7, time=null]
+Event sent to agent      a3 clock(8)
+Event sent to agent      a2 clock(8)
+Event sent to agent      t1 clock(8)
+agent notification: Time [clock=9, time=null]
+Event sent to agent      a1 clock(7)
+agent notification: Time [clock=9, time=null]
+agent notification: Time [clock=9, time=null]
+agent notification: Time [clock=8, time=null]
+Event sent to agent      a3 clock(9)
+Event sent to agent      a2 clock(9)
+Event sent to agent      t1 clock(9)
+agent notification: Time [clock=10, time=null]
+agent notification: Time [clock=10, time=null]
+Event sent to agent      a1 clock(8)
+Event sent to agent      a3 clock(10)
+Event sent to agent      a2 clock(10)
+agent notification: Time [clock=10, time=null]
+agent notification: Time [clock=9, time=null]
+Event sent to agent      t1 clock(10)
+Event sent to agent      a1 clock(9)
+agent notification: Time [clock=10, time=null]
+Event sent to agent      a1 clock(10)
+org notification: Time [clock=7, time=null]
+org notified found Time [clock=7, time=null]
+org notified sent time(7).
+Event processed UpdateClock(4)
+Event processed UpdateClock(5)
+Event processed UpdateClock(6)
+Event processed UpdateClock(7)
+Event processed UpdateClock(8)
+Event processed UpdateClock(3)
+Event processed UpdateClock(4)
+Event processed UpdateClock(9)
+Event processed UpdateClock(5)
+Event processed UpdateClock(6)
+Event processed UpdateClock(10)
+Event processed UpdateClock(7)
+Event processed UpdateClock(8)
+Event processed UpdateClock(9)
+org notification: Time [clock=8, time=null]
+org notified found Time [clock=8, time=null]
+org notified sent time(8).
+Event processed UpdateClock(10)
+Event processed UpdateClock(4)
+Event processed UpdateClock(5)
+Event processed UpdateClock(6)
+Event processed UpdateClock(7)
+Event processed UpdateClock(8)
+11
+Event processed UpdateClock(9)
+agent notification: Time [clock=11, time=null]
+agent notification: Time [clock=11, time=null]
+agent notification: Time [clock=11, time=null]
+Event sent to agent      a2 clock(11)
+Event sent to agent      a4 clock(11)
+Event sent to agent      ra1 clock(11)
+agent notification: Time [clock=11, time=null]
+agent notification: Time [clock=11, time=null]
+Event sent to agent      a3 clock(11)
+Event sent to agent      t1 clock(11)
+Event processed UpdateClock(10)
+Event processed UpdateClock(11)
+agent notification: Time [clock=11, time=null]
+Event sent to agent      c1 clock(11)
+agent notification: Time [clock=11, time=null]
+Event sent to agent      a1 clock(11)
+org notification: Time [clock=9, time=null]
+org notified found Time [clock=9, time=null]
+org notified sent time(9).
+org notification: Time [clock=10, time=null]
+org notified found Time [clock=10, time=null]
+org notified sent time(10).
+Event processed UpdateClock(4)
+Event processed UpdateClock(5)
+Event processed UpdateClock(6)
+Event processed UpdateClock(7)
+Event processed UpdateClock(8)
+Event processed UpdateClock(9)
+Event processed UpdateClock(10)
+Event processed UpdateClock(11)
+org notification: Time [clock=11, time=null]
+org notified found Time [clock=11, time=null]
+org notified sent time(11).
+org notification: Coin [id=null, cell=Cell [x=8, y=6], subject=a1, time=2014-04-02 14:14:50.081, clock=0]
+org notified found Coin [id=null, cell=Cell [x=8, y=6], subject=a1, time=2014-04-02 14:14:50.081, clock=0]
+org notified sent coin(cell(8,6),0,a1).
+org notification: Cargo [id=null, cell=Cell [x=19, y=19], time=2014-04-02 14:14:50.119, clock=0]
+org notified found Cargo [id=null, cell=Cell [x=19, y=19], time=2014-04-02 14:14:50.119, clock=0]
+org notified sent cargo(cell(19,19),0).
+12
+agent notification: Time [clock=12, time=null]
+Event sent to agent      a3 clock(12)
+agent notification: Time [clock=12, time=null]
+Event sent to agent      ra1 clock(12)
+agent notification: Time [clock=12, time=null]
+Event sent to agent      a4 clock(12)
+agent notification: Time [clock=12, time=null]
+Event sent to agent      c1 clock(12)
+org notification: Time [clock=12, time=null]
+agent notification: Time [clock=12, time=null]
+agent notification: Time [clock=12, time=null]
+org notified found Time [clock=12, time=null]
+org notified sent time(12).
+Event sent to agent      a1 clock(12)
+Event sent to agent      a2 clock(12)
+agent notification: Time [clock=12, time=null]
+Event sent to agent      t1 clock(12)
+Event processed UpdateClock(4)
+Event processed UpdateClock(5)
+Event processed UpdateClock(6)
+Event processed UpdateClock(7)
+Event processed UpdateClock(8)
+Event processed UpdateClock(9)
+Event processed UpdateClock(10)
+Event processed UpdateClock(11)
+Event processed UpdateClock(12)
+Event processed UpdateClock(4)
+Event processed UpdateClock(5)
+Event processed UpdateClock(6)
+Event processed UpdateClock(7)
+Event processed UpdateClock(8)
+Event processed UpdateClock(9)
+Event processed UpdateClock(10)
+Event processed UpdateClock(11)
+Event processed UpdateClock(12)
+Event processed UpdateClock(4)
+Event processed UpdateClock(5)
+Event processed UpdateClock(6)
+Event processed UpdateClock(7)
+Event processed UpdateClock(8)
+Event processed UpdateClock(9)
+Event processed UpdateClock(10)
+Event processed UpdateClock(11)
+Event processed UpdateClock(12)
+Event processed UpdateClock(11)
+Event processed UpdateClock(12)
+Event processed UpdateClock(11)
+Event processed UpdateClock(12)
+Event processed UpdateClock(12)
+Event processed UpdateClock(12)
+13
+agent notification: Time [clock=13, time=null]
+Event sent to agent      ra1 clock(13)
+agent notification: Time [clock=13, time=null]
+Event sent to agent      a3 clock(13)
+agent notification: Time [clock=13, time=null]
+Event sent to agent      a4 clock(13)
+agent notification: Time [clock=13, time=null]
+Event sent to agent      a2 clock(13)
+agent notification: Time [clock=13, time=null]
+org notification: Time [clock=13, time=null]
+org notified found Time [clock=13, time=null]
+org notified sent time(13).
+agent notification: Time [clock=13, time=null]
+agent notification: Time [clock=13, time=null]
+Event sent to agent      c1 clock(13)
+Event sent to agent      a1 clock(13)
+Event sent to agent      t1 clock(13)
+org notification: Position [subject=a2, id=null, cell=Cell [x=7, y=19], time=2014-04-02 14:14:50.804, clock=0]
+org notified found Position [subject=a2, id=null, cell=Cell [x=7, y=19], time=2014-04-02 14:14:50.804, clock=0]
+org notified sent position(a2,cell(7,19),0).
+org notification: Position [subject=a1, id=null, cell=Cell [x=3, y=4], time=2014-04-02 14:14:50.912, clock=0]
+org notified found Position [subject=a1, id=null, cell=Cell [x=3, y=4], time=2014-04-02 14:14:50.912, clock=0]
+org notified sent position(a1,cell(3,4),0).
+Event processed UpdateClock(13)
+Event processed UpdateClock(13)
+Event processed UpdateClock(13)
+Event processed UpdateClock(13)
+Event processed UpdateClock(13)
+Event processed UpdateClock(13)
+14
+agent notification: Time [clock=14, time=null]
+agent notification: Time [clock=14, time=null]
+Event sent to agent      a3 clock(14)
+Event sent to agent      a4 clock(14)
+agent notification: Time [clock=14, time=null]
+Event sent to agent      a1 clock(14)
+agent notification: Time [clock=14, time=null]
+org notification: Time [clock=14, time=null]
+org notified found Time [clock=14, time=null]
+agent notification: Time [clock=14, time=null]
+Event sent to agent      ra1 clock(14)
+Event sent to agent      t1 clock(14)
+org notified sent time(14).
+agent notification: Time [clock=14, time=null]
+agent notification: Time [clock=14, time=null]
+Event sent to agent      c1 clock(14)
+Event sent to agent      a2 clock(14)
+Event processed UpdateClock(13)
+Event processed UpdateClock(14)
+Event processed UpdateClock(14)
+Event processed UpdateClock(14)
+Event processed UpdateClock(14)
+15
+agent notification: Time [clock=15, time=null]
+agent notification: Time [clock=15, time=null]
+Event sent to agent      a3 clock(15)
+agent notification: Time [clock=15, time=null]
+Event sent to agent      ra1 clock(15)
+agent notification: Time [clock=15, time=null]
+agent notification: Time [clock=15, time=null]
+agent notification: Time [clock=15, time=null]
+Event sent to agent      c1 clock(15)
+Event sent to agent      a1 clock(15)
+Event sent to agent      t1 clock(15)
+Event sent to agent      a4 clock(15)
+agent notification: Time [clock=15, time=null]
+Event sent to agent      a2 clock(15)
+org notification: Time [clock=15, time=null]
+org notified found Time [clock=15, time=null]
+org notified sent time(15).
+Event processed UpdateClock(14)
+Event processed UpdateClock(15)
+Event processed UpdateClock(14)
+Event processed UpdateClock(15)
+Event processed UpdateClock(14)
+Event processed UpdateClock(15)
+Event processed UpdateClock(15)
+org notification: Position [subject=a3, id=null, cell=Cell [x=11, y=2], time=2014-04-02 14:14:51.94, clock=12]
+org notified found Position [subject=a3, id=null, cell=Cell [x=11, y=2], time=2014-04-02 14:14:51.94, clock=12]
+org notified sent position(a3,cell(11,2),12).
+Event processed UpdateClock(15)
+Event processed UpdateClock(15)
+16
+agent notification: Time [clock=16, time=null]
+agent notification: Time [clock=16, time=null]
+Event sent to agent      a4 clock(16)
+org notification: Time [clock=16, time=null]
+agent notification: Time [clock=16, time=null]
+agent notification: Time [clock=16, time=null]
+Event sent to agent      ra1 clock(16)
+agent notification: Time [clock=16, time=null]
+org notified found Time [clock=16, time=null]
+org notified sent time(16).
+Event sent to agent      t1 clock(16)
+agent notification: Time [clock=16, time=null]
+Event sent to agent      a3 clock(16)
+Event sent to agent      a2 clock(16)
+Event sent to agent      a1 clock(16)
+agent notification: Time [clock=16, time=null]
+Event sent to agent      c1 clock(16)
+Event processed UpdateClock(15)
+Event processed UpdateClock(16)
+Event processed UpdateClock(16)
+Event processed UpdateClock(16)
+Event processed UpdateClock(16)
+Event processed UpdateClock(16)
+org notification: Coin [id=null, cell=Cell [x=16, y=16], subject=a2, time=2014-04-02 14:14:52.411, clock=13]
+org notified found Coin [id=null, cell=Cell [x=16, y=16], subject=a2, time=2014-04-02 14:14:52.411, clock=13]
+org notified sent coin(cell(16,16),13,a2).
+Event processed UpdateClock(16)
+Event processed UpdateClock(16)
+17
+agent notification: Time [clock=17, time=null]
+agent notification: Time [clock=17, time=null]
+Event sent to agent      c1 clock(17)
+agent notification: Time [clock=17, time=null]
+Event sent to agent      ra1 clock(17)
+org notification: Time [clock=17, time=null]
+org notified found Time [clock=17, time=null]
+org notified sent time(17).
+Event sent to agent      a3 clock(17)
+agent notification: Time [clock=17, time=null]
+Event sent to agent      a2 clock(17)
+agent notification: Time [clock=17, time=null]
+Event sent to agent      a1 clock(17)
+agent notification: Time [clock=17, time=null]
+Event sent to agent      a4 clock(17)
+agent notification: Time [clock=17, time=null]
+Event sent to agent      t1 clock(17)
+Event processed UpdateClock(17)
+Event processed UpdateClock(17)
+Event processed UpdateClock(17)
+Event processed UpdateClock(17)
+org notification: Position [subject=a2, id=null, cell=Cell [x=6, y=19], time=2014-04-02 14:14:52.845, clock=14]
+org notified found Position [subject=a2, id=null, cell=Cell [x=6, y=19], time=2014-04-02 14:14:52.845, clock=14]
+org notified sent position(a2,cell(6,19),14).
+org notification: Position [subject=t1, id=null, cell=Cell [x=18, y=19], time=2014-04-02 14:14:52.941, clock=15]
+org notified found Position [subject=t1, id=null, cell=Cell [x=18, y=19], time=2014-04-02 14:14:52.941, clock=15]
+org notified sent position(t1,cell(18,19),15).
+org notification: Position [subject=a1, id=null, cell=Cell [x=3, y=5], time=2014-04-02 14:14:52.994, clock=15]
+org notified found Position [subject=a1, id=null, cell=Cell [x=3, y=5], time=2014-04-02 14:14:52.994, clock=15]
+org notified sent position(a1,cell(3,5),15).
+Event processed UpdateClock(17)
+Event processed UpdateClock(17)
+Event processed UpdateClock(17)
+18
+agent notification: Time [clock=18, time=null]
+agent notification: Time [clock=18, time=null]
+Event sent to agent      a1 clock(18)
+Event sent to agent      a3 clock(18)
+agent notification: Time [clock=18, time=null]
+Event sent to agent      c1 clock(18)
+org notification: Time [clock=18, time=null]
+org notified found Time [clock=18, time=null]
+org notified sent time(18).
+agent notification: Time [clock=18, time=null]
+Event sent to agent      t1 clock(18)
+agent notification: Time [clock=18, time=null]
+Event sent to agent      a2 clock(18)
+agent notification: Time [clock=18, time=null]
+Event sent to agent      a4 clock(18)
+agent notification: Time [clock=18, time=null]
+Event sent to agent      ra1 clock(18)
+Event processed UpdateClock(18)
+Event processed UpdateClock(18)
+Event processed UpdateClock(18)
+Event processed UpdateClock(18)
+Event processed UpdateClock(18)
+Event processed UpdateClock(18)
+Event processed UpdateClock(18)
+19
+agent notification: Time [clock=19, time=null]
+Event sent to agent      a3 clock(19)
+org notification: Time [clock=19, time=null]
+org notified found Time [clock=19, time=null]
+org notified sent time(19).
+agent notification: Time [clock=19, time=null]
+agent notification: Time [clock=19, time=null]
+Event sent to agent      a4 clock(19)
+Event sent to agent      a1 clock(19)
+agent notification: Time [clock=19, time=null]
+agent notification: Time [clock=19, time=null]
+Event sent to agent      a2 clock(19)
+agent notification: Time [clock=19, time=null]
+Event sent to agent      c1 clock(19)
+Event sent to agent      t1 clock(19)
+agent notification: Time [clock=19, time=null]
+Event sent to agent      ra1 clock(19)
+org notification: Position [subject=a3, id=null, cell=Cell [x=11, y=3], time=2014-04-02 14:14:53.741, clock=17]
+org notified found Position [subject=a3, id=null, cell=Cell [x=11, y=3], time=2014-04-02 14:14:53.741, clock=17]
+org notified sent position(a3,cell(11,3),17).
+Event processed UpdateClock(19)
+Event processed UpdateClock(19)
+Event processed UpdateClock(19)
+Event processed UpdateClock(19)
+Event processed UpdateClock(19)
+Event processed UpdateClock(19)
+Event processed UpdateClock(19)
+org notification: Coin [id=null, cell=Cell [x=2, y=2], subject=a3, time=2014-04-02 14:14:54.004, clock=17]
+org notified found Coin [id=null, cell=Cell [x=2, y=2], subject=a3, time=2014-04-02 14:14:54.004, clock=17]
+org notified sent coin(cell(2,2),17,a3).
+20
+org notification: Time [clock=20, time=null]
+org notified found Time [clock=20, time=null]
+org notified sent time(20).
+agent notification: Time [clock=20, time=null]
+agent notification: Time [clock=20, time=null]
+Event sent to agent      a4 clock(20)
+Event sent to agent      a2 clock(20)
+agent notification: Time [clock=20, time=null]
+agent notification: Time [clock=20, time=null]
+Event sent to agent      t1 clock(20)
+agent notification: Time [clock=20, time=null]
+agent notification: Time [clock=20, time=null]
+Event sent to agent      c1 clock(20)
+Event sent to agent      ra1 clock(20)
+Event sent to agent      a1 clock(20)
+agent notification: Time [clock=20, time=null]
+Event sent to agent      a3 clock(20)
+Event processed UpdateClock(20)
+Event processed UpdateClock(20)
+Event processed UpdateClock(20)
+Event processed UpdateClock(20)
+Event processed UpdateClock(20)
+Event processed UpdateClock(20)
+org notification: Position [subject=a2, id=null, cell=Cell [x=6, y=18], time=2014-04-02 14:14:54.341, clock=18]
+org notified found Position [subject=a2, id=null, cell=Cell [x=6, y=18], time=2014-04-02 14:14:54.341, clock=18]
+org notified sent position(a2,cell(6,18),18).
+org notification: Position [subject=t1, id=null, cell=Cell [x=17, y=19], time=2014-04-02 14:14:54.437, clock=18]
+org notified found Position [subject=t1, id=null, cell=Cell [x=17, y=19], time=2014-04-02 14:14:54.437, clock=18]
+org notified sent position(t1,cell(17,19),18).
+org notification: Position [subject=a1, id=null, cell=Cell [x=4, y=5], time=2014-04-02 14:14:54.479, clock=18]
+org notified found Position [subject=a1, id=null, cell=Cell [x=4, y=5], time=2014-04-02 14:14:54.479, clock=18]
+org notified sent position(a1,cell(4,5),18).
+Event processed UpdateClock(20)
+21
+agent notification: Time [clock=21, time=null]
+Event sent to agent      a3 clock(21)
+agent notification: Time [clock=21, time=null]
+agent notification: Time [clock=21, time=null]
+Event sent to agent      c1 clock(21)
+Event sent to agent      ra1 clock(21)
+org notification: Time [clock=21, time=null]
+agent notification: Time [clock=21, time=null]
+agent notification: Time [clock=21, time=null]
+Event sent to agent      a2 clock(21)
+org notified found Time [clock=21, time=null]
+agent notification: Time [clock=21, time=null]
+Event sent to agent      t1 clock(21)
+org notified sent time(21).
+Event sent to agent      a4 clock(21)
+agent notification: Time [clock=21, time=null]
+Event sent to agent      a1 clock(21)
+Event processed UpdateClock(21)
+Event processed UpdateClock(21)
+Event processed UpdateClock(21)
+Event processed UpdateClock(21)
+Event processed UpdateClock(21)
+Event processed UpdateClock(21)
+Event processed UpdateClock(21)
+22
+agent notification: Time [clock=22, time=null]
+Event sent to agent      a3 clock(22)
+agent notification: Time [clock=22, time=null]
+Event sent to agent      a4 clock(22)
+agent notification: Time [clock=22, time=null]
+Event sent to agent      c1 clock(22)
+agent notification: Time [clock=22, time=null]
+org notification: Time [clock=22, time=null]
+org notified found Time [clock=22, time=null]
+org notified sent time(22).
+agent notification: Time [clock=22, time=null]
+agent notification: Time [clock=22, time=null]
+Event sent to agent      a2 clock(22)
+Event sent to agent      t1 clock(22)
+Event sent to agent      a1 clock(22)
+agent notification: Time [clock=22, time=null]
+Event sent to agent      ra1 clock(22)
+org notification: Position [subject=a3, id=null, cell=Cell [x=11, y=4], time=2014-04-02 14:14:55.208, clock=20]
+org notified found Position [subject=a3, id=null, cell=Cell [x=11, y=4], time=2014-04-02 14:14:55.208, clock=20]
+org notified sent position(a3,cell(11,4),20).
+Event processed UpdateClock(22)
+Event processed UpdateClock(22)
+Event processed UpdateClock(22)
+Event processed UpdateClock(22)
+Event processed UpdateClock(22)
+Event processed UpdateClock(22)
+Event processed UpdateClock(22)
+23
+agent notification: Time [clock=23, time=null]
+agent notification: Time [clock=23, time=null]
+Event sent to agent      a3 clock(23)
+agent notification: Time [clock=23, time=null]
+Event sent to agent      ra1 clock(23)
+Event sent to agent      a4 clock(23)
+agent notification: Time [clock=23, time=null]
+Event sent to agent      a1 clock(23)
+agent notification: Time [clock=23, time=null]
+agent notification: Time [clock=23, time=null]
+Event sent to agent      t1 clock(23)
+org notification: Time [clock=23, time=null]
+Event sent to agent      c1 clock(23)
+org notified found Time [clock=23, time=null]
+org notified sent time(23).
+agent notification: Time [clock=23, time=null]
+Event sent to agent      a2 clock(23)
+Event processed UpdateClock(23)
+Event processed UpdateClock(23)
+Event processed UpdateClock(23)
+Event processed UpdateClock(23)
+Event processed UpdateClock(23)
+Event processed UpdateClock(23)
+org notification: Position [subject=a2, id=null, cell=Cell [x=6, y=17], time=2014-04-02 14:14:55.856, clock=21]
+org notified found Position [subject=a2, id=null, cell=Cell [x=6, y=17], time=2014-04-02 14:14:55.856, clock=21]
+org notified sent position(a2,cell(6,17),21).
+org notification: Position [subject=t1, id=null, cell=Cell [x=16, y=19], time=2014-04-02 14:14:55.92, clock=21]
+org notified found Position [subject=t1, id=null, cell=Cell [x=16, y=19], time=2014-04-02 14:14:55.92, clock=21]
+org notified sent position(t1,cell(16,19),21).
+org notification: Position [subject=a1, id=null, cell=Cell [x=5, y=5], time=2014-04-02 14:14:55.966, clock=21]
+org notified found Position [subject=a1, id=null, cell=Cell [x=5, y=5], time=2014-04-02 14:14:55.966, clock=21]
+org notified sent position(a1,cell(5,5),21).
+Event processed UpdateClock(23)
+24
+agent notification: Time [clock=24, time=null]
+agent notification: Time [clock=24, time=null]
+agent notification: Time [clock=24, time=null]
+agent notification: Time [clock=24, time=null]
+Event sent to agent      a3 clock(24)
+Event sent to agent      ra1 clock(24)
+Event sent to agent      a4 clock(24)
+Event sent to agent      a1 clock(24)
+org notification: Time [clock=24, time=null]
+org notified found Time [clock=24, time=null]
+org notified sent time(24).
+agent notification: Time [clock=24, time=null]
+agent notification: Time [clock=24, time=null]
+Event sent to agent      c1 clock(24)
+Event sent to agent      a2 clock(24)
+agent notification: Time [clock=24, time=null]
+Event sent to agent      t1 clock(24)
+Event processed UpdateClock(24)
+Event processed UpdateClock(24)
+Event processed UpdateClock(24)
+Event processed UpdateClock(24)
+Event processed UpdateClock(24)
+Event processed UpdateClock(24)
+Event processed UpdateClock(24)
+org notification: Position [subject=a3, id=null, cell=Cell [x=11, y=5], time=2014-04-02 14:14:56.622, clock=23]
+org notified found Position [subject=a3, id=null, cell=Cell [x=11, y=5], time=2014-04-02 14:14:56.622, clock=23]
+org notified sent position(a3,cell(11,5),23).
+25
+agent notification: Time [clock=25, time=null]
+agent notification: Time [clock=25, time=null]
+Event sent to agent      a1 clock(25)
+agent notification: Time [clock=25, time=null]
+org notification: Time [clock=25, time=null]
+org notified found Time [clock=25, time=null]
+org notified sent time(25).
+Event sent to agent      a2 clock(25)
+Event sent to agent      ra1 clock(25)
+agent notification: Time [clock=25, time=null]
+agent notification: Time [clock=25, time=null]
+Event sent to agent      c1 clock(25)
+Event sent to agent      t1 clock(25)
+agent notification: Time [clock=25, time=null]
+agent notification: Time [clock=25, time=null]
+Event sent to agent      a4 clock(25)
+Event sent to agent      a3 clock(25)
+Event processed UpdateClock(25)
+Event processed UpdateClock(25)
+Event processed UpdateClock(25)
+Event processed UpdateClock(25)
+Event processed UpdateClock(25)
+Event processed UpdateClock(25)
+Event processed UpdateClock(25)
+26
+agent notification: Time [clock=26, time=null]
+agent notification: Time [clock=26, time=null]
+Event sent to agent      ra1 clock(26)
+Event sent to agent      a1 clock(26)
+agent notification: Time [clock=26, time=null]
+Event sent to agent      c1 clock(26)
+org notification: Time [clock=26, time=null]
+org notified found Time [clock=26, time=null]
+agent notification: Time [clock=26, time=null]
+agent notification: Time [clock=26, time=null]
+Event sent to agent      a3 clock(26)
+agent notification: Time [clock=26, time=null]
+org notified sent time(26).
+Event sent to agent      a4 clock(26)
+Event sent to agent      t1 clock(26)
+agent notification: Time [clock=26, time=null]
+Event sent to agent      a2 clock(26)
+org notification: Position [subject=a2, id=null, cell=Cell [x=6, y=16], time=2014-04-02 14:14:57.193, clock=24]
+org notified found Position [subject=a2, id=null, cell=Cell [x=6, y=16], time=2014-04-02 14:14:57.193, clock=24]
+org notified sent position(a2,cell(6,16),24).
+org notification: Position [subject=t1, id=null, cell=Cell [x=15, y=19], time=2014-04-02 14:14:57.259, clock=24]
+org notified found Position [subject=t1, id=null, cell=Cell [x=15, y=19], time=2014-04-02 14:14:57.259, clock=24]
+org notified sent position(t1,cell(15,19),24).
+Event processed UpdateClock(26)
+Event processed UpdateClock(26)
+Event processed UpdateClock(26)
+Event processed UpdateClock(26)
+Event processed UpdateClock(26)
+Event processed UpdateClock(26)
+Event processed UpdateClock(26)
+27
+agent notification: Time [clock=27, time=null]
+agent notification: Time [clock=27, time=null]
+agent notification: Time [clock=27, time=null]
+Event sent to agent      a3 clock(27)
+Event sent to agent      ra1 clock(27)
+Event sent to agent      a2 clock(27)
+agent notification: Time [clock=27, time=null]
+agent notification: Time [clock=27, time=null]
+Event sent to agent      t1 clock(27)
+agent notification: Time [clock=27, time=null]
+Event sent to agent      a4 clock(27)
+Event sent to agent      c1 clock(27)
+org notification: Time [clock=27, time=null]
+org notified found Time [clock=27, time=null]
+org notified sent time(27).
+agent notification: Time [clock=27, time=null]
+Event sent to agent      a1 clock(27)
+Event processed UpdateClock(27)
+Event processed UpdateClock(27)
+Event processed UpdateClock(27)
+Event processed UpdateClock(27)
+Event processed UpdateClock(27)
+Event processed UpdateClock(27)
+org notification: Position [subject=a3, id=null, cell=Cell [x=11, y=6], time=2014-04-02 14:14:57.915, clock=25]
+org notified found Position [subject=a3, id=null, cell=Cell [x=11, y=6], time=2014-04-02 14:14:57.915, clock=25]
+org notified sent position(a3,cell(11,6),25).
+Event processed UpdateClock(27)
+28
+agent notification: Time [clock=28, time=null]
+agent notification: Time [clock=28, time=null]
+agent notification: Time [clock=28, time=null]
+agent notification: Time [clock=28, time=null]
+Event sent to agent      c1 clock(28)
+Event sent to agent      a1 clock(28)
+Event sent to agent      ra1 clock(28)
+Event sent to agent      a3 clock(28)
+org notification: Time [clock=28, time=null]
+org notified found Time [clock=28, time=null]
+org notified sent time(28).
+agent notification: Time [clock=28, time=null]
+agent notification: Time [clock=28, time=null]
+Event sent to agent      a2 clock(28)
+agent notification: Time [clock=28, time=null]
+Event sent to agent      t1 clock(28)
+Event sent to agent      a4 clock(28)
+Event processed UpdateClock(28)
+Event processed UpdateClock(28)
+Event processed UpdateClock(28)
+Event processed UpdateClock(28)
+Event processed UpdateClock(28)
+Event processed UpdateClock(28)
+Event processed UpdateClock(28)
+org notification: Position [subject=a2, id=null, cell=Cell [x=6, y=15], time=2014-04-02 14:14:58.449, clock=26]
+org notified found Position [subject=a2, id=null, cell=Cell [x=6, y=15], time=2014-04-02 14:14:58.449, clock=26]
+org notified sent position(a2,cell(6,15),26).
+org notification: Position [subject=t1, id=null, cell=Cell [x=14, y=19], time=2014-04-02 14:14:58.509, clock=27]
+org notified found Position [subject=t1, id=null, cell=Cell [x=14, y=19], time=2014-04-02 14:14:58.509, clock=27]
+org notified sent position(t1,cell(14,19),27).
+org notification: Position [subject=a1, id=null, cell=Cell [x=5, y=6], time=2014-04-02 14:14:58.548, clock=27]
+org notified found Position [subject=a1, id=null, cell=Cell [x=5, y=6], time=2014-04-02 14:14:58.548, clock=27]
+org notified sent position(a1,cell(5,6),27).
+29
+agent notification: Time [clock=29, time=null]
+Event sent to agent      ra1 clock(29)
+agent notification: Time [clock=29, time=null]
+Event sent to agent      a3 clock(29)
+agent notification: Time [clock=29, time=null]
+agent notification: Time [clock=29, time=null]
+agent notification: Time [clock=29, time=null]
+Event sent to agent      c1 clock(29)
+Event sent to agent      a1 clock(29)
+Event sent to agent      a2 clock(29)
+org notification: Time [clock=29, time=null]
+agent notification: Time [clock=29, time=null]
+org notified found Time [clock=29, time=null]
+Event sent to agent      t1 clock(29)
+org notified sent time(29).
+agent notification: Time [clock=29, time=null]
+Event sent to agent      a4 clock(29)
+Event processed UpdateClock(29)
+Event processed UpdateClock(29)
+Event processed UpdateClock(29)
+Event processed UpdateClock(29)
+Event processed UpdateClock(29)
+Event processed UpdateClock(29)
+Event processed UpdateClock(29)
+30
+agent notification: Time [clock=30, time=null]
+agent notification: Time [clock=30, time=null]
+Event sent to agent      a3 clock(30)
+Event sent to agent      a4 clock(30)
+agent notification: Time [clock=30, time=null]
+agent notification: Time [clock=30, time=null]
+Event sent to agent      ra1 clock(30)
+agent notification: Time [clock=30, time=null]
+Event sent to agent      a2 clock(30)
+org notification: Time [clock=30, time=null]
+org notified found Time [clock=30, time=null]
+org notified sent time(30).
+Event sent to agent      c1 clock(30)
+agent notification: Time [clock=30, time=null]
+Event sent to agent      t1 clock(30)
+agent notification: Time [clock=30, time=null]
+Event sent to agent      a1 clock(30)
+org notification: Position [subject=a3, id=null, cell=Cell [x=11, y=7], time=2014-04-02 14:14:59.197, clock=28]
+org notified found Position [subject=a3, id=null, cell=Cell [x=11, y=7], time=2014-04-02 14:14:59.197, clock=28]
+org notified sent position(a3,cell(11,7),28).
+Event processed UpdateClock(30)
+Event processed UpdateClock(30)
+Event processed UpdateClock(30)
+Event processed UpdateClock(30)
+Event processed UpdateClock(30)
+Event processed UpdateClock(30)
+Event processed UpdateClock(30)
+31
+agent notification: Time [clock=31, time=null]
+Event sent to agent      a3 clock(31)
+agent notification: Time [clock=31, time=null]
+agent notification: Time [clock=31, time=null]
+Event sent to agent      ra1 clock(31)
+agent notification: Time [clock=31, time=null]
+Event sent to agent      a2 clock(31)
+agent notification: Time [clock=31, time=null]
+agent notification: Time [clock=31, time=null]
+Event sent to agent      a4 clock(31)
+Event sent to agent      a1 clock(31)
+Event sent to agent      c1 clock(31)
+agent notification: Time [clock=31, time=null]
+org notification: Time [clock=31, time=null]
+org notified found Time [clock=31, time=null]
+org notified sent time(31).
+Event sent to agent      t1 clock(31)
+Event processed UpdateClock(31)
+Event processed UpdateClock(31)
+org notification: Position [subject=a2, id=null, cell=Cell [x=6, y=14], time=2014-04-02 14:14:59.787, clock=29]
+org notified found Position [subject=a2, id=null, cell=Cell [x=6, y=14], time=2014-04-02 14:14:59.787, clock=29]
+org notified sent position(a2,cell(6,14),29).
+org notification: Position [subject=t1, id=null, cell=Cell [x=13, y=19], time=2014-04-02 14:14:59.862, clock=29]
+org notified found Position [subject=t1, id=null, cell=Cell [x=13, y=19], time=2014-04-02 14:14:59.862, clock=29]
+org notified sent position(t1,cell(13,19),29).
+org notification: Position [subject=a1, id=null, cell=Cell [x=6, y=6], time=2014-04-02 14:14:59.903, clock=29]
+org notified found Position [subject=a1, id=null, cell=Cell [x=6, y=6], time=2014-04-02 14:14:59.903, clock=29]
+org notified sent position(a1,cell(6,6),29).
+Event processed UpdateClock(31)
+Event processed UpdateClock(31)
+Event processed UpdateClock(31)
+Event processed UpdateClock(31)
+Event processed UpdateClock(31)
+32
+agent notification: Time [clock=32, time=null]
+agent notification: Time [clock=32, time=null]
+agent notification: Time [clock=32, time=null]
+Event sent to agent      a1 clock(32)
+Event sent to agent      ra1 clock(32)
+Event sent to agent      c1 clock(32)
+agent notification: Time [clock=32, time=null]
+org notification: Time [clock=32, time=null]
+org notified found Time [clock=32, time=null]
+org notified sent time(32).
+Event sent to agent      a2 clock(32)
+agent notification: Time [clock=32, time=null]
+agent notification: Time [clock=32, time=null]
+Event sent to agent      a4 clock(32)
+Event sent to agent      t1 clock(32)
+agent notification: Time [clock=32, time=null]
+Event sent to agent      a3 clock(32)
+Event processed UpdateClock(32)
+Event processed UpdateClock(32)
+Event processed UpdateClock(32)
+Event processed UpdateClock(32)
+Event processed UpdateClock(32)
+Event processed UpdateClock(32)
+Event processed UpdateClock(32)
+org notification: Position [subject=a3, id=null, cell=Cell [x=11, y=8], time=2014-04-02 14:15:00.571, clock=31]
+org notified found Position [subject=a3, id=null, cell=Cell [x=11, y=8], time=2014-04-02 14:15:00.571, clock=31]
+org notified sent position(a3,cell(11,8),31).
+33
+agent notification: Time [clock=33, time=null]
+Event sent to agent      a3 clock(33)
+org notification: Time [clock=33, time=null]
+org notified found Time [clock=33, time=null]
+org notified sent time(33).
+agent notification: Time [clock=33, time=null]
+agent notification: Time [clock=33, time=null]
+agent notification: Time [clock=33, time=null]
+Event sent to agent      t1 clock(33)
+Event sent to agent      a4 clock(33)
+Event sent to agent      a1 clock(33)
+agent notification: Time [clock=33, time=null]
+agent notification: Time [clock=33, time=null]
+Event sent to agent      a2 clock(33)
+Event sent to agent      c1 clock(33)
+agent notification: Time [clock=33, time=null]
+Event sent to agent      ra1 clock(33)
+Event processed UpdateClock(33)
+Event processed UpdateClock(33)
+Event processed UpdateClock(33)
+Event processed UpdateClock(33)
+Event processed UpdateClock(33)
+Event processed UpdateClock(33)
+Event processed UpdateClock(33)
+org notification: Position [subject=a2, id=null, cell=Cell [x=6, y=13], time=2014-04-02 14:15:01.139, clock=32]
+org notified found Position [subject=a2, id=null, cell=Cell [x=6, y=13], time=2014-04-02 14:15:01.139, clock=32]
+org notified sent position(a2,cell(6,13),32).
+34
+agent notification: Time [clock=34, time=null]
+Event sent to agent      a3 clock(34)
+agent notification: Time [clock=34, time=null]
+Event sent to agent      a4 clock(34)
+org notification: Time [clock=34, time=null]
+org notified found Time [clock=34, time=null]
+org notified sent time(34).
+agent notification: Time [clock=34, time=null]
+agent notification: Time [clock=34, time=null]
+agent notification: Time [clock=34, time=null]
+Event sent to agent      a2 clock(34)
+agent notification: Time [clock=34, time=null]
+agent notification: Time [clock=34, time=null]
+Event sent to agent      ra1 clock(34)
+Event sent to agent      a1 clock(34)
+Event sent to agent      t1 clock(34)
+Event sent to agent      c1 clock(34)
+org notification: Position [subject=t1, id=null, cell=Cell [x=12, y=19], time=2014-04-02 14:15:01.21, clock=32]
+org notified found Position [subject=t1, id=null, cell=Cell [x=12, y=19], time=2014-04-02 14:15:01.21, clock=32]
+org notified sent position(t1,cell(12,19),32).
+Event processed UpdateClock(34)
+Event processed UpdateClock(34)
+Event processed UpdateClock(34)
+Event processed UpdateClock(34)
+Event processed UpdateClock(34)
+Event processed UpdateClock(34)
+Event processed UpdateClock(34)
+35
+agent notification: Time [clock=35, time=null]
+agent notification: Time [clock=35, time=null]
+Event sent to agent      ra1 clock(35)
+agent notification: Time [clock=35, time=null]
+agent notification: Time [clock=35, time=null]
+org notification: Time [clock=35, time=null]
+org notified found Time [clock=35, time=null]
+org notified sent time(35).
+Event sent to agent      a1 clock(35)
+agent notification: Time [clock=35, time=null]
+agent notification: Time [clock=35, time=null]
+Event sent to agent      c1 clock(35)
+agent notification: Time [clock=35, time=null]
+Event sent to agent      a4 clock(35)
+Event sent to agent      t1 clock(35)
+Event sent to agent      a2 clock(35)
+Event sent to agent      a3 clock(35)
+org notification: Position [subject=a3, id=null, cell=Cell [x=11, y=9], time=2014-04-02 14:15:01.834, clock=33]
+org notified found Position [subject=a3, id=null, cell=Cell [x=11, y=9], time=2014-04-02 14:15:01.834, clock=33]
+org notified sent position(a3,cell(11,9),33).
+Event processed UpdateClock(35)
+Event processed UpdateClock(35)
+Event processed UpdateClock(35)
+Event processed UpdateClock(35)
+Event processed UpdateClock(35)
+Event processed UpdateClock(35)
+Event processed UpdateClock(35)
+36
+agent notification: Time [clock=36, time=null]
+agent notification: Time [clock=36, time=null]
+Event sent to agent      a4 clock(36)
+Event sent to agent      ra1 clock(36)
+agent notification: Time [clock=36, time=null]
+org notification: Time [clock=36, time=null]
+agent notification: Time [clock=36, time=null]
+agent notification: Time [clock=36, time=null]
+agent notification: Time [clock=36, time=null]
+Event sent to agent      a1 clock(36)
+org notified found Time [clock=36, time=null]
+org notified sent time(36).
+agent notification: Time [clock=36, time=null]
+Event sent to agent      t1 clock(36)
+Event sent to agent      a2 clock(36)
+Event sent to agent      c1 clock(36)
+Event sent to agent      a3 clock(36)
+Event processed UpdateClock(36)
+Event processed UpdateClock(36)
+Event processed UpdateClock(36)
+Event processed UpdateClock(36)
+Event processed UpdateClock(36)
+Event processed UpdateClock(36)
+Event processed UpdateClock(36)
+org notification: Position [subject=a2, id=null, cell=Cell [x=6, y=12], time=2014-04-02 14:15:02.37, clock=34]
+org notified found Position [subject=a2, id=null, cell=Cell [x=6, y=12], time=2014-04-02 14:15:02.37, clock=34]
+org notified sent position(a2,cell(6,12),34).
+org notification: Position [subject=t1, id=null, cell=Cell [x=11, y=19], time=2014-04-02 14:15:02.422, clock=34]
+org notified found Position [subject=t1, id=null, cell=Cell [x=11, y=19], time=2014-04-02 14:15:02.422, clock=34]
+org notified sent position(t1,cell(11,19),34).
+37
+agent notification: Time [clock=37, time=null]
+Event sent to agent      a3 clock(37)
+agent notification: Time [clock=37, time=null]
+agent notification: Time [clock=37, time=null]
+Event sent to agent      ra1 clock(37)
+Event sent to agent      a4 clock(37)
+agent notification: Time [clock=37, time=null]
+Event sent to agent      c1 clock(37)
+org notification: Time [clock=37, time=null]
+org notified found Time [clock=37, time=null]
+org notified sent time(37).
+agent notification: Time [clock=37, time=null]
+Event sent to agent      a2 clock(37)
+agent notification: Time [clock=37, time=null]
+Event sent to agent      t1 clock(37)
+agent notification: Time [clock=37, time=null]
+Event sent to agent      a1 clock(37)
+Event processed UpdateClock(37)
+Event processed UpdateClock(37)
+Event processed UpdateClock(37)
+Event processed UpdateClock(37)
+Event processed UpdateClock(37)
+Event processed UpdateClock(37)
+Event processed UpdateClock(37)
+org notification: Position [subject=a3, id=null, cell=Cell [x=11, y=10], time=2014-04-02 14:15:03.023, clock=36]
+org notified found Position [subject=a3, id=null, cell=Cell [x=11, y=10], time=2014-04-02 14:15:03.023, clock=36]
+org notified sent position(a3,cell(11,10),36).
+38
+agent notification: Time [clock=38, time=null]
+Event sent to agent      a3 clock(38)
+agent notification: Time [clock=38, time=null]
+org notification: Time [clock=38, time=null]
+org notified found Time [clock=38, time=null]
+org notified sent time(38).
+agent notification: Time [clock=38, time=null]
+Event sent to agent      a1 clock(38)
+agent notification: Time [clock=38, time=null]
+Event sent to agent      a4 clock(38)
+Event sent to agent      t1 clock(38)
+agent notification: Time [clock=38, time=null]
+agent notification: Time [clock=38, time=null]
+Event sent to agent      c1 clock(38)
+Event sent to agent      a2 clock(38)
+agent notification: Time [clock=38, time=null]
+Event sent to agent      ra1 clock(38)
+Event processed UpdateClock(38)
+Event processed UpdateClock(38)
+Event processed UpdateClock(38)
+Event processed UpdateClock(38)
+Event processed UpdateClock(38)
+Event processed UpdateClock(38)
+Event processed UpdateClock(38)
+org notification: Position [subject=a2, id=null, cell=Cell [x=6, y=11], time=2014-04-02 14:15:03.533, clock=37]
+org notified found Position [subject=a2, id=null, cell=Cell [x=6, y=11], time=2014-04-02 14:15:03.533, clock=37]
+org notified sent position(a2,cell(6,11),37).
+org notification: Position [subject=t1, id=null, cell=Cell [x=10, y=19], time=2014-04-02 14:15:03.576, clock=37]
+org notified found Position [subject=t1, id=null, cell=Cell [x=10, y=19], time=2014-04-02 14:15:03.576, clock=37]
+org notified sent position(t1,cell(10,19),37).
+39
+agent notification: Time [clock=39, time=null]
+Event sent to agent      a3 clock(39)
+agent notification: Time [clock=39, time=null]
+Event sent to agent      c1 clock(39)
+agent notification: Time [clock=39, time=null]
+org notification: Time [clock=39, time=null]
+org notified found Time [clock=39, time=null]
+org notified sent time(39).
+agent notification: Time [clock=39, time=null]
+Event sent to agent      ra1 clock(39)
+agent notification: Time [clock=39, time=null]
+Event sent to agent      t1 clock(39)
+Event sent to agent      a4 clock(39)
+agent notification: Time [clock=39, time=null]
+Event sent to agent      a2 clock(39)
+agent notification: Time [clock=39, time=null]
+Event sent to agent      a1 clock(39)
+Event processed UpdateClock(39)
+Event processed UpdateClock(39)
+Event processed UpdateClock(39)
+Event processed UpdateClock(39)
+Event processed UpdateClock(39)
+Event processed UpdateClock(39)
+Event processed UpdateClock(39)
+40
+org notification: Time [clock=40, time=null]
+org notified found Time [clock=40, time=null]
+org notified sent time(40).
+agent notification: Time [clock=40, time=null]
+agent notification: Time [clock=40, time=null]
+agent notification: Time [clock=40, time=null]
+Event sent to agent      a3 clock(40)
+Event sent to agent      t1 clock(40)
+Event sent to agent      c1 clock(40)
+agent notification: Time [clock=40, time=null]
+agent notification: Time [clock=40, time=null]
+Event sent to agent      a2 clock(40)
+Event sent to agent      a1 clock(40)
+agent notification: Time [clock=40, time=null]
+agent notification: Time [clock=40, time=null]
+Event sent to agent      a4 clock(40)
+Event sent to agent      ra1 clock(40)
+org notification: Position [subject=a3, id=null, cell=Cell [x=11, y=11], time=2014-04-02 14:15:04.255, clock=38]
+org notified found Position [subject=a3, id=null, cell=Cell [x=11, y=11], time=2014-04-02 14:15:04.255, clock=38]
+org notified sent position(a3,cell(11,11),38).
+Event processed UpdateClock(40)
+Event processed UpdateClock(40)
+Event processed UpdateClock(40)
+Event processed UpdateClock(40)
+Event processed UpdateClock(40)
+Event processed UpdateClock(40)
+Event processed UpdateClock(40)
+41
+agent notification: Time [clock=41, time=null]
+Event sent to agent      a3 clock(41)
+agent notification: Time [clock=41, time=null]
+Event sent to agent      ra1 clock(41)
+agent notification: Time [clock=41, time=null]
+Event sent to agent      c1 clock(41)
+agent notification: Time [clock=41, time=null]
+agent notification: Time [clock=41, time=null]
+Event sent to agent      a2 clock(41)
+agent notification: Time [clock=41, time=null]
+agent notification: Time [clock=41, time=null]
+Event sent to agent      a1 clock(41)
+Event sent to agent      a4 clock(41)
+Event sent to agent      t1 clock(41)
+org notification: Time [clock=41, time=null]
+org notified found Time [clock=41, time=null]
+org notified sent time(41).
+org notification: Position [subject=a2, id=null, cell=Cell [x=6, y=10], time=2014-04-02 14:15:04.749, clock=39]
+org notified found Position [subject=a2, id=null, cell=Cell [x=6, y=10], time=2014-04-02 14:15:04.749, clock=39]
+org notified sent position(a2,cell(6,10),39).
+org notification: Position [subject=t1, id=null, cell=Cell [x=9, y=19], time=2014-04-02 14:15:04.804, clock=39]
+org notified found Position [subject=t1, id=null, cell=Cell [x=9, y=19], time=2014-04-02 14:15:04.804, clock=39]
+org notified sent position(t1,cell(9,19),39).
+Event processed UpdateClock(41)
+Event processed UpdateClock(41)
+Event processed UpdateClock(41)
+Event processed UpdateClock(41)
+Event processed UpdateClock(41)
+Event processed UpdateClock(41)
+Event processed UpdateClock(41)
+42
+agent notification: Time [clock=42, time=null]
+agent notification: Time [clock=42, time=null]
+Event sent to agent      ra1 clock(42)
+Event sent to agent      a4 clock(42)
+agent notification: Time [clock=42, time=null]
+org notification: Time [clock=42, time=null]
+org notified found Time [clock=42, time=null]
+org notified sent time(42).
+agent notification: Time [clock=42, time=null]
+agent notification: Time [clock=42, time=null]
+Event sent to agent      a2 clock(42)
+agent notification: Time [clock=42, time=null]
+Event sent to agent      c1 clock(42)
+Event sent to agent      a1 clock(42)
+Event sent to agent      t1 clock(42)
+agent notification: Time [clock=42, time=null]
+Event sent to agent      a3 clock(42)
+Event processed UpdateClock(42)
+Event processed UpdateClock(42)
+Event processed UpdateClock(42)
+Event processed UpdateClock(42)
+Event processed UpdateClock(42)
+org notification: Position [subject=a3, id=null, cell=Cell [x=11, y=12], time=2014-04-02 14:15:05.439, clock=40]
+org notified found Position [subject=a3, id=null, cell=Cell [x=11, y=12], time=2014-04-02 14:15:05.439, clock=40]
+org notified sent position(a3,cell(11,12),40).
+Event processed UpdateClock(42)
+Event processed UpdateClock(42)
+43
+agent notification: Time [clock=43, time=null]
+agent notification: Time [clock=43, time=null]
+Event sent to agent      a3 clock(43)
+agent notification: Time [clock=43, time=null]
+Event sent to agent      a1 clock(43)
+Event sent to agent      c1 clock(43)
+org notification: Time [clock=43, time=null]
+org notified found Time [clock=43, time=null]
+org notified sent time(43).
+agent notification: Time [clock=43, time=null]
+agent notification: Time [clock=43, time=null]
+Event sent to agent      a2 clock(43)
+Event sent to agent      ra1 clock(43)
+agent notification: Time [clock=43, time=null]
+Event sent to agent      a4 clock(43)
+agent notification: Time [clock=43, time=null]
+Event sent to agent      t1 clock(43)
+Event processed UpdateClock(43)
+Event processed UpdateClock(43)
+Event processed UpdateClock(43)
+Event processed UpdateClock(43)
+Event processed UpdateClock(43)
+Event processed UpdateClock(43)
+Event processed UpdateClock(43)
+org notification: Position [subject=a2, id=null, cell=Cell [x=6, y=9], time=2014-04-02 14:15:05.953, clock=41]
+org notified found Position [subject=a2, id=null, cell=Cell [x=6, y=9], time=2014-04-02 14:15:05.953, clock=41]
+org notified sent position(a2,cell(6,9),41).
+org notification: Position [subject=t1, id=null, cell=Cell [x=8, y=19], time=2014-04-02 14:15:05.999, clock=42]
+org notified found Position [subject=t1, id=null, cell=Cell [x=8, y=19], time=2014-04-02 14:15:05.999, clock=42]
+org notified sent position(t1,cell(8,19),42).
+44
+agent notification: Time [clock=44, time=null]
+agent notification: Time [clock=44, time=null]
+Event sent to agent      a1 clock(44)
+agent notification: Time [clock=44, time=null]
+Event sent to agent      ra1 clock(44)
+Event sent to agent      a3 clock(44)
+org notification: Time [clock=44, time=null]
+org notified found Time [clock=44, time=null]
+org notified sent time(44).
+agent notification: Time [clock=44, time=null]
+Event sent to agent      c1 clock(44)
+agent notification: Time [clock=44, time=null]
+Event sent to agent      t1 clock(44)
+agent notification: Time [clock=44, time=null]
+Event sent to agent      a4 clock(44)
+agent notification: Time [clock=44, time=null]
+Event sent to agent      a2 clock(44)
+Event processed UpdateClock(44)
+Event processed UpdateClock(44)
+Event processed UpdateClock(44)
+Event processed UpdateClock(44)
+Event processed UpdateClock(44)
+Event processed UpdateClock(44)
+Event processed UpdateClock(44)
+org notification: Position [subject=a3, id=null, cell=Cell [x=11, y=13], time=2014-04-02 14:15:06.622, clock=43]
+org notified found Position [subject=a3, id=null, cell=Cell [x=11, y=13], time=2014-04-02 14:15:06.622, clock=43]
+org notified sent position(a3,cell(11,13),43).
+45
+agent notification: Time [clock=45, time=null]
+agent notification: Time [clock=45, time=null]
+Event sent to agent      a4 clock(45)
+Event sent to agent      a3 clock(45)
+agent notification: Time [clock=45, time=null]
+Event sent to agent      a1 clock(45)
+agent notification: Time [clock=45, time=null]
+org notification: Time [clock=45, time=null]
+org notified found Time [clock=45, time=null]
+org notified sent time(45).
+Event sent to agent      ra1 clock(45)
+agent notification: Time [clock=45, time=null]
+agent notification: Time [clock=45, time=null]
+Event sent to agent      c1 clock(45)
+Event sent to agent      a2 clock(45)
+agent notification: Time [clock=45, time=null]
+Event sent to agent      t1 clock(45)
+Event processed UpdateClock(45)
+Event processed UpdateClock(45)
+Event processed UpdateClock(45)
+Event processed UpdateClock(45)
+Event processed UpdateClock(45)
+Event processed UpdateClock(45)
+Event processed UpdateClock(45)
+org notification: Position [subject=a2, id=null, cell=Cell [x=6, y=8], time=2014-04-02 14:15:07.127, clock=44]
+org notified found Position [subject=a2, id=null, cell=Cell [x=6, y=8], time=2014-04-02 14:15:07.127, clock=44]
+org notified sent position(a2,cell(6,8),44).
+org notification: Position [subject=t1, id=null, cell=Cell [x=7, y=19], time=2014-04-02 14:15:07.172, clock=44]
+org notified found Position [subject=t1, id=null, cell=Cell [x=7, y=19], time=2014-04-02 14:15:07.172, clock=44]
+org notified sent position(t1,cell(7,19),44).
+46
+agent notification: Time [clock=46, time=null]
+agent notification: Time [clock=46, time=null]
+agent notification: Time [clock=46, time=null]
+Event sent to agent      a3 clock(46)
+Event sent to agent      a1 clock(46)
+agent notification: Time [clock=46, time=null]
+Event sent to agent      c1 clock(46)
+agent notification: Time [clock=46, time=null]
+Event sent to agent      a4 clock(46)
+org notification: Time [clock=46, time=null]
+agent notification: Time [clock=46, time=null]
+Event sent to agent      t1 clock(46)
+org notified found Time [clock=46, time=null]
+Event sent to agent      a2 clock(46)
+org notified sent time(46).
+agent notification: Time [clock=46, time=null]
+Event sent to agent      ra1 clock(46)
+Event processed UpdateClock(46)
+Event processed UpdateClock(46)
+Event processed UpdateClock(46)
+Event processed UpdateClock(46)
+Event processed UpdateClock(46)
+Event processed UpdateClock(46)
+Event processed UpdateClock(46)
+47
+agent notification: Time [clock=47, time=null]
+agent notification: Time [clock=47, time=null]
+Event sent to agent      a4 clock(47)
+Event sent to agent      c1 clock(47)
+agent notification: Time [clock=47, time=null]
+agent notification: Time [clock=47, time=null]
+Event sent to agent      a2 clock(47)
+Event sent to agent      t1 clock(47)
+agent notification: Time [clock=47, time=null]
+agent notification: Time [clock=47, time=null]
+org notification: Time [clock=47, time=null]
+Event sent to agent      a1 clock(47)
+Event sent to agent      ra1 clock(47)
+org notified found Time [clock=47, time=null]
+org notified sent time(47).
+agent notification: Time [clock=47, time=null]
+Event sent to agent      a3 clock(47)
+org notification: Position [subject=a3, id=null, cell=Cell [x=11, y=14], time=2014-04-02 14:15:07.79, clock=45]
+org notified found Position [subject=a3, id=null, cell=Cell [x=11, y=14], time=2014-04-02 14:15:07.79, clock=45]
+org notified sent position(a3,cell(11,14),45).
+Event processed UpdateClock(47)
+Event processed UpdateClock(47)
+Event processed UpdateClock(47)
+Event processed UpdateClock(47)
+Event processed UpdateClock(47)
+Event processed UpdateClock(47)
+Event processed UpdateClock(47)
+48
+agent notification: Time [clock=48, time=null]
+agent notification: Time [clock=48, time=null]
+Event sent to agent      a3 clock(48)
+agent notification: Time [clock=48, time=null]
+agent notification: Time [clock=48, time=null]
+Event sent to agent      c1 clock(48)
+Event sent to agent      a2 clock(48)
+Event sent to agent      a1 clock(48)
+agent notification: Time [clock=48, time=null]
+agent notification: Time [clock=48, time=null]
+org notification: Time [clock=48, time=null]
+org notified found Time [clock=48, time=null]
+org notified sent time(48).
+Event sent to agent      ra1 clock(48)
+agent notification: Time [clock=48, time=null]
+Event sent to agent      t1 clock(48)
+Event sent to agent      a4 clock(48)
+Event processed UpdateClock(48)
+Event processed UpdateClock(48)
+org notification: Position [subject=a2, id=null, cell=Cell [x=6, y=7], time=2014-04-02 14:15:08.331, clock=46]
+org notified found Position [subject=a2, id=null, cell=Cell [x=6, y=7], time=2014-04-02 14:15:08.331, clock=46]
+org notified sent position(a2,cell(6,7),46).
+org notification: Position [subject=t1, id=null, cell=Cell [x=6, y=19], time=2014-04-02 14:15:08.37, clock=46]
+org notified found Position [subject=t1, id=null, cell=Cell [x=6, y=19], time=2014-04-02 14:15:08.37, clock=46]
+org notified sent position(t1,cell(6,19),46).
+Event processed UpdateClock(48)
+Event processed UpdateClock(48)
+Event processed UpdateClock(48)
+Event processed UpdateClock(48)
+Event processed UpdateClock(48)
+49
+agent notification: Time [clock=49, time=null]
+agent notification: Time [clock=49, time=null]
+Event sent to agent      ra1 clock(49)
+org notification: Time [clock=49, time=null]
+Event sent to agent      a3 clock(49)
+agent notification: Time [clock=49, time=null]
+org notified found Time [clock=49, time=null]
+org notified sent time(49).
+agent notification: Time [clock=49, time=null]
+Event sent to agent      c1 clock(49)
+agent notification: Time [clock=49, time=null]
+Event sent to agent      a2 clock(49)
+Event sent to agent      t1 clock(49)
+agent notification: Time [clock=49, time=null]
+Event sent to agent      a4 clock(49)
+agent notification: Time [clock=49, time=null]
+Event sent to agent      a1 clock(49)
+Event processed UpdateClock(49)
+Event processed UpdateClock(49)
+Event processed UpdateClock(49)
+Event processed UpdateClock(49)
+Event processed UpdateClock(49)
+Event processed UpdateClock(49)
+Event processed UpdateClock(49)
+org notification: Position [subject=a3, id=null, cell=Cell [x=11, y=15], time=2014-04-02 14:15:08.961, clock=48]
+org notified found Position [subject=a3, id=null, cell=Cell [x=11, y=15], time=2014-04-02 14:15:08.961, clock=48]
+org notified sent position(a3,cell(11,15),48).
+50
+agent notification: Time [clock=50, time=null]
+Event sent to agent      a3 clock(50)
+agent notification: Time [clock=50, time=null]
+org notification: Time [clock=50, time=null]
+Event sent to agent      c1 clock(50)
+agent notification: Time [clock=50, time=null]
+agent notification: Time [clock=50, time=null]
+agent notification: Time [clock=50, time=null]
+org notified found Time [clock=50, time=null]
+org notified sent time(50).
+agent notification: Time [clock=50, time=null]
+Event sent to agent      t1 clock(50)
+Event sent to agent      a2 clock(50)
+Event sent to agent      a1 clock(50)
+Event sent to agent      ra1 clock(50)
+agent notification: Time [clock=50, time=null]
+Event sent to agent      a4 clock(50)
+Event processed UpdateClock(50)
+Event processed UpdateClock(50)
+Event processed UpdateClock(50)
+Event processed UpdateClock(50)
+Event processed UpdateClock(50)
+Event processed UpdateClock(50)
+Event processed UpdateClock(50)
+org notification: Position [subject=a2, id=null, cell=Cell [x=6, y=6], time=2014-04-02 14:15:09.51, clock=49]
+org notified found Position [subject=a2, id=null, cell=Cell [x=6, y=6], time=2014-04-02 14:15:09.51, clock=49]
+org notified sent position(a2,cell(6,6),49).
+org notification: Position [subject=t1, id=null, cell=Cell [x=5, y=19], time=2014-04-02 14:15:09.546, clock=49]
+org notified found Position [subject=t1, id=null, cell=Cell [x=5, y=19], time=2014-04-02 14:15:09.546, clock=49]
+org notified sent position(t1,cell(5,19),49).
+51
+agent notification: Time [clock=51, time=null]
+agent notification: Time [clock=51, time=null]
+Event sent to agent      ra1 clock(51)
+Event sent to agent      a3 clock(51)
+agent notification: Time [clock=51, time=null]
+Event sent to agent      c1 clock(51)
+agent notification: Time [clock=51, time=null]
+Event sent to agent      a1 clock(51)
+agent notification: Time [clock=51, time=null]
+Event sent to agent      a4 clock(51)
+org notification: Time [clock=51, time=null]
+org notified found Time [clock=51, time=null]
+org notified sent time(51).
+agent notification: Time [clock=51, time=null]
+agent notification: Time [clock=51, time=null]
+Event sent to agent      t1 clock(51)
+Event sent to agent      a2 clock(51)
+Event processed UpdateClock(51)
+Event processed UpdateClock(51)
+Event processed UpdateClock(51)
+Event processed UpdateClock(51)
+Event processed UpdateClock(51)
+Event processed UpdateClock(51)
+Event processed UpdateClock(51)
+org notification: Position [subject=a3, id=null, cell=Cell [x=11, y=16], time=2014-04-02 14:15:10.134, clock=50]
+org notified found Position [subject=a3, id=null, cell=Cell [x=11, y=16], time=2014-04-02 14:15:10.134, clock=50]
+org notified sent position(a3,cell(11,16),50).
+52
+agent notification: Time [clock=52, time=null]
+agent notification: Time [clock=52, time=null]
+Event sent to agent      a1 clock(52)
+agent notification: Time [clock=52, time=null]
+Event sent to agent      c1 clock(52)
+Event sent to agent      a3 clock(52)
+agent notification: Time [clock=52, time=null]
+agent notification: Time [clock=52, time=null]
+org notification: Time [clock=52, time=null]
+org notified found Time [clock=52, time=null]
+Event sent to agent      t1 clock(52)
+agent notification: Time [clock=52, time=null]
+org notified sent time(52).
+Event sent to agent      a2 clock(52)
+Event sent to agent      a4 clock(52)
+agent notification: Time [clock=52, time=null]
+Event sent to agent      ra1 clock(52)
+Event processed UpdateClock(52)
+Event processed UpdateClock(52)
+Event processed UpdateClock(52)
+Event processed UpdateClock(52)
+Event processed UpdateClock(52)
+Event processed UpdateClock(52)
+Event processed UpdateClock(52)
+org notification: Position [subject=t1, id=null, cell=Cell [x=4, y=19], time=2014-04-02 14:15:10.693, clock=51]
+org notified found Position [subject=t1, id=null, cell=Cell [x=4, y=19], time=2014-04-02 14:15:10.693, clock=51]
+org notified sent position(t1,cell(4,19),51).
+53
+agent notification: Time [clock=53, time=null]
+Event sent to agent      a4 clock(53)
+org notification: Time [clock=53, time=null]
+org notified found Time [clock=53, time=null]
+org notified sent time(53).
+agent notification: Time [clock=53, time=null]
+agent notification: Time [clock=53, time=null]
+agent notification: Time [clock=53, time=null]
+Event sent to agent      a1 clock(53)
+agent notification: Time [clock=53, time=null]
+agent notification: Time [clock=53, time=null]
+Event sent to agent      ra1 clock(53)
+Event sent to agent      t1 clock(53)
+Event sent to agent      c1 clock(53)
+Event sent to agent      a2 clock(53)
+agent notification: Time [clock=53, time=null]
+Event sent to agent      a3 clock(53)
+Event processed UpdateClock(53)
+Event processed UpdateClock(53)
+Event processed UpdateClock(53)
+Event processed UpdateClock(53)
+Event processed UpdateClock(53)
+Event processed UpdateClock(53)
+Event processed UpdateClock(53)
+54
+agent notification: Time [clock=54, time=null]
+Event sent to agent      a3 clock(54)
+agent notification: Time [clock=54, time=null]
+agent notification: Time [clock=54, time=null]
+Event sent to agent      ra1 clock(54)
+Event sent to agent      a2 clock(54)
+agent notification: Time [clock=54, time=null]
+agent notification: Time [clock=54, time=null]
+agent notification: Time [clock=54, time=null]
+org notification: Time [clock=54, time=null]
+Event sent to agent      c1 clock(54)
+Event sent to agent      a4 clock(54)
+Event sent to agent      t1 clock(54)
+org notified found Time [clock=54, time=null]
+org notified sent time(54).
+agent notification: Time [clock=54, time=null]
+Event sent to agent      a1 clock(54)
+org notification: Position [subject=a3, id=null, cell=Cell [x=11, y=17], time=2014-04-02 14:15:11.299, clock=52]
+org notified found Position [subject=a3, id=null, cell=Cell [x=11, y=17], time=2014-04-02 14:15:11.299, clock=52]
+org notified sent position(a3,cell(11,17),52).
+Event processed UpdateClock(54)
+Event processed UpdateClock(54)
+Event processed UpdateClock(54)
+Event processed UpdateClock(54)
+Event processed UpdateClock(54)
+Event processed UpdateClock(54)
+Event processed UpdateClock(54)
+55
+agent notification: Time [clock=55, time=null]
+Event sent to agent      a3 clock(55)
+agent notification: Time [clock=55, time=null]
+Event sent to agent      ra1 clock(55)
+agent notification: Time [clock=55, time=null]
+agent notification: Time [clock=55, time=null]
+agent notification: Time [clock=55, time=null]
+Event sent to agent      a2 clock(55)
+Event sent to agent      a1 clock(55)
+org notification: Time [clock=55, time=null]
+org notified found Time [clock=55, time=null]
+org notified sent time(55).
+agent notification: Time [clock=55, time=null]
+Event sent to agent      t1 clock(55)
+Event sent to agent      c1 clock(55)
+agent notification: Time [clock=55, time=null]
+Event sent to agent      a4 clock(55)
+org notification: Position [subject=t1, id=null, cell=Cell [x=3, y=19], time=2014-04-02 14:15:11.824, clock=53]
+org notified found Position [subject=t1, id=null, cell=Cell [x=3, y=19], time=2014-04-02 14:15:11.824, clock=53]
+org notified sent position(t1,cell(3,19),53).
+Event processed UpdateClock(55)
+Event processed UpdateClock(55)
+Event processed UpdateClock(55)
+Event processed UpdateClock(55)
+Event processed UpdateClock(55)
+Event processed UpdateClock(55)
+Event processed UpdateClock(55)
+56
+agent notification: Time [clock=56, time=null]
+agent notification: Time [clock=56, time=null]
+agent notification: Time [clock=56, time=null]
+Event sent to agent      a4 clock(56)
+Event sent to agent      c1 clock(56)
+Event sent to agent      a1 clock(56)
+org notification: Time [clock=56, time=null]
+org notified found Time [clock=56, time=null]
+org notified sent time(56).
+agent notification: Time [clock=56, time=null]
+agent notification: Time [clock=56, time=null]
+Event sent to agent      t1 clock(56)
+agent notification: Time [clock=56, time=null]
+Event sent to agent      ra1 clock(56)
+Event sent to agent      a2 clock(56)
+agent notification: Time [clock=56, time=null]
+Event sent to agent      a3 clock(56)
+Event processed UpdateClock(56)
+Event processed UpdateClock(56)
+Event processed UpdateClock(56)
+org notification: Position [subject=a3, id=null, cell=Cell [x=11, y=18], time=2014-04-02 14:15:12.426, clock=54]
+org notified found Position [subject=a3, id=null, cell=Cell [x=11, y=18], time=2014-04-02 14:15:12.426, clock=54]
+org notified sent position(a3,cell(11,18),54).
+Event processed UpdateClock(56)
+Event processed UpdateClock(56)
+Event processed UpdateClock(56)
+Event processed UpdateClock(56)
+57
+agent notification: Time [clock=57, time=null]
+agent notification: Time [clock=57, time=null]
+Event sent to agent      a1 clock(57)
+org notification: Time [clock=57, time=null]
+org notified found Time [clock=57, time=null]
+org notified sent time(57).
+agent notification: Time [clock=57, time=null]
+Event sent to agent      a2 clock(57)
+agent notification: Time [clock=57, time=null]
+agent notification: Time [clock=57, time=null]
+Event sent to agent      c1 clock(57)
+agent notification: Time [clock=57, time=null]
+Event sent to agent      a3 clock(57)
+Event sent to agent      t1 clock(57)
+Event sent to agent      a4 clock(57)
+agent notification: Time [clock=57, time=null]
+Event sent to agent      ra1 clock(57)
+Event processed UpdateClock(57)
+Event processed UpdateClock(57)
+Event processed UpdateClock(57)
+Event processed UpdateClock(57)
+Event processed UpdateClock(57)
+Event processed UpdateClock(57)
+Event processed UpdateClock(57)
+org notification: Position [subject=t1, id=null, cell=Cell [x=2, y=19], time=2014-04-02 14:15:12.965, clock=55]
+org notified found Position [subject=t1, id=null, cell=Cell [x=2, y=19], time=2014-04-02 14:15:12.965, clock=55]
+org notified sent position(t1,cell(2,19),55).
+58
+agent notification: Time [clock=58, time=null]
+Event sent to agent      ra1 clock(58)
+agent notification: Time [clock=58, time=null]
+agent notification: Time [clock=58, time=null]
+agent notification: Time [clock=58, time=null]
+agent notification: Time [clock=58, time=null]
+Event sent to agent      a1 clock(58)
+Event sent to agent      a2 clock(58)
+agent notification: Time [clock=58, time=null]
+Event sent to agent      a4 clock(58)
+org notification: Time [clock=58, time=null]
+org notified found Time [clock=58, time=null]
+org notified sent time(58).
+Event sent to agent      c1 clock(58)
+Event sent to agent      t1 clock(58)
+agent notification: Time [clock=58, time=null]
+Event sent to agent      a3 clock(58)
+Event processed UpdateClock(58)
+Event processed UpdateClock(58)
+Event processed UpdateClock(58)
+Event processed UpdateClock(58)
+Event processed UpdateClock(58)
+Event processed UpdateClock(58)
+Event processed UpdateClock(58)
+org notification: Position [subject=a3, id=null, cell=Cell [x=11, y=19], time=2014-04-02 14:15:13.538, clock=57]
+org notified found Position [subject=a3, id=null, cell=Cell [x=11, y=19], time=2014-04-02 14:15:13.538, clock=57]
+org notified sent position(a3,cell(11,19),57).
+59
+agent notification: Time [clock=59, time=null]
+Event sent to agent      a4 clock(59)
+agent notification: Time [clock=59, time=null]
+Event sent to agent      a3 clock(59)
+agent notification: Time [clock=59, time=null]
+agent notification: Time [clock=59, time=null]
+agent notification: Time [clock=59, time=null]
+Event sent to agent      ra1 clock(59)
+Event sent to agent      c1 clock(59)
+Event sent to agent      a1 clock(59)
+agent notification: Time [clock=59, time=null]
+org notification: Time [clock=59, time=null]
+org notified found Time [clock=59, time=null]
+org notified sent time(59).
+agent notification: Time [clock=59, time=null]
+Event sent to agent      a2 clock(59)
+Event sent to agent      t1 clock(59)
+Event processed UpdateClock(59)
+Event processed UpdateClock(59)
+Event processed UpdateClock(59)
+Event processed UpdateClock(59)
+Event processed UpdateClock(59)
+Event processed UpdateClock(59)
+Event processed UpdateClock(59)
+org notification: Position [subject=t1, id=null, cell=Cell [x=2, y=18], time=2014-04-02 14:15:14.06, clock=58]
+org notified found Position [subject=t1, id=null, cell=Cell [x=2, y=18], time=2014-04-02 14:15:14.06, clock=58]
+org notified sent position(t1,cell(2,18),58).
+60
+agent notification: Time [clock=60, time=null]
+agent notification: Time [clock=60, time=null]
+agent notification: Time [clock=60, time=null]
+Event sent to agent      c1 clock(60)
+agent notification: Time [clock=60, time=null]
+agent notification: Time [clock=60, time=null]
+Event sent to agent      ra1 clock(60)
+org notification: Time [clock=60, time=null]
+Event sent to agent      t1 clock(60)
+Event sent to agent      a3 clock(60)
+agent notification: Time [clock=60, time=null]
+Event sent to agent      a2 clock(60)
+agent notification: Time [clock=60, time=null]
+Event sent to agent      a1 clock(60)
+org notified found Time [clock=60, time=null]
+org notified sent time(60).
+Event sent to agent      a4 clock(60)
+Event processed UpdateClock(60)
+Event processed UpdateClock(60)
+Event processed UpdateClock(60)
+Event processed UpdateClock(60)
+Event processed UpdateClock(60)
+Event processed UpdateClock(60)
+Event processed UpdateClock(60)
+org notification: Position [subject=a3, id=null, cell=Cell [x=12, y=19], time=2014-04-02 14:15:14.674, clock=59]
+org notified found Position [subject=a3, id=null, cell=Cell [x=12, y=19], time=2014-04-02 14:15:14.674, clock=59]
+org notified sent position(a3,cell(12,19),59).
+61
+agent notification: Time [clock=61, time=null]
+Event sent to agent      a3 clock(61)
+agent notification: Time [clock=61, time=null]
+org notification: Time [clock=61, time=null]
+org notified found Time [clock=61, time=null]
+Event sent to agent      ra1 clock(61)
+agent notification: Time [clock=61, time=null]
+org notified sent time(61).
+Event sent to agent      a2 clock(61)
+agent notification: Time [clock=61, time=null]
+agent notification: Time [clock=61, time=null]
+Event sent to agent      t1 clock(61)
+Event sent to agent      c1 clock(61)
+agent notification: Time [clock=61, time=null]
+agent notification: Time [clock=61, time=null]
+Event sent to agent      a1 clock(61)
+Event sent to agent      a4 clock(61)
+Event processed UpdateClock(61)
+Event processed UpdateClock(61)
+Event processed UpdateClock(61)
+Event processed UpdateClock(61)
+Event processed UpdateClock(61)
+Event processed UpdateClock(61)
+Event processed UpdateClock(61)
+org notification: Position [subject=t1, id=null, cell=Cell [x=2, y=17], time=2014-04-02 14:15:15.184, clock=60]
+org notified found Position [subject=t1, id=null, cell=Cell [x=2, y=17], time=2014-04-02 14:15:15.184, clock=60]
+org notified sent position(t1,cell(2,17),60).
+62
+agent notification: Time [clock=62, time=null]
+agent notification: Time [clock=62, time=null]
+Event sent to agent      a3 clock(62)
+Event sent to agent      a4 clock(62)
+org notification: Time [clock=62, time=null]
+org notified found Time [clock=62, time=null]
+org notified sent time(62).
+agent notification: Time [clock=62, time=null]
+Event sent to agent      a1 clock(62)
+agent notification: Time [clock=62, time=null]
+agent notification: Time [clock=62, time=null]
+Event sent to agent      t1 clock(62)
+Event sent to agent      ra1 clock(62)
+agent notification: Time [clock=62, time=null]
+agent notification: Time [clock=62, time=null]
+Event sent to agent      a2 clock(62)
+Event sent to agent      c1 clock(62)
+Event processed UpdateClock(62)
+Event processed UpdateClock(62)
+Event processed UpdateClock(62)
+Event processed UpdateClock(62)
+Event processed UpdateClock(62)
+Event processed UpdateClock(62)
+Event processed UpdateClock(62)
+63
+agent notification: Time [clock=63, time=null]
+agent notification: Time [clock=63, time=null]
+Event sent to agent      a3 clock(63)
+Event sent to agent      a1 clock(63)
+agent notification: Time [clock=63, time=null]
+agent notification: Time [clock=63, time=null]
+Event sent to agent      ra1 clock(63)
+org notification: Time [clock=63, time=null]
+Event sent to agent      a2 clock(63)
+agent notification: Time [clock=63, time=null]
+org notified found Time [clock=63, time=null]
+org notified sent time(63).
+Event sent to agent      t1 clock(63)
+agent notification: Time [clock=63, time=null]
+Event sent to agent      a4 clock(63)
+agent notification: Time [clock=63, time=null]
+Event sent to agent      c1 clock(63)
+org notification: Position [subject=a3, id=null, cell=Cell [x=13, y=19], time=2014-04-02 14:15:15.801, clock=61]
+org notified found Position [subject=a3, id=null, cell=Cell [x=13, y=19], time=2014-04-02 14:15:15.801, clock=61]
+org notified sent position(a3,cell(13,19),61).
+Event processed UpdateClock(63)
+Event processed UpdateClock(63)
+Event processed UpdateClock(63)
+Event processed UpdateClock(63)
+Event processed UpdateClock(63)
+Event processed UpdateClock(63)
+Event processed UpdateClock(63)
+64
+agent notification: Time [clock=64, time=null]
+org notification: Time [clock=64, time=null]
+org notified found Time [clock=64, time=null]
+org notified sent time(64).
+agent notification: Time [clock=64, time=null]
+agent notification: Time [clock=64, time=null]
+Event sent to agent      a1 clock(64)
+Event sent to agent      a4 clock(64)
+Event sent to agent      a3 clock(64)
+agent notification: Time [clock=64, time=null]
+agent notification: Time [clock=64, time=null]
+agent notification: Time [clock=64, time=null]
+Event sent to agent      ra1 clock(64)
+Event sent to agent      c1 clock(64)
+agent notification: Time [clock=64, time=null]
+Event sent to agent      a2 clock(64)
+Event sent to agent      t1 clock(64)
+org notification: Position [subject=t1, id=null, cell=Cell [x=2, y=16], time=2014-04-02 14:15:16.306, clock=62]
+org notified found Position [subject=t1, id=null, cell=Cell [x=2, y=16], time=2014-04-02 14:15:16.306, clock=62]
+org notified sent position(t1,cell(2,16),62).
+Event processed UpdateClock(64)
+Event processed UpdateClock(64)
+Event processed UpdateClock(64)
+Event processed UpdateClock(64)
+Event processed UpdateClock(64)
+Event processed UpdateClock(64)
+Event processed UpdateClock(64)
+65
+agent notification: Time [clock=65, time=null]
+Event sent to agent      a3 clock(65)
+agent notification: Time [clock=65, time=null]
+Event sent to agent      c1 clock(65)
+agent notification: Time [clock=65, time=null]
+Event sent to agent      ra1 clock(65)
+org notification: Time [clock=65, time=null]
+org notified found Time [clock=65, time=null]
+org notified sent time(65).
+agent notification: Time [clock=65, time=null]
+agent notification: Time [clock=65, time=null]
+Event sent to agent      a2 clock(65)
+Event sent to agent      t1 clock(65)
+agent notification: Time [clock=65, time=null]
+Event sent to agent      a4 clock(65)
+agent notification: Time [clock=65, time=null]
+Event sent to agent      a1 clock(65)
+org notification: Position [subject=a3, id=null, cell=Cell [x=14, y=19], time=2014-04-02 14:15:16.907, clock=63]
+org notified found Position [subject=a3, id=null, cell=Cell [x=14, y=19], time=2014-04-02 14:15:16.907, clock=63]
+org notified sent position(a3,cell(14,19),63).
+Event processed UpdateClock(65)
+Event processed UpdateClock(65)
+Event processed UpdateClock(65)
+Event processed UpdateClock(65)
+Event processed UpdateClock(65)
+Event processed UpdateClock(65)
+Event processed UpdateClock(65)
+66
+agent notification: Time [clock=66, time=null]
+Event sent to agent      a3 clock(66)
+agent notification: Time [clock=66, time=null]
+agent notification: Time [clock=66, time=null]
+agent notification: Time [clock=66, time=null]
+Event sent to agent      ra1 clock(66)
+Event sent to agent      a1 clock(66)
+agent notification: Time [clock=66, time=null]
+agent notification: Time [clock=66, time=null]
+Event sent to agent      a4 clock(66)
+Event sent to agent      t1 clock(66)
+Event sent to agent      a2 clock(66)
+org notification: Time [clock=66, time=null]
+org notified found Time [clock=66, time=null]
+org notified sent time(66).
+agent notification: Time [clock=66, time=null]
+Event sent to agent      c1 clock(66)
+Event processed UpdateClock(66)
+Event processed UpdateClock(66)
+Event processed UpdateClock(66)
+Event processed UpdateClock(66)
+Event processed UpdateClock(66)
+org notification: Position [subject=t1, id=null, cell=Cell [x=2, y=15], time=2014-04-02 14:15:17.432, clock=64]
+org notified found Position [subject=t1, id=null, cell=Cell [x=2, y=15], time=2014-04-02 14:15:17.432, clock=64]
+org notified sent position(t1,cell(2,15),64).
+Event processed UpdateClock(66)
+Event processed UpdateClock(66)
+67
+agent notification: Time [clock=67, time=null]
+agent notification: Time [clock=67, time=null]
+Event sent to agent      a3 clock(67)
+agent notification: Time [clock=67, time=null]
+agent notification: Time [clock=67, time=null]
+Event sent to agent      a4 clock(67)
+Event sent to agent      a1 clock(67)
+Event sent to agent      c1 clock(67)
+agent notification: Time [clock=67, time=null]
+org notification: Time [clock=67, time=null]
+org notified found Time [clock=67, time=null]
+agent notification: Time [clock=67, time=null]
+agent notification: Time [clock=67, time=null]
+Event sent to agent      a2 clock(67)
+Event sent to agent      ra1 clock(67)
+Event sent to agent      t1 clock(67)
+org notified sent time(67).
+Event processed UpdateClock(67)
+Event processed UpdateClock(67)
+Event processed UpdateClock(67)
+Event processed UpdateClock(67)
+Event processed UpdateClock(67)
+Event processed UpdateClock(67)
+Event processed UpdateClock(67)
+org notification: Position [subject=a3, id=null, cell=Cell [x=15, y=19], time=2014-04-02 14:15:18.034, clock=66]
+org notified found Position [subject=a3, id=null, cell=Cell [x=15, y=19], time=2014-04-02 14:15:18.034, clock=66]
+org notified sent position(a3,cell(15,19),66).
+68
+agent notification: Time [clock=68, time=null]
+Event sent to agent      a3 clock(68)
+agent notification: Time [clock=68, time=null]
+agent notification: Time [clock=68, time=null]
+Event sent to agent      a4 clock(68)
+Event sent to agent      a1 clock(68)
+org notification: Time [clock=68, time=null]
+org notified found Time [clock=68, time=null]
+agent notification: Time [clock=68, time=null]
+org notified sent time(68).
+Event sent to agent      ra1 clock(68)
+agent notification: Time [clock=68, time=null]
+Event sent to agent      a2 clock(68)
+agent notification: Time [clock=68, time=null]
+Event sent to agent      t1 clock(68)
+agent notification: Time [clock=68, time=null]
+Event sent to agent      c1 clock(68)
+Event processed UpdateClock(68)
+Event processed UpdateClock(68)
+Event processed UpdateClock(68)
+Event processed UpdateClock(68)
+Event processed UpdateClock(68)
+Event processed UpdateClock(68)
+Event processed UpdateClock(68)
+org notification: Position [subject=t1, id=null, cell=Cell [x=2, y=14], time=2014-04-02 14:15:18.543, clock=67]
+org notified found Position [subject=t1, id=null, cell=Cell [x=2, y=14], time=2014-04-02 14:15:18.543, clock=67]
+org notified sent position(t1,cell(2,14),67).
+69
+agent notification: Time [clock=69, time=null]
+agent notification: Time [clock=69, time=null]
+Event sent to agent      a3 clock(69)
+Event sent to agent      ra1 clock(69)
+agent notification: Time [clock=69, time=null]
+Event sent to agent      c1 clock(69)
+org notification: Time [clock=69, time=null]
+org notified found Time [clock=69, time=null]
+org notified sent time(69).
+agent notification: Time [clock=69, time=null]
+agent notification: Time [clock=69, time=null]
+Event sent to agent      a1 clock(69)
+Event sent to agent      a2 clock(69)
+agent notification: Time [clock=69, time=null]
+Event sent to agent      a4 clock(69)
+agent notification: Time [clock=69, time=null]
+Event sent to agent      t1 clock(69)
+Event processed UpdateClock(69)
+Event processed UpdateClock(69)
+Event processed UpdateClock(69)
+Event processed UpdateClock(69)
+Event processed UpdateClock(69)
+Event processed UpdateClock(69)
+Event processed UpdateClock(69)
+org notification: Position [subject=a3, id=null, cell=Cell [x=16, y=19], time=2014-04-02 14:15:19.134, clock=68]
+org notified found Position [subject=a3, id=null, cell=Cell [x=16, y=19], time=2014-04-02 14:15:19.134, clock=68]
+org notified sent position(a3,cell(16,19),68).
+70
+agent notification: Time [clock=70, time=null]
+agent notification: Time [clock=70, time=null]
+Event sent to agent      a1 clock(70)
+Event sent to agent      ra1 clock(70)
+agent notification: Time [clock=70, time=null]
+agent notification: Time [clock=70, time=null]
+Event sent to agent      c1 clock(70)
+Event sent to agent      t1 clock(70)
+org notification: Time [clock=70, time=null]
+org notified found Time [clock=70, time=null]
+agent notification: Time [clock=70, time=null]
+org notified sent time(70).
+Event sent to agent      a4 clock(70)
+agent notification: Time [clock=70, time=null]
+agent notification: Time [clock=70, time=null]
+Event sent to agent      a3 clock(70)
+Event sent to agent      a2 clock(70)
+Event processed UpdateClock(70)
+Event processed UpdateClock(70)
+Event processed UpdateClock(70)
+Event processed UpdateClock(70)
+Event processed UpdateClock(70)
+Event processed UpdateClock(70)
+Event processed UpdateClock(70)
+org notification: Position [subject=t1, id=null, cell=Cell [x=2, y=13], time=2014-04-02 14:15:19.647, clock=69]
+org notified found Position [subject=t1, id=null, cell=Cell [x=2, y=13], time=2014-04-02 14:15:19.647, clock=69]
+org notified sent position(t1,cell(2,13),69).
+71
+agent notification: Time [clock=71, time=null]
+agent notification: Time [clock=71, time=null]
+Event sent to agent      a4 clock(71)
+Event sent to agent      a3 clock(71)
+agent notification: Time [clock=71, time=null]
+Event sent to agent      a1 clock(71)
+agent notification: Time [clock=71, time=null]
+Event sent to agent      c1 clock(71)
+org notification: Time [clock=71, time=null]
+org notified found Time [clock=71, time=null]
+org notified sent time(71).
+agent notification: Time [clock=71, time=null]
+agent notification: Time [clock=71, time=null]
+agent notification: Time [clock=71, time=null]
+Event sent to agent      a2 clock(71)
+Event sent to agent      t1 clock(71)
+Event sent to agent      ra1 clock(71)
+Event processed UpdateClock(71)
+Event processed UpdateClock(71)
+Event processed UpdateClock(71)
+Event processed UpdateClock(71)
+Event processed UpdateClock(71)
+Event processed UpdateClock(71)
+Event processed UpdateClock(71)
+org notification: Position [subject=a3, id=null, cell=Cell [x=17, y=19], time=2014-04-02 14:15:20.237, clock=70]
+org notified found Position [subject=a3, id=null, cell=Cell [x=17, y=19], time=2014-04-02 14:15:20.237, clock=70]
+org notified sent position(a3,cell(17,19),70).
+72
+agent notification: Time [clock=72, time=null]
+agent notification: Time [clock=72, time=null]
+agent notification: Time [clock=72, time=null]
+org notification: Time [clock=72, time=null]
+agent notification: Time [clock=72, time=null]
+Event sent to agent      ra1 clock(72)
+Event sent to agent      a3 clock(72)
+Event sent to agent      a2 clock(72)
+org notified found Time [clock=72, time=null]
+org notified sent time(72).
+Event sent to agent      c1 clock(72)
+agent notification: Time [clock=72, time=null]
+Event sent to agent      t1 clock(72)
+agent notification: Time [clock=72, time=null]
+Event sent to agent      a1 clock(72)
+agent notification: Time [clock=72, time=null]
+Event sent to agent      a4 clock(72)
+Event processed UpdateClock(72)
+Event processed UpdateClock(72)
+Event processed UpdateClock(72)
+Event processed UpdateClock(72)
+Event processed UpdateClock(72)
+Event processed UpdateClock(72)
+Event processed UpdateClock(72)
+org notification: Position [subject=t1, id=null, cell=Cell [x=2, y=12], time=2014-04-02 14:15:20.787, clock=71]
+org notified found Position [subject=t1, id=null, cell=Cell [x=2, y=12], time=2014-04-02 14:15:20.787, clock=71]
+org notified sent position(t1,cell(2,12),71).
+73
+agent notification: Time [clock=73, time=null]
+Event sent to agent      a4 clock(73)
+agent notification: Time [clock=73, time=null]
+agent notification: Time [clock=73, time=null]
+Event sent to agent      ra1 clock(73)
+Event sent to agent      a3 clock(73)
+agent notification: Time [clock=73, time=null]
+Event sent to agent      a2 clock(73)
+org notification: Time [clock=73, time=null]
+org notified found Time [clock=73, time=null]
+agent notification: Time [clock=73, time=null]
+agent notification: Time [clock=73, time=null]
+agent notification: Time [clock=73, time=null]
+Event sent to agent      c1 clock(73)
+Event sent to agent      t1 clock(73)
+org notified sent time(73).
+Event sent to agent      a1 clock(73)
+Event processed UpdateClock(73)
+Event processed UpdateClock(73)
+Event processed UpdateClock(73)
+Event processed UpdateClock(73)
+Event processed UpdateClock(73)
+Event processed UpdateClock(73)
+Event processed UpdateClock(73)
+74
+agent notification: Time [clock=74, time=null]
+Event sent to agent      a1 clock(74)
+agent notification: Time [clock=74, time=null]
+agent notification: Time [clock=74, time=null]
+Event sent to agent      a3 clock(74)
+Event sent to agent      ra1 clock(74)
+agent notification: Time [clock=74, time=null]
+Event sent to agent      c1 clock(74)
+org notification: Time [clock=74, time=null]
+org notified found Time [clock=74, time=null]
+org notified sent time(74).
+agent notification: Time [clock=74, time=null]
+agent notification: Time [clock=74, time=null]
+agent notification: Time [clock=74, time=null]
+Event sent to agent      a4 clock(74)
+Event sent to agent      t1 clock(74)
+Event sent to agent      a2 clock(74)
+org notification: Position [subject=a3, id=null, cell=Cell [x=18, y=19], time=2014-04-02 14:15:21.35, clock=72]
+org notified found Position [subject=a3, id=null, cell=Cell [x=18, y=19], time=2014-04-02 14:15:21.35, clock=72]
+org notified sent position(a3,cell(18,19),72).
+Event processed UpdateClock(74)
+Event processed UpdateClock(74)
+Event processed UpdateClock(74)
+Event processed UpdateClock(74)
+Event processed UpdateClock(74)
+Event processed UpdateClock(74)
+Event processed UpdateClock(74)
+75
+agent notification: Time [clock=75, time=null]
+agent notification: Time [clock=75, time=null]
+org notification: Time [clock=75, time=null]
+org notified found Time [clock=75, time=null]
+agent notification: Time [clock=75, time=null]
+agent notification: Time [clock=75, time=null]
+Event sent to agent      a2 clock(75)
+Event sent to agent      a3 clock(75)
+agent notification: Time [clock=75, time=null]
+org notified sent time(75).
+agent notification: Time [clock=75, time=null]
+Event sent to agent      a1 clock(75)
+Event sent to agent      ra1 clock(75)
+Event sent to agent      a4 clock(75)
+agent notification: Time [clock=75, time=null]
+Event sent to agent      t1 clock(75)
+Event sent to agent      c1 clock(75)
+org notification: Position [subject=t1, id=null, cell=Cell [x=2, y=11], time=2014-04-02 14:15:21.88, clock=73]
+org notified found Position [subject=t1, id=null, cell=Cell [x=2, y=11], time=2014-04-02 14:15:21.88, clock=73]
+org notified sent position(t1,cell(2,11),73).
+Event processed UpdateClock(75)
+Event processed UpdateClock(75)
+Event processed UpdateClock(75)
+Event processed UpdateClock(75)
+Event processed UpdateClock(75)
+Event processed UpdateClock(75)
+Event processed UpdateClock(75)
+76
+agent notification: Time [clock=76, time=null]
+agent notification: Time [clock=76, time=null]
+Event sent to agent      a3 clock(76)
+agent notification: Time [clock=76, time=null]
+Event sent to agent      ra1 clock(76)
+Event sent to agent      c1 clock(76)
+org notification: Time [clock=76, time=null]
+agent notification: Time [clock=76, time=null]
+agent notification: Time [clock=76, time=null]
+agent notification: Time [clock=76, time=null]
+Event sent to agent      a4 clock(76)
+Event sent to agent      a1 clock(76)
+org notified found Time [clock=76, time=null]
+org notified sent time(76).
+Event sent to agent      a2 clock(76)
+agent notification: Time [clock=76, time=null]
+Event sent to agent      t1 clock(76)
+Event processed UpdateClock(76)
+Event processed UpdateClock(76)
+org notification: Position [subject=a3, id=null, cell=Cell [x=19, y=19], time=2014-04-02 14:15:22.442, clock=74]
+org notified found Position [subject=a3, id=null, cell=Cell [x=19, y=19], time=2014-04-02 14:15:22.442, clock=74]
+org notified sent position(a3,cell(19,19),74).
+Event processed UpdateClock(76)
+Event processed UpdateClock(76)
+Event processed UpdateClock(76)
+Event processed UpdateClock(76)
+Event processed UpdateClock(76)
+77
+agent notification: Time [clock=77, time=null]
+org notification: Time [clock=77, time=null]
+org notified found Time [clock=77, time=null]
+Event sent to agent      c1 clock(77)
+agent notification: Time [clock=77, time=null]
+Event sent to agent      a4 clock(77)
+agent notification: Time [clock=77, time=null]
+org notified sent time(77).
+Event sent to agent      t1 clock(77)
+agent notification: Time [clock=77, time=null]
+Event sent to agent      a2 clock(77)
+agent notification: Time [clock=77, time=null]
+Event sent to agent      a1 clock(77)
+agent notification: Time [clock=77, time=null]
+Event sent to agent      ra1 clock(77)
+agent notification: Time [clock=77, time=null]
+Event sent to agent      a3 clock(77)
+Event processed UpdateClock(77)
+Event processed UpdateClock(77)
+Event processed UpdateClock(77)
+Event processed UpdateClock(77)
+Event processed UpdateClock(77)
+org notification: Position [subject=t1, id=null, cell=Cell [x=2, y=10], time=2014-04-02 14:15:22.966, clock=75]
+org notified found Position [subject=t1, id=null, cell=Cell [x=2, y=10], time=2014-04-02 14:15:22.966, clock=75]
+org notified sent position(t1,cell(2,10),75).
+Event processed UpdateClock(77)
+Event processed UpdateClock(77)
+78
+agent notification: Time [clock=78, time=null]
+agent notification: Time [clock=78, time=null]
+Event sent to agent      ra1 clock(78)
+agent notification: Time [clock=78, time=null]
+Event sent to agent      a3 clock(78)
+Event sent to agent      a4 clock(78)
+agent notification: Time [clock=78, time=null]
+agent notification: Time [clock=78, time=null]
+org notification: Time [clock=78, time=null]
+agent notification: Time [clock=78, time=null]
+agent notification: Time [clock=78, time=null]
+Event sent to agent      c1 clock(78)
+Event sent to agent      t1 clock(78)
+Event sent to agent      a2 clock(78)
+org notified found Time [clock=78, time=null]
+org notified sent time(78).
+Event sent to agent      a1 clock(78)
+Event processed UpdateClock(78)
+Event processed UpdateClock(78)
+Event processed UpdateClock(78)
+Event processed UpdateClock(78)
+Event processed UpdateClock(78)
+Event processed UpdateClock(78)
+Event processed UpdateClock(78)
+79
+agent notification: Time [clock=79, time=null]
+agent notification: Time [clock=79, time=null]
+Event sent to agent      a1 clock(79)
+Event sent to agent      c1 clock(79)
+org notification: Time [clock=79, time=null]
+agent notification: Time [clock=79, time=null]
+org notified found Time [clock=79, time=null]
+org notified sent time(79).
+agent notification: Time [clock=79, time=null]
+agent notification: Time [clock=79, time=null]
+Event sent to agent      t1 clock(79)
+Event sent to agent      a2 clock(79)
+agent notification: Time [clock=79, time=null]
+Event sent to agent      a3 clock(79)
+Event sent to agent      ra1 clock(79)
+agent notification: Time [clock=79, time=null]
+Event sent to agent      a4 clock(79)
+Event processed UpdateClock(79)
+Event processed UpdateClock(79)
+Event processed UpdateClock(79)
+Event processed UpdateClock(79)
+Event processed UpdateClock(79)
+Event processed UpdateClock(79)
+Event processed UpdateClock(79)
+org notification: Position [subject=t1, id=null, cell=Cell [x=2, y=9], time=2014-04-02 14:15:24.046, clock=78]
+org notified found Position [subject=t1, id=null, cell=Cell [x=2, y=9], time=2014-04-02 14:15:24.046, clock=78]
+org notified sent position(t1,cell(2,9),78).
+80
+agent notification: Time [clock=80, time=null]
+Event sent to agent      a3 clock(80)
+agent notification: Time [clock=80, time=null]
+org notification: Time [clock=80, time=null]
+org notified found Time [clock=80, time=null]
+org notified sent time(80).
+agent notification: Time [clock=80, time=null]
+agent notification: Time [clock=80, time=null]
+agent notification: Time [clock=80, time=null]
+Event sent to agent      a1 clock(80)
+Event sent to agent      t1 clock(80)
+Event sent to agent      ra1 clock(80)
+agent notification: Time [clock=80, time=null]
+Event sent to agent      a2 clock(80)
+Event sent to agent      a4 clock(80)
+agent notification: Time [clock=80, time=null]
+Event sent to agent      c1 clock(80)
+Event processed UpdateClock(80)
+Event processed UpdateClock(80)
+Event processed UpdateClock(80)
+Event processed UpdateClock(80)
+Event processed UpdateClock(80)
+Event processed UpdateClock(80)
+Event processed UpdateClock(80)
+81
+agent notification: Time [clock=81, time=null]
+agent notification: Time [clock=81, time=null]
+Event sent to agent      ra1 clock(81)
+Event sent to agent      a3 clock(81)
+agent notification: Time [clock=81, time=null]
+Event sent to agent      a1 clock(81)
+agent notification: Time [clock=81, time=null]
+Event sent to agent      a2 clock(81)
+agent notification: Time [clock=81, time=null]
+agent notification: Time [clock=81, time=null]
+Event sent to agent      c1 clock(81)
+Event sent to agent      a4 clock(81)
+org notification: Time [clock=81, time=null]
+org notified found Time [clock=81, time=null]
+org notified sent time(81).
+agent notification: Time [clock=81, time=null]
+Event sent to agent      t1 clock(81)
+Event processed UpdateClock(81)
+Event processed UpdateClock(81)
+Event processed UpdateClock(81)
+Event processed UpdateClock(81)
+Event processed UpdateClock(81)
+Event processed UpdateClock(81)
+Event processed UpdateClock(81)
+org notification: Position [subject=t1, id=null, cell=Cell [x=2, y=8], time=2014-04-02 14:15:25.104, clock=80]
+org notified found Position [subject=t1, id=null, cell=Cell [x=2, y=8], time=2014-04-02 14:15:25.104, clock=80]
+org notified sent position(t1,cell(2,8),80).
+82
+agent notification: Time [clock=82, time=null]
+agent notification: Time [clock=82, time=null]
+Event sent to agent      a3 clock(82)
+Event sent to agent      a1 clock(82)
+agent notification: Time [clock=82, time=null]
+Event sent to agent      c1 clock(82)
+agent notification: Time [clock=82, time=null]
+Event sent to agent      ra1 clock(82)
+agent notification: Time [clock=82, time=null]
+org notification: Time [clock=82, time=null]
+org notified found Time [clock=82, time=null]
+org notified sent time(82).
+agent notification: Time [clock=82, time=null]
+Event sent to agent      t1 clock(82)
+Event sent to agent      a4 clock(82)
+agent notification: Time [clock=82, time=null]
+Event sent to agent      a2 clock(82)
+Event processed UpdateClock(82)
+Event processed UpdateClock(82)
+Event processed UpdateClock(82)
+Event processed UpdateClock(82)
+Event processed UpdateClock(82)
+Event processed UpdateClock(82)
+Event processed UpdateClock(82)
+83
+agent notification: Time [clock=83, time=null]
+Event sent to agent      a3 clock(83)
+agent notification: Time [clock=83, time=null]
+Event sent to agent      c1 clock(83)
+org notification: Time [clock=83, time=null]
+org notified found Time [clock=83, time=null]
+org notified sent time(83).
+agent notification: Time [clock=83, time=null]
+Event sent to agent      a1 clock(83)
+agent notification: Time [clock=83, time=null]
+agent notification: Time [clock=83, time=null]
+Event sent to agent      t1 clock(83)
+Event sent to agent      a2 clock(83)
+agent notification: Time [clock=83, time=null]
+Event sent to agent      a4 clock(83)
+agent notification: Time [clock=83, time=null]
+Event sent to agent      ra1 clock(83)
+Event processed UpdateClock(83)
+Event processed UpdateClock(83)
+Event processed UpdateClock(83)
+Event processed UpdateClock(83)
+Event processed UpdateClock(83)
+Event processed UpdateClock(83)
+Event processed UpdateClock(83)
+org notification: Position [subject=t1, id=null, cell=Cell [x=2, y=7], time=2014-04-02 14:15:26.169, clock=82]
+org notified found Position [subject=t1, id=null, cell=Cell [x=2, y=7], time=2014-04-02 14:15:26.169, clock=82]
+org notified sent position(t1,cell(2,7),82).
+84
+agent notification: Time [clock=84, time=null]
+Event sent to agent      a3 clock(84)
+agent notification: Time [clock=84, time=null]
+Event sent to agent      ra1 clock(84)
+Event processed UpdateClock(84)
+agent notification: Time [clock=84, time=null]
+Event sent to agent      a4 clock(84)
+agent notification: Time [clock=84, time=null]
+Event sent to agent      c1 clock(84)
+org notification: Time [clock=84, time=null]
+org notified found Time [clock=84, time=null]
+org notified sent time(84).
+agent notification: Time [clock=84, time=null]
+Event sent to agent      a2 clock(84)
+agent notification: Time [clock=84, time=null]
+Event sent to agent      t1 clock(84)
+agent notification: Time [clock=84, time=null]
+Event sent to agent      a1 clock(84)
+Event processed UpdateClock(84)
+Event processed UpdateClock(84)
+Event processed UpdateClock(84)
+Event processed UpdateClock(84)
+Event processed UpdateClock(84)
+Event processed UpdateClock(84)
+85
+agent notification: Time [clock=85, time=null]
+Event sent to agent      ra1 clock(85)
+agent notification: Time [clock=85, time=null]
+Event sent to agent      a3 clock(85)
+agent notification: Time [clock=85, time=null]
+Event sent to agent      c1 clock(85)
+agent notification: Time [clock=85, time=null]
+agent notification: Time [clock=85, time=null]
+Event sent to agent      a4 clock(85)
+org notification: Time [clock=85, time=null]
+org notified found Time [clock=85, time=null]
+org notified sent time(85).
+agent notification: Time [clock=85, time=null]
+Event sent to agent      t1 clock(85)
+Event sent to agent      a2 clock(85)
+agent notification: Time [clock=85, time=null]
+Event sent to agent      a1 clock(85)
+Event processed UpdateClock(85)
+Event processed UpdateClock(85)
+Event processed UpdateClock(85)
+Event processed UpdateClock(85)
+Event processed UpdateClock(85)
+Event processed UpdateClock(85)
+Event processed UpdateClock(85)
+org notification: Position [subject=t1, id=null, cell=Cell [x=2, y=6], time=2014-04-02 14:15:27.205, clock=84]
+org notified found Position [subject=t1, id=null, cell=Cell [x=2, y=6], time=2014-04-02 14:15:27.205, clock=84]
+org notified sent position(t1,cell(2,6),84).
+86
+agent notification: Time [clock=86, time=null]
+agent notification: Time [clock=86, time=null]
+Event sent to agent      a2 clock(86)
+agent notification: Time [clock=86, time=null]
+agent notification: Time [clock=86, time=null]
+agent notification: Time [clock=86, time=null]
+agent notification: Time [clock=86, time=null]
+Event sent to agent      a3 clock(86)
+Event sent to agent      ra1 clock(86)
+Event sent to agent      a4 clock(86)
+Event sent to agent      a1 clock(86)
+agent notification: Time [clock=86, time=null]
+Event sent to agent      t1 clock(86)
+Event sent to agent      c1 clock(86)
+org notification: Time [clock=86, time=null]
+org notified found Time [clock=86, time=null]
+org notified sent time(86).
+Event processed UpdateClock(86)
+Event processed UpdateClock(86)
+Event processed UpdateClock(86)
+Event processed UpdateClock(86)
+Event processed UpdateClock(86)
+Event processed UpdateClock(86)
+Event processed UpdateClock(86)
+87
+agent notification: Time [clock=87, time=null]
+agent notification: Time [clock=87, time=null]
+Event sent to agent      ra1 clock(87)
+Event sent to agent      a1 clock(87)
+agent notification: Time [clock=87, time=null]
+Event sent to agent      c1 clock(87)
+agent notification: Time [clock=87, time=null]
+Event sent to agent      a3 clock(87)
+agent notification: Time [clock=87, time=null]
+agent notification: Time [clock=87, time=null]
+agent notification: Time [clock=87, time=null]
+Event sent to agent      t1 clock(87)
+Event sent to agent      a2 clock(87)
+Event sent to agent      a4 clock(87)
+org notification: Time [clock=87, time=null]
+org notified found Time [clock=87, time=null]
+org notified sent time(87).
+Event processed UpdateClock(87)
+Event processed UpdateClock(87)
+Event processed UpdateClock(87)
+Event processed UpdateClock(87)
+Event processed UpdateClock(87)
+Event processed UpdateClock(87)
+Event processed UpdateClock(87)
+org notification: Position [subject=t1, id=null, cell=Cell [x=2, y=5], time=2014-04-02 14:15:28.214, clock=86]
+org notified found Position [subject=t1, id=null, cell=Cell [x=2, y=5], time=2014-04-02 14:15:28.214, clock=86]
+org notified sent position(t1,cell(2,5),86).
+88
+agent notification: Time [clock=88, time=null]
+agent notification: Time [clock=88, time=null]
+agent notification: Time [clock=88, time=null]
+agent notification: Time [clock=88, time=null]
+Event sent to agent      a1 clock(88)
+Event sent to agent      a3 clock(88)
+Event sent to agent      c1 clock(88)
+Event sent to agent      ra1 clock(88)
+agent notification: Time [clock=88, time=null]
+agent notification: Time [clock=88, time=null]
+Event sent to agent      a2 clock(88)
+agent notification: Time [clock=88, time=null]
+org notification: Time [clock=88, time=null]
+Event sent to agent      a4 clock(88)
+Event sent to agent      t1 clock(88)
+org notified found Time [clock=88, time=null]
+org notified sent time(88).
+Event processed UpdateClock(88)
+Event processed UpdateClock(88)
+Event processed UpdateClock(88)
+Event processed UpdateClock(88)
+Event processed UpdateClock(88)
+Event processed UpdateClock(88)
+Event processed UpdateClock(88)
+89
+agent notification: Time [clock=89, time=null]
+org notification: Time [clock=89, time=null]
+org notified found Time [clock=89, time=null]
+org notified sent time(89).
+agent notification: Time [clock=89, time=null]
+agent notification: Time [clock=89, time=null]
+Event sent to agent      a1 clock(89)
+Event sent to agent      a3 clock(89)
+Event sent to agent      ra1 clock(89)
+agent notification: Time [clock=89, time=null]
+agent notification: Time [clock=89, time=null]
+Event sent to agent      a4 clock(89)
+Event sent to agent      c1 clock(89)
+agent notification: Time [clock=89, time=null]
+Event sent to agent      t1 clock(89)
+agent notification: Time [clock=89, time=null]
+Event sent to agent      a2 clock(89)
+Event processed UpdateClock(89)
+Event processed UpdateClock(89)
+Event processed UpdateClock(89)
+Event processed UpdateClock(89)
+Event processed UpdateClock(89)
+Event processed UpdateClock(89)
+Event processed UpdateClock(89)
+org notification: Position [subject=t1, id=null, cell=Cell [x=2, y=4], time=2014-04-02 14:15:29.31, clock=88]
+org notified found Position [subject=t1, id=null, cell=Cell [x=2, y=4], time=2014-04-02 14:15:29.31, clock=88]
+org notified sent position(t1,cell(2,4),88).
+90
+agent notification: Time [clock=90, time=null]
+Event sent to agent      a3 clock(90)
+agent notification: Time [clock=90, time=null]
+agent notification: Time [clock=90, time=null]
+Event sent to agent      ra1 clock(90)
+Event sent to agent      a4 clock(90)
+agent notification: Time [clock=90, time=null]
+Event sent to agent      a1 clock(90)
+agent notification: Time [clock=90, time=null]
+agent notification: Time [clock=90, time=null]
+Event sent to agent      c1 clock(90)
+Event sent to agent      a2 clock(90)
+agent notification: Time [clock=90, time=null]
+Event sent to agent      t1 clock(90)
+org notification: Time [clock=90, time=null]
+org notified found Time [clock=90, time=null]
+org notified sent time(90).
+Event processed UpdateClock(90)
+Event processed UpdateClock(90)
+Event processed UpdateClock(90)
+Event processed UpdateClock(90)
+Event processed UpdateClock(90)
+Event processed UpdateClock(90)
+Event processed UpdateClock(90)
+91
+agent notification: Time [clock=91, time=null]
+agent notification: Time [clock=91, time=null]
+agent notification: Time [clock=91, time=null]
+Event sent to agent      ra1 clock(91)
+Event sent to agent      a3 clock(91)
+Event sent to agent      a1 clock(91)
+agent notification: Time [clock=91, time=null]
+org notification: Time [clock=91, time=null]
+org notified found Time [clock=91, time=null]
+Event sent to agent      a4 clock(91)
+agent notification: Time [clock=91, time=null]
+org notified sent time(91).
+agent notification: Time [clock=91, time=null]
+Event sent to agent      c1 clock(91)
+agent notification: Time [clock=91, time=null]
+Event sent to agent      a2 clock(91)
+Event sent to agent      t1 clock(91)
+Event processed UpdateClock(91)
+Event processed UpdateClock(91)
+Event processed UpdateClock(91)
+Event processed UpdateClock(91)
+Event processed UpdateClock(91)
+Event processed UpdateClock(91)
+Event processed UpdateClock(91)
+92
+agent notification: Time [clock=92, time=null]
+agent notification: Time [clock=92, time=null]
+Event sent to agent      a4 clock(92)
+agent notification: Time [clock=92, time=null]
+Event sent to agent      a1 clock(92)
+Event sent to agent      a3 clock(92)
+agent notification: Time [clock=92, time=null]
+org notification: Time [clock=92, time=null]
+org notified found Time [clock=92, time=null]
+org notified sent time(92).
+agent notification: Time [clock=92, time=null]
+Event sent to agent      c1 clock(92)
+Event sent to agent      a2 clock(92)
+agent notification: Time [clock=92, time=null]
+Event sent to agent      t1 clock(92)
+agent notification: Time [clock=92, time=null]
+Event sent to agent      ra1 clock(92)
+org notification: Position [subject=t1, id=null, cell=Cell [x=2, y=3], time=2014-04-02 14:15:30.378, clock=90]
+org notified found Position [subject=t1, id=null, cell=Cell [x=2, y=3], time=2014-04-02 14:15:30.378, clock=90]
+org notified sent position(t1,cell(2,3),90).
+Event processed UpdateClock(92)
+Event processed UpdateClock(92)
+Event processed UpdateClock(92)
+Event processed UpdateClock(92)
+Event processed UpdateClock(92)
+Event processed UpdateClock(92)
+Event processed UpdateClock(92)
+93
+agent notification: Time [clock=93, time=null]
+Event sent to agent      a1 clock(93)
+agent notification: Time [clock=93, time=null]
+Event sent to agent      c1 clock(93)
+agent notification: Time [clock=93, time=null]
+Event sent to agent      ra1 clock(93)
+org notification: Time [clock=93, time=null]
+org notified found Time [clock=93, time=null]
+agent notification: Time [clock=93, time=null]
+agent notification: Time [clock=93, time=null]
+Event sent to agent      t1 clock(93)
+Event sent to agent      a4 clock(93)
+agent notification: Time [clock=93, time=null]
+org notified sent time(93).
+Event sent to agent      a2 clock(93)
+agent notification: Time [clock=93, time=null]
+Event sent to agent      a3 clock(93)
+Event processed UpdateClock(93)
+Event processed UpdateClock(93)
+Event processed UpdateClock(93)
+Event processed UpdateClock(93)
+Event processed UpdateClock(93)
+Event processed UpdateClock(93)
+Event processed UpdateClock(93)
+94
+agent notification: Time [clock=94, time=null]
+agent notification: Time [clock=94, time=null]
+Event sent to agent      a4 clock(94)
+agent notification: Time [clock=94, time=null]
+org notification: Time [clock=94, time=null]
+org notified found Time [clock=94, time=null]
+org notified sent time(94).
+agent notification: Time [clock=94, time=null]
+Event sent to agent      a3 clock(94)
+agent notification: Time [clock=94, time=null]
+Event sent to agent      c1 clock(94)
+agent notification: Time [clock=94, time=null]
+Event sent to agent      t1 clock(94)
+Event sent to agent      a2 clock(94)
+Event sent to agent      a1 clock(94)
+agent notification: Time [clock=94, time=null]
+Event sent to agent      ra1 clock(94)
+Event processed UpdateClock(94)
+org notification: Position [subject=t1, id=null, cell=Cell [x=2, y=2], time=2014-04-02 14:15:31.445, clock=92]
+org notified found Position [subject=t1, id=null, cell=Cell [x=2, y=2], time=2014-04-02 14:15:31.445, clock=92]
+org notified sent position(t1,cell(2,2),92).
+Event processed UpdateClock(94)
+Event processed UpdateClock(94)
+Event processed UpdateClock(94)
+Event processed UpdateClock(94)
+Event processed UpdateClock(94)
+Event processed UpdateClock(94)
+95
+agent notification: Time [clock=95, time=null]
+agent notification: Time [clock=95, time=null]
+agent notification: Time [clock=95, time=null]
+Event sent to agent      a3 clock(95)
+Event sent to agent      a1 clock(95)
+Event sent to agent      a4 clock(95)
+agent notification: Time [clock=95, time=null]
+Event sent to agent      c1 clock(95)
+agent notification: Time [clock=95, time=null]
+agent notification: Time [clock=95, time=null]
+agent notification: Time [clock=95, time=null]
+Event sent to agent      ra1 clock(95)
+org notification: Time [clock=95, time=null]
+org notified found Time [clock=95, time=null]
+org notified sent time(95).
+Event sent to agent      a2 clock(95)
+Event sent to agent      t1 clock(95)
+Event processed UpdateClock(95)
+Event processed UpdateClock(95)
+Event processed UpdateClock(95)
+Event processed UpdateClock(95)
+Event processed UpdateClock(95)
+Event processed UpdateClock(95)
+Event processed UpdateClock(95)
+96
+agent notification: Time [clock=96, time=null]
+org notification: Time [clock=96, time=null]
+org notified found Time [clock=96, time=null]
+org notified sent time(96).
+agent notification: Time [clock=96, time=null]
+Event sent to agent      a2 clock(96)
+agent notification: Time [clock=96, time=null]
+agent notification: Time [clock=96, time=null]
+Event sent to agent      a1 clock(96)
+Event sent to agent      a4 clock(96)
+agent notification: Time [clock=96, time=null]
+Event sent to agent      a3 clock(96)
+agent notification: Time [clock=96, time=null]
+Event sent to agent      t1 clock(96)
+Event sent to agent      ra1 clock(96)
+agent notification: Time [clock=96, time=null]
+Event sent to agent      c1 clock(96)
+Event processed UpdateClock(96)
+Event processed UpdateClock(96)
+Event processed UpdateClock(96)
+Event processed UpdateClock(96)
+Event processed UpdateClock(96)
+Event processed UpdateClock(96)
+Event processed UpdateClock(96)
+97
+agent notification: Time [clock=97, time=null]
+Event sent to agent      a4 clock(97)
+agent notification: Time [clock=97, time=null]
+agent notification: Time [clock=97, time=null]
+Event sent to agent      a3 clock(97)
+Event sent to agent      a1 clock(97)
+org notification: Time [clock=97, time=null]
+agent notification: Time [clock=97, time=null]
+agent notification: Time [clock=97, time=null]
+agent notification: Time [clock=97, time=null]
+org notified found Time [clock=97, time=null]
+Event sent to agent      c1 clock(97)
+Event sent to agent      t1 clock(97)
+Event sent to agent      a2 clock(97)
+org notified sent time(97).
+agent notification: Time [clock=97, time=null]
+Event sent to agent      ra1 clock(97)
+Event processed UpdateClock(97)
+Event processed UpdateClock(97)
+Event processed UpdateClock(97)
+Event processed UpdateClock(97)
+Event processed UpdateClock(97)
+Event processed UpdateClock(97)
+Event processed UpdateClock(97)
+98
+agent notification: Time [clock=98, time=null]
+agent notification: Time [clock=98, time=null]
+Event sent to agent      a3 clock(98)
+agent notification: Time [clock=98, time=null]
+org notification: Time [clock=98, time=null]
+Event sent to agent      a4 clock(98)
+Event sent to agent      ra1 clock(98)
+agent notification: Time [clock=98, time=null]
+org notified found Time [clock=98, time=null]
+org notified sent time(98).
+agent notification: Time [clock=98, time=null]
+agent notification: Time [clock=98, time=null]
+Event sent to agent      a2 clock(98)
+Event sent to agent      c1 clock(98)
+Event sent to agent      t1 clock(98)
+agent notification: Time [clock=98, time=null]
+Event sent to agent      a1 clock(98)
+Event processed UpdateClock(98)
+Event processed UpdateClock(98)
+Event processed UpdateClock(98)
+Event processed UpdateClock(98)
+Event processed UpdateClock(98)
+Event processed UpdateClock(98)
+Event processed UpdateClock(98)
+99
+agent notification: Time [clock=99, time=null]
+agent notification: Time [clock=99, time=null]
+agent notification: Time [clock=99, time=null]
+Event sent to agent      a3 clock(99)
+org notification: Time [clock=99, time=null]
+org notified found Time [clock=99, time=null]
+Event sent to agent      ra1 clock(99)
+agent notification: Time [clock=99, time=null]
+org notified sent time(99).
+Event sent to agent      a2 clock(99)
+agent notification: Time [clock=99, time=null]
+agent notification: Time [clock=99, time=null]
+Event sent to agent      t1 clock(99)
+Event sent to agent      a4 clock(99)
+Event sent to agent      c1 clock(99)
+agent notification: Time [clock=99, time=null]
+Event sent to agent      a1 clock(99)
+Event processed UpdateClock(99)
+Event processed UpdateClock(99)
+Event processed UpdateClock(99)
+Event processed UpdateClock(99)
+Event processed UpdateClock(99)
+Event processed UpdateClock(99)
+Event processed UpdateClock(99)
+100
+agent notification: Time [clock=100, time=null]
+agent notification: Time [clock=100, time=null]
+agent notification: Time [clock=100, time=null]
+Event sent to agent      a1 clock(100)
+Event sent to agent      a3 clock(100)
+Event sent to agent      c1 clock(100)
+agent notification: Time [clock=100, time=null]
+agent notification: Time [clock=100, time=null]
+Event sent to agent      ra1 clock(100)
+agent notification: Time [clock=100, time=null]
+org notification: Time [clock=100, time=null]
+agent notification: Time [clock=100, time=null]
+Event sent to agent      a2 clock(100)
+Event sent to agent      a4 clock(100)
+org notified found Time [clock=100, time=null]
+org notified sent time(100).
+Event sent to agent      t1 clock(100)
+Event processed UpdateClock(100)
+Event processed UpdateClock(100)
+Event processed UpdateClock(100)
+Event processed UpdateClock(100)
+Event processed UpdateClock(100)
+Event processed UpdateClock(100)
+Event processed UpdateClock(100)
+101
+agent notification: Time [clock=101, time=null]
+agent notification: Time [clock=101, time=null]
+agent notification: Time [clock=101, time=null]
+Event sent to agent      a4 clock(101)
+Event sent to agent      a3 clock(101)
+agent notification: Time [clock=101, time=null]
+Event sent to agent      a1 clock(101)
+Event sent to agent      c1 clock(101)
+agent notification: Time [clock=101, time=null]
+agent notification: Time [clock=101, time=null]
+Event sent to agent      a2 clock(101)
+Event sent to agent      ra1 clock(101)
+agent notification: Time [clock=101, time=null]
+org notification: Time [clock=101, time=null]
+org notified found Time [clock=101, time=null]
+org notified sent time(101).
+Event sent to agent      t1 clock(101)
+Event processed UpdateClock(101)
+Event processed UpdateClock(101)
+Event processed UpdateClock(101)
+Event processed UpdateClock(101)
+Event processed UpdateClock(101)
+Event processed UpdateClock(101)
+Event processed UpdateClock(101)
+102
+agent notification: Time [clock=102, time=null]
+agent notification: Time [clock=102, time=null]
+Event sent to agent      a3 clock(102)
+org notification: Time [clock=102, time=null]
+org notified found Time [clock=102, time=null]
+Event sent to agent      ra1 clock(102)
+agent notification: Time [clock=102, time=null]
+org notified sent time(102).
+Event sent to agent      a2 clock(102)
+agent notification: Time [clock=102, time=null]
+Event sent to agent      a1 clock(102)
+agent notification: Time [clock=102, time=null]
+agent notification: Time [clock=102, time=null]
+agent notification: Time [clock=102, time=null]
+Event sent to agent      a4 clock(102)
+Event sent to agent      c1 clock(102)
+Event sent to agent      t1 clock(102)
+Event processed UpdateClock(102)
+Event processed UpdateClock(102)
+Event processed UpdateClock(102)
+Event processed UpdateClock(102)
+Event processed UpdateClock(102)
+Event processed UpdateClock(102)
+Event processed UpdateClock(102)
+103
+org notification: Time [clock=103, time=null]
+org notified found Time [clock=103, time=null]
+org notified sent time(103).
+agent notification: Time [clock=103, time=null]
+agent notification: Time [clock=103, time=null]
+agent notification: Time [clock=103, time=null]
+agent notification: Time [clock=103, time=null]
+Event sent to agent      a3 clock(103)
+Event sent to agent      a2 clock(103)
+Event sent to agent      a4 clock(103)
+Event sent to agent      c1 clock(103)
+agent notification: Time [clock=103, time=null]
+Event sent to agent      t1 clock(103)
+agent notification: Time [clock=103, time=null]
+Event sent to agent      a1 clock(103)
+agent notification: Time [clock=103, time=null]
+Event sent to agent      ra1 clock(103)
+Event processed UpdateClock(103)
+Event processed UpdateClock(103)
+Event processed UpdateClock(103)
+Event processed UpdateClock(103)
+Event processed UpdateClock(103)
+Event processed UpdateClock(103)
+Event processed UpdateClock(103)
+104
+agent notification: Time [clock=104, time=null]
+agent notification: Time [clock=104, time=null]
+org notification: Time [clock=104, time=null]
+org notified found Time [clock=104, time=null]
+org notified sent time(104).
+Event sent to agent      a4 clock(104)
+agent notification: Time [clock=104, time=null]
+agent notification: Time [clock=104, time=null]
+agent notification: Time [clock=104, time=null]
+agent notification: Time [clock=104, time=null]
+Event sent to agent      a1 clock(104)
+agent notification: Time [clock=104, time=null]
+Event sent to agent      a3 clock(104)
+Event sent to agent      ra1 clock(104)
+Event sent to agent      t1 clock(104)
+Event sent to agent      a2 clock(104)
+Event sent to agent      c1 clock(104)
+Event processed UpdateClock(104)
+Event processed UpdateClock(104)
+Event processed UpdateClock(104)
+Event processed UpdateClock(104)
+Event processed UpdateClock(104)
+Event processed UpdateClock(104)
+Event processed UpdateClock(104)
+105
+agent notification: Time [clock=105, time=null]
+Event sent to agent      a3 clock(105)
+agent notification: Time [clock=105, time=null]
+agent notification: Time [clock=105, time=null]
+Event sent to agent      c1 clock(105)
+Event sent to agent      a1 clock(105)
+org notification: Time [clock=105, time=null]
+org notified found Time [clock=105, time=null]
+org notified sent time(105).
+agent notification: Time [clock=105, time=null]
+Event sent to agent      ra1 clock(105)
+agent notification: Time [clock=105, time=null]
+Event sent to agent      t1 clock(105)
+agent notification: Time [clock=105, time=null]
+agent notification: Time [clock=105, time=null]
+Event sent to agent      a4 clock(105)
+Event sent to agent      a2 clock(105)
+Event processed UpdateClock(105)
+Event processed UpdateClock(105)
+Event processed UpdateClock(105)
+Event processed UpdateClock(105)
+Event processed UpdateClock(105)
+Event processed UpdateClock(105)
+Event processed UpdateClock(105)
+106
+agent notification: Time [clock=106, time=null]
+agent notification: Time [clock=106, time=null]
+Event sent to agent      a3 clock(106)
+Event sent to agent      ra1 clock(106)
+agent notification: Time [clock=106, time=null]
+Event sent to agent      a4 clock(106)
+agent notification: Time [clock=106, time=null]
+Event sent to agent      a1 clock(106)
+agent notification: Time [clock=106, time=null]
+agent notification: Time [clock=106, time=null]
+agent notification: Time [clock=106, time=null]
+Event sent to agent      a2 clock(106)
+Event sent to agent      c1 clock(106)
+Event sent to agent      t1 clock(106)
+org notification: Time [clock=106, time=null]
+org notified found Time [clock=106, time=null]
+org notified sent time(106).
+Event processed UpdateClock(106)
+Event processed UpdateClock(106)
+Event processed UpdateClock(106)
+Event processed UpdateClock(106)
+Event processed UpdateClock(106)
+Event processed UpdateClock(106)
+Event processed UpdateClock(106)
+107
+agent notification: Time [clock=107, time=null]
+agent notification: Time [clock=107, time=null]
+agent notification: Time [clock=107, time=null]
+Event sent to agent      ra1 clock(107)
+Event sent to agent      a3 clock(107)
+Event sent to agent      a1 clock(107)
+agent notification: Time [clock=107, time=null]
+agent notification: Time [clock=107, time=null]
+Event sent to agent      c1 clock(107)
+Event sent to agent      a2 clock(107)
+org notification: Time [clock=107, time=null]
+agent notification: Time [clock=107, time=null]
+org notified found Time [clock=107, time=null]
+org notified sent time(107).
+Event sent to agent      a4 clock(107)
+agent notification: Time [clock=107, time=null]
+Event sent to agent      t1 clock(107)
+Event processed UpdateClock(107)
+Event processed UpdateClock(107)
+Event processed UpdateClock(107)
+Event processed UpdateClock(107)
+Event processed UpdateClock(107)
+Event processed UpdateClock(107)
+Event processed UpdateClock(107)
+108
+agent notification: Time [clock=108, time=null]
+agent notification: Time [clock=108, time=null]
+Event sent to agent      a1 clock(108)
+Event sent to agent      a3 clock(108)
+org notification: Time [clock=108, time=null]
+org notified found Time [clock=108, time=null]
+org notified sent time(108).
+agent notification: Time [clock=108, time=null]
+agent notification: Time [clock=108, time=null]
+Event sent to agent      a2 clock(108)
+agent notification: Time [clock=108, time=null]
+agent notification: Time [clock=108, time=null]
+Event sent to agent      a4 clock(108)
+Event sent to agent      c1 clock(108)
+Event sent to agent      t1 clock(108)
+agent notification: Time [clock=108, time=null]
+Event sent to agent      ra1 clock(108)
+Event processed UpdateClock(108)
+Event processed UpdateClock(108)
+Event processed UpdateClock(108)
+Event processed UpdateClock(108)
+Event processed UpdateClock(108)
+Event processed UpdateClock(108)
+Event processed UpdateClock(108)
+109
+agent notification: Time [clock=109, time=null]
+agent notification: Time [clock=109, time=null]
+Event sent to agent      a1 clock(109)
+agent notification: Time [clock=109, time=null]
+Event sent to agent      ra1 clock(109)
+agent notification: Time [clock=109, time=null]
+org notification: Time [clock=109, time=null]
+Event sent to agent      a2 clock(109)
+agent notification: Time [clock=109, time=null]
+agent notification: Time [clock=109, time=null]
+Event sent to agent      a4 clock(109)
+org notified found Time [clock=109, time=null]
+org notified sent time(109).
+Event sent to agent      c1 clock(109)
+Event sent to agent      t1 clock(109)
+agent notification: Time [clock=109, time=null]
+Event sent to agent      a3 clock(109)
+Event processed UpdateClock(109)
+Event processed UpdateClock(109)
+Event processed UpdateClock(109)
+Event processed UpdateClock(109)
+Event processed UpdateClock(109)
+Event processed UpdateClock(109)
+Event processed UpdateClock(109)
+110
+agent notification: Time [clock=110, time=null]
+agent notification: Time [clock=110, time=null]
+Event sent to agent      ra1 clock(110)
+Event sent to agent      a1 clock(110)
+agent notification: Time [clock=110, time=null]
+Event sent to agent      c1 clock(110)
+org notification: Time [clock=110, time=null]
+agent notification: Time [clock=110, time=null]
+agent notification: Time [clock=110, time=null]
+Event sent to agent      a3 clock(110)
+org notified found Time [clock=110, time=null]
+org notified sent time(110).
+Event sent to agent      t1 clock(110)
+agent notification: Time [clock=110, time=null]
+agent notification: Time [clock=110, time=null]
+Event sent to agent      a2 clock(110)
+Event sent to agent      a4 clock(110)
+Event processed UpdateClock(110)
+Event processed UpdateClock(110)
+Event processed UpdateClock(110)
+Event processed UpdateClock(110)
+Event processed UpdateClock(110)
+Event processed UpdateClock(110)
+Event processed UpdateClock(110)
+111
+agent notification: Time [clock=111, time=null]
+agent notification: Time [clock=111, time=null]
+Event sent to agent      a4 clock(111)
+Event sent to agent      a3 clock(111)
+agent notification: Time [clock=111, time=null]
+Event sent to agent      a1 clock(111)
+agent notification: Time [clock=111, time=null]
+Event sent to agent      ra1 clock(111)
+agent notification: Time [clock=111, time=null]
+agent notification: Time [clock=111, time=null]
+Event sent to agent      c1 clock(111)
+Event sent to agent      t1 clock(111)
+agent notification: Time [clock=111, time=null]
+org notification: Time [clock=111, time=null]
+org notified found Time [clock=111, time=null]
+org notified sent time(111).
+Event sent to agent      a2 clock(111)
+Event processed UpdateClock(111)
+Event processed UpdateClock(111)
+Event processed UpdateClock(111)
+Event processed UpdateClock(111)
+Event processed UpdateClock(111)
+Event processed UpdateClock(111)
+Event processed UpdateClock(111)
+112
+agent notification: Time [clock=112, time=null]
+agent notification: Time [clock=112, time=null]
+Event sent to agent      a3 clock(112)
+agent notification: Time [clock=112, time=null]
+agent notification: Time [clock=112, time=null]
+Event sent to agent      ra1 clock(112)
+agent notification: Time [clock=112, time=null]
+Event sent to agent      a1 clock(112)
+org notification: Time [clock=112, time=null]
+Event sent to agent      a2 clock(112)
+Event sent to agent      t1 clock(112)
+org notified found Time [clock=112, time=null]
+org notified sent time(112).
+agent notification: Time [clock=112, time=null]
+agent notification: Time [clock=112, time=null]
+Event sent to agent      a4 clock(112)
+Event sent to agent      c1 clock(112)
+Event processed UpdateClock(112)
+Event processed UpdateClock(112)
+Event processed UpdateClock(112)
+Event processed UpdateClock(112)
+Event processed UpdateClock(112)
+Event processed UpdateClock(112)
+Event processed UpdateClock(112)
+113
+agent notification: Time [clock=113, time=null]
+agent notification: Time [clock=113, time=null]
+agent notification: Time [clock=113, time=null]
+Event sent to agent      ra1 clock(113)
+Event sent to agent      a3 clock(113)
+Event sent to agent      c1 clock(113)
+org notification: Time [clock=113, time=null]
+org notified found Time [clock=113, time=null]
+org notified sent time(113).
+agent notification: Time [clock=113, time=null]
+agent notification: Time [clock=113, time=null]
+agent notification: Time [clock=113, time=null]
+Event sent to agent      t1 clock(113)
+Event sent to agent      a4 clock(113)
+Event sent to agent      a1 clock(113)
+agent notification: Time [clock=113, time=null]
+Event sent to agent      a2 clock(113)
+Event processed UpdateClock(113)
+Event processed UpdateClock(113)
+Event processed UpdateClock(113)
+Event processed UpdateClock(113)
+Event processed UpdateClock(113)
+Event processed UpdateClock(113)
+Event processed UpdateClock(113)
+114
+agent notification: Time [clock=114, time=null]
+agent notification: Time [clock=114, time=null]
+Event sent to agent      a4 clock(114)
+Event sent to agent      ra1 clock(114)
+agent notification: Time [clock=114, time=null]
+Event sent to agent      a1 clock(114)
+agent notification: Time [clock=114, time=null]
+agent notification: Time [clock=114, time=null]
+Event sent to agent      c1 clock(114)
+agent notification: Time [clock=114, time=null]
+Event sent to agent      a2 clock(114)
+Event sent to agent      t1 clock(114)
+org notification: Time [clock=114, time=null]
+org notified found Time [clock=114, time=null]
+org notified sent time(114).
+agent notification: Time [clock=114, time=null]
+Event sent to agent      a3 clock(114)
+Event processed UpdateClock(114)
+Event processed UpdateClock(114)
+Event processed UpdateClock(114)
+Event processed UpdateClock(114)
+Event processed UpdateClock(114)
+Event processed UpdateClock(114)
+Event processed UpdateClock(114)
+115
+agent notification: Time [clock=115, time=null]
+Event sent to agent      a3 clock(115)
+agent notification: Time [clock=115, time=null]
+agent notification: Time [clock=115, time=null]
+Event sent to agent      c1 clock(115)
+Event sent to agent      ra1 clock(115)
+agent notification: Time [clock=115, time=null]
+org notification: Time [clock=115, time=null]
+org notified found Time [clock=115, time=null]
+agent notification: Time [clock=115, time=null]
+org notified sent time(115).
+agent notification: Time [clock=115, time=null]
+Event sent to agent      t1 clock(115)
+Event sent to agent      a2 clock(115)
+Event sent to agent      a4 clock(115)
+agent notification: Time [clock=115, time=null]
+Event sent to agent      a1 clock(115)
+Event processed UpdateClock(115)
+Event processed UpdateClock(115)
+Event processed UpdateClock(115)
+Event processed UpdateClock(115)
+Event processed UpdateClock(115)
+Event processed UpdateClock(115)
+Event processed UpdateClock(115)
+116
+agent notification: Time [clock=116, time=null]
+agent notification: Time [clock=116, time=null]
+agent notification: Time [clock=116, time=null]
+agent notification: Time [clock=116, time=null]
+org notification: Time [clock=116, time=null]
+org notified found Time [clock=116, time=null]
+Event sent to agent      c1 clock(116)
+Event sent to agent      a3 clock(116)
+agent notification: Time [clock=116, time=null]
+agent notification: Time [clock=116, time=null]
+org notified sent time(116).
+Event sent to agent      a4 clock(116)
+Event sent to agent      ra1 clock(116)
+Event sent to agent      a2 clock(116)
+Event sent to agent      t1 clock(116)
+agent notification: Time [clock=116, time=null]
+Event sent to agent      a1 clock(116)
+Event processed UpdateClock(116)
+Event processed UpdateClock(116)
+Event processed UpdateClock(116)
+Event processed UpdateClock(116)
+Event processed UpdateClock(116)
+Event processed UpdateClock(116)
+Event processed UpdateClock(116)
+117
+agent notification: Time [clock=117, time=null]
+agent notification: Time [clock=117, time=null]
+Event sent to agent      a3 clock(117)
+Event sent to agent      a1 clock(117)
+agent notification: Time [clock=117, time=null]
+agent notification: Time [clock=117, time=null]
+Event sent to agent      ra1 clock(117)
+org notification: Time [clock=117, time=null]
+Event sent to agent      c1 clock(117)
+org notified found Time [clock=117, time=null]
+org notified sent time(117).
+agent notification: Time [clock=117, time=null]
+Event sent to agent      a2 clock(117)
+agent notification: Time [clock=117, time=null]
+agent notification: Time [clock=117, time=null]
+Event sent to agent      a4 clock(117)
+Event sent to agent      t1 clock(117)
+Event processed UpdateClock(117)
+Event processed UpdateClock(117)
+Event processed UpdateClock(117)
+Event processed UpdateClock(117)
+Event processed UpdateClock(117)
+Event processed UpdateClock(117)
+Event processed UpdateClock(117)
+118
+agent notification: Time [clock=118, time=null]
+agent notification: Time [clock=118, time=null]
+agent notification: Time [clock=118, time=null]
+Event sent to agent      a3 clock(118)
+Event sent to agent      ra1 clock(118)
+agent notification: Time [clock=118, time=null]
+agent notification: Time [clock=118, time=null]
+Event sent to agent      a2 clock(118)
+agent notification: Time [clock=118, time=null]
+Event sent to agent      a1 clock(118)
+Event sent to agent      c1 clock(118)
+Event sent to agent      t1 clock(118)
+agent notification: Time [clock=118, time=null]
+Event sent to agent      a4 clock(118)
+org notification: Time [clock=118, time=null]
+org notified found Time [clock=118, time=null]
+org notified sent time(118).
+Event processed UpdateClock(118)
