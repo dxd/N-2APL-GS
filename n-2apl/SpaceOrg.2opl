@@ -13,7 +13,7 @@ norm(
     group_action(g),
     ra1, // the subject agent
     ( group(g)), // precondition - left blank for now
-    obligation([surround(10,10)],now + 1,[reduce(g,1000)]) // prohibition format
+    obligation([surround(15,15)],now + 1,[reduce(g,1000)]) // prohibition format
     ).
     
 %agents group norms from RA
@@ -47,7 +47,12 @@ norm(
     
     
 %original norms    
-
+norm(
+    enter_water(Thing),
+    Thing, // the subject agent
+    ( pursuer(Thing), water(X,Y)), // precondition
+    prohibition([at(X,Y,Thing)],[reduce(Thing,300)]) // prohibition format
+    ). 
     
 pursuer(a1).
 pursuer(a2).
@@ -124,12 +129,11 @@ makeGroupReading(X,Y) :-
 
 tooFar(AX, AY, X, Y) :- false.
 
-do_sanction([not(H)|T]):- retract(H),do_sanction(T).
+//do_sanction([not(H)|T]):- retract(H),do_sanction(T).
 do_sanction([H|T]):- uniqueassertz(H),do_sanction(T).
 do_sanction([]).
 
-do_reduce_health(Group,P):- 
-
+do_reduce_h(Group,P):- 
    @external(geoSenseMW,write(points(x,1,1),-1),_).
    
 do_reduce_health(Agent,P):- 
@@ -164,8 +168,11 @@ Effects:
 
 //{at(X1,Y1,Agent)} position(Agent, cell(X,Y), Clock) {not at(X1,Y1,Agent), at(X,Y,Agent), at(X,Y,Agent,Clock), not coin(X,Y)}
 //change to receive clock as well!!!!
-{at(X1,Y1,Agent)} position(Agent, cell(X,Y), Clock) {at(X,Y,Agent,Clock)} 
-{true} position(Agent, cell(X,Y), Clock) {at(X,Y,Agent,Clock), at(X,Y,Agent)}
+//{at(X1,Y1,Agent)} position(Agent, cell(X,Y), Clock) {at(X,Y,Agent,Clock)} 
+//{true} position(Agent, cell(X,Y), Clock) {at(X,Y,Agent,Clock), at(X,Y,Agent)}
+
+//quick fix
+{true} position(Agent, cell(X,Y), Clock) {at(X,Y,Agent)}
 
 {reading(X,Y,Value1,Agent,Clock1)} reading(Agent, cell(X,Y), Value, Clock) {not reading(X,Y,Value1,Agent,Clock1), reading(X,Y,Value,Agent,Clock)}
 {true} reading(Agent, cell(X,Y), Value, Clock) { reading(X,Y,Value,Agent,Clock)}
@@ -193,7 +200,8 @@ agent_directed(Label,Agent,prohibition(ListA,Sanction)):
 	false]
 
 Sanction rules:
-//reduce(Agent,X) and do_reduce_health(Agent,X) => not reduce(Agent,X).
+reduce(Agent,X) and do_reduce_health(Agent,X) => not reduce(Agent,X).
 
 viol(agent_directed(Label,Agent,prohibition(State,Sanction))), do_sanction(Sanction) => not viol(agent_directed(Label,Agent,prohibition(State,Sanction))).
-obey(agent_directed(Label,Agent,Deontic)) => not obey(agent_directed(Label,Agent,Deontic)).
+
+//obey(agent_directed(Label,Agent,Deontic)) => not obey(agent_directed(Label,Agent,Deontic)).

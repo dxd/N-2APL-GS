@@ -65,10 +65,10 @@
 // Operation: clear norm
 @clear_norms:-
     @ni(Name,Pre,keep),
-    @can_clear(@ni(Name,Pre,keep)),
+    //@can_clear(@ni(Name,Pre,keep)),
     @mod(@ni(Name,Pre,keep),Pi),
     @update(Pi),
-    atomic_update(remove,3,@ni(Name,Pre,keep)),
+    //atomic_update(remove,3,@ni(Name,Pre,keep)),
     //@broadcast(Pi),
     fail.
 @clear_norms.
