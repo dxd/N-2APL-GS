@@ -4,7 +4,7 @@ import java.util.Set;
 
 /**
  * Defines an interface for the specific implementation of execution strategy of
- * multi-agent system. The executor takes set of modules and executes
+ * multi-object system. The executor takes set of modules and executes
  * deliberation cycle on each of them according to a specific execution strategy.
  * 
  * @see apapl.MultiThreadedExecutor

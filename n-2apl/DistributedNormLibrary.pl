@@ -22,8 +22,13 @@
     Pre, 
     @not_present(Name,Pre,Pre2), 
     @norm_notification(Pre2), // For norm aware agents
+    @remember_norm(Name), //hierarchical scheme
     uniqueassertz(@ni(Name,Pre2,keep)), fail.
 @instantiate_norms.
+
+//instance was detached
+@remember_norm(agent_directed(B,_,_)) :- uniqueassertz(detached(B)).
+
 
 // Function: update
 @update([plus(Rho)|Pi]):- uniqueassertz(Rho), @update(Pi).
@@ -65,11 +70,13 @@
 // Operation: clear norm
 @clear_norms:-
     @ni(Name,Pre,keep),
-    //@can_clear(@ni(Name,Pre,keep)),
+    //@can_clear(@ni(Name,Pre,keep)), //for obligations
     @mod(@ni(Name,Pre,keep),Pi),
     @update(Pi),
     //atomic_update(remove,3,@ni(Name,Pre,keep)),
     //@broadcast(Pi),
+    //perform sanctions
+    perform_sanctions,
     fail.
 @clear_norms.
 
@@ -115,6 +122,8 @@
    assert(@sent_prohibition(Agent,prohibition(A,B))),
    @external(geoSenseMW,notifyAgent(Agent,prohibition(A,B)),_),!.
 @norm_notification((@countsas,norm(_,Agent,_,obligation(A,Deadline,C)),_)):-
+   not(@sent_obligation(Agent,obligation(A,Deadline,C))),					// This should ensure that obligation is only send once
+   assert(@sent_obligation(Agent,obligation(A,Deadline,C))),
    @external(geoSenseMW,notifyAgent(Agent,obligation(A,Deadline,C)),_),!. // Deadline is replaced with the resolved value
 @norm_notification(_,_).
 		
@@ -132,7 +141,10 @@
 // Replacement for deadline check as we now compute it elsewhere.
 @check_deadline((time_past(_)),(@countsas,norm(_,_,_,obligation(_,D,_)),_)):- time_past(D). 
 
-@quick_scheme_fix_hack :-
+@q :-
 	retract(@scheme(agent_directed(A,B,obligation(C,D,E)),(@countsas,norm(A,B,F,obligation(C,D,E)),F),false,(listTrue(C)),(time_past(D)),false,[plus(viol(agent_directed(A,B,obligation(C,D,E))))|[]],[plus(obey(agent_directed(A,B,obligation(C,D,E))))|[]])),
 	assert(@scheme(agent_directed(A,B,obligation(C,D,E)),(@countsas,norm(A,B,F,obligation(C,D2,E)),F),false,(listTrue(C)),(time_past(D)),false,[plus(viol(agent_directed(A,B,obligation(C,D,E))))|[]],[plus(obey(agent_directed(A,B,obligation(C,D,E))))|[]])
 	).
+	
+
+	

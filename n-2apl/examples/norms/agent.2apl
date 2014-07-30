@@ -50,7 +50,7 @@ event(points(Points),space) <- true | {
    UpdatePoints(Points)
 }
 
-adoptProhibition(at(X,Y,_), reduce(_,Value)) <- true | {
+adoptProhibition(at(X,Y,_,_), reduce(_,Value)) <- true | {
     aprohibition(position(X,Y) -> reduce(Value))
 }
 

@@ -1,71 +1,119 @@
 Facts:
-
-%RA
-//norm(
-//    sanction_group(ra1),
-//    ra1, // the subject agent
-//    ( ra(ra1), sanction(Group,Sanction)), // precondition
-//    obligation([atleast(agent_sanctions(g),Sanction)],now+15,[reduce(ra1,Sanction)]) // prohibition format
-//    ).    
-     
-%group
+%group obligation
 norm(
-    group_action(g),
-    ra1, // the subject agent
-    ( group(g), gensym(group_action, X)), // precondition - left blank for now
-    obligation([surround(15,15)],now + 1,[reduce(g,1000)]) // prohibition format
+    task1(g),
+    c1, // the subject agent
+    ( group(g),object(X,Y,o3)), 
+    obligation([collect_O4(X,Y)],now + 100,[reduce(c1,400)]) 
     ).
     
-%agents group norms from RA
 norm(
-    group_task(a1),
+    collect_object_h1(c1),
+    c1, // the subject agent
+    ( agent(c1), object(X,Y,o3)), 
+    obligation([collect_O3(X,Y)],now + 50,[reduce(c1, 1000)]) 
+    ).
+
+%agents group norms tasks from coordinator player
+norm(
+    collect_object1(a1),
     a1, // the subject agent
-    ( pursuer(a1), groupCoin(X,Y,Z)), // precondition - add triggering condition
-    obligation([west(X,Y,a1)],now + 1,[reduce(a1, 1000)]) // prohibition format
+    ( agent(a1), object(X,Y,o1), detached(task1(g))), 
+    obligation([at(X,Y,a1)],now + 20,[reduce(a1, 100)]) 
     ).  
-    
 norm(
-    group_task(a2),
+    collect_object2(a2),
     a2, // the subject agent
-    ( pursuer(a2), groupCoin(X,Y,Z)), // precondition - add triggering condition
-    obligation([east(X,Y,a2)],now + 1,[reduce(a2, 1000)]) // prohibition format
-    ).  
+    ( agent(a2), object(X,Y,o2), detached(task1(g))), 
+    obligation([at(X,Y,a2)],now + 20,[reduce(a2, 200)]) 
+    ).
 
 norm(
-    group_task(a3),
-    a3, // the subject agent
-    ( pursuer(a3), groupCoin(X,Y,Z)), // precondition - add triggering condition
-    obligation([north(X,Y,a3)],now + 1,[reduce(a3, 1000)]) // prohibition format
-    ). 
-    
+    collect_object3(a1),
+    a1, // the subject agent
+    ( agent(a1), object(X,Y,o3), collected(o1),detached(collect_object_h1(c1))), 
+    obligation([at(X,Y,a1)],now + 20,[reduce(a1, 300)]) 
+    ).  
 norm(
-    group_task(a4),
-    a4, // the subject agent
-    ( pursuer(a4), groupCoin(X,Y,Z)), // precondition - add triggering condition
-    obligation([south(X,Y,a4)],now + 1,[reduce(a4, 1000)]) // prohibition format
-    ). 
-    
-    
-%original norms    
+    collect_object3(a2),
+    a2, // the subject agent
+    ( agent(a2), object(X,Y,o3), collected(o2),detached(collect_object_h1(c1))), 
+    obligation([at(X,Y,a2)],now + 20,[reduce(a2, 300)]) 
+    ).
+
 norm(
-    enter_water(Thing),
-    Thing, // the subject agent
-    ( pursuer(Thing), water(X,Y)), // precondition
-    prohibition([at(X,Y,Thing,Z)],[reduce(Thing,300)]) // prohibition format
+    collect_object4(a1),
+    a1, // the subject agent
+    ( agent(a1), object(X,Y,o4), collected(o3),detached(task1(g))), 
+    obligation([at(X,Y,a1)],now + 20,[reduce(a1, 400)]) 
+    ).  
+norm(
+    collect_object4(a2),
+    a2, // the subject agent
+    ( agent(a2), object(X,Y,o4), collected(o3),detached(task1(g))), 
+    obligation([at(X,Y,a2)],now + 20,[reduce(a2, 400)]) 
+    ).
+norm(
+    collect_object4(c1),
+    c1, // the subject agent
+    ( agent(c1), object(X,Y,o4), collected(o3),detached(task1(g))), 
+    obligation([at(X,Y,h2)],now + 20,[reduce(c1, 400)]) 
+    ).
+
+
+%individual obligation 
+norm(
+    collect_bonus(Player),
+    Player, // the subject agent
+    ( player(Player), near_bonus(X,Y)), 
+    obligation([at(X,Y, Player,Time)],now + 10,[reduce(a1, 500)]) 
+    ).  
+
+%Individual prohibition.
+%Prohibitions need to be valid indefinitely at the moment
+norm(
+    enter_water(Player),
+    Player, // the subject agent
+    ( player(Player), water(X,Y)),
+    prohibition([at(X,Y, Player,Time)],[reduce(Player,300)]) 
     ). 
+
+norm(
+    leave_area(Player),
+    Player, // the subject agent
+    ( player(Player), outside_area(X,Y)),
+    prohibition([at(X,Y, Player,Time)],[reduce(Player,300)])
+    ). 
+
+norm(
+    exceed_speedlimit(Player),
+    Player, // the subject agent
+    ( player(Player), too_fast(X1,Y1,X2,Y2)),
+    prohibition([at(X1,Y1, Player,Time1),at(X2,Y2, Player,Time2)],[reduce(Player,300)])
+    ). 
+
     
 //gensym(group_action, group_action1).
 gensym(group_action,1).
 
-pursuer(a1).
-pursuer(a2).
-pursuer(a3).
-pursuer(a4).
-pursuer(ra1).
+object(1,1,o3).
+object(5,5,o2).
+object(7,6,o1).
+object(9,10,o4).
+
+
+agent(a1).
+agent(a2).
+agent(a3).
+agent(a4).
+agent(ra1).
+agent(c1).
 ra(ra1).
 truck(t1).
 
 group(g).
+
+
 group_member(g,a1).
 group_member(g,a2).
 group_member(g,a3).

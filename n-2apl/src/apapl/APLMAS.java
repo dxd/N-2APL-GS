@@ -17,10 +17,10 @@ import apapl.parser.ParsePrologException;
 import apapl.data.*;
 
 /**
- * Implements the 2APL multi-agent system (MAS). The MAS keeps track of all the
+ * Implements the 2APL multi-object system (MAS). The MAS keeps track of all the
  * modules that reside in the MAS, the environments in which modules perform
  * actions, and the files by which the modules are specified. The MAS has all
- * the functionality to execute a multi-agent system. The specific strategy by
+ * the functionality to execute a multi-object system. The specific strategy by
  * which the modules are executed is implemented by the {@link apapl.Executor}.
  */
 public class APLMAS implements MessageListener {
@@ -214,8 +214,8 @@ public class APLMAS implements MessageListener {
            
 
             /* Support for old 2APL environments.
-             * Creates an entity for each agent, which is then automatically
-             * assigned to the agent. 
+             * Creates an entity for each object, which is then automatically
+             * assigned to the object. 
              */
                         
             if (env instanceof Environment) {
@@ -223,7 +223,7 @@ public class APLMAS implements MessageListener {
             }
             
         } catch (AgentException e) {
-            throw new RuntimeException("Failed to register agent " 
+            throw new RuntimeException("Failed to register object " 
                     + module.getLocalName() + "to environment " + envName + ".");
         }
 
@@ -249,8 +249,8 @@ public class APLMAS implements MessageListener {
                 = module.getEnvironmentInterface(envName);
             
             /* Support for old 2APL environments.
-             * Creates an entity for each agent, which is then automatically
-             * assigned to the agent. 
+             * Creates an entity for each object, which is then automatically
+             * assigned to the object. 
              */
             if (env instanceof Environment) {
                 ((Environment) env).removeAgentEntity(module.getLocalName());
@@ -263,7 +263,7 @@ public class APLMAS implements MessageListener {
                     this.eisAgentListeners.get(module.getName()+envName));
             
         } catch (AgentException e) {
-            throw new RuntimeException("Failed to de-register agent " 
+            throw new RuntimeException("Failed to de-register object " 
                     + module.getLocalName() + "from environment " + envName + ".");
         }
 

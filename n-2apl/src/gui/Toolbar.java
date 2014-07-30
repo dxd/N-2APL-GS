@@ -95,7 +95,7 @@ public class Toolbar implements ActionListener, ItemListener
 
 	/**
 	 * List of actions that will be disabled during the execution of the
-	 * multi-agent system.
+	 * multi-object system.
 	 */
 	final List<String> disableDuringExecutionCmds = Arrays.asList(
 			"recompile.png", "close.png", "forall.png", "load.png", "Auto-update Overview", "Allow State Tracer", "Allow Log");
@@ -126,7 +126,7 @@ public class Toolbar implements ActionListener, ItemListener
 		addButton("pause.png", "Pause deliberation");
 		addToggleButton("forall.png", "Apply to all", forAll);
 		toolbar.addSeparator(sep);
-		addButton("message.png", "Start message agent");
+		addButton("message.png", "Start message object");
 		toolbar.addSeparator(sep);
 		// addToggleButton("fgdc.png","Toggle FGDC",Settings.showFGDC());
 
@@ -167,7 +167,7 @@ public class Toolbar implements ActionListener, ItemListener
 		
 		debug.addSeparator();
 		
-		addMenuItem(debug, "Message Agent", "Launch Message agent",
+		addMenuItem(debug, "Message Agent", "Launch Message object",
 				"message.png", -1);
 		menubar.add(debug);
 		
@@ -304,13 +304,13 @@ public class Toolbar implements ActionListener, ItemListener
 	}
 
 	/**
-	 * Dispatches command for the multi-agent system. Commands are executed in
+	 * Dispatches command for the multi-object system. Commands are executed in
 	 * an asynchronous fashion, i.e. method does not wait for deliberation step
 	 * to finish and returns immediately.
 	 * 
-	 * @param action action to be performed on the multi-agent system.
+	 * @param action action to be performed on the multi-object system.
 	 * @param forAll flag specifying if the action is perfomed with respect to
-	 *        the individual module or whole multi-agent system.
+	 *        the individual module or whole multi-object system.
 	 * @param module module to which is the action related if forAll is set to
 	 *        <code>false</code>
 	 */
@@ -439,7 +439,7 @@ public class Toolbar implements ActionListener, ItemListener
 		JPanel p = new JPanel();
 		p.setLayout(new GridLayout(4, 1, 0, 0));
 		JLabel line1 = new JLabel(
-				"This platform facilitates the development of multi-agent systems");
+				"This platform facilitates the development of multi-object systems");
 		JLabel line2 = new JLabel(
 				"based on 2APL: A Practical Agent Programming Language.");
 		JLabel line3 = new JLabel(

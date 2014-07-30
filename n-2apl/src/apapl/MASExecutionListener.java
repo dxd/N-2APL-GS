@@ -2,7 +2,7 @@ package apapl;
 
 /**
  * Defines an interface for an object which listens for changes of the
- * multi-agent system execution state. The object is informed when a module
+ * multi-object system execution state. The object is informed when a module
  * starts executing, when its stops, when it is put to sleep and when it wakes
  * up from sleep.
  */

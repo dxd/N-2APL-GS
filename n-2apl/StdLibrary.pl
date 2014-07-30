@@ -28,3 +28,15 @@ built_in_stable_call(X):- X,!,built_in_is_stable.
 
 succeedretract(X):- retract(X),!.
 succeedretract(_).
+
+//gensym(1).
+//gensym(Prefix, NewNumber) :-
+//	retract(gensym(Number)),
+//	NewNumber is Number + 1,
+//	assert(gensym(NewNumber)).
+
+
+//	name(Number, NList),
+//	concat(Prefix, NList, AList),
+//	name(Atom, AList).
+

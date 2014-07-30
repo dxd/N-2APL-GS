@@ -91,7 +91,7 @@ public class APLModule {
     private Messenger messenger;
     /** The full composed name of the module. */
     private String name;
-    /** Multi-agent system in which the module resides. */
+    /** Multi-object system in which the module resides. */
     private APLMAS mas;
     /** Parent module. */
     private APLModule parent;
@@ -148,7 +148,7 @@ public class APLModule {
      * @param delib the module's deliberation cycle
      * @param messenger the messenger used for sending messages
      * @param name the full name of the module
-     * @param mas the multi-agent system in which the module resides
+     * @param mas the multi-object system in which the module resides
      * @param parent the parent module
      * @param stoppingCond the stopping condition
      * @param beliefs the beliefbase
@@ -197,7 +197,7 @@ public class APLModule {
     /**
      * Sets the messenger that this module uses for its communication (sending
      * and receiving messages). The messenger should not be changed at runtime
-     * and should be the same for all modules running in this multi-agent
+     * and should be the same for all modules running in this multi-object
      * system.
      * 
      * @param msgr the messenger to be used by this module
@@ -255,7 +255,7 @@ public class APLModule {
      * Performs one deliberation step. The execution of this step is implemented
      * by the {@link apapl.deliberation.Deliberation} cycle of the module. This
      * method should only be called by an {@link apapl.Executor} implementing a
-     * specific execution strategy for a multi-agent system.
+     * specific execution strategy for a multi-object system.
      */
     public void step() {
         delib.step(this);
@@ -354,7 +354,7 @@ public class APLModule {
 
     /**
      * Returns the local name of the module. The name is local with respect to
-     * the current agent platform.
+     * the current object platform.
      * 
      * @return the name of the module
      */
@@ -372,10 +372,10 @@ public class APLModule {
     }
 
     /**
-     * Returns the name of the agent this module belongs to. The agent name is
-     * the same as the name of the agent's main module.
+     * Returns the name of the object this module belongs to. The object name is
+     * the same as the name of the object's main module.
      * 
-     * @return name of the agent
+     * @return name of the object
      */
     public String getAgentName() {
         int i = name.indexOf('.');
@@ -550,19 +550,19 @@ public class APLModule {
     }
 
     /**
-     * Returns the multi-agent system in which the module resides.
+     * Returns the multi-object system in which the module resides.
      * 
-     * @return the multi-agent system
+     * @return the multi-object system
      */
     public APLMAS getMas() {
         return mas;
     }
 
     /**
-     * Sets the multi-agent system assigned to the module. The reference to
-     * multi-agent system is used to create, execute or release child modules.
+     * Sets the multi-object system assigned to the module. The reference to
+     * multi-object system is used to create, execute or release child modules.
      * 
-     * @param mas the multi-agent system to set
+     * @param mas the multi-object system to set
      */
     public void setMas(APLMAS mas) {
         this.mas = mas;
@@ -589,7 +589,7 @@ public class APLModule {
     }
 
     /**
-     * Invoked by the multi-agent system to indicate that a child module has
+     * Invoked by the multi-object system to indicate that a child module has
      * satisfied the stopping condition and this module will become active
      * again.
      * 
@@ -663,7 +663,7 @@ public class APLModule {
     }
 
     /**
-     * Determines whether this module is active in the multi-agent system. Only
+     * Determines whether this module is active in the multi-object system. Only
      * active modules can be executed by the executor.
      * 
      * @return <code>true</code> if this module is active, <code>false</code> `

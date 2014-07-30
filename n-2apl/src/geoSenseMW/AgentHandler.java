@@ -36,11 +36,11 @@ public class AgentHandler extends UnicastRemoteObject implements RemoteEventList
     }
 
 	public void notify(RemoteEvent anEvent) {
-		//System.out.println("agent notification "+agent+" number "+anEvent.getSequenceNumber());
+		//System.out.println("object notification "+object+" number "+anEvent.getSequenceNumber());
         try {
         	EntryArrivedRemoteEvent arrivedRemoteEvent =(EntryArrivedRemoteEvent) anEvent;
         	TimeEntry e = (TimeEntry) arrivedRemoteEvent.getObject();
-        	System.out.println("agent notification: "+e);
+        	System.out.println("object notification: "+e);
         	envGeoSense.notifyAgent(agent, e);
         	/*
         	String type = anEvent.getRegistrationObject().get().toString();
@@ -52,26 +52,26 @@ public class AgentHandler extends UnicastRemoteObject implements RemoteEventList
             //                   anEvent.getRegistrationObject().get());
             
             if (type.equals("reading")) {
-            	System.out.println("agent position notification "+agent+" number "+anEvent.getSequenceNumber());
-            	Reading temp = new Reading(agent);
+            	System.out.println("object position notification "+object+" number "+anEvent.getSequenceNumber());
+            	Reading temp = new Reading(object);
             	r = envGeoSense.readTuple(temp,timestamps.get(type) != null?timestamps.get(type):new Timestamp(0),newTime);
             	
             }
             else if (type.equals("obligation")) {
-            	System.out.println("agent obligation notification "+agent+" number "+anEvent.getSequenceNumber());
-            	Obligation temp = new Obligation(agent);
+            	System.out.println("object obligation notification "+object+" number "+anEvent.getSequenceNumber());
+            	Obligation temp = new Obligation(object);
             	r = envGeoSense.readTuple(temp,timestamps.get(type) != null?timestamps.get(type):new Timestamp(0),newTime);
             	
             }
             else if (type.equals("prohibition")) {
-            	System.out.println("agent prohibition notification "+agent+" number "+anEvent.getSequenceNumber());
-            	Prohibition temp = new Prohibition(agent);
+            	System.out.println("object prohibition notification "+object+" number "+anEvent.getSequenceNumber());
+            	Prohibition temp = new Prohibition(object);
             	r = envGeoSense.readTuple(temp,timestamps.get(type) != null?timestamps.get(type):new Timestamp(0),newTime);
             	
             }
             else if (type.equals("points")) {
-            	System.out.println("agent points notification "+agent+" number "+anEvent.getSequenceNumber());
-            	Points temp = new Points(agent);
+            	System.out.println("object points notification "+object+" number "+anEvent.getSequenceNumber());
+            	Points temp = new Points(object);
             	r = envGeoSense.readTuple(temp,timestamps.get(type) != null?timestamps.get(type):new Timestamp(0),newTime);
             	
             }
@@ -79,7 +79,7 @@ public class AgentHandler extends UnicastRemoteObject implements RemoteEventList
             
             */
         } catch (Exception anE) {
-           System.out.println("Error while processing agent notification");
+           System.out.println("Error while processing object notification");
             anE.printStackTrace(System.out);
         }
     }
